@@ -1,0 +1,7 @@
+documentation:
+  image: sparkfabrik/docker-node-raneto:0.9.0
+  environment:
+    - DNSDOCK_ALIAS=playbook.sparkfabrik.loc
+  volumes:
+    - ./documentation/docs:/srv/raneto/content
+    - ./documentation/files:/srv/raneto/themes/default/public/files
