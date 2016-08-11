@@ -31,8 +31,8 @@ We just ask that:
 ## OSs and seniority
 
 We eagerly prefer for junior employees or contributors to have a MacBook Pro or equivalent, so that it works out of the box.
-Seniors who can afford mangling with their OS can choose Ubuntu as primary OS, keeping in mind that keeping it working is their responsibility (read, if you want to upgrade Ubuntu don't do it during working hours and be sure you can work the next day if something breaks!)
+Seniors who can afford mangling with their OS can choose Ubuntu as primary OS, keeping in mind that making sure it works is their responsibility (read, if you want to upgrade Ubuntu don't do it during working hours and be sure you can work the next day if something breaks!)
 
-Other Linux distros are generally  not allowed. We can talk about this if you are a real ninja and you can guarantee your system is working, no matter what!
+Other Linux distros are generally not allowed. We can talk about this if you are a real ninja and you can guarantee your system is working, no matter what!
 
 We happen to provide junior devs with Ubuntu-certified Dell machines, as long as they don't work remotely and they don't use the computer for their own stuff putting OS integrity at the stake.
