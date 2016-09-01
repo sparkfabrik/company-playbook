@@ -38,13 +38,13 @@ ACME
   |
   -- Corporate Site
   |    |
-  |    -- 2016081101 - 2016 development
-  |    -- 2016081102 - Maintenance
+  |    -- 22016 development [016081101]
+  |    -- Maintenance [2016081102]
   |    
   -- Sales REST API
        |
-       -- 2016081103 - v1.0 Development
-       -- 2016081104 - Maintenance
+       -- v1.0 Development [2016081103]
+       -- Maintenance [2016081104]
 ```
 
 The keys are:
@@ -82,7 +82,7 @@ If the customer is a new one, you'll have to create a main project for it. Here'
 
 * The _Identifier_ fiels is important: choose a **short** machine-name for this project. Ideally it can be as short as the client initials, since it will prepend all subprojects identifiers. (i.e. _ACME Ltd._ &rarr; `acme`, _Great Customer Inc._ &rarr; `gc` or `grcu`)
 * The _Public_ checkbox must be left off, as well as the _Subproject of_ and _Inherit member_
-* In the _Modules_ subsection, disable all modules but _Wiki_ and _Wiki extensions_
+* In the _Modules_ subsection, disable all modules but _Wiki_ and _Wiki extensions_, unless your main project refers to an agency/provider (so different subprojects refer to different final customers and will have their own wiki)
 
 ### Create project
 
@@ -100,7 +100,7 @@ Create new project on Redmine, with the following settings:
 #### Enable standard plugins
 
 In the _Modules_ subsection:
-* Make sure _Wiki_ and  _Wiki extensions_ are **disabled**
+* Make sure _Wiki_ and  _Wiki extensions_ are **disabled**, unless your main project refers to an agency/provider (so different subprojects refer to different final customers)
 * Make sure _Issue tracking_, _Time tracking_ and _Agile_ plugins are **enabled**
 * Activate other plugins as you see fit (leave disabled in doubt, less fuss, less troubles)
 
