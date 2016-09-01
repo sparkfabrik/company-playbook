@@ -53,6 +53,6 @@
 
     @todo describe how to use:
     - Telegram chat channel
-    - Others?
-
+    - Skype
+    - Others? 
 
