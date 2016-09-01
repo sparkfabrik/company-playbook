@@ -30,9 +30,9 @@ You will get the major benefit if you are either:
 
 ## What's NOT inside (and should never be)
 
-SparkFabrik playbook is a public document. As long as the recipes show how we actually do things internally and provide transparent information to the world, the content should be **triple-checked not to contain credentials, secrets, customer-related information (screenshots of real issues for example), etc**.  
+SparkFabrik playbook is a public document. Since the recipes and articles show how we actually do things internally and provide transparent information to the world, the content should be **triple-checked not to contain credentials, secrets, customer-related information (screenshots of real issues for example), etc**.  
 
-In may surely contain links to internal resources as long as they are not publicly available.
+It may surely contain links to internal resources as long as they are not publicly available.
 
 ## Why
 
