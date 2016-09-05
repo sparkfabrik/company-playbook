@@ -134,14 +134,13 @@ sudo usermod -aG docker <username>
 Docker compose is a binary command which is not packaged for each individual OS/distro. Installing it is as easy as downloading the last binary in a shared executable path.
 Issue those command *as root* on Ubuntu, no matter the version of OS you are running.
 
-<pre>
-
 > Important: run as root, like with `sudo su`
 
+```
 export COMPOSE_VERSION_NUMBER=1.7.0 && \
 curl -L https://github.com/docker/compose/releases/download/$COMPOSE_VERSION_NUMBER/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose && \
 chmod +x /usr/local/bin/docker-compose
-</pre>
+```
 
 #### Installing dnsdock
 
@@ -235,9 +234,9 @@ So that all `.loc` subdomains are resolved to localhost *but* `sparkfabrik.loc` 
 
 To test everything is working as expected, we'll try to run a service in a container, exposing it through a local URL.
 
-```
-> Do NOT execut as root, use your user to run containers
+> Do NOT execute as root, use your user to run containers
 
+```
 docker run -d -e DNSDOCK_ALIAS=testing.docker.with.mysql.sparkfabrik.loc -e MYSQL_ROOT_PASSWORD=root --name mysql-test sparkfabrik/docker-mysql && \
 ping testing.docker.with.mysql.sparkfabrik.loc
 ```
