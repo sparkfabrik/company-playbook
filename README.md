@@ -12,7 +12,7 @@ The naming convention for the branches is:
 * `content/description-of-the-content` for content contributions of various nature, like typo corrections, adding a new procedure or policy, etc
 * `recipe/recipe-slug-title` for new recipes
 
-A broad list of still-to-be-stubbed contents can be found on this Trello board (restricted access to the management board, so far): https://trello.com/b/gnZaOJwn/spark-s-coos.  
+A broad list of still-to-be-stubbed contents can be found on this Trello board (restricted access to the management board, so far): ihttps://trello.com/b/uJMBxjZZ/sparkfabrik-playbook-and-documentation.  
 A new board will likely be spawned to act as a "parking lot" for changes to this playbook and to track the contents proposals and issues.
 
 ## Signaling issues or improvement
