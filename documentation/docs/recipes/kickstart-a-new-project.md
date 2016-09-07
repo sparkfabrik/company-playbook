@@ -157,4 +157,4 @@ Ask someone with the owner permissions on Sparfabrik's _Google Apps for Work_ ac
 * Add all Team Leaders and management representatives who are involved as **onwers** of the group
 * Add all developers as **members** of the groups
 
-**IMPORTANT NOTE**: by convention this group contains Sparkfabrik team members only. *Do not* add external users to the group to avoid leaking of classified information.
+**IMPORTANT NOTE**: by convention this group contains Sparkfabrik team members only. **Do not** add external users to the group to avoid leaking of classified information.
