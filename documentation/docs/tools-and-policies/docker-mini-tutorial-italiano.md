@@ -180,7 +180,7 @@ docker run -d -v $PWD:/var/www/html -p 80:80 --name myphpapache php:7.0.4-apache
 Can you spot the difference? In this case we are using `80:80` as value for the `-p` parameter, so that we'll be able to reach apache in our container querying `http://$DOCKER_MACHINE_IP:80`.  
 Mind that the first number is the public port and the second is the internal port, so `-p 90:80` will expose the interal apache port on external port 90.
 
-## Containers - Network of cotainers
+## Containers - Network of containers
 
 Poniamo ora di voler avviare assieme al server apache anche un server mysql in grado di comunicare con gli script eseguiti nel server apache.
 
