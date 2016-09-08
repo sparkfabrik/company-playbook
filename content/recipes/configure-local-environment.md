@@ -1,13 +1,18 @@
+## Operating systems	
+
+This guide is available for [MacOSX](#macosx) and [Ubuntu](#ubuntu-linux).  
+Click the links to jump to the section of interest.
 
 ## Prerequisites
 
 * Access to a Bourne-compatible shell (what's proposed here has been tested with bash)
-* GNU make
-* VirtualBox (for OS X). If you don't have VB, yet, Docker Toolbox will install it for you. If you already have VB, you may want to choose the custom install of Docker Toolbox and deselect VB installation.
+* VirtualBox (for OS X).
+  If you don't have VB, yet, Docker Toolbox will install it for you. If you already have VB, you may want to choose the custom install of Docker Toolbox and deselect VB installation.
 
-## Docker installation
+## Overview
 
-### OSX
+Our local development environment is build on docker
+## OSX
 
 #### Automatic installation with the sparkdock privisioner (recommended way)
 
