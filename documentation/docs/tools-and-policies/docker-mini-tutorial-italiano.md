@@ -1,139 +1,186 @@
-Questo tutorial contiene degli esempi per acquisire dimestichezza con i concetti basilari di docker.
+This tutorial contains examples to become familiar with _docker_'s basics.
 
-## Prerequisiti
-E' necessario avere docker installato e funzionante. Se non hai installato docker vedi questo documento...
+## Requirements
 
-Una volta installato docker assicurarsi che la variabile di ambiente sia configurata
-quindi in .zshrc o .bashrc o .bash_profile nella vostra home directory dovrebbero esserci queste due righe.
+Well, you must have docker up and running on your PC.  
+Follow the guide at [Configure local environment](/recipes/configure-local-environment) if you are still out of luck.
+
+> **NOTE**: Mind that if you are on MacOSX, you must make sure that the `DOCKER_MACHINE_IP` environment variable is configured on your host system
+
+Check for the following two lines:
+
 ```
 eval "$(docker-machine env dev)"
 export DOCKER_MACHINE_IP=$(docker-machine ip dev)
 ```
 
-Eseguite questo comando per capire se la variabile è settata:
-```
-> echo $DOCKER_MACHINE_IP
-```
+to be found in `.zshrc`, `.bashrc` or `.bash_profile` (depending on what shell you are using).  
+To check if for the variable to be set, issue the following command in a terminal:
 
-La docker-machine o docker-host (o docker server) è il server sul quale istanziamo i container,
-in questo caso è la vm (virtualbox) in locale appena provisionata.
-
-docker-machine è anche un cli che permette di interagire con il docker-host
-ovvero avviarlo, etc.
-
-Lancia il comando per vedere le opzioni
 ```
-> docker-machine -h
+echo $DOCKER_MACHINE_IP
 ```
 
-La docker machine appena istallata è chiamata dev, quindi
+The _docker-machine_ (aka _docker-host_ or _docker server_) is the server on which we'll start our containers. MacOSX's kernel is unable to provide the container technology docker relies on (which is built-in on Linux kernel), so in the guide linked above, we provisioned a virtual machine with VirtualBox, running a Linux distro.
+
+If you have 
+
+## The _docker-machine_ command
+
+`docker-machine` is also a command-line tool able to interact with the docker-host (the vm), so that we can control it by remote. Sorry for the confusion: you can easily tell the meaning of the term "docker-machine" (command or vm) by the context.
+
+Run this command to see the options of `docker-machine` tool:
+
 ```
-> docker-machine ls
+docker-machine -h
 ```
 
-Vedrete la vostra docker-machine attiva.
+The docker-host we just provisioned is called `dev`, so issuing
 
-La variabile di ambiente DOCKER_MACHINE_IP così settata permette a docker (il comando client) di capire con quale docker-host interagire
+```
+docker-machine ls
+```
 
-docker è un cli per controllare/eseguire/interagire con i container in esecuzione sul vostro beneamato docker-host
+you should find you `dev` docker-machine up and running.
 
-Infatti
+In the best Unix tradition, the `ls` command lists all available and running docker-hosts.  
+The DOCKER_MACHINE_IP environment variable provides thus an host that the `docker` command (not `docker-machine command!) will use as default target for all commands we'll give.
+
+
+## The _docker_ command
+
+`docker` is a command-line client for the _docker-engine_, the service which manage the containers on a docker-enabled maching.  
+You'll use it to control, interact with and inspect all containers running of your beloved docker-host.
+
+Starting with the basics, let's learn which containers we have started:
+
+```
+docker ps
+```
+
+as the Unix _ps_ command shows all running processes, this command lists all running containers on the target machine. Mind the "running" keyword: a container is often identified by the process in it. Stop the process and the container will result stopped.
+
+But wait: you have no running containers? Here is how to create and run one.
+
+First of all let's download a container image:
+
+```
+docker pull php:7.0.4
+```
+
+or maybe you don't like PHP?
+
+```
+docker pull busybox
+```
+
+What is happening here is that you are asking Docker to download an image (much like one of those you can use in a virtual machine or an ISO file) on your machine.  
+From where are those images coming? If not otherwise instructed, Docker will search for those images on the DockerHub (https://hub.docker.com), a huge online public repository similar to what GitHub is for code.
+
+> **Spoiler**: you can have private images on DockerHub attending a payment plan. 
+
+Now you docker-host (remember it is your OS if you are running Linux natively) has the container image in its portfolio. Let's check listing for all locally available images:
+
+```
+docker images
+```
+
+You can visit the DockerHub to find all available public images. There are a ton of them to choose from and to kickstart your own image (read along).
+
+## Containers - a basic example
+
+As an exercise we'll now create and run an image. We'll use the official `busybox` one. Busybox is a tiny Linux distribution.  
+Issuing the following command we'll run a process inside a container:
+
+```
+docker run -it --rm busybox ash
+```
+
+Let's dissect this command to understand what's going on:
+
+1. `docker`: we are invoking the Docker client (pretty dull, ok)
+1. `run`: this is a command to the docker-engine. We are asking to run a process to be found in an image. This translates into "running a container", since docker will instantiate a container in which to run a process and use a given image for that container. This also means that if you stop that process in the container the container itself will "stop": it will still exists but nothing will be running in it.
+1. `-it`: these parameters can be a bit tricky, but basically means: assign a TTY to the container and make me able to interact with the container by my console (more here: https://docs.docker.com/engine/tutorials/dockerizing/#/run-an-interactive-container). So far let's state that if you want to run a process that will run in background you won't need this.
+1. `--rm`: this parameters make docker remove the container filesystem from the host when the container is stopped (good for an example so the garbage won't take space from the host - more at https://docs.docker.com/engine/reference/run/#clean-up-rm)
+1. `busybox` is the image from which the container is created (we downloaded it earlier but if not docker will download it for you)
+1. `ash` is the process to start inside the container. It should obviously be available in the image or docker won't be able to start it. In this case _ash_ is a simple shell
+
+Running the command you will end up executing a shell inside your busybox-based container.  
+If you stop the shell process (issuing `exit` or ctrl-D), the filesystem for that container will be destroyed, so don't write your next fiction blockbuster in it! :D
+
+Look here https://docs.docker.com/engine/reference/run/ for a complete overview of the `run` command.
+
+## Containers - a more advanced example
+
+OK, executing a shell in a volatile container is not something that makes us drool. Let's try something more juicy.
+
+Say that we want to test our next killer PHP script (which surely greet the world from inside a container), and we don't want to bother installing apache and PHP on our host.  
+Create a `demo` folder and your script in it:
+
+```
+mkdir demo
+cd demo
+echo ‘<?php print “Hello from a docker container, world!”;' > index.php      ## we kept this short, you can use your editor for a more complex test
+```
+
+Now we want a php-powered apache instance to be available to test our code. Instead of installing the whole stack, let's try this (from inside the demo folder of course):
+
+```
+docker run -d -v $PWD:/var/www/html -p 80 --name myphpapache php:7.0.4-apache
+```
+
+Another walkthrough:
+
+1. `docker run`: execute a process in the container
+1. `-d`: stays for "detached mode", which is a fancy way to say "in background". You can read this as the opposite of `-it` that we saw before
+1. `-v`: creaite a volume in the container, which mounts,,,
+1. `$PWD:/var/www/html`: ...this directory! `$PWD` is the current directory we are while issuing the command: we'll mount it in the container in the volume at the position `/var/www/html`. Let's make it even simpler: what's inside the directory you are while issuing the command will be available "live" in the container at `/var/www/html`, so if you change your script in your host it will be changed in the container also!
+1. `-p 80`: expose the TCP/UDP port 80 in the container on the "public" network interface automatically assigned by docker to the new container. Again, let's state it clear: the new container will have an assigned IP, say 172.17.0.15. If you connect to an external port on this IP, any service in the container bound to the port 80 will reply. Which port? Read on.
+1. `--name myphpapache`: we are naming our container so we can refer to it with a mnemonic label instead that an awful string like `abfe13e3f12da122cc212`
+1. `php:7.0.4-apache`: the image we want the container to be based upon: in this case an installation of Apache with PHP7 support
+
+> Notice that in the previous example we specified a command to run in the image (ash in that case). This has not been the case in this example? Why?  
+  To make it easy, when you build an image you can specify an "entry point" that is a command to run as default when a new container is created and run by that image. `php:7.0.4-apache` official image has been built so that executing the container automatically runs apache and all necessary modules.   
+  This is a common pattern in the Docker industry, since Docker is often used to package and distribute application with all necessary dependencies to fulfill a specific purpose: in this case provide a php web stack with no fuss!
+
+So we should now see our apache process running in a docker container:
+
 ```
 > docker ps
 ```
-mostra la lista dei container in esecuzione
 
-Non avete container?
-
-Ecco come crearne uno, inanzi tutto scarichiamo una immagine:
-```
-> docker pull php:7.0.4
-```
-oppure
-```
-> docker pull busybox
-```
-
-ora avrete una immagine sulla vostra docker machine con le feature richieste
+In the list of running containers we'll see something like this in the row of `myphpapache`
 
 ```
-> docker images
+0.0.0.0:<PORT NUMBER>->80/tcp
 ```
 
-vi da la lista delle immagini presenti sulla vostra docker machine
+`<PORT NUMBER>` is automatically generated when you use the `-p` option. Let's say it's 32768.
 
-Le immagini vengono scaricate (per default) dal docker hub, per vedere le immagini disponibili visita il docker hub https://hub.docker.com/
-
-## Esempio base
-Ora per esercizio istanziamo (eseguiamo) una immagine, quella di busybox (una micro distribuzione linux).
-Con il seguente comando eseguiremo il programma ash (una shell) all’interno di un container
+so
 
 ```
-> docker run -it --rm busybox ash
+open http://$DOCKER_MACHINE_IP:<PORT NUMBER>
 ```
 
-nel caso non avessimo l’immagine in locale, essa verrà scaricata dal docker hub.
-Lanciato il comando precedente, state eseguendo quindi una shell all’interno del container busybox, notare che l’opzione --rm dice di distruggere il container una volta terminata la shell (digitando exit) per ulteriori info sul’uso di docker run vedete qui https://docs.docker.com/engine/reference/run/
-
-
-## Esempio avanzato (dockerfile)
-Facciamo un esempio un po’ più verosimile.
-
-Poniamo che si voglia eseguire uno script php su un server apache, creiamo una cartella demo e spostiamoci al suo interno
+or say
 
 ```
-> mkdir demo
-> cd demo
-> echo ‘<?php print “<h1>ciao da docker</h1>”; > index.php
+open http://$DOCKER_MACHINE_IP:32768
 ```
 
-O meglio editate un file index.php con all’interno
-```
-<?php print '<h1>ciao da docker</h1>';
-```
+**Hurray!!! :)**
 
-Ora vogliamo eseguire questo script tramite apache in un container apposito
-```
-> docker run -d -v $PWD:/var/www/html -p 80 --name myphpapache php:7.0.4-apache
-```
-
-che nel dettaglio:
-docker run per l’esecuzione del container;
--d detached mode (in background)
--v crea un volume
-$PWD:/var/www/html utilizziamo la directory corrente ($PWD) mappandola come /var/www/html nel container
--p 80 espone la porta 80 del container su un porta automaticamente assegnata da Docker.
---name è il nome che diamo al container
-php:7.0.4-apache container con apache e php 7
-
-Per vedere i processi di docker
-```
-> docker ps
-```
-
-ora il container di docker è in esecuzione mappato in questo modo
+OK, this sucks! We don't want to chase the port every time we start the container, so let's specify which public port to expose the internal port onto:
 
 ```
-0.0.0.0:[MUMERO_PORTA]->80/tcp
-```
-
-NUMERO_PORTA viene generato automaticamente nel mio caso è 32768
-
-quindi
-```
-> open http://$DOCKER_MACHINE_IP:[MUMERO_PORTA]
-```
-o meglio
-```
-> open http://$DOCKER_MACHINE_IP:32768
-```
-
-eccolo!
-
-Hint: Possiamo anche esplicitare la porta da assegnare sull’host, quindi:
 docker run -d -v $PWD:/var/www/html -p 80:80 --name myphpapache php:7.0.4-apache
+```
 
-Come potete vedere in questo caso assegniamo “80:80”, dunque il container risponderà su: http://$DOCKER_MACHINE_IP[:80]
+Can you spot the difference? In this case we are using `80:80` as value for the `-p` parameter, so that we'll be able to reach apache in our container querying `http://$DOCKER_MACHINE_IP:80`.  
+Mind that the first number is the public port and the second is the internal port, so `-p 90:80` will expose the interal apache port on external port 90.
+
+## Containers - Network of cotainers
 
 Poniamo ora di voler avviare assieme al server apache anche un server mysql in grado di comunicare con gli script eseguiti nel server apache.
 
