@@ -182,31 +182,48 @@ Mind that the first number is the public port and the second is the internal por
 
 ## Containers - Network of containers
 
-Poniamo ora di voler avviare assieme al server apache anche un server mysql in grado di comunicare con gli script eseguiti nel server apache.
+What's a PHP script worth without a database to query?  
+We now want to start a MySQL database alongside Apache, so that our PHP script can connect to the database and rock a lot.
 
-Distruggiamo il precedente container di apache (myphpapache è il nome del container visualizzabile attraverso docker ps)
+Let's destroy the former Apache container (named myphpapache, as we can tell issuing `docker ps`):
 
 ```
-> docker rm -vf myphpapache
-```
-
-Per i dettagli su rm https://docs.docker.com/engine/reference/commandline/rm/
-
-Pulliamo l’immagine di un container con mysql 5.6
-```
-> docker pull mysql:5.6
+docker rm -vf myphpapache
 ```
 
-Avviamo il container con mysql (montiamo la directory corrente su /home/data)
+Again, here is the command dissection:
+
+* `rm`: remove a container (*spoiler*: to remove an image instead the command is `mri`, but don't do it now)
+* `-vf`: 
+* `myphpapache`: is the name we gave to the container (*spoiler*: you can refer to the container by its container-id also. Find it with `docker ps`, beginning of the line)
+
+> For further details on `rm` command visit: https://docs.docker.com/engine/reference/commandline/rm/
+
+OK, we made clean! Now pull a proper MySQL container image from the docker hub:
+
 ```
-> docker run --name mydatabase -d -v $PWD:/home/data -e MYSQL_ROOT_PASSWORD=root mysql:5.6
-```
-Lo vediamo in esecuzione con
-```
-> docker ps
+docker pull mysql:5.6
 ```
 
-Aggiungiamo un database sul nostro server mysql contenente una tabella con dei dati di esempio, salviamo le seguenti righe nel file test-data.sh
+start the container mounting a local folder as a volume as we already did before, so that database data are outside the container (they will persist if the container is destroyed):
+
+```
+docker run --name mydatabase -d -v $PWD:/home/data -e MYSQL_ROOT_PASSWORD=root mysql:5.6
+```
+
+> Note that we mounted the local directory to `/home/data`: to learn where the internal process expects config files, data, etc you must refer to the documentation of the image itself! There is no a magic catchall solution or standard!
+
+Check MySQL is running with
+
+```
+docker ps
+```
+
+OK, the server is there!
+
+No we want some data, so we'll add a database into our fresh server, creating a table with dummy data in it.  
+To do so, let's save the following in a file named `test_data.sh` (which is a shell script).
+
 ```
 #!/bin/sh
 mysql -uroot -proot << END
@@ -221,21 +238,36 @@ INSERT INTO test_table (title) VALUES ('titolone 1');
 END
 ```
 
-Eseguiamo il file con bash all’inteno del container
-```
-> docker exec -t -i mydatabase /bin/bash -c /home/data/test-data.sh
-> chmod a+rx ./test-data.sh
-```
+This, when executed into the container, will use the MySQL command line client to fire a query that does the job.
 
-Ora abbiamo un mysql con un database e vogliamo istanziare un container con php ed apache in grado di connettersi al container con mysql (attraverso l’opzione --link)
+Execute this bash script invoking bash inside the container:
 
 ```
-> docker run --name myphpapache -d -v $PWD:/var/www/html -p 80 --link mydatabase:mysql php:7.0.4-apache
+docker exec -it mydatabase /bin/bash -c /home/data/test-data.sh
+chmod a+rx ./test-data.sh
 ```
 
-Ora modifichiamo il nostro script php in modo da poter utilizzare il database aggiungendo le seguenti righe
+Look what we have done here:
 
-​
+* `docker exec`: exectues a command in a container
+* `-it mydatabase`: do it interactively in the running container named `mydatabase`
+* `/bin/bash -c /home/data/test-data.sh`: this is the command to execute, which basically is "run an instance of the bash shell, which reads the commands found in the file `/home/data/test-data.sh`"
+
+> *Note*: This is interesting: since we mounted `$PWD` - which is the directory we are into - as a volume in `/home/data` inside the container, our script is "already there". Nice uh?
+
+Now we have a MySQL database. The server is running in a container and the data are kept separated, in the local folder on the host system. Great!  
+Next step: we need an apache+php container able to connect to MySQL. We'll do this starting a new container like we already did, with the `--link` option.
+ 
+```
+docker run --name myphpapache -d -v $PWD:/var/www/html -p 80:80 --link mydatabase:mysql php:7.0.4-apache
+```
+
+Can you spot the `--link mydatabase:mysql` part? Here is where we are instructing docker to configure the inner network stack of the two containers to create a functional routing, so they can exchange information over TCP/IP.
+
+But what the `:mysql` part means? It's an hostname that will automatically be available in the Apache container to resolve the MySQL container. Pure awesomeness!
+
+Now we can edit our previous script to make it more interesting (let's fake interest for this stuff at least!):
+
 ```
 try {
   $dbh = new PDO("mysql:host=mysql;dbname=dockertest", 'root', 'root');
@@ -251,27 +283,28 @@ catch(PDOException $e) {
 }
 ```
 
+> *Note*: can you see that we just mentioned the MySQL container hostname specified in the `--link` option? Yay!
 
-Nota che per indirizzare il database è sufficiente utilizzare il nome del container specificato dall’opzione link.
-
-Torniamo sul browser e colleghiamoci al nostro container con apache, 32768 è la mia porta
-```
-> open http://$DOCKER_MACHINE_IP:32768
-```
-
-Accidenti! Abbiamo un errore!!!!!!
+Reach back to our browser and visit our container URL
 
 ```
-“could not find driver”
+> open http://$DOCKER_MACHINE_IP
 ```
 
-l’ estensione php per mysql non è presente sul container, questo perchè l’immagine di php espone solo i servizi essenziali e non ha le estensioni PDO compilate.
+Nah! We got an error! :/
 
-Abbiamo bisogno di una immagine che possieda tale estensione,
-creiamo quindi una nostra immagine che estenda quella di php ed apache ma con in più delle configurazioni a noi utili.
+```
+could not find driver
+```
 
+php-mysql extension is not in the container! This is true since the php image in the Docker Hub only contains essential modules and has no PDO extensions in it.  
+We need an image with such and extension!i Instead of hunting for it in the Docker Hub, why not building one by ourselves? We'll extend the default one with more useful options.
 
-Facciamo questo creando un nuovo dockerfile con il seguente contenuto
+## Images - How to build one
+
+To build a custom image, we have to describe to docker what we want inside it. To achieve this it suffice we create a file with a list of directives. It will act as a recipe that docker can follow to bake a delicious cookie.
+
+This file is called `Dockerfile` 
 ```
 FROM php:7.0.4-apache
 RUN docker-php-ext-install pdo pdo_mysql && docker-php-ext-enable pdo pdo_mysql
