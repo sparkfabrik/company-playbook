@@ -302,60 +302,94 @@ We need an image with such and extension!i Instead of hunting for it in the Dock
 
 ## Images - How to build one
 
-To build a custom image, we have to describe to docker what we want inside it. To achieve this it suffice we create a file with a list of directives. It will act as a recipe that docker can follow to bake a delicious cookie.
+To build a custom image, we have to describe to docker what we want inside it. It suffice we create a file with a list of directives. It will act as a recipe that docker can follow to bake a delicious cookie.
 
-This file is called `Dockerfile` 
+This file is called `Dockerfile` and its syntax is really straightforward. Here is a simple example that fulfills our needs: 
+
 ```
 FROM php:7.0.4-apache
 RUN docker-php-ext-install pdo pdo_mysql && docker-php-ext-enable pdo pdo_mysql
 ```
-Ora distruggiamo il vecchio container
-```
-> docker rm -vf myphpapache
-```
-buildiamo la nuova immagine utilizzando il dockerfile appena creato
-```
-> docker build -t spark/php .
-```
-Dove
--t permette di assegnare il nome all’immagine
-spark/php è il nome dell’immagine da noi creata
 
-Per maggiori info sul comando build: https://docs.docker.com/engine/reference/commandline/build/
+each row in a Dockerfile starts with a _command_ that takes parameters or information on what to do.  
+In this case we are using:
 
+* `FROM` command to tell docker to build an image taking another contributed one as a starting point. In our case it's the image we are already using, since we want to add PHP modules to it!
+* `RUN` command to tell docker we want to execute a command inside the container. The command is `docker-php-ext-install pdo pdo_mysql && docker-php-ext-enable pdo pdo_mysql` which installs the extensions we need. (NOTE: don't be fooled by the `docker-php-ext-enable` command, it is not a docker internal! Instead it is an helper script that the base image provide and the `docker-` part of the name is simply a choice of the script developer).
 
-vediamo la lista delle immagini locali tra le quali la nostra nuova immagine spark/php
+Now let's destroy the old container, which is useless as-is:
+
 ```
-> docker images
+docker rm -vf myphpapache
 ```
 
-Per maggiori info sul comando images:
-https://docs.docker.com/engine/reference/commandline/images/
+and build a new image for our next container from our brand new Dockerfile recipe:
 
-eseguiamo il container apache partendo dall’immagine appena creata
 ```
-> docker run --name myphpapache -d -v $PWD:/var/www/html -p 80 --link mydatabase:mysql spark/php
-```
-vediamo su che porta sta:
-```
-> docker ps
-```
-Torniamo sul browser, la mia porta è la 32770
-```
-> open http://$DOCKER_MACHINE_IP:32770
-```
-e voilà!!!!
-
-Potete fare pulizia eliminando i container
-```
->  docker rm -vf myphpapache
->  docker rm -vf mydatabase
+docker build -t spark/php .
 ```
 
-## Docker compose
-Per configurare una infrastruttura anche minimale come quella appena vista possiamo utilizzare uno strumento in grado di accentrare la configurazione e la gestione di insiemi di container, docker-compose, appunto.
+what's happening here is:
 
-Nella cartella demo create un file docker-compose.yml con il seguente contenuto:
+* `build` is the command to bake a new image from a local Dockerfile (you don't have to specify the file, docker will search for it in `./`)
+* `-t` allows us to assign a name to the newly created image (is stands for `tag`, so we often refer to an image as _tagged_, not _named_)
+* `spark/php` is the name of our custom image.
+
+It is considered good practice to namespace images with the owner's profile name, so that no collision will happen on dockerhub. This is the reason for the `spark/` prefix`.
+
+> Learn more on the `build` command here: https://docs.docker.com/engine/reference/commandline/build/
+
+We can now list all your local images (local! we haven't pushed our image anywhere yet so we and we only can start a container from that image!)
+
+```
+docker images
+```
+
+> Learn more on the `images` command here: https://docs.docker.com/engine/reference/commandline/images/
+
+Is the `spark/php` image there? Well, we can start our container then! :)
+
+```
+docker run --name myphpapache -d -v $PWD:/var/www/html -p 80 --link mydatabase:mysql spark/php
+```
+
+let's discover the exposed port for apache on this container:
+
+```
+docker ps
+```
+
+In our case it is 32770/tcp. Head back to the browser!
+
+```
+open http://$DOCKER_MACHINE_IP:32770
+```
+
+_et voilà! Le site est servì._ :)
+
+Happy with the ephemeral nature of our work of art, let clean the slate for a new, creative experience :)
+
+```
+docker rm -vf myphpapache
+docker rm -vf mydatabase
+```
+
+(At this point you should be aware of what you are doing)
+
+This closes the curtain on the docker basics we need to work. In the next chapter we'll discover of a useful tool to avoid having to start and stop containers by hand over and over.
+
+## Orchestrating containers wirh docker-compose
+
+Now that we have the tools to create complex infrastructures with Docker, we can go fancy with complex networks of containers and services to build our projects upon.  
+That's great, but it is a bit tiresome to manage all of this by hand. After all, we don't want to start all our containers with the `--restart` policy to stop worring about it. What if you run tens of sites locally, but work on just one of them at a time? All that system resources occupied with no good.
+
+So we need something that allows us to control and orchestrate the containers for an infrastructure in a single place. This tool exists and it's `docker-compose`.
+
+Basically docker-compose makes use of a YAML file that, with a simple syntax, describes a set of containers, their start options and the links (network connections) between them. In addition it can interact with other pieces of the system, like _dnsdock_ or _nginx-proxy_ to inform them of newly created containers and automatically set domains or vhosts for us.
+
+In addition the declarative nature of the `docker-compose.yml` file makes really, really easy for anyone to get a grasp on a multicontainer architecture at a glance!  
+Look at this:
+
 ```
 data:
   image: busybox
@@ -379,41 +413,50 @@ mysql:
   volumes_from:
     - data
 ```
-Lanciando
+
+Pretty straightforward, isn't it? This adds a data container to the set, which is a container which mounts all volumes, so that every other container in the set can see them without redeclaring them over and over.
+
+Saving this snippet in our _demo_ directory as `docker-compose.yml` will suffice to effectively run:
+
 ```
-> docker-compose up
+docker-compose up
 ```
-oppure
+
+or better yet
+
 ```
 > docker-compose up -d
 ```
-Per avviare l’esecuzione in background.
 
-La nostra infrastruttura viene istanziata nel modo in cui abbiamo fatto nei passi precedenti.
-Si noti che con DNSDOCK_ALIAS è possibile istruire il container dnsdock a mappare il container su un nome di dominio arbitrario, evitando il dover leggere e modificare ogni volta la porta.
-```
-> open http://myphpapache.docker.sparkfabrik.loc/
-```
-Per maggiori info su docker compose
-https://docs.docker.com/compose/
+so all the containers' services will run in background without cluttering the screen.
 
-L’unica cosa mancante è l’esecuzione di /home/data/test-data.sh
-dopo l’avvio del database server. Questo può essere inserito in un apposito Dockerfile
-per il container del database.
+Running the command will automatically instantiate all parts of the infrastructure we already seen in previous chapter.  
+Notice how, populating the `DNSDOCK_ALIAS` variable for each container, we can inform the `dnsdock` container of new resolution rules for that specific container. But not only this: see that we are not binding any port? That's another automagic of _dnsdock_: the port will be exposed to match the resolver, so we can simply  reach the container from outside using a canonical name.
 
-Interrompiamo l’esecuzione dei container con CTRL-C oppure lanciando un
 ```
-> docker-compose down
+open http://myphpapache.docker.sparkfabrik.loc/
 ```
-In caso abbiamo lanciato il comando con l’opzione -d
 
-Rinominiamo per convenienza il Dockerfile di apache in Dockerfile.apache e creiamo un nuovo file Dockerfile.mysql. Il contenuto di questo file sarà:
+> Learn more on `docker-compose` here: https://docs.docker.com/compose/
+
+The only missing thing is the execution of `/home/data/test-data.sh` after the database server startup.  
+This can't be done by docker-compose, which by itself is not meant to execute commands. Instead we can put this in (wait for it...) a Dockerfile to build a database server image which runs the command once and for all.
+
+Stop the execution of containers with _ctrl-C_ (if you didn't use the `-d` option) or issuing:
+
+```
+docker-compose down
+```
+
+Rename the `spark/php` container in `Dockerfile.apache` for convenience and create a new file named `Dockerfile.mysql`; then populate it as follow:
+
 ```
 FROM mysql:5.6
 COPY test-data.sql /docker-entrypoint-initdb.d/test-data.sql
 ```
 
-il file test-data.sql conterrà:
+The `test-data.sql` file will contain this SQL instructions:
+
 ```
 create database IF NOT EXISTS dockertest;
 use dockertest;
@@ -426,7 +469,9 @@ INSERT INTO test_table (title) VALUES ('titolone 1');
 INSERT INTO test_table (title) VALUES ('titolone 2');
 ```
 
-Modifichiamo il docker-compose.yml in accordo a queste modifiche:
+Now we have to edit `docker-compose.yml` in accordance, so that it will use the new Dockerfiles to start the containers instead of some contributed image.  
+See how the `image:` property is changed into `dockerfile:` one for `apache` and `mysql` blocks:
+
 ```
 data:
   image: busybox
@@ -452,22 +497,60 @@ mysql:
   volumes_from:
     - data
 ```
-E lanciamo nuovamente
-```
-> docker-compose up
-```
-oppure
-```
-> docker-compose up -d
-```
-Per avviare l’esecuzione in background.
 
-Andiamo di browser!
+Issuing now a restart of the whole containers set (in background unless you don't want to inspect what's happening at startup)
+
 ```
-> open http://myphpapache.docker.sparkfabrik.loc/
+docker-compose up -d
 ```
-Se per qualche motivo su osx non riuscite a risolvere questi nomi andate giù pesante con
+
+Head to the browser
+
 ```
-> sudo dscacheutil -flushcache
-> sudo killall -HUP mDNSResponder
+open http://myphpapache.docker.sparkfabrik.loc/
+```
+
+And once again: _Voilà! Le site est servì._
+
+## Wrap up
+
+We have took a good understanting on the concepts of `images` and `containers`, being the first a sort of _blueprint_ for the latter, much like an ISO image can be a blueprint for a set of perfectly identical DVDs.  
+
+We have learned that there is a place where public images can be hosted freely (privates at a price) and retrieved from everywhere, so we can leverage them to build new images or to start our containers locally.
+
+We have learned we can build upon the work of others, using a Dockerfile to bake new images.
+
+We have seen how a container can run a service in isolation, with alle dependencies, configurations, bells and whistles attached.
+
+We have learned how to inspect a running container and reach for the service running in it, exposing the service port on the public-facing container's IP (bonus: and to map the outermost port on that container so we can head firmly to that port, not relying on a random one assigned by Docker to 0.0.0.0).
+
+We have learned that those services can be networked together to form an isolated infrastructure mimicing a real-world one, with high decoupling (and thus high modularity!) and great efficiency.
+
+We have found a way to manage all that complexity in a single place (a `docker-compose.yml` file), so that we can easily understand, describe and contribute our containers set.
+
+## Gotchas
+
+### How we put this to use
+
+Working on different projects, with different versions of Drupal and production machines not always managed by us always put a great _delta_ between our local environment and the various other ones we had to address.  
+Docker allows us to build our projects on services which versions and options are the same of the target production environment. To achieve this we have a different set of containers for each and every project. We also use the same containers on _stage_, _test_ and integration envs, so we are not running those environments on the host OS or bare metal.
+
+With docker-compose this is a breeze. What we basically did was:
+
+* creating a set of docker images for the base services (apache, mysql, solr, etc) ready for our projects
+* setting a `docker-compose.yml` template we can inherit in every project we start, describing **that** project's infrastructure
+* committing the docker-compose file and every additional Dockerfile needed by the application within the application repository
+
+Thus all apps will have their own local infrastructure, you can start it with a single command and only when needed. The only persistent (i.e. `--restart=always`) container on the local machine is the dnsdock one.
+
+> To learn all you need on our local environment read our [Local Environment setup guide](/recipes/local-environment-setup).
+
+
+### MacOSX Resolver's issues
+
+If for some reason you can't seem to resolve the dnsdock hostnames on MacOSX, screw it the hard way:
+
+```
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
 ```
