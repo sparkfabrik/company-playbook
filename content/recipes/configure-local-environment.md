@@ -47,7 +47,7 @@ Adjust the settings according to your system; the command above specify:
 1. 4GB ram
 1. 1 CPU
 
-At the end of the installation use the @docker-machine ls@ command, and you should see something like this:
+At the end of the installation use the `docker-machine ls` command, and you should see something like this:
 
 ```
 % docker-machine ls
@@ -267,7 +267,7 @@ If all works, clean the test container and remove its image with
 docker rm -vf mysql-test
 ```
 
--------
+***
 
 ## Use docker-compose to control containers set up for a specific project
 
@@ -295,8 +295,8 @@ In order to automate and simplify the construction of the environment and the ex
 make ENV=loc
 ```
 
-If you, control/performance freak, want to keep an eye on build timing, just use time: @time make ENV=loc@,
-You can get some information about this system typing @make help@
+If you, control/performance freak, want to keep an eye on build timing, just use time: `time make ENV=loc`,
+You can get some information about this system typing `make help`
 
 ## How to connect to services provided by containers
 
@@ -314,15 +314,15 @@ Case: you are using a Mac, you have your development containers running in the "
 ports:
   - "80:80"
 ```
-* execute @docker-compose up -d@
+* execute `docker-compose up -d`
 * edit the host file in the virtualized Windows system and add entries for the application domain(s)
 * make sure that your local webserver (the one running natively in Mac OS X) is stopped
 
 ## Debugging with xdebug
 
 By default, xdebug is disabled inside the Drupal container. In order to enable/disable it, a couple of scripts are provided in the application codebase:
-* @bin/enable-xdebug@
-* @bin/disable-xdebug@
+* `bin/enable-xdebug`
+* `bin/disable-xdebug`
 
 If you use Vim + Vdebug for editing/debugging, you must also set a Vdebug option to map the container's filesystem to your local filesystem:
 ```
@@ -385,12 +385,12 @@ The file must be placed within the project root to make it recognized correctly.
 ## Executing commands inside the containers
 
 You might want to execute commands from a shell inside the containers, in order to do so, an interactive shell must be opened on the desired container, then you can have access to commands like drush, or other CLI utilities.
-We've set up a wrapper that allows a concise syntax for executing commands in container: @bin/e@ (in the root of the "dockerized" project)
+We've set up a wrapper that allows a concise syntax for executing commands in container: `bin/e` (in the root of the "dockerized" project)
 The bin/e command refers to the codebase root as a base path.
 
-To make life even more easy, some aliases for @bin/e@ commands have been created. The aliases can be generated with @config/scripts/gen-aliases.sh@ (a .dist/template file ) which can then be "sourced":
+To make life even more easy, some aliases for `bin/e` commands have been created. The aliases can be generated with `config/scripts/gen-aliases.sh` (a .dist/template file ) which can then be "sourced":
 - Aliases generation: config/scripts/gen-aliases.sh
-- Import new aliases without having to log-in again @source .aliases@
+- Import new aliases without having to log-in again `source .aliases`
 
 ## New php syntax checking tools
 
@@ -402,8 +402,8 @@ The most important thing when installing the requisites for the local environmen
 ```
 
 In order to run automatic syntax checking and fixing, some aliases have been defined:
-* @cs@ checks coding standards compliance
-* @fix-cs@ fixes some coding standard issues
+* `cs` checks coding standards compliance
+* `fix-cs` fixes some coding standard issues
 
 ## Managing possible excessive volume growth of the docker infrastructure
 
