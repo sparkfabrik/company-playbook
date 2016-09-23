@@ -24,9 +24,9 @@ A simplified depiction of
 
 #### Automatic installation with the sparkdock privisioner (recommended way)
 
-<pre>
+```
 bash <(curl -fsSL https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/bin/bootstrap)
-</pre>
+```
 
 This will provision a VirtualBox VM ready to use and will do most of the configuration required to access containers from outside the VM. Also dnsdock container will be created and activated.
 
@@ -38,9 +38,9 @@ If you already have VirtualBox, select a custom ("Ad hoc") installation and dese
 
 After installing Docker Toolbox, use the terminal to create *a new Docker machine* using this command:
 
-<pre>
+```
 docker-machine create dev -d virtualbox --virtualbox-disk-size 50000 --virtualbox-cpu-count 1 --virtualbox-memory 4096
-</pre>
+```
 
 Adjust the settings according to your system; the command above specify:
 1. 50GB disk size
@@ -49,25 +49,25 @@ Adjust the settings according to your system; the command above specify:
 
 At the end of the installation use the @docker-machine ls@ command, and you should see something like this:
 
-<pre>
+```
 % docker-machine ls
 NAME   ACTIVE   DRIVER       STATE     URL                         SWARM
 dev    *        virtualbox   Running   tcp://192.168.99.100:2376
-</pre>
+```
 
 Now you should add to the init script of your shell sessions something that automatically loads environment variable needed in order to connect to the dev machine.
 Add this lines to your *.bashrc* or *.zshrc*:
 
-<pre>
+```
 eval "$(docker-machine env dev)"
 export DOCKER_MACHINE_IP=$(docker-machine ip dev)
-</pre>
+```
 
 Install *dnsdock* with this command, that will create a container that will always start once the dev machine starts:
 
-<pre>
+```
 docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.42.1:53:53/udp tonistiigi/dnsdock:v1.10.0
-</pre>
+```
 
 #### Check networking setup
 
@@ -75,15 +75,15 @@ After either manual or automatic installation, it's recommended to manually conf
 
 *Set up routing*
 
-<pre>
+```
 sudo route -n add -net 172.17.0.0 $(docker-machine ip dev)
-</pre>
+```
 
 *Clear your DNS caches*:
 
-<pre>
+```
 sudo killall -HUP mDNSResponder
-</pre>
+```
 
 Or if you are using the sparkfabrik starterkit, just run:
 
@@ -99,7 +99,7 @@ docker/scripts/clean-dns.cache.sh
 
 *Test* that everything is working as expected, by issuing these commands:
 
-<pre>
+```
 % docker run -d -e DNSDOCK_ALIAS=test1.mysql.docker.loc -e MYSQL_ROOT_PASSWORD=root --name mysql-test sparkfabrik/docker-mysql
 % ping test1.mysql.docker.loc
 
@@ -107,7 +107,7 @@ PING test1.mysql.docker.loc (172.17.42.37): 56 data bytes
 64 bytes from 172.17.42.37: icmp_seq=0 ttl=63 time=0.275 ms
 
 % docker rm -vf mysql-test
-</pre>
+```
 
 These commands:
 * create a temporary container that will instantiate a MySQL server
@@ -164,9 +164,9 @@ Being it a Linux service we can leverage docker to install and start it without 
 
 Run the container that will host dnsdock service
 
-<pre>
+```
 docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.0.1:53:53/udp tonistiigi/dnsdock:v1.10.0
-</pre>
+```
 
 Issuing this command, docker will:
 
@@ -291,9 +291,9 @@ As the "docker-compose.yml" file is not versioned, it can be customized accordin
 The application builds in this Docker-based dev environment run completely inside the containers, since the full stack is built into them.
 In order to automate and simplify the construction of the environment and the execution of builds, we use GNU Make as a task launcher, while the application itself is built inside the containers. Typically, a build is started with a simple command executed in the project's root, where the Makefile resides, like
 
-<pre>
+```
 make ENV=loc
-</pre>
+```
 
 If you, control/performance freak, want to keep an eye on build timing, just use time: @time make ENV=loc@,
 You can get some information about this system typing @make help@
@@ -310,10 +310,10 @@ Case: you are using a Mac, you have your development containers running in the "
 
 * edit docker-compose.yml
 * add these lines for the drupal service:
-<pre>
+```
 ports:
   - "80:80"
-</pre>
+```
 * execute @docker-compose up -d@
 * edit the host file in the virtualized Windows system and add entries for the application domain(s)
 * make sure that your local webserver (the one running natively in Mac OS X) is stopped
@@ -325,10 +325,10 @@ By default, xdebug is disabled inside the Drupal container. In order to enable/d
 * @bin/disable-xdebug@
 
 If you use Vim + Vdebug for editing/debugging, you must also set a Vdebug option to map the container's filesystem to your local filesystem:
-<pre>
+```
 let g:vdebug_options = {
     \ "path_maps": {"/var/www/html": "/Users/marcello/Development/sparkfabrik/project"}}
-</pre>
+```
 
 If you use SublimeText check here: https://github.com/martomo/SublimeTextXdebug *path_mapping* configuration.
 
@@ -336,48 +336,48 @@ If you use SublimeText check here: https://github.com/martomo/SublimeTextXdebug 
 
 In order to use Blackfire.io for profiling applications residing in containers, these environment variables must be set:
 
-<pre>
+```
 export BLACKFIRE_SERVER_TOKEN=YOUR_SERVER_TOKEN
 export BLACKFIRE_SERVER_ID=YOUR_SERVER_ID
-</pre>
+```
 
 If the container was already running, restart them like this:
 
-<pre>
+```
 docker-compose stop
 docker-compose up -d
-</pre>
+```
 
 ## Backup of data container
 
 ### Backup
 
-Full backup of data container: <pre>make backup-data ENV=loc</pre>
+Full backup of data container: ```make backup-data ENV=loc```
 
 You can also pass the VOLUMES arguments in order to restrict the scope, for example:
 
-<pre>
+```
 make backup-data ENV=loc VOLUMES=/var/lib/mysql
-</pre>
+```
 
 Please note that the volumes are them specified on  "docker-common-services.yml":
 
-<pre>
+```
 data:
   image: busybox
   volumes:
     - /var/lib/mysql
     - /opt/solr/example/multicore/multi/data
     - /var/www/html/sites/default/files
-</pre>
+```
 
 ### Import
 
 To import a data container backup tarball, use the following command:
 
-<pre>
+```
 make import-data ENV=loc FILE=backup-filename.tar,bz2
-</pre>
+```
 
 The file must be placed within the project root to make it recognized correctly.
 
@@ -397,9 +397,9 @@ To make life even more easy, some aliases for @bin/e@ commands have been created
 The tools to control coding standards AND also make some automatic fix about that,
 The most important thing when installing the requisites for the local environment is to download the git hooks used for validating the software. you can do it with a simple step:
 
-<pre>
+```
 ./init-git-hooks.sh
-</pre>
+```
 
 In order to run automatic syntax checking and fixing, some aliases have been defined:
 * @cs@ checks coding standards compliance
@@ -409,23 +409,23 @@ In order to run automatic syntax checking and fixing, some aliases have been def
 
 ### OSX
 
-<pre>
+```
 docker-machine ssh dev
 docker run -v /var/run/docker.sock:/var/run/docker.sock -v /mnt/sda1/var/lib/docker:/var/lib/docker --rm paolomainardi/docker-cleanup-volumes --ver
 bose —dry-run
-</pre>
+```
 
 ### Linux
 
-<pre>
+```
 docker run -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker:/var/lib/docker --rm paolomainardi/docker-cleanup-volumes --ver
 bose —dry-run
-</pre>
+```
 
 ### Other commands useful when you're low on disk space
 
-<pre>
+```
 docker volume rm $(docker volume ls -f dangling=true | awk '{print $2}')
 docker rm -vf $(docker ps -a | grep Exited | grep -v data | awk '{print $1}')
 docker rmi $(docker images -f "dangling=true" -q)
-</pre>
+```
