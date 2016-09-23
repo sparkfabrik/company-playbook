@@ -11,7 +11,15 @@ Click the links to jump to the section of interest.
 
 ## Overview
 
-Our local development environment is build on docker
+Our local development environment is build on docker, to achieve:
+
+* High decoupling from host OS
+* Different services versions and configuration for each application/project
+* The ability to commit the infrastructure together with the application in the same repository
+* _One click_ local setup of projects for everyone in the team
+
+A simplified depiction of 
+
 ## OSX
 
 #### Automatic installation with the sparkdock privisioner (recommended way)
