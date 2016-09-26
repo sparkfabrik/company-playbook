@@ -24,9 +24,11 @@
  * [JavaScript and JQuery formatting guidelines](#javascript-and-jquery-formatting-guidelines)
 
 ## Purpose of this document
+
 The target of this document is sharing best practices and guidelines about html templates  development to build visual frontend with Drupal 8.
 
 ## Tools
+
 This is the full list of tools we use for theming’ s development:
 
 ### Frontend framework
@@ -41,12 +43,15 @@ This is the full list of tools we use for theming’ s development:
 * SASS: [http://sass-lang.com/](http://sass-lang.com/)  - [https://css-tricks.com/sass-style-guide/](https://css-tricks.com/sass-style-guide/)
 
 ## CSS: architecture and guidelines
+
 In this sections we present a summary about CSS architecture and best practices we usually use to organize and build themes for Drupal 8.
 
 To learn more about Drupal CSS coding standard look at official community documentation: https://www.drupal.org/docs/develop/standards/css
 
 ### CSS architecture
+
 #### Principles
+
 The goals of good CSS should be:
 
 * Predictable: CSS should be consistent and understandable. Changes should do what you would expect;
@@ -106,6 +111,7 @@ Create component variants explicitly, adding a suffix with the variant name prec
 ```
 
 ##### Separate Concerns
+
 Components should not be responsible for their positioning or layout within the site. Never apply widths or heights except to elements that natively have these properties (e.g. images have these properties, so it's okay to use CSS to modify their width and height). Within components, separate structural rules from stylistic rules.
 
 Separate style from behavior by using dedicated classes for JavaScript manipulation rather than relying on classes already in use for CSS. This way, we can modify classes for style purposes without fear of breaking JS, and vice versa. To make the distinction clear, classes used for JavaScript manipulation should be prefixed with `js-`. These JavaScript hooks must never be used for styling purposes. See the section *Formatting Class Names* for more information on naming conventions.
@@ -125,6 +131,7 @@ Drupal 8 uses the SMACSS system (see documentation here: [https://smacss.com/boo
 * **Theme**: Purely visual styling, such as border, box-shadow, colors and backgrounds, font properties, etc. Ideally, these should be separated enough from a component’s structure to be “swappable”, and omitting these entirely should not break the component’s functionality or basic usability.
 
 ##### Name Components Using Design Semantics
+
 **Class names should communicate useful information to developers** and should reflect design semantics over content semantics. In general, **they should reflect the intent and purpose of the design element they represent**.
 
 Note that this does not preclude presentational class names. Grid system classes such as `.grid-3`, utility classes such as `.leader` and `.trailer` (for adding whitespace based on a baseline grid) and `.text-center` are all examples of presentational classes that represent visual semantics. They are meaningful to developers, and highly reusable.
@@ -141,6 +148,7 @@ Note that this does not preclude presentational class names. Grid system classes
 ```
 
 ##### Formatting Class Names
+
 Class names should use full words rather than abbreviations. Styles for a button component should use e.g. `class=“button” ` rather than `class=“btn”`
 Class names for components should always use a dash between words. Use `class=“button-group”` rather than `class="buttongroup" `.
 
@@ -263,6 +271,7 @@ this.popup.id = 'autocomplete';
 ```
 
 ### JavaScript and JQuery formatting guidelines
+
 To learn more about guidelines of Javascript and JQuery formatting in Drupal see official documentation by community:
 
 * [https://www.drupal.org/docs/develop/standards/javascript/javascript-coding-standards](https://www.drupal.org/docs/develop/standards/javascript/javascript-coding-standards)
