@@ -104,12 +104,12 @@ sudo killall -HUP mDNSResponder
 
 Or if you are using the sparkfabrik starterkit, just run:
 
-D7:
+**Drupal 7**:
 ```
 config/scripts/clean-dns.cache.sh
 ```
 
-D8:
+**Drupal 8**:
 ```
 docker/scripts/clean-dns.cache.sh
 ```
