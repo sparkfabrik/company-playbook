@@ -5,4 +5,5 @@ documentation:
   volumes:
     - ./assets:/srv/locke/assets
     - ./content:/srv/locke/content
-    - ./config.js:/srv/locke/config.js
+    - ./custom/config.js:/srv/locke/config.js
+    - ./custom/custom-styles.css:/srv/locke/themes/spark/public/styles/custom.css
