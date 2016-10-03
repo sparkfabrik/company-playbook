@@ -1,4 +1,4 @@
-## Operating systems	
+## Operating systems
 
 This guide is available for [MacOSX](#macosx) and [Ubuntu](#ubuntu-linux).  
 Click the links to jump to the section of interest.
@@ -18,7 +18,24 @@ Our local development environment is build on docker, to achieve:
 * The ability to commit the infrastructure together with the application in the same repository
 * _One click_ local setup of projects for everyone in the team
 
-A simplified depiction of 
+One image is worth a thousand words, so here follows a simplified depiction of our local environment model:
+
+![Local environment schema](%image_url%/recipes/local-development-environment--depiction-linux.png)
+
+Basically, what we've got here is a set of containers, partaining to different projects. They are inerconnected via docker links so that each project has its own service: for example both Drupal projects in the image have dedicated MySQL and Apache/PHP containers, perfectly isolated. They can be stopped and started at will on a "by project" basis.
+
+To reach each entry point, which in case of web applications is the HTTP server that exposes the app for that project, we need a resolver able to dinamically map containers to URLs when a container is started or stopped (mind a container IP is inherently dinamyc so a static map won't do).
+
+This role is carried out by a containerized service called `dnsdock`, which does exactly this.  
+The last ingredient consists in a local resolver able to inform the system to proxy the calls for a given TLD (`.loc` in our case) to dnsdock. This is a peculiar idiosincracy of Debian/Ubuntu whuch resolvers are managed by `network-manager` service.
+
+Different host OSes rely on different resolvers.
+
+In particular MacOSX scheme is a bit different. Since MacOSX's kernel can't run native Linux containers, at the base of docker, we'll need to run Linux in it. So achieve this we'll run an Ubuntu Server instance in a VirtualBox VM, provisioned automagically with `docker-machine` a useful command of the docker suite to provision and control a remote docker host as it was local (remember the `docker` command is a CLI client).
+
+![Local environment on MacOSX](%image_url%/recipes/local-development-environment--depiction-macosx.png)
+
+On MacOSX the local host resolver is the one native to MacOSX itself, while the rest of the stack runs in a VM, where the Linux distro acts only as a containers-provider.
 
 ## OSX
 
