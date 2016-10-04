@@ -1,6 +1,7 @@
 
 ## Prerequisite
-* when you start working, commit your local changes and merge the integration branch (git commit -m '..' . && git pull)
+
+When you start working, commit your local changes and merge the integration branch (git commit -m '..' . && git pull)
 
 
 ## In pills
@@ -20,8 +21,10 @@
 * be happy :)
 
 
-## Slides by nuvole
+## Slides by Nuvole
+
 https://drive.google.com/open?id=0B3bEkSMDrX8YRzBrWkxkZ3FxQkk5UEJNMnktZS11UDZjc0hN
 
 ### Excerpt from this presentation:
+
 ![Slides by nuvole](%image_url%/recipes/drupal-8-development-workflow.png)
