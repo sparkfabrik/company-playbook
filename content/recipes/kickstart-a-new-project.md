@@ -144,3 +144,17 @@ Open a Slack channel for the project in the form `<client id>-<project id>` (i.e
 In case of small projects, maintenance or if it sounds good enough, a simple channel with the customer's name is ok (i.e. `#acme) but please avoid having too noise in the same place!
 
 In case external developers, customers, partners or other people have to access Slack, open a whole new slack with the name `SparkFabrik - <project name>` or `SparkFabrik - <customer name>` and invite all involved people.
+
+## Team group on GMail
+
+**In charge to**: management representative
+
+A group to broadcast mails to the team must be created on GMail.
+
+Ask someone with the owner permissions on Sparfabrik's _Google Apps for Work_ account to create a group with the following properties
+
+* The group name must follow the template: `Sparkfabrik - <Project> Team` (mind the case!)
+* Add all Team Leaders and management representatives who are involved as **onwers** of the group
+* Add all developers as **members** of the groups
+
+**IMPORTANT NOTE**: by convention this group contains Sparkfabrik team members only. **Do not** add external users to the group to avoid leaking of classified information.

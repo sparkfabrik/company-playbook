@@ -1,7 +1,9 @@
 documentation:
-  image: sparkfabrik/docker-node-raneto:0.9.0
+  image: sparkfabrik/docker-locke-server:latest
   environment:
     - DNSDOCK_ALIAS=playbook.sparkfabrik.loc
   volumes:
-    - ./documentation/docs:/srv/raneto/content
-    - ./documentation/files:/srv/raneto/themes/default/public/files
+    - ./assets:/srv/locke/assets
+    - ./content:/srv/locke/content
+    - ./custom/config.js:/srv/locke/config.js
+    - ./custom/custom-styles.css:/srv/locke/themes/spark/public/styles/custom.css
