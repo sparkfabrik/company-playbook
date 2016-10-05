@@ -1,16 +1,24 @@
+## Prerequisites
+
+* PHP 5+
+* Composer command
+
+*Note*: our local-development environment already satisfies all prerequisites.
 
 ## Install
 
 Install behat and it's dependencies
 
-> composer require drupal/drupal-extension
+```
+composer require drupal/drupal-extension
+```
 
 ## Configure
 
 ### behat.yml
 
-Create a file behat.yml in your project root folder,
-please ensure to set *base_url*, *files_path* and *drupal_root* to match your project parameters
+Create a `behat.yml` file in your project root folder,
+please ensure to set `base_url`, `files_path` and `drupal_root` to match your project parameters
 
 ```
 default:
@@ -39,6 +47,7 @@ default:
 ```
 
 You can also add region mapping by adding (for example) the following to beaht.yml file:
+
 ```
       region_map:
         search bar: '.search-bar'
@@ -67,17 +76,21 @@ phantomjs:
   command: --webdriver=8910
 ```
 
-### Create your first test feature
+## Create your first test feature
 
-Create a folder
+Create a folder named `feature` in the project root folder
 
-> feature
+```
+mkdir ./feature
+```
 
-in your project root folder.
+Add a feature with basic testing: create a `.feature` in the feature folder like this:
 
-Add a feature with basic testing, place a file like the folling in the feature folder.
-This will be in
-> feature/example/basic_test.feature
+```
+[nano|vi|whatever] feature/example/basic_test.feature
+```
+
+with the following content:
 
 ```
 Feature: Example Test Project Pages
@@ -106,21 +119,31 @@ Feature: Example Test Project Pages
 
 ```
 
-### Run tests
+## Run tests
 
-Tests can be lauched by
-> bin/e bin/behat
+When using our docker-based local dev environment, behat must be run in the container.
+We provided a shortcut script that can be invoked by the host OS.
 
-If you want to see which are the predefined steps available in the drupal extension run
-> bin/e bin/behat -dl
+Run your tests by issuing
 
-### Additional information
+```
+bin/e bin/behat
+```
+
+If you want to see which are the predefined steps available in the drupal extension, run
+
+```
+bin/e bin/behat -dl
+```
+
+## Additional information
 
 
 http://www.slideshare.net/sparkfabrik/behaviour-driven-development-con-behat-drupal
 
 https://behat-drupal-extension.readthedocs.io/en/3.1/
 
-### Todo
+## Todo
 
-Example of pahntomjs tests.
+* Example of phantomjs tests.
+* Link to local dev environment guide and docker quick reference
