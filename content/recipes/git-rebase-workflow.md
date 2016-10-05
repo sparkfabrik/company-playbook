@@ -23,7 +23,7 @@ Follow these steps to achieve code serenity:
 
 ### When your issue is done
 
-* Fetch develop branch, keep integration branch fetched: `git fetch origin`
+* Fetch develop branch, keep integration branch fetched: `git fetch`
 * Rebase your branch over develop: `git rebase origin/develop`
 * Push to your branch: `git push -f` or better yet `git push -f origin feature/12345_integrate_with_billing_server`
 * Head to Gitlab and open a MR from your branch towards `develop`
