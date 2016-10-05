@@ -40,6 +40,7 @@ default:
     Drupal\DrupalExtension:
       blackbox: ~
       api_driver: 'drupal'
+      drush_driver: 'drush'
       drupal:
         drupal_root: '/var/www/html/web'
       drush:
