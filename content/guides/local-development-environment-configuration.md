@@ -39,7 +39,9 @@ On MacOSX the local host resolver is the one native to MacOSX itself, while the 
 
 ***
 
-## OSX
+## MacOSX
+
+> _The guide for MacOSX is maintained by Paolo Mainardi_
 
 ### Automatic installation with the sparkdock privisioner (recommended way)
 
@@ -135,7 +137,9 @@ These commands:
 
 ***
 
-## Linux
+## Ubuntu Linux
+
+> _The guide for Ubuntu Linux is maintained by Paolo Pustorino_
 
 ### Overview
 
