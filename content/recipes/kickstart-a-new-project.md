@@ -147,37 +147,36 @@ In case external developers, customers, partners or other people have to access 
 
 
 
-### Project info slack responses
+#### Project info slack responses
 
 * Go to https://sparkfabrik.slack.com/customize/slackbot to add project responses
-
 * Add responses for example
 
-When someone says | Slackbot responds
---- | ---
-help coesia | available commands: envs, docs
-help coesia envs | Jenkins: http://ci.coesia.hart.sparkfabrik.com/ (night/3v0lv3_n0w) - Dev: http://dev.coesia.hart.sparkfabrik.com (stage/stage)
+<table>
+<th>
+When someone says
+</th>
+<th>
+Slackbot responds
+</th>
 
+<tr><td>help coesia </td><td> available commands: envs, docs</td></tr>
+<tr><td>help coesia envs</td><td> Jenkins: http://ci.coesia.hart.sparkfabrik.com/ (night/3v0lv3_n0w) - Dev: http://dev.coesia.hart.sparkfabrik.com (stage/stage) </td></tr>
+</table>
 
-### Add Jenkins integration
+#### Add Jenkins integration
 
 * Go to app config on slack (example https://sparkfabrik.slack.com/apps/A0F7VRFKN-jenkins-ci)
-
 * Click on "Add configuration"
-
 * Copy the integration token and use it in jenkins where required
 
 
-### Add Gitlab integration
+#### Add Gitlab integration
 
 * Go to app config on slack (ie https://sparkfabrik.slack.com/apps/A0F7XDUAZ-incoming-webhooks)
-
 * Click on "Add configuration"
-
 * Create a configuration and copy the "Webhook URL" field content
-
 * Go to gitlab setting for your project (example https://gitlab.sparkfabrik.com/h-art/coesia/services) and click on "Slack"
-
 * Click on active and paste the url into "Webhook" and save
 
 
