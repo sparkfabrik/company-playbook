@@ -3,7 +3,7 @@ This tutorial contains examples to become familiar with _docker_'s basics.
 ## Requirements
 
 Well, you must have docker up and running on your PC.  
-Follow the guide at [Configure local environment](/recipes/configure-local-environment) if you are still out of luck.
+Follow the guide at [Configure local environment](/recipes/local-development-environment-configuration) if you are still out of luck.
 
 > **NOTE**: Mind that if you are on MacOSX, you must make sure that the `DOCKER_MACHINE_IP` environment variable is configured on your host system
 
