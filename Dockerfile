@@ -1,4 +1,4 @@
-FROM sparkfabrik/docker-locke-server
+FROM sparkfabrik/docker-locke-server:latest
 MAINTAINER Paolo Pustorino <paolo.pustorino@sparkfabrik.com>
 
 # Remove content folder
