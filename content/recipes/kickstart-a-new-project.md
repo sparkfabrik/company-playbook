@@ -6,7 +6,7 @@ This process is in charge to the **team leader**, with the aid of accountant and
 
 **In charge to**: `Accountant`
 
-Information about contracts are no held by Redmine, but by Toggl instead.  
+Information about contracts are no held by Redmine, but by Toggl instead.
 This means team-members have to know which contract they have to track time onto.
 
 To achieve this, we use the _Project/Task_ feature of Toggl, following this schema:
@@ -21,12 +21,12 @@ Customer
        -- ...
 ```
 
-For example, our the customer *ACME* wants us to build and maintain both their corporate site and their sales-supporting REST API.  
+For example, our the customer *ACME* wants us to build and maintain both their corporate site and their sales-supporting REST API.
 We agree for _four_ orders:
 
 1. 2016081101 - New corporate site development
 1. 2016081101 - Corporate site maintenance
-1. 2016081103 - Sales REST API development 
+1. 2016081103 - Sales REST API development
 1. 2016081104 - Sales REST API maintenance
 
 (please, mind the different offers ids)
@@ -40,7 +40,7 @@ ACME
   |    |
   |    -- 22016 development [016081101]
   |    -- Maintenance [2016081102]
-  |    
+  |
   -- Sales REST API
        |
        -- v1.0 Development [2016081103]
@@ -60,7 +60,7 @@ The keys are:
 
 **In charge to**: someone who is Administrator on Redmine
 
-Redmine allows projects to contain subprojects.  
+Redmine allows projects to contain subprojects.
 To keep things well organized we use to create an _parent_ project for each customer so that:
 
 * Top-right select menu is easier to navigate for those of us who see a lot of projects
@@ -144,6 +144,42 @@ Open a Slack channel for the project in the form `<client id>-<project id>` (i.e
 In case of small projects, maintenance or if it sounds good enough, a simple channel with the customer's name is ok (i.e. `#acme) but please avoid having too noise in the same place!
 
 In case external developers, customers, partners or other people have to access Slack, open a whole new slack with the name `SparkFabrik - <project name>` or `SparkFabrik - <customer name>` and invite all involved people.
+
+
+
+### Project info slack responses
+
+* Go to https://sparkfabrik.slack.com/customize/slackbot to add project responses
+
+* Add responses for example
+
+When someone says | Slackbot responds
+--- | ---
+help coesia | available commands: envs, docs
+help coesia envs | Jenkins: http://ci.coesia.hart.sparkfabrik.com/ (night/3v0lv3_n0w) - Dev: http://dev.coesia.hart.sparkfabrik.com (stage/stage)
+
+
+### Add Jenkins integration
+
+* Go to app config on slack (example https://sparkfabrik.slack.com/apps/A0F7VRFKN-jenkins-ci)
+
+* Click on "Add configuration"
+
+* Copy the integration token and use it in jenkins where required
+
+
+### Add Gitlab integration
+
+* Go to app config on slack (ie https://sparkfabrik.slack.com/apps/A0F7XDUAZ-incoming-webhooks)
+
+* Click on "Add configuration"
+
+* Create a configuration and copy the "Webhook URL" field content
+
+* Go to gitlab setting for your project (example https://gitlab.sparkfabrik.com/h-art/coesia/services) and click on "Slack"
+
+* Click on active and paste the url into "Webhook" and save
+
 
 ## Team group on GMail
 
