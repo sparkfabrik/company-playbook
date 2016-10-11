@@ -87,7 +87,7 @@ export DOCKER_MACHINE_IP=$(docker-machine ip dev)
 Install *dnsdock* with this command, that will create a container that will always start once the dev machine starts:
 
 ```
-docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.42.1:53:53/udp tonistiigi/dnsdock:v1.10.0
+docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.42.1:53:53/udp aacebedo/dnsdock:v1.15.0-amd64
 ```
 
 ### Check networking setup
@@ -190,7 +190,7 @@ Being it a Linux service we can leverage docker to install and start it without 
 Run the container that will host dnsdock service
 
 ```
-docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.0.1:53:53/udp tonistiigi/dnsdock:v1.10.0
+docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.0.1:53:53/udp aacebedo/dnsdock:v1.15.0-amd64
 ```
 
 Issuing this command, docker will:
@@ -204,11 +204,13 @@ Issuing this command, docker will:
 
 If you run into trouble due to port 53 being bound on the network, don't warry and read along.
 
-### Installing / Configuring dnsmasq (Ubuntu 14.04 - 15.10)
+### Installing / Configuring dnsmasq
+
+This part of the guide has been tested to work on Ubuntu from LTS version 14.04, up to 16.04+ LTS. So far the recommanded version is 16.04.1 LTS.
 
 Ubuntu 14.04 to 15.10 natively relies on `dnsmasq` a great and simple dns-proxy which allows for very elastic configuration of the networking stack. Most of all, `dnsmasq` plays very well with `resolvconf`, a very dull daemon which controls local resolution maps to make sure dynamically created networks never run into conflicts with each other.
 
-If for some reason you don't have dnsmasq installed, install it right away (don't warry, it's completely preconfigured to work transparently on a stock Ubuntu).
+Ubuntu 16.04 ships with a default dnsmasq configuration in the `/etc` folder, but the service itself is not installed by default. If you are on this OS version or if for some other reason you don't have dnsmasq installed, go forth and install it right away (don't worry, it's completely preconfigured to work transparently on a stock Ubuntu).
 
 ```
 sudo apt-get install dnsmasq
@@ -247,7 +249,7 @@ And you're done.
 
 ```
 docker kill dnsdock && \
-docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.0.1:53:53/udp tonistiigi/dnsdock:v1.10.0
+docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.0.1:53:53/udp aacebedo/dnsdock:v1.15.0-amd64
 ```
 
 *HINT*: if you have a local stack installed for other reasons and need to resolv a subset of `.loc` domains to localhost you can change the above configuration this way
@@ -261,12 +263,6 @@ cache-size=0
 ```
 
 So that all `.loc` subdomains are resolved to localhost *but* `sparkfabrik.loc` subdomains which is proxied to dnsdock.
-
-
-### Installing a local resolver (Ubuntu 16.04 +)
-
-*This configuration still have to be tested and documented, please use 14.04 LTS or 15.10, so far.*
-
 
 ### Test and enjoy
 
