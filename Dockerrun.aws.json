@@ -1,12 +1,15 @@
 {
-  "AWSEBDockerrunVersion": "1",
-  "Image": {
-    "Name": "sparkfabrik/company-playbook",
-    "Update": "true"
-  },
-  "Ports": [
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
     {
-      "ContainerPort": "80"
+      "name": "playbook",
+      "image": "sparkfabrik/company-playbook",
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ]
     }
   ]
 }
