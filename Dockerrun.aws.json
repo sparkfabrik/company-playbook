@@ -1,11 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Authentication": {
-    "Bucket": "dockercfg-pm",
-    "Key": "dockercfg"
-  },
   "Image": {
-    "Name": "sparkfabrik/playbook",
+    "Name": "sparkfabrik/company-playbook",
     "Update": "true"
   },
   "Ports": [
