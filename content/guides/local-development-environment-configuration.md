@@ -230,6 +230,7 @@ Put what follows in that file:
 
 ```
 server=/loc/172.17.0.1
+bind-interfaces
 except-interface=docker0
 domain-needed
 cache-size=0
