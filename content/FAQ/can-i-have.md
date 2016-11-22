@@ -19,19 +19,19 @@ Non nominal BCs (i.e. with the company data and not your name on them) will be a
 
 ### Health/Posture facilities
 
-We value your health so yes, as long as the budgets allows for everybody to have the same if they are in the need.  Legs raisers, laptop stands and even a standing desk are all something we can provide.  
+We value your health so yes, as long as the budgets allows for everybody to have the same if they are in the need.  Legs raisers, laptop stands and even a standing desk are all things we can provide.  
 Expensive stuff like adjustable desks and such may be evaluated on a case by case basis.
 
-Obviously, if you suffer real deseases, we'll do our best to acknowledge you all you need for a safe workplace. 
+Obviously, if you suffer real desease, we'll do our best to acknowledge you all you need for a safe workplace. 
 
 ### Tickets for a conference
 
 We always love to stay in the _consphere_.
 
 If you attend the conference as a speaker, the company will grant you a full cost coverage.  
-If you want to attend the con as a listener, please file your desire on Slack (#conferences channel) so that everybody knows you want to attend and has an occasion to follow along.
+If you want to attend the con as a listener, please file your desire on Slack (#tech channel) so that everybody knows you want to attend and has an occasion to follow along.
 
-Needless to say we have a budget for conferences too. Mind that if you are assigned a nominal ticket and you'll end up not attending the conference for personal reasons (left alone _force majeure_, we may decide to lower your requests in priority next time.
+Needless to say we have a budget for conferences too. Mind that if you are assigned a nominal ticket and you'll end up not attending the conference for personal reasons (left alone _force majeure_), we may decide to lower your requests in priority next time.
 
 ### A training course
 

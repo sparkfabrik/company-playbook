@@ -1,4 +1,4 @@
-### Get late?A
+### Get late?
 
 We usually work between 9:30 to 18:30 at our offices as well as remotely.
 
