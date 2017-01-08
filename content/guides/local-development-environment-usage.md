@@ -44,7 +44,8 @@ ports:
   - "80:80"
 ```
 * execute `docker-compose up -d`
-* edit the host file in the virtualized Windows system and add entries for the application domain(s)
+* edit the host file in the virtualized Windows system and add entries for the application domain(s): you should use the "internal" IP used by docker/dnsdock, not the one identifying the VM host
+  * command to detect host IP from the host machine: `dig @127.0.0.1 a +short [host_name]`
 * make sure that your local webserver (the one running natively in Mac OS X) is stopped
 
 ## Debugging with xdebug
