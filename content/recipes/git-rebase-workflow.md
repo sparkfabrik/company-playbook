@@ -29,7 +29,7 @@ Follow these steps to achieve code serenity:
 * Head to Gitlab and open a MR from your branch towards `develop`
 * Address possible feedback in your branch and keep pushing over it, Gitlab will update itself with your fixes
 * When you are done the MR will be merged by a peer or gatekeeper
-* Switch back on `develop` and pull your modifications: `git co develop && git pull`
+* Switch back on `develop` and reset to the latest develop: `git fetch && git reset --hard origin/develop`
 
 Redo from start and live happy! :)
 
