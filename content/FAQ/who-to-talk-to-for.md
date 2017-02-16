@@ -14,7 +14,7 @@ If it's important to you, but not urgent, please use our physical or virtual [Pa
 If it's urgent, don't hesitate to reach out for your Team Leader for project-related issues or to talk to a management representative if you see fit.
 
 
-### My equipment is broken/mulfunctioning
+### My equipment is broken/malfunctioning
 
 Please, write immediately to admin@sparkfabrik.com if your gizmos have problems. We need to be informed quickly to enforce warranties before expiration.
 If you have problem with a facility you own personally, we'll be eager to provide a temporary or permanent replacement. Again, don't hesitate to warn us about the problem, you are supposed to be able to work at your full extent.
