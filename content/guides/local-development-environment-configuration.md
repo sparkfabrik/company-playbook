@@ -141,6 +141,13 @@ These commands:
 
 > _The guide for Ubuntu Linux is maintained by Paolo Pustorino_
 
+### Forenote
+
+It my be late to state this but **avoid to encrypt your home directory**! It will gives at least two major disservice:
+
+# Build operations on Drupal sites will have a **relevant** drop in performance
+# Crypted FS in Ubuntu won't support filenames longer than 143 chars. We rely on **at least** a community contributed patch which name sums up to 144 chars. 
+
 ### Overview
 
 Being containers a property of Linux kernel, `docker` is a native tool on Linux distros.
