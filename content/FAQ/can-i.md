@@ -39,3 +39,12 @@ It would be great to inform the management of the event, just to be sure the tim
 
 Yes, no problem! As long as it is legal (LOL), we'll take them for you if you are not at your desk. 
 Yet, as we don't provide _shipment pick-up as a service_, we can't guarantee somebody will be there to take your stuff over. 
+
+**Please remember** to include your name in recipient address, eg:
+
+John Doe c/o Sparkfabrik srl   
+Via generale Gustavo Fara 9    
+Milano (MI)
+20124
+
+
