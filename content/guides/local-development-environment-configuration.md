@@ -296,3 +296,20 @@ If all works, clean the test container and remove its image with
 docker rm -vf mysql-test
 ```
 
+## Arch Linux (dns configuration)
+
+Instructions are basically the same of Ubuntu Linux:
+
+* Install dnsmasq
+* Create the `/etc/dnsmasq.d/dnsdock-resolver` file
+* Start dnsmasq `systemctl start dnsmasq.service`
+* Check dnsmasq status: `journalctl -u dnsmasq`
+
+Then, if you have the `'port 53 problem'`, proceed as above:
+
+* Add `nameserver 172.17.0.1` to `/ect/resolv.conf`
+* Uncomment `port=5353` into `/etc/dnsmasq.conf` file
+* Restart dnsmasq `systemctl restart dnsmasq.service`
+* Restart dnsdock container
+* Enjoy :)
+	
