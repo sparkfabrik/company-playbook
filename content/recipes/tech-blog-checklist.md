@@ -1,7 +1,13 @@
-## Step by step checklist
+## Checklist for technical blog contributions
 
-* Clone the tech blog repo: https://github.com/sparkfabrik/sparkfabrik.github.com
-* Open a branch [conventions]
-* Check if your author profile is availabe in `src/content/page/team.md` file
-* Add a markdown file here `src/content/post`
-* Commit with a meaningful message and open an MR (assign it to someone for peer-review of content and form)
+For a complete introduction to tech blog contributions see [Contributing to Tech Blog](/guides/contributing-to-tech-blog).
+
+Here follows a quick checklist to make sure you don't miss anything.
+
+* Fork the tech blog repo at https://github.com/sparkfabrik/sparkfabrik.github.com
+* Clone your fork locally
+* Make sure your author profile are availabe in `src/content/page/team.md` file
+* Make sure your author metadata are available in `src/config.toml` (`[Params.Authors]` collection)
+* **Optional** Open a branch following the `post/post_title` or `fix/post_title` conventional format
+* Add a markdown file for your post here `src/content/post`
+* Commit **with a meaningful message** and open an PR (assign it to someone for peer-review of content and form)
