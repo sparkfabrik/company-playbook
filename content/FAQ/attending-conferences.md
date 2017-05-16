@@ -28,7 +28,7 @@ If rejected, SparkFabrik will provide you with the reason why.
 
 ## Owner
 
-The main contact for everything related to conferences and events attendance is [Paolo Mainardi](mailto:paolo.mainardi@sparkfabrik.com?subject='Conference application')
+The main contact for everything related to conferences and events attendance is **Paolo Mainardi**(paolo.mainardi@sparkfabrik.com)
 
 ### Credits
 
