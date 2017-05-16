@@ -54,6 +54,8 @@ By default, xdebug is disabled inside the Drupal container. In order to enable/d
 * `bin/enable-xdebug`
 * `bin/disable-xdebug`
 
+### Vim + Vdebug
+
 If you use Vim + Vdebug for editing/debugging, you must also set a Vdebug option to map the container's filesystem to your local filesystem:
 ```
 let g:vdebug_options = {
@@ -61,6 +63,47 @@ let g:vdebug_options = {
 ```
 
 If you use SublimeText check here: https://github.com/martomo/SublimeTextXdebug *path_mapping* configuration.
+
+### PHPStorm + Docker
+
+Check the `bin/enable-xdebug` file into code repository and add into it, if not yet present, these following lines:
+
+```
+docker-compose exec drupal sh -c 'echo "xdebug.remote_host=172.17.0.1" >> $PHP_INI_DIR/apache2/conf.d/docker-php-ext-xdebug.ini'
+docker-compose exec drupal sh -c 'echo "xdebug.remote_port=9000" >> $PHP_INI_DIR/apache2/conf.d/docker-php-ext-xdebug.ini'
+docker-compose exec drupal sh -c 'echo "xdebug.idekey=PHPSTORM" >> $PHP_INI_DIR/apache2/conf.d/docker-php-ext-xdebug.ini'
+```
+and run `bin/enable-xdebug` from the project root in the CLI.
+
+Then go to into PHPStorm settings: Languages & Frameworks > PHP > Debug > DBGp Proxy and set the following settings:
+
+* IDE key: PHPSTORM
+* Host: 172.17.0.1
+* Port: 9001
+
+Open the menu Run > Debug > Edit Configurations and set the following settings:
+
+* Name: name of your project (it appear in the menu)
+* Server: the server configurated for your project (if you not yet set, I'll explain below how to proceed)
+* Browser: Chrome
+
+How to configure the server:
+
+* Open the menu Run > Debug > Edit Configurations. Below the `<no server>` label click the 'three dot button'
+* Click the green '+' button at the top left of the window
+* Put the name of the server (it will appears in the menus)
+* Put the host (like `loc.www.CLIENT.VENDOR.sparkfabrik.loc)
+* Port: 80
+* Debugger: xdebug
+* Check the checkbox `Use path mapping`
+* Map the root of your project files with `/var/www/html`
+
+Open PHP Storm settings and go to Build, Execution, Deployment > Debugger
+
+* In the section `Built-in server` check `Can accept external configuration`, then press 'Ok' button.
+
+Open the menu Run > Debug > NAME OF YOUR PROJECT (you have defined it before in Run > Debug > Edit Configurations).
+
 
 ## Profiling with Blackfire.io
 
