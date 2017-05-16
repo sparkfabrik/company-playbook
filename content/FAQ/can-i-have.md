@@ -2,7 +2,7 @@
 
 Yes. We have budgets for Linux PCs, Apple machines, PHPStorm licenses and some more gizmos that you may need.
 
-Other than that, if you need a device or license to speed up your work, just ask your team leader and we'll evaluate case by case.  
+Other than that, if you need a device or license to speed up your work, just ask your team leader and we'll evaluate case by case.
 On standard hardware and software, please read [this section](/our-company/approved-hardware-and-software) to learn more.
 
 ### Books
@@ -19,20 +19,15 @@ Non nominal BCs (i.e. with the company data and not your name on them) will be a
 
 ### Health/Posture facilities
 
-We value your health so yes, as long as the budgets allows for everybody to have the same if they are in the need.  Legs raisers, laptop stands and the like are all things we can provide.  
-The office is currently equipped with two standing desks everybody can use. They are not adjustable, but they are easy to move, affordable and more can be bought if needed.  
+We value your health so yes, as long as the budgets allows for everybody to have the same if they are in the need.  Legs raisers, laptop stands and the like are all things we can provide.
+The office is currently equipped with two standing desks everybody can use. They are not adjustable, but they are easy to move, affordable and more can be bought if needed.
 Expensive stuff like adjustable desks and such may be evaluated on a case by case basis.
 
-Obviously, if you suffer real desease, we'll do our best to acknowledge you all you need for a safe workplace. 
+Obviously, if you suffer real desease, we'll do our best to acknowledge you all you need for a safe workplace.
 
 ### Tickets for a conference
 
-We always love to stay in the _consphere_.
-
-If you attend the conference as a speaker, the company will grant you a full cost coverage.  
-If you want to attend the con as a listener, please file your desire on Slack (`#tech` channel) so that everybody knows you want to attend and has an chance to follow along.
-
-Needless to say we have a budget for conferences too. Mind that if you are assigned a nominal ticket and you'll end up not attending the conference for personal reasons (left alone _force majeure_), we may decide to lower your requests priority next time.
+We always love to stay in the _consphere_, [here you can find](/FAQ/attending-conferences) our policies.
 
 ### A training course
 
