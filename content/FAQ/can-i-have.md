@@ -27,8 +27,7 @@ Obviously, if you suffer real desease, we'll do our best to acknowledge you all 
 
 ### Tickets for a conference
 
-We always love to stay in the _consphere_, [here you can find](/FAQ/attending-conferences) our policies and all the informations needed to apply
-both as speaker and attendee.
+We always love to stay in the _consphere_, [here you can find](/FAQ/attending-conferences) our policies.
 
 ### A training course
 
