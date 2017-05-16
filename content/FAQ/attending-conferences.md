@@ -9,6 +9,7 @@ To praise your contribution and good citizenship, we will give you *extra credit
 * Code/Design/Documentation contributions to our current active internal projects
 * Blog posts published on [Tech @ SparkFabrik](http://tech.sparkfabrik.com)
 * Organization of and presence to internal workshops/training sessions/hackaton
+* Your disposition towards attending the conference as a speaker for SparkFabrik
 
 ## What happens then?
 
@@ -16,19 +17,20 @@ The management board will consider the merits of conference attendance based on 
 
 If many people want to attend **we may have to limit the total numbers** and will take into account if you already missed a conferennce previously. Anyway we'll do our best to make everyone benefit of this boon at least one time every year.
 
-If accepted SparkFabrik will provide the following:
+If your application is rejected, SparkFabrik will provide you with the reason why.
+
+If it is accepted SparkFabrik will provide the following:
 
 * Paid attendance to 1 or more days
 * Paid return travel
 * Accommodation costs for yourself if required depending on the distance required to travel
 * Costs of evening meal for yourself if staying overnight (this follows the same rules as usual expenses policies around food and drink)
 
-If the conference or conference travel is over a weekend then it is not considered a working day so SparkFabrik does not usually provide time _in lieu_.
-If rejected, SparkFabrik will provide you with the reason why.
+If the conference and related travel happens over a weekend then it is not considered a working day so SparkFabrik does not usually provide time _in lieu_.
 
 ## Owner
 
-The main contact for everything related to conferences and events attendance is **Paolo Mainardi**(paolo.mainardi@sparkfabrik.com)
+The main contact for everything related to conferences and events attendance is **Paolo Mainardi** (paolo.mainardi@sparkfabrik.com)
 
 ### Credits
 
