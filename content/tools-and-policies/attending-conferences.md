@@ -34,4 +34,4 @@ The main contact for everything related to conferences and events attendance is 
 
 ### Credits
 
-This policy and playbook page has been strongly inspired by the great [Deeson Handbook](http://handbook.deeson.co.uk/company-policies/conference-policy/). **High-five guys!**
+This policy and playbook page has been strongly inspired by the great [Deeson Handbook](http://handbook.deeson.co.uk/). Sadly the original Deeson's _Conference Policy_ page has been removed from their handbook, but we still want to credit them for providing guidance.
