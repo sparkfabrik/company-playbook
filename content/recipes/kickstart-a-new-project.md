@@ -26,7 +26,7 @@ We agree for _four_ orders:
 
 1. 2016081101 - New corporate site development
 1. 2016081101 - Corporate site maintenance
-1. 2016081103 - Sales REST API development 
+1. 2016081103 - Sales REST API development
 1. 2016081104 - Sales REST API maintenance
 
 (please, mind the different offers ids)
@@ -40,7 +40,7 @@ ACME
   |    |
   |    -- 22016 development [016081101]
   |    -- Maintenance [2016081102]
-  |    
+  |
   -- Sales REST API
        |
        -- v1.0 Development [2016081103]
@@ -137,13 +137,34 @@ No matter what, define a first version for your project:
 
 ## Slack
 
-**In charge to**: team leader
+**In charge to**: Team leader
 
 Open a Slack channel for the project in the form `<client id>-<project id>` (i.e. `#acme-site`, `#grcu-api`) and invite all team members.
 
 In case of small projects, maintenance or if it sounds good enough, a simple channel with the customer's name is ok (i.e. `#acme) but please avoid having too noise in the same place!
 
 In case external developers, customers, partners or other people have to access Slack, open a whole new slack with the name `SparkFabrik - <project name>` or `SparkFabrik - <customer name>` and invite all involved people.
+
+
+#### Add project info helpers
+
+* Go to https://sparkfabrik.slack.com/customize/slackbot to add a response to info-gathering triggers
+* Add responses as appropriate (for example)
+
+When someone says | Slackbot responds
+--- | ---
+help acme | available commands: envs, docs
+help acme envs | Jenkins: http://ci.site.acme.sparkfabrik.com/ (night/3v0lv3_n0w) - Dev: http://dev.site.acme.sparkfabrik.com (stage/stage)
+
+
+#### Add Gitlab integration
+
+* Go to app config on slack (ie https://sparkfabrik.slack.com/apps/A0F7XDUAZ-incoming-webhooks)
+* Click on "Add configuration"
+* Create a configuration and copy the "Webhook URL" field content
+* Go to gitlab setting for your project (example https://gitlab.sparkfabrik.com/<client>/<project>/services) and click on "Slack"
+* Click on active and paste the url into "Webhook" and save
+
 
 ## Team group on GMail
 
