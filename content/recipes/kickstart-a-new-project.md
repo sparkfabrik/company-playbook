@@ -6,7 +6,7 @@ This process is in charge to the **team leader**, with the aid of accountant and
 
 **In charge to**: `Accountant`
 
-Information about contracts are no held by Redmine, but by Toggl instead.
+Information about contracts are no held by Redmine, but by Toggl instead.  
 This means team-members have to know which contract they have to track time onto.
 
 To achieve this, we use the _Project/Task_ feature of Toggl, following this schema:
@@ -21,7 +21,7 @@ Customer
        -- ...
 ```
 
-For example, our the customer *ACME* wants us to build and maintain both their corporate site and their sales-supporting REST API.
+For example, our the customer *ACME* wants us to build and maintain both their corporate site and their sales-supporting REST API.  
 We agree for _four_ orders:
 
 1. 2016081101 - New corporate site development
@@ -60,7 +60,7 @@ The keys are:
 
 **In charge to**: someone who is Administrator on Redmine
 
-Redmine allows projects to contain subprojects.
+Redmine allows projects to contain subprojects.  
 To keep things well organized we use to create an _parent_ project for each customer so that:
 
 * Top-right select menu is easier to navigate for those of us who see a lot of projects
@@ -137,7 +137,7 @@ No matter what, define a first version for your project:
 
 ## Slack
 
-**In charge to**: team leader
+**In charge to**: Team leader
 
 Open a Slack channel for the project in the form `<client id>-<project id>` (i.e. `#acme-site`, `#grcu-api`) and invite all team members.
 
@@ -146,29 +146,15 @@ In case of small projects, maintenance or if it sounds good enough, a simple cha
 In case external developers, customers, partners or other people have to access Slack, open a whole new slack with the name `SparkFabrik - <project name>` or `SparkFabrik - <customer name>` and invite all involved people.
 
 
+#### Add project info helpers
 
-#### Project info slack responses
+* Go to https://sparkfabrik.slack.com/customize/slackbot to add a response to info-gathering triggers
+* Add responses as appropriate (for example)
 
-* Go to https://sparkfabrik.slack.com/customize/slackbot to add project responses
-* Add responses for example
-
-<table>
-<th>
-When someone says
-</th>
-<th>
-Slackbot responds
-</th>
-
-<tr><td>help coesia </td><td> available commands: envs, docs</td></tr>
-<tr><td>help coesia envs</td><td> Jenkins: http://ci.coesia.hart.sparkfabrik.com/ (night/3v0lv3_n0w) - Dev: http://dev.coesia.hart.sparkfabrik.com (stage/stage) </td></tr>
-</table>
-
-#### Add Jenkins integration
-
-* Go to app config on slack (example https://sparkfabrik.slack.com/apps/A0F7VRFKN-jenkins-ci)
-* Click on "Add configuration"
-* Copy the integration token and use it in jenkins where required
+When someone says | Slackbot responds
+--- | ---
+help acme | available commands: envs, docs
+help acme envs | Jenkins: http://ci.site.acme.sparkfabrik.com/ (night/3v0lv3_n0w) - Dev: http://dev.site.acme.sparkfabrik.com (stage/stage)
 
 
 #### Add Gitlab integration
@@ -176,7 +162,7 @@ Slackbot responds
 * Go to app config on slack (ie https://sparkfabrik.slack.com/apps/A0F7XDUAZ-incoming-webhooks)
 * Click on "Add configuration"
 * Create a configuration and copy the "Webhook URL" field content
-* Go to gitlab setting for your project (example https://gitlab.sparkfabrik.com/h-art/coesia/services) and click on "Slack"
+* Go to gitlab setting for your project (example https://gitlab.sparkfabrik.com/<client>/<project>/services) and click on "Slack"
 * Click on active and paste the url into "Webhook" and save
 
 
