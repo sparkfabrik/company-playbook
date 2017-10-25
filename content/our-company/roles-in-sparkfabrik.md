@@ -7,7 +7,14 @@ The main difference between **Company roles** and **Team roles** is that the lat
 ## Company roles
 
 * **CEO**
-  Stefano Mainardi and Paolo Pustorino are currently CEOs of the company, with equal powers.
+  Stefano Mainardi (stefano.mainardi@sparkfabrik.com) and Paolo Pustorino (paolo.pustorino@sparkfabrik.com) are currently CEOs of the company, with equal powers.
 * **CTO**
+  Paolo Mainardi (paolo.mainardi@sparkfabrik.com) is the currently CTO of the company
+* **CFO**
+  Marco Giacomassi (marco.giacomassi@sparkfabrik.com) is the currently CFO of the company
+* **Software Architect**
+  Alessio Piazza (alessio.piazza@sparkfabrik.com) is the currently Software Architect of the company
+* **Office Manager & Administrative Officer**
+  Ayse Meric (ayse.meric@sparkfabrik.com) is the currently Office Manager & Administrative officer 
 
 ## Team roles
