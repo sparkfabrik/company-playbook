@@ -1,13 +1,13 @@
 ## Introduction
 
-Since late 2016 Sparkfabrik's internal services (Gitlab, CI/CD pipelines, SparkBoard, etc) are running into a Kubernetes cluster hosted on GKE/GCE.
+Since late 2016 Sparkfabrik's internal services (Gitlab, CI/CD pipelines, SparkBoard, etc) are running into a Kubernetes cluster hosted on GKE/GCP.
 
 This means that all intermediate environments other than local and production (so integrations, branch builds, epic builds, etc) run in pods into a Google Cloud Engine elastic cluster. The following guide will help you configure your local environment so that you will be able to access services inside pods, open shells into them, read relevant logs and - ultimately - devops all the things! :)
 
 
 ## Step 1: Authentication to Google Cloud
 
-As said, the K8s cluster is running over Google Cloud infrastructure. To access it we first need to authenticate on GCE.  
+As said, the K8s cluster is running over Google Cloud infrastructure. To access it we first need to authenticate on GCP.  
 Rejoy! Your `sparkfabrik.com` account is enough to perform authentication, but you'll need to open a terminal and [install `gcloud` CLI tool](https://cloud.google.com/sdk/install). Follow the link to get `gcloud` running on your OS.
 
 Once done, you can authenticate running
@@ -35,15 +35,15 @@ $ sudo apt install kubectl
 ```
 
 Once `kubectl` is installed `gcloud` command will allow us to access the GKE cluster.  
-`gcloud` CLI manages so many GCE services and areas that there are commands specific to each one. To tame the complexity, all commands are grouped and subgrouped.
+`gcloud` CLI manages so many GCP services and areas that there are commands specific to each one. To tame the complexity, all commands are grouped and subgrouped.
 
 Right now, the `container` group is what we need: it contains groups of commands by which we can manage GKE aspects, like clusters, node-pools, Container Registry images, and so on.
 
-We are going to use a command in the `clusters` subgroup in `container` group to gain access to the container. That command is `get-credentials` which fetches credentials for already running clusters.
+We are going to use a command in the `clusters` subgroup of the `container` group to gain access to the cluster. That command is `get-credentials` which fetches credentials for already running clusters.
 
 Now, the `get-credentials` command takes a single parameter which is the **cluster name**. In our case it is `spark-op-services`. In additions there is a mandatory flag that specifies the region and the datacenter zone inside the region (namely, where is the cluster phisically running?): `--zone`.
 
-Last but not least, there is a flag that is not specific to the `get-credentials` command, which is `--project`. Projects in GCE are similare to realms. Not to be confused with *namespaces*, (quoting GCE docs)
+Last but not least, there is a global flag (not specific to the `get-credentials` command), which is `--project`. Projects in GCP are similare to realms. Not to be confused with *K8s namespaces*, (quoting GCP docs)
 
 > [...] projects form the basis for creating, enabling, and using all GCP services including managing APIs, enabling billing, adding and removing collaborators, and managing permissions for GCP resources.
 
@@ -84,13 +84,13 @@ Mind though that depeding on permissions on your account the output of this comm
 
 ## Step 4: Namespaces
 
-We mentioned projects, which is GCE realms to address accountability, ACLs and other "administrative" aspects related to the GCE services.
+We mentioned projects, which is GCP realms to address accountability, ACLs and other "administrative" aspects related to the GCP services.
 
 Projects as never to be confused with **namespaces**. The concept of namespace here is intended as typical of Kubernetes: K8s namespaces allow to segment the same "physical" cluster in reserved spaces, like they are separate clusters.
 
 This makes us sure critical ops won't concurr for resources or won't hinder each other in case of malfunctioning, **at a cluster level**.
 
-We use this feature to make sure each Gitlab project (again, not to be confused with GCE projects): each customer or internal project that needs build environments in Gitlab, lives in its own namespace.
+We use this feature to make sure each Gitlab project (again, not to be confused with GCP projects): each customer or internal project that needs build environments in Gitlab, lives in its own namespace.
 
 Let's take a look at all namespaces available in the cluster:
 
@@ -130,7 +130,7 @@ Follow `Settings -> Integrations -> Kubernetes -> Namespace` in the project page
 OK, so far we have this hierarchy:
 
 ```
-GCE Project foo
+GCP Project foo
  └── Cluster bar
     ├── Namespace foo-bar-alpha
     ├── Namespace foo-bar-bravo
