@@ -72,20 +72,27 @@ Given you roll a critical hit during your first interview, we will call you back
 
 What "technical" means actually depends on your profile. Maybe you applied as a developer, UX designer, cloud engineer, agile product owner or whatever else. No matter what, in your technical interview we will get a grasp on your real proficiency and operational attitude. We will also answer your questions about how we do things and why. It has to be a conversation so we can both bring some value home.
 
-`TBD`
+`THIS SECTION IS STILL WIP - Score details have to be defined`
+
+Your technical interview score will depend on various aspects, not just production skills.
 
 ```
-- Skills and expertise
-- Contributions to FOSS
-- Passionate about the matter
-- Experienced in agile metodologies
-- Good communicator
-- ...
+WIP
+
+- Your skills and expertise
+- Your contributions to FOSS or the community
+- Are your passionate about your matter?
+- Are you experienced in agile metodologies?
+- Are your a good communicator?
+- Have your ever been a technical mentor?
+...
+
+WIP
 ```
 
 ## Technical challenge
 
-Depending on your areas of proficiency, we will ask you to endure a technical challenge that can go from a few hours to a full day.
+If you are applying for a medior (or above) level and depending on your areas of proficiency, we will ask you to endure a technical challenge that can go from a few hours to a full day.  
 The goal of the technical challenge is to see you at work in our environment.
 
 The actual challenge may change: you may have to produce something with a given technology, analyze a problem and provide your observation, explain and comment on something you produced in your spare time, dismantle a messy requirement in a set of user stories, reproduce a diabolical visual with CSS, or such.
