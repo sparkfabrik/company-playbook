@@ -1,6 +1,6 @@
 ## Projects environments general availability
 
-Our CI pipelines build a lot of different environments for each project each day.  
+Our CI pipelines build a lot of different environments for each project every day.  
 Aside from branch-related pipelines built for automated testing purposes, we also have more stable environments like staging, demos or develop.
 
 Those environments live on a Kubernetes cluster (see [Access Kubernetes Sparkfabrik cluster](/recipes/access-k8s-sparkfabrik-cluster)) which under load may scale well over 20 active nodes. To reduce costs **and** to enforce our policies on a healthy work/life balance, we leverage the dynamic nature of the cloud and scale the cluster down to 2 or 3 nodes after 8:00PM. At 8:00AM the environment are respawn transparently.  
@@ -22,7 +22,7 @@ Again, get in touch with the operations team or write to to [support@sparkfabrik
 
 ### I occasionally need to work on the environment outside normal working hours
 
-You can reprovision a shutdown environment by yourself. Just run the last deploy job in the project for the necessary environment. You don't need to re-run the whole build pipeline, just the deploy job. This will make the environment up and running up up the the next working day.
+You can reprovision a shutdown environment by yourself. Just run the last deploy job in the project for the necessary environment. You don't need to re-run the whole build pipeline, just the deploy job. This will make the environment up and running up to the next working day.
 
 ## Urgent support
 
