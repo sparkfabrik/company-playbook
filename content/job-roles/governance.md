@@ -22,7 +22,6 @@ The board is composed by skilled professionals of various fields and provide non
 * **Massimo Fasoli** - Technology Sales manager, Investment funds manager.
 * **Henning Schwanhaeusser** - Investor.
 
-
 ## Steering committee
 
 The steering committee works to overcome organizational problems and advance company's practices. It operate on a constant basis on top of the projects level, overseeing the processes, validating methodologies and improving the whole delivery process.
