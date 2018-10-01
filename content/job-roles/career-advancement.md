@@ -1,3 +1,8 @@
+/*
+Description: How people grow and specialize in SparkFabrik
+Sort: 30
+*/
+
 People in Sparkfabrik should expect to advance on their career path almost constantly.  
 Growth is awarded by the combination of two mechanisms.
 
