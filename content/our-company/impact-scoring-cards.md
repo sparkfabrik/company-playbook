@@ -31,4 +31,4 @@ We prefer processes and evolutionary agreements over rules. Still we want everyb
 * [Junior developer](/job-roles/role-isc-junior-developer)
 * [Senior developer](/job-roles/role-isc-senior-developer)
 * [Lead developer](/job-roles/role-isc-lead-developer)
-* [Professional](/job-roles/role-isc-professional)We all share a set of accountabilities, regardless of our job position and role on any specific project:
+* [Professional](/job-roles/role-isc-professional)
