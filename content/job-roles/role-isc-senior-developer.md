@@ -25,7 +25,7 @@ You have clear what's expected from you and what you have to do to match the exp
 
 ### Strong opinions, lightly held
 
-You speak your mind and sustain your ideas with words and facts, but you are open to critics and listen with open ears.
+You speak your mind and sustain your ideas with words and facts, but you are open to criticism and listen with open ears.
 
 ## Business impacts
 

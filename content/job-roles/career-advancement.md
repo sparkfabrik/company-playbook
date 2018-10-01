@@ -21,10 +21,10 @@ Stepping up will impact:
 
 ## Taking the challenge
 
-To fullfill [its vision](), Sparkfabrik sells and cultivate high seniorities. Thus we expect junior developers to work hard to step up and we **require** that, once the proper goals are completed they will be ready to take the responsibilities of a senior developer.
+To fullfill [its vision](), Sparkfabrik sells and cultivates high seniorities. Thus we expect junior developers to work hard to step up and we **require** that, once the proper goals are completed they will be ready to take the responsibilities of a senior developer.
 
-Not all senior developers crave to become leaders or top professionals, instead. This is understandable and we respect the choice. 
-When a senior developer's meets the requirements for a career advancement, we will present her the opportunity, explaining new role's benefit, expectations and duties. It is to the developer to take or leave.
+Not all senior developers crave to become leaders or top professionals, instead. This is understandable and we respect the choice.  
+When a senior developer meets the requirements for a career advancement, we will present her the opportunity, explaining new role's benefits, expectations and duties. It is to the developer to take or leave.
 
 We encourage everybody to accept the challenge and may, in many cases, probe people that already refused as we see an occasion for her to shine, but won't push or force any advancement.
 

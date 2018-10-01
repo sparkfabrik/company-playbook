@@ -29,12 +29,12 @@ You perceive the overall impacts of your day-to-day choices and know when to ask
 
 ### Strong opinions, lightly held
 
-You speak your mind and sustain your ideas with words and facts, but you are open to critics and listen with open ears.
+You speak your mind and sustain your ideas with words and facts, but you are open to criticism and listen with open ears.
 
 ## Business impacts
 
 * You define implementative details of solutions that fulfill business goals, matching our high quality standards
-* You realize solutions that business goals, matching our high quality standards, as defined with your team
+* You realize solutions that fulfill business goals, matching our high quality standards, as defined with your team
 * You log at least 28 (@TODO check with Giaco) billable hours of valuable work for the clients
 * You contribute useful software, knowledge, tools and documentation both inside and outside the company
 

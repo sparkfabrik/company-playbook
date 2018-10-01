@@ -12,7 +12,7 @@ We recognize four levels of professional skills, depending on seniority and leve
 * **Junior developer**: this is the level where duly graduated people or developers already experienced on other technologies start. We expect people to quickly step up to the next level, ideally in 12 to 36 months of employment.
 * **Senior developer**: this is the level that compose the big part of our company and that we heavily rely upon. People at this level are skilled and proficient with both our technology and our methodology. They can mentor juniors and are authonomous in their work.
 * **Lead developer**: those are the people that lead teams and projects in Sparkfabrik. Those people have a senior level background on top of which they developed the soft skills necessary to govern the social, technical and organizative complexity of our work.
-* **Professional**: this is the highest operational role in Sparkfabrik. Professionals are the people that embody a speciality, can lead one or multiple teams at one, represent Sparkfabrik at important tables, provide training and mentorships, etc. Professionals may occasionally lead a team, but they are actually supposed to work cross-teams as reference key people.
+* **Professional**: this is the highest operational role in Sparkfabrik. Professionals are the people that embody a speciality, can work with one or multiple teams at once, represent Sparkfabrik at important tables, provide training and mentorships, etc. Professionals may occasionally lead a team, but they are actually supposed to work cross-teams as reference key people.
 
 ### Specialities
 
