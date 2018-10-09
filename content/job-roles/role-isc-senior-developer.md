@@ -4,16 +4,21 @@ Description: Senior Developer role in SparkFabrik
 Sort: 60
 */
 
-@TODO refer to the proper table on Drive for correct information.
-Keep an eye on possile deviation for junior role.
-
 ## Mission
 
-@TODO
+* To define and realize technical solutions that satisfies customer's needs.
+* To follow the direction of your team lead in doing so.
+* To help your junior mates grow, challenging them and giving them fishing cans, not fish.
+* To work following agreed procedures and matching our quality standards.
+* To value collaboration and critiques as the building blocks for trust with colleagues and customers.
+* To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
+* To contribute to the company's technical culture, sharing your mastery with others.
 
 ## Values
 
-@TODO
+* Passion
+* Discipline
+* Communication
 
 ## Attitude
 

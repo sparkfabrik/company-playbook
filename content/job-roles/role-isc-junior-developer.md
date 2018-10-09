@@ -4,16 +4,20 @@ Description: Junior Developer role in SparkFabrik
 Sort: 50
 */
 
-@TODO refer to the proper table on Drive for correct information.
-Keep an eye on possile deviation for junior role.
-
 ## Mission
 
-@TODO
+* To realize technical solutions that satisfies customer's needs.
+* To follow the direction of your team lead in doing so.
+* To work following our agreed procedures and matching our quality standards.
+* To value collaboration and critiques as the building blocks for trust with colleagues and customers.
+* To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
+* To seek assistance every time you are in the need, not trying to shine by self-love or obstinacy.
 
 ## Values
 
-@TODO
+* Passion
+* Curiosity
+* Communication
 
 ## Attitude
 

@@ -4,16 +4,22 @@ Description: Lead Developer role in SparkFabrik
 Sort: 70
 */
 
-@TODO refer to the proper table on Drive for correct information.
-Keep an eye on possile deviation for junior role.
-
 ## Mission
 
-@TODO
+* To understand customer's needs and help the customer state them in a clear, understandable form.
+* To design systems that satisfies customer's needs.
+* To guide your development team to implement those systems.
+* To promote our procedures and standards and to find new opportunities to improve them.
+* To teach by example and words, showing the value of excellence.
+* To value collaboration and critiques as the building blocks for trust with colleagues and customers.
+* To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
+* To contribute to the company's technical culture, sharing your mastery with others.
 
 ## Values
 
-@TODO
+* Passion
+* Discipline
+* Teamwork
 
 ## Attitude
 

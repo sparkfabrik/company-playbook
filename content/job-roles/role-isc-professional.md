@@ -4,16 +4,22 @@ Description: Professional role in SparkFabrik
 Sort: 80
 */
 
-@TODO refer to the proper table on Drive for correct information.
-Keep an eye on possile deviation for junior role.
-
 ## Mission
 
-@TODO
+* To make your unique skills available to the whole company.
+* To help lead and senior development achieving their mission.
+* To dominate complexity, chew difficulties and laugh in the face of pressure.
+* To promote our procedures and standards and to find new opportunities to improve them.
+* To teach by example and words, showing the value of excellence.
+* To value collaboration and critiques as the building blocks for trust with colleagues and customers.
+* To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
+* To contribute to the company's technical culture, sharing your mastery with others.
 
 ## Values
 
-@TODO
+* Passion
+* Availability
+* Teamwork
 
 ## Attitude
 
