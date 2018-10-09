@@ -1,3 +1,9 @@
+/*
+Title: Roles - Junior Developer
+Description: Junior Developer role in SparkFabrik
+Sort: 50
+*/
+
 @TODO refer to the proper table on Drive for correct information.
 Keep an eye on possile deviation for junior role.
 

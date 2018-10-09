@@ -1,3 +1,8 @@
+/*
+Description: How we calculate salaries in SparkFabrik
+Sort: 40
+*/
+
 ## Salary calculator
 
 Wages are calculated starting from baseline salary brackets, sized by role.
@@ -49,7 +54,7 @@ In this case you will have to meet higher expectations:
 
 ## Impact scoring adjustments
 
-Your score ca
+Your score card @TODO: finish this part
 
 | Years of service | Salary increase (€) |
 |---|---|

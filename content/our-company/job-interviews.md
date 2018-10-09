@@ -1,3 +1,8 @@
+/*
+Description: How we perform recruitment meetings and assess skills in SparkFabrik
+Sort: 20
+*/
+
 We are constantly evolving our hiring skills and practices.
 
 What follow is a broad depiction of our hiring workflow, from first contact to job offer signing.

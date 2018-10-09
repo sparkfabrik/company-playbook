@@ -1,3 +1,8 @@
+/*
+Description: Governance roles and functions in SparkFabrik
+Sort: 20
+*/
+
 Governance in Sparkfabrik is organized in functions, not roles.  
 C-level roles are assigned to key people, that generally own government functions. Owning doesn't imply the function is totally carried out by that person. Professionals and lead developers at operational level cooperate with the government function owner to make it happen.
 

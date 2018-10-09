@@ -1,3 +1,8 @@
+/*
+Description: Operational roles and functions in SparkFabrik
+Sort: 10
+*/
+
 In Sparkfabrik the term _developer_ is used generally to identify employees that deliver solutions to the customer.  
 It doesn't really matter if your job is to write code, design a new interface or taking care of the operations on a cloud appliance. Your job is still to _develop_ things: be it from scratch or to improve them.
 

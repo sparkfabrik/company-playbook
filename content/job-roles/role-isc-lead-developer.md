@@ -1,3 +1,9 @@
+/*
+Title: Roles - Lead Developer
+Description: Lead Developer role in SparkFabrik
+Sort: 70
+*/
+
 @TODO refer to the proper table on Drive for correct information.
 Keep an eye on possile deviation for junior role.
 

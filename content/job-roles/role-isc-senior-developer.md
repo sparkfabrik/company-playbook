@@ -1,3 +1,9 @@
+/*
+Title: Roles - Senior Developer
+Description: Senior Developer role in SparkFabrik
+Sort: 60
+*/
+
 @TODO refer to the proper table on Drive for correct information.
 Keep an eye on possile deviation for junior role.
 

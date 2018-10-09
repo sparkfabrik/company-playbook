@@ -1,3 +1,9 @@
+/*
+Title: Roles - Professional
+Description: Professional role in SparkFabrik
+Sort: 80
+*/
+
 @TODO refer to the proper table on Drive for correct information.
 Keep an eye on possile deviation for junior role.
 

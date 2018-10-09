@@ -1,3 +1,9 @@
+/*
+Title: Impact scoring cards
+Description: How accountabilities for the different roles work in SparkFabrik
+Sort: 40
+*/
+
 Operational roles are described in terms of **impact scoring cards**: documents that describe the expected positive impact a role has to the business.
 
 As you take on new roles and possibly even move between specialities (we love multi-talented people), your accountabilities will be described by one (or more) scoring cards.
