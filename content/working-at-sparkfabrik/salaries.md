@@ -38,7 +38,7 @@ When your length of service exceed the following milestones your wage will autom
 ## Job interview scoring adjustments
 
 During your job interview we will try to assess your profinciency and skills level so we can decide where you are placed on the ladder.
-Depending on your expectations, the interviewer perception and the overall [job interview score](/our-company/job-interviews) you can be assigned an adjustment of up to +/-10% of the baseline salary.
+Depending on your expectations, the interviewer perception and the overall [job interview score](/working-at-sparkfabrik/job-interviews) you can be assigned an adjustment of up to +/-10% of the baseline salary.
 
 A negative adjustment signals something is not desirable to us but we can decide to take a chance on you if we recognize key aspects of your personality that can fill the gap in the very first period of your career.  
 In this case we will have to set clear goals and operate so that:

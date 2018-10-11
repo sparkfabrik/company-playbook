@@ -12,7 +12,7 @@ Operationals career paths expand vertically (_Growth_) and horizontally (_Specia
 
 ### Growth
 
-We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its own salary bracket, mission and clear expectations. Developers [progress over this career path](/our-company/career-advancement.md) by their lenght of service, their results and by nurturing their technical and non-technical skills.
+We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its own salary bracket, mission and clear expectations. Developers [progress over this career path](/working-at-sparkfabrik/career-advancement.md) by their lenght of service, their results and by nurturing their technical and non-technical skills.
 
 * **Junior developer**: this is the level where duly graduated people or developers already experienced on other technologies start. We expect people to quickly step up to the next level, ideally in 12 to 36 months of employment.
 * **Senior developer**: this is the level that compose the big part of our company and that we heavily rely upon. People at this level are skilled and proficient with both our technology and our methodology. They can mentor juniors and are authonomous in their work.
@@ -30,4 +30,4 @@ We explained Sparkfabrik only employs _developers_. Sure there are differences a
 
 ## How to advance
 
-We track and rule [people career advancement](/our-company/career-advancement.md) to make it fair and clear to everybody.
+We track and rule [people career advancement](/working-at-sparkfabrik/career-advancement.md) to make it fair and clear to everybody.

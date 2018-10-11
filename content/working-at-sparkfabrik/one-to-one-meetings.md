@@ -10,7 +10,7 @@ HR representative and team leads engaging in one-to-ones with developers are req
 ## Scheduling
 
 One-to-one meetings are scheduled at the beginning of every quarter. All employees with a role in operations will attend the meeting with a designated HR representative.  
-Optionally junior developers scoring [may be evaluated by a senior team mate](/our-company/impact-scoring#how-scoring-happens) and the one-to-one attended with a lead developer.
+Optionally junior developers scoring [may be evaluated by a senior team mate](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) and the one-to-one attended with a lead developer.
 
 ## Goal
 
