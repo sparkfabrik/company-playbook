@@ -12,7 +12,7 @@ Operationals career paths expand vertically (_Growth_) and horizontally (_Specia
 
 ### Growth
 
-We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its own salary bracket, mission and clear expectations. Developers [progress over this career path](/job-roles/career-advancement.md) by their lenght of service, their results and by nurturing their technical and non-technical skills.
+We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its own salary bracket, mission and clear expectations. Developers [progress over this career path](/our-company/career-advancement.md) by their lenght of service, their results and by nurturing their technical and non-technical skills.
 
 * **Junior developer**: this is the level where duly graduated people or developers already experienced on other technologies start. We expect people to quickly step up to the next level, ideally in 12 to 36 months of employment.
 * **Senior developer**: this is the level that compose the big part of our company and that we heavily rely upon. People at this level are skilled and proficient with both our technology and our methodology. They can mentor juniors and are authonomous in their work.
@@ -23,11 +23,11 @@ We recognize four levels of professional skills, depending on seniority and leve
 
 We explained Sparkfabrik only employs _developers_. Sure there are differences and each person has her own natural or acquired inclination. We broadly recognize four _Specialities_ that qualifies you as a developer and do our best to make you shine in accordance with your nature. During your career you will be probably cover more than a single speciality, even at the same time.
 
-* **Analyst**: Analysts are great when it comes to map a domain, understand complexity and express it in a clear, rational, understandable form. Analysts may not always have a solution at hand but for sure they know when a need is fulfilled or a problem is solved. Analysts skills make for great Product Owners.
+* **Analyst**: Analysts are great when it comes to map a domain, fathom complexity and express it in a clear, rational, understandable form. Analysts may not always have a solution at hand but for sure they know when a need is fulfilled or a problem is solved. Analysts skills make for great Product Owners.
 * **Architect**: Architects describe the best possible solution to a framed problem. They are great decision makers, understand the long term implications of technical choices, know how to quickly probe, understand and adapt and always grasp the big picture.
 * **Specialist**: Specialists are vertically expert in a discipline or area, be it writing software, cloud operations, implementing Agile or UX design. Those are the most keen to work in pair with project teams on the long run, when there are critical challenges.
 * **Manager**: Managers make things work. They coach, measure, plan, steer and ultimately support people to give their best, remove obstacles, improve their processes and procedures. In Sparkfabrik people are never managed, work is. So managers govern but never rule.
 
 ## How to advance
 
-We track and rule [people career advancement](/job-roles/career-advancement.md) to make it fair and clear to everybody.
+We track and rule [people career advancement](/our-company/career-advancement.md) to make it fair and clear to everybody.

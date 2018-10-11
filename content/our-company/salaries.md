@@ -46,7 +46,7 @@ In this case we will have to set clear goals and operate so that:
 1. your impact score is decent at the first check (@TODO quantify!)
 2. your impact score raise within 3 months of employment
 
-A reward mean that we recognize good qualities in you for the role you are applying for or that we allow you to accept a challenge despite your request is higher than what we feel right.  
+A reward mean that we recognize good qualities in you for the role you are applying for or that we allow you to accept a challenge despite your request is higher than what we offer out of the box.  
 In this case you will have to meet higher expectations:
 
 1. your first impact review must score at least X points (@TODO quantify)
@@ -54,7 +54,7 @@ In this case you will have to meet higher expectations:
 
 ## Impact scoring adjustments
 
-Your score card @TODO: finish this part
+
 
 | Years of service | Salary increase (€) |
 |---|---|

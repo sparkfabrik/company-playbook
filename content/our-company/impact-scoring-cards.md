@@ -14,7 +14,7 @@ We all share a set of accountabilities, regardless of our job position and role 
 
 ### Client satisfaction
 
-Client is not always right, or they would not turn to us to solve their problems. Still [we value technical quality and good human relations over aything else](@TODO link the vision). Be kind and clear, explain your positions, always focus on customer needs, with open ears and a bright smile and ultimately deliver a great customer experience.
+Client is not always right, or they would not turn to us to solve their problems. Still [we value technical quality and good human relations over aything else](https://www.sparkfabrik.com/en/who-we-are.html). Be kind and clear, explain your positions, always focus on customer needs, with open ears and a bright smile and ultimately deliver a great customer experience.
 
 ### Delivering projects
 
