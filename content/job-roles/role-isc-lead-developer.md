@@ -52,7 +52,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 * You clearly identify the value behind a requirement and orient your work towards the delivery of that value, in accordance with our technical and human standards.
 * You lead the creation of high-quality software, on time and in budget.
 * You define the architecture of solutions that fulfill business goals, matching our high quality standards
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards
+* You help your team define implementative details of solutions that fulfill business goals, matching our high quality standards
 * You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company
 * You log at least 20 (@TODO check with Giaco) billable hours of valuable work for the clients
 * You contribute useful software, knowledge, tools and documentation both inside and outside the company
