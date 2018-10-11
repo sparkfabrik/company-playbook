@@ -1,6 +1,6 @@
 /*
 Description: How we manage performance and rewarding in SparkFabrik
-Sort: 30
+Sort: 60
 */
 
 As every fast growing company we faced the problem of unbiased performance and rewarding mechanisms.

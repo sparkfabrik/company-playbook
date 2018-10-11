@@ -1,6 +1,6 @@
 /*
 Description: How people grow and specialize in SparkFabrik
-Sort: 30
+Sort: 40
 */
 
 People in Sparkfabrik should expect to advance on their career path almost constantly.  

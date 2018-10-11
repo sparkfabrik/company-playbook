@@ -1,6 +1,6 @@
 /*
 Description: How we make sure people grow and express themselves in SparkFabrik
-Sort: 50
+Sort: 80
 */
 
 Our one-to-one meeting is heavily inspired in spirit and practice by the [24 questions to ask in your next 1:1 meeting](https://www.small-improvements.com/blog/24-questions-ask-next-11-meeting/) post by Jason Lauristen on _Small improvements_ blog.

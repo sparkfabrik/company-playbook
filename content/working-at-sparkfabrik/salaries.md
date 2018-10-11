@@ -1,6 +1,6 @@
 /*
 Description: How we calculate salaries in SparkFabrik
-Sort: 40
+Sort: 30
 */
 
 ## Salary calculator
