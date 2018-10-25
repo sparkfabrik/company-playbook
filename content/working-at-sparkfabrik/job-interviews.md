@@ -97,7 +97,7 @@ WIP
 
 ## Technical challenge
 
-If you are applying for a medior (or above) level and depending on your areas of proficiency, we will ask you to endure a technical challenge that can go from a few hours to a full day.  
+Depending on your areas and level of proficiency, we may ask you to endure a technical challenge that can go from a few hours to a full day.
 The goal of the technical challenge is to see you at work in our environment.
 
 The actual challenge may change: you may have to produce something with a given technology, analyze a problem and provide your observation, explain and comment on something you produced in your spare time, dismantle a messy requirement in a set of user stories, reproduce a diabolical visual with CSS, or such.
