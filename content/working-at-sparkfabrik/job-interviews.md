@@ -77,23 +77,79 @@ Given you roll a critical hit during your first interview, we will call you back
 
 What "technical" means actually depends on your profile. Maybe you applied as a developer, UX designer, cloud engineer, agile product owner or whatever else. No matter what, in your technical interview we will get a grasp on your real proficiency and operational attitude. We will also answer your questions about how we do things and why. It has to be a conversation so we can both bring some value home.
 
-`THIS SECTION IS STILL WIP - Score details have to be defined`
-
 Your technical interview score will depend on various aspects, not just production skills.
 
-```
-WIP
+### Basic skills and experience
 
-- Your skills and expertise
-- Your contributions to FOSS or the community
-- Are your passionate about your matter?
-- Are you experienced in agile metodologies?
-- Are your a good communicator?
-- Have your ever been a technical mentor?
-...
+**Max score: 7**
 
-WIP
-```
+* You have good fundations of Computer Science (high-school diploma or college degree, or analogue training)
+* You have professional development experience with the programming languages we use the most
+* You have professional development experience with the programming frameworkds we use the most
+* You know how to test your code and you do it as a standard practice
+* You use git in a non-trivial environment (i.e. contribute to projects on github, working in a medium/large team with defined branching model)
+* You feel comfortable moving around a Unix shell and may use a Unix-like OS as your main operating system
+* You know what Docker is and you make use of containers during your daily job
+* You have basic experience with mainstream Cloud vendor services
+
+### Advanced skills and experience
+
+**Max score: 9**
+
+* You have experience engineering and designing complex/multi-service software architectures
+* You have experience with serverless architectures
+* The mentioned experience relates to the same technologies we are currently using
+* You properly document your source code by automatic tools
+* Containerized environments are common practice for you
+* Continuous Integration is common practice for you
+* You have experience with Continuous (or automated) deploy and delivery
+* You know how to optimize your application performance
+* You know how to check and fix security issues in your code
+* You can articulate on your debugging approach, practices and tools
+* You have strong experience with mainstream Cloud vendors services
+* You have real-world experience with Kubernetes orchestrator
+* You are or have in the past been a sysop
+
+### Soft skills
+
+**Max score: 8**
+
+* You can explain how you organize your work to ensure it to be on time, in budget
+* You owned a project from both techcnical and organizational sides
+* You have experience leading a team on medium/long term projects
+* You feel comfortable speaking to an audience
+* You are a good communicator
+* You can manage a troublesome customer
+* You can manage a troublesome colleague
+* You provided technical mentorship (or onboarding coaching) to your junior colleagues
+
+### Agile skills and expertise
+
+**Max score: 7**
+
+* You have experience or training in Agile frameworks
+* You know what a backlog is
+* You played the Product/Project/Process Owner role in a Scrum or Kanban team
+* You played the Scrum Master role in a Scrum team
+* You was part of a development team using Scrum or Kanban and you can articulate on your experience
+* You are certified in one of the named frameworks
+* You can explain when and why it is not adviced to use such approaches
+
+### Passion and contributions
+
+**Max score: 5**
+
+* You can show passionate about the work we (us and you) do
+* You contribute to FOSS projects
+* You maintain or own FOSS projects
+* You organize or help the organization of relevant events
+* You talk to events, engage in hackathons or are active in a community.
+
+The technical interview may run from 60 to 90 minutes depending on your proficiencies level, your argumentations and how much fun we all take from it.
+
+Having the opportunity to take a look at your code or attending a bit of a performance during the interview will surely add useful information and may make you jump the technical challenge if it is totally clear that you are a great fit.
+
+Of course we are available to give you back information on our technical approach and setup so you can decide if SparkFabrik is a good fit for you also. Ideally we will reserve 10 to 20 minutes out of an hour for your questions. In addition, clever questions often matter more than correct responses.
 
 ## Technical challenge
 
