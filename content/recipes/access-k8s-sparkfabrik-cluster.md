@@ -17,6 +17,12 @@ $ gcloud auth login
 
 Provide your `sparkfabrik.com` credentials.
 
+Now configure the gcloud docker integration running:
+
+```text
+$ gcloud auth configure-docker
+```
+
 ## Step 2: Accessing the K8s cluster
 
 Access to the cluster and pods therein will happen using K8s CLI tool `kubectl`.
