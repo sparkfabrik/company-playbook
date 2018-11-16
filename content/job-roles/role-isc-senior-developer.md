@@ -43,7 +43,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 * You define implementative details of solutions that fulfill business goals, matching our high quality standards
 * You realize solutions that business goals, matching our high quality standards, as defined with your team
 * You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company
-* You log at least 32 (@TODO check with Giaco) hours of valuable work for the clients
+* You log at least 28 hours each week of valuable work for the clients
 * You contribute useful software, knowledge, tools and documentation both inside and outside the company
 * You shape new technologies, practices, tools and knowledge, even when you work on customer projects, in accordance with the direction set by the CTO.
 

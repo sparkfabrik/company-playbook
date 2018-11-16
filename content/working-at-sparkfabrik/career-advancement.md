@@ -17,7 +17,7 @@ This practice is heavily inspired by how [Deeson](https://www.deeson.co.uk) and 
 
 Once every three months, as a developer, you attend an [1:1 meeting](/working-at-sparkfabrik/one-to-one-meetings). Among other things, [Impact scoring](/working-at-sparkfabrik/impact-scoring) will be evaluated and discussed in that occasion, to measure your growth on the various business-impacting aspects.
 
-Repetively scoring above a certain threshold (@TODO: WHAT THRESHOLD?) will allow you to be assigned a higher role. Stepping up on your career path will then be based on adherence to values and the actual impact you make, not on personal perception of your merit.
+Matching (or exceeding) a score of `2.5` for three times in a row will allow you to be assigned a higher role. Stepping up on your career path will then be based on adherence to values and the actual impact you make, not on personal perception of your merit.
 
 Stepping up will impact:
 

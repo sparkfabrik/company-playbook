@@ -45,7 +45,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 * You define implementative details of solutions that fulfill business goals, matching our high quality standards
 * You realize solutions that fulfill business goals, matching our high quality standards, as defined with your team
-* You log at least than 28 (@TODO check with Giaco) hours of valuable work for the clients
+* You log at least than 28 hours each week of valuable work for the clients
 * You contribute useful software, knowledge, tools and documentation both inside and outside the company
 
 ## Contributions
