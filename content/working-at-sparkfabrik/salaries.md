@@ -50,22 +50,26 @@ In this case we will take a chance on you, but also set clear goals for you so t
 
 If you score higher during your interview, or if you want to negotiate an initial wage higher than the baseline, you will need to match higher than average expectations:
 
-1. You score **at least** one level below the one you negotiated within at the first check (1 to 3 months from hiring, depending on national contract employee level)
-2. You arranged a proper development plan to feel the possible gap with CTO and HR during your first 1-to-1
-3. Your impact score raise to the average level within the second check (6 months of employment)
+1. At the first check (1 to 3 months from hiring, depending on national contract employee level) your score will not be lower than **one step** below the level you negotiated for<sup id="fnr1">[1](#fn1)</sup>
+2. We expect you to arrange a proper development plan to feel the possible gap with CTO and HR during your first 1-to-1
+3. Your impact score must to raise to the average level within the second check (6 months of employment)
 
 ## Impact scoring adjustments
 
 As long as you repeatedly score above a certain threshold (3 times), you become eligible for a salary increase.
-You may request a single score-supported salary increase during the same year that the company will honor without negotiation.
+You may require a single score-supported salary increase during the same year that the company will honor without negotiation.
 
 If you aim to a higher salary for a specific year, you are encouraged to work toward that goal, working to increase the rating for your role's accountabilities or applying for a higher role, with more accountabilities for example.
 
 The following table represents the adjustements relative to impact scores, per role. To guarantee a fair and inclusive retribution to all company's workforce **these values are not negotiable**.
 
-| Impact Score | 1 | 1,25 | 1,5 | 1,75 | 2 | 2,25 | 2,5 | 2,75 | 3 |
+| Impact Score | 1 | 1.25 | 1.5 | 1.75 | 2 | 2.25 | 2.5 | 2.75 | 3 |
 |:---|---|---|---|---|---|---|---|---|---|
 | **Junior Dev** | € 20.000 | € 21.250 | € 22.500 | € 23.750 | **€ 25.000** | € 25.938 | € 26.875 | € 27.813 | € 28.750 |
 | **Senior Dev** | € 24.000 | € 25.500 | € 27.000 | € 28.500 | **€ 30.000** | € 31.125 | € 32.250 | € 33.375 | € 34.500 |
 | **Lead Dev** | € 28.000 | € 29.750 | € 31.500 | € 33.250 | **€ 35.000** | € 36.313 | € 37.625 | € 38.938 | € 40.250 |
 | **Professional** | € 32.000 | € 34.000 | € 36.000 | € 38.000 | **€ 40.000** | € 41.500 | € 43.000 | € 44.500 | € 46.000 |
+
+---
+
+_<strong id="fn1">1</strong>: For example, if you negotiated a salary of € 26.875 for a Junior position (corresponding to a score of 2.5), you must take a scorecard with a final score of at least 2.25 at your first 1 to 1 meeting. [↩](#fnr1)_
