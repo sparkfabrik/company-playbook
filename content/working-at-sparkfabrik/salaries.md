@@ -28,7 +28,7 @@ Baseline brackets are tuned on an [Impact Score](/working-at-sparkfabrik/impact-
 
 ## Length of service increments
 
-When your length of service exceed the following milestones your wage will automatically increase as listed:
+When your length of service exceeds the following milestones your wage will automatically increase as listed:
 
 | Years of service | Salary increase (€) |
 |---|---|
