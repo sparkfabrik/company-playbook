@@ -58,7 +58,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 * You define the architecture of solutions that fulfill business goals, matching our high quality standards
 * You help your team define implementative details of solutions that fulfill business goals, matching our high quality standards
 * You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company
-* You log at least 32 hours each week of valuable work for the clients
+* You log at least 36 hours each week of valuable work for the clients
 * You contribute useful software, knowledge, tools and documentation both inside and outside the company
 * You shape new technologies, practices, tools and knowledge, even when you work on customer projects, in accordance with the direction set by the CTO.
 
