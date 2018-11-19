@@ -37,7 +37,7 @@ You take promptly decisions, even on partial data, perceiving the overall impact
 
 ### Teamwork
 
-You share your goals with your mates and work with them, never playing the hero or being a team of one. You speak your voice clearly, even when it's difficult, without holding relevant information for fear or stubborness. When being frank makes you uncomfortable, you still strive to be polite and cheerful so you can make your point.
+You share your goals with your mates and work with them, never playing the hero or being a team of one. You speak your voice clearly, even when it's difficult, without holding relevant information for fear or stubbornness. When being frank makes you uncomfortable, you still strive to be polite and cheerful so you can make your point.
 
 ### Self-organization
 
