@@ -21,6 +21,10 @@ Sort: 80
 * Availability
 * Teamwork
 
+## Awesomeness horizon
+
+You are already topping the awsomeness level. The higher your score, the higher the reward.
+
 ## Attitude
 
 ### Advocacy

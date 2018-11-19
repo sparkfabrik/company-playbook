@@ -20,6 +20,10 @@ Sort: 60
 * Discipline
 * Communication
 
+## Awesomeness horizon
+
+If you score three times in a row over `2.5` you may get a career advancement.
+
 ## Attitude
 
 ### Teamwork

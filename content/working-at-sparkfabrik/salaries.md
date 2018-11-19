@@ -59,7 +59,7 @@ If you score higher during your interview, or if you want to negotiate an initia
 As long as you repeatedly score above a certain threshold (3 times), you become eligible for a salary increase.
 You may require a single score-supported salary increase during the same year that the company will honor without negotiation.
 
-If you aim to a higher salary for a specific year, you are encouraged to work toward that goal, working to increase the rating for your role's accountabilities or applying for a higher role, with more accountabilities for example.
+If you aim to a higher salary for a specific year, you are encouraged to work towards that goal, working to increase the rating for your role's accountabilities or applying for a higher role, with more accountabilities for example.
 
 The following table represents the adjustements relative to impact scores, per role. To guarantee a fair and inclusive retribution to all company's workforce **these values are not negotiable**.
 
