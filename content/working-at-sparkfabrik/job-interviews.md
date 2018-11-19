@@ -153,14 +153,9 @@ Of course we are available to give you back information on our technical approac
 
 ## Technical challenge
 
-Depending on your areas and level of proficiency, we may ask you to endure a technical challenge that can go from a few hours to a full day.
-The goal of the technical challenge is to see you at work in our environment.
+Depending on your areas and level of proficiency, we may ask you to endure a technical challenge. The main goal of this activity is to see you at work in our environment.
 
-The actual challenge may change: you may have to produce something with a given technology, analyze a problem and provide your observation, explain and comment on something you produced in your spare time, dismantle a messy requirement in a set of user stories, reproduce a diabolical visual with CSS, or such.
-
-No matter the challenge nature, you'll be assigned a mentor for it, so you know whom to talk to in case of need.
-
-During the challenge you'll have access to the internet, our team, our offices and all the devices, tools and boons you would reasonably get in your everyday job. It is not a school exam and there is not always a bar to pass. It is instead a sort of benchmark that will give us an idea about:
+Technical challenges here are not setup like school exams and there is not always a bar to skip. It is more of a benchmark that will give us an idea about:
 
 * How you jump onto problems and tackle them
 * How you face a healthy stress
@@ -174,15 +169,49 @@ On the other hand we want you to:
 * Make questions about how we do things and why
 * Speak your voice
 
-You will be assigned a score, like follows.
+Depending on your availability, geographical position and other possible constraints, we can arrange the challenge to be taken _in person_ or remotely.
+
+### In person challenges
+
+In this case the actual challenge may change: you might have to produce something with a given technology, analyze a problem and provide your observation, explain and comment on something you produced in your spare time, dismantle a messy requirement in a set of user stories, reproduce a diabolical visual with CSS, or such.
+
+No matter the challenge nature, you'll be assigned a mentor for it, so you know whom to talk to in case of need.
+
+During in person challenges you'll have access to the internet, our team, our offices and all the devices, tools and boons you would reasonably get in your everyday job.
+
+### Remote challenges
+
+Moving to our offices for the time necessary to take a challenge is not always feasible. For those cases we will ask you to engage in a fictional project development using a Trello agile board.
+
+We have some **Technical Challenge board templates** availabe for you to clone right away. Each board lists all challenge instructions and rules, together with some useful resources.
+
+The board also sports a product backlog, describing a fictional product or agile activity. The backlog may be taken in charge directly in the board. A column for notes and asynchronous discussions is also there.
+
+To take the challenge you must:
+
+* Clone the board
+* Put your name in the board title so we can find your one
+* Invite your SparkFabrik mentors to the board (generally the CTO and HR responsible for your hiring)
+* Start working on the project
+
+Your assigned mentor will play the role of the _Product Owner_ for this fake product.  
+The base technologies may change, depending on what's relevant in your specific case.
+
+To date the following remote challenge template boards are available:
+
+* [SparkFabrik development challenge](https://trello.com/b/iZpT5tIa/sparkfabrik-development-challenge-template): develop a simple web application to store and retrieve quotes on a technology of our choice.
+
+Please, be available to come visit or attend a 2-hrs call to present your work, review it with us and collect our feedback.
+
+At the end of your challenge you will be assigned a score, like follows.
 
 ### Social attitude
 
 **Max score: 3**
 
 * You reached out for help or a simple review by your mentor
-* You managed to controll stress and kept a positive mood during the day
-* You spent some time with other colleagues and learnt about how life in SparkFabrik actually is
+* You managed to controll stress and kept a positive mood along the activity
+* You spent some time with other colleagues and learned about how life in SparkFabrik actually is
 
 ### Self organization
 
