@@ -232,7 +232,9 @@ At the end of your challenge you will be assigned a score, like follows.
 
 ### Boons
 
-**Any of the following may increase your score.**
+Any of the following may increase your score.
+
+**Max score: 4**
 
 * It is clear you took fun in the challenge
 * You helped us shape the challenge idea or raised the stake
