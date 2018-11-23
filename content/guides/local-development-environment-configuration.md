@@ -46,7 +46,7 @@ On MacOSX the local host resolver is the one native to MacOSX itself, while the 
 ### Automatic installation with the sparkdock privisioner (recommended way)
 
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/bin/bootstrap)
+bash <(curl -fsSL https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/bin/install.macosx)
 ```
 
 This will provision a VirtualBox VM ready to use and will do most of the configuration required to access containers from outside the VM. Also dnsdock container will be created and activated.
@@ -60,7 +60,7 @@ If you already have VirtualBox, select a custom ("Ad hoc") installation and dese
 After installing Docker Toolbox, use the terminal to create *a new Docker machine* using this command:
 
 ```
-docker-machine create dev -d virtualbox --virtualbox-disk-size 50000 --virtualbox-cpu-count 1 --virtualbox-memory 4096
+docker-machine create dinghy -d virtualbox --virtualbox-disk-size 50000 --virtualbox-cpu-count 1 --virtualbox-memory 4096
 ```
 
 Adjust the settings according to your system; the command above specify:
@@ -73,18 +73,18 @@ At the end of the installation use the `docker-machine ls` command, and you shou
 ```
 % docker-machine ls
 NAME   ACTIVE   DRIVER       STATE     URL                         SWARM
-dev    *        virtualbox   Running   tcp://192.168.99.100:2376
+dinghy    *        virtualbox   Running   tcp://192.168.99.100:2376
 ```
 
-Now you should add to the init script of your shell sessions something that automatically loads environment variable needed in order to connect to the dev machine.
+Now you should add to the init script of your shell sessions something that automatically loads environment variable needed in order to connect to the dinghy machine.
 Add this lines to your *.bashrc* or *.zshrc*:
 
 ```
-eval "$(docker-machine env dev)"
-export DOCKER_MACHINE_IP=$(docker-machine ip dev)
+eval "$(docker-machine env dinghy)"
+export DOCKER_MACHINE_IP=$(docker-machine ip dinghy)
 ```
 
-Install *dnsdock* with this command, that will create a container that will always start once the dev machine starts:
+Install *dnsdock* with this command, that will create a container that will always start once the dinghy machine starts:
 
 ```
 docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.42.1:53:53/udp aacebedo/dnsdock:v1.15.0-amd64
@@ -97,7 +97,7 @@ After either manual or automatic installation, it's recommended to manually conf
 *Set up routing*
 
 ```
-sudo route -n add -net 172.17.0.0 $(docker-machine ip dev)
+sudo route -n add -net 172.17.0.0 $(docker-machine ip dinghy)
 ```
 
 *Clear your DNS caches*:
