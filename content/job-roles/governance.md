@@ -17,16 +17,6 @@ Current board is composed by company founders, with the following duties.
 * **Paolo Mainardi**: CTO - Oversees company's technology. Works to ensure that technology-related decisions align with business goals.
 * **Alessio Piazza**: COO - Oversees company's day-to-day operations, sourcing, process control, resource allocation and activity planning.
 
-## Advisory board
-
-The company established an advisory board in 2018.  
-The board is composed by skilled professionals of various fields and provide non-binding strategic advice and validation to the Executive board. Current advisory board is composed by:
-
-* **Sebastiano Rocca** - CEO and strategic consultant.
-* **Piero Almiento** - Marketing Professor.
-* **Massimo Fasoli** - Technology Sales manager, Investment funds manager.
-* **Henning Schwanhaeusser** - Investor.
-
 ## Steering committee
 
 The steering committee works to overcome organizational problems and advance company's practices. It operate on a constant basis on top of the projects level, overseeing the processes, validating methodologies and improving the whole delivery process.
