@@ -44,15 +44,15 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards
-* You realize solutions that business goals, matching our high quality standards, as defined with your team
-* You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company
-* You log at least 36 hours each week of valuable work for the clients
-* You contribute useful software, knowledge, tools and documentation both inside and outside the company
+* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
+* You realize solutions that business goals, matching our high quality standards, as defined with your team.
+* You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company.
+* You substantially improve internal projects (new features, bugfixes, documentation) based on your skills, aspirations and training goals.
 * You shape new technologies, practices, tools and knowledge, even when you work on customer projects, in accordance with the direction set by the CTO.
 
 ## Contributions
 
-* You generate at least one content each 6 months about technology, methodology or practices for Sparkfabrik's media.
+* You generate (or help to) content about technology, methodology or practices for Sparkfabrik's media.
 * You keep our Company Playbook up to date, extend and fix it every time you see the need.
-* You delivery each 1 months a substantial contribution (new feature, bugfix, design, documentation) to internal projects based on your skills, aspirations and training goals.
+* You partecipate in CFPs and apply as speaker at relevant conferences.
+* You deliver substantial contributions (new features, bugfixes, documentation, translations) to community projects based on your skills, aspirations and training goals.

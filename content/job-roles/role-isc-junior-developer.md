@@ -47,13 +47,13 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards
-* You realize solutions that fulfill business goals, matching our high quality standards, as defined with your team
-* You log at least than 32 hours each week of valuable work for the clients
-* You contribute useful software, knowledge, tools and documentation both inside and outside the company
+* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
+* You realize solutions that fulfill business goals, matching our high quality standards, as defined with your team.
+* You learn new, useful skills, taking advantage of any opportunity, balancing possible negative impacts on your duties.
+* You help improve internal projects (even if just with bugfixes or documentation) based on your skills, aspirations and training goals.
 
 ## Contributions
 
-* You generate at least one content each 12 months about technology, methodology or practices for Sparkfabrik's media.
+* You propose or help to generate content about technology, methodology or practices for Sparkfabrik's media.
 * You keep our Company Playbook up to date, extend and fix it every time you see the need.
-* You delivery each 2 months a substantial contribution (new feature, bugfix, design, documentation) to internal projects based on your skills, aspirations and training goals.
+* You deliver contributions (bugfixes, documentation, translations) to community projects based on your skills, aspirations and training goals.
