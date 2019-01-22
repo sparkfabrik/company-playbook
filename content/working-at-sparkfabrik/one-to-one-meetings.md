@@ -9,12 +9,13 @@ HR representative and team leads engaging in one-to-ones with developers are req
 
 ## Scheduling
 
-One-to-one meetings are scheduled at the beginning of every quarter. All employees with a role in operations will attend the meeting with a designated HR representative.  
-Optionally junior developers scoring [may be evaluated by a senior team mate](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) and the one-to-one attended with a lead developer.
+Three (3) one-to-one meetingd are scheduled each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
+Each employee must [get ready for the meeting compiling her ISC](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) with her team leader.  
+Optionally junior developers ISCs [may be compiled with the help of a senior team mate](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) and their one-to-one conducted by a lead developer.
 
 ## Goal
 
-The one-to-one meeting is **not** an occasion for control or top-down education. It is a meeting of the employee and for the employee, with the following goals:
+The one-to-one meeting is **not** an occasion for control or top-down education. It is a meeting **of the employee and for the employee**, with the following goals:
 
 * Receive honest feedback
 * Provide honest feedback

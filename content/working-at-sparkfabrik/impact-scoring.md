@@ -41,6 +41,16 @@ The resulting score is and average awesomeness indicator you can keep track of. 
 
 ## How assessment happens
 
-This evaluation is not done by someone in a vacuum. You are required to attend the one-to-one with a complete score-card you will have filled with your lead (or senior mate). This means you will have to discuss your scoring, not getting it _from above_.
+This evaluation is not done by someone in a vacuum. **You are required to attend the one-to-one with a complete score-card** you will have filled with your lead (or senior mate). This means you will have to discuss your scoring, not getting it _from above_.
 
-If you feel your score is not fair, a HR representative can review the evaluations with you and your lead in advance.
+If you feel you got an unfair scoring from your lead, **you can have a HR representative to review the evaluation** with you and your lead in advance.
+
+### For the evaluated
+
+Although other people may not always be objective in evaluating your impacts, it is important to sustain the conversation openly and get all the reasons behind each score. Even when it's difficult to take, **honest feedback is the most valuable help you can get in your growth**.  
+Different people will see you in different lights and from different perspectives. This is also food for thought and will help you nurturing soft social skills, useful when you will become a team leader or a top manager.
+
+### For the evaluator
+
+It may be difficult and uncomfortable to give honest feedback. You may be tempted to be too soft, too rewarding, shy away from harsh topics, etc. Or, quite the opposite you may be in rage for something really bad that recently happened and be tempted to bash your colleague with a bad evaluation, calling off months of good work and wiping the slate clean.  
+Having to explain your reasons should help you be more objective. Should the conversation become difficult, try to make her clear how she may succeed in the future instead that just pointing out how bad she failed. But don't sweep the dirt under the carpet. **Remember that the reason you are providing feedback is to allow your mate to do a better job next time**. Always trust she will!
