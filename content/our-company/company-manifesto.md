@@ -1,3 +1,8 @@
+/*
+Description: Which values underpin SparkFabrik's culture
+Sort: 10
+*/
+
 We require all our employees and contributors to endorse our [Company Manifesto](http://www.sparkfabrik.com/manifesto.html).
 
 Sharing our values is a great indicator you can work with us, so please, take a look at them before apply for hiring.
