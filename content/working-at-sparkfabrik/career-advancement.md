@@ -24,6 +24,10 @@ Stepping up will impact:
 * your salary following [this table](/working-at-sparkfabrik/salaries#salary-variations);
 * your duties in accordance to your new [impact scoring card](/our-company/impact-scoring-cards).
 
+```
+NOTE: Salary brackets valures and direct bonds between performance and salary step-ups are still in "alpha" stage.
+```
+
 ## Taking the challenge
 
 To fullfill [its vision](https://www.sparkfabrik.com/en/who-we-are.html), Sparkfabrik sells and cultivates high seniorities. Thus we expect junior developers to work hard to step up and we **require** that, once the proper goals are completed they will be ready to take the responsibilities of a senior developer.

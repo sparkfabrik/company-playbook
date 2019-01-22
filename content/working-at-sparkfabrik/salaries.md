@@ -3,6 +3,13 @@ Description: How we calculate salaries in SparkFabrik
 Sort: 30
 */
 
+```
+NOTE: What follows has to be considered in "alpha stage". Actual values and policies will be tested and adjusted during year 2019.
+Moreover, a way to reward horizontal growth (learning diversified skills) still have to be introduced.
+
+Despite that, this page is a sensible reference for our current salaries baselines and increases.
+```
+
 ## Salary calculator
 
 Wages are calculated starting from [baseline salary brackets](#baseline-salary-brackets), sized by role.
@@ -11,6 +18,7 @@ On top of them we add:
 * **Lenght of service increments**: happens automatically as time passes by
 * **Job interview scoring adjustments**: determined only at [hiring](/working-at-sparkfabrik/job-interviews) and affecting your starting wage
 * **Impact scoring adjustments**: a running process related to your [professional growth](/working-at-sparkfabrik/career-advancement)
+
 
 ## Baseline salary brackets
 
@@ -52,7 +60,7 @@ If you score higher during your interview, or if you want to negotiate an initia
 
 1. At the first check (1 to 3 months from hiring, depending on national contract employee level) your score will not be lower than **one step** below the level you negotiated for<sup id="fnr1">[1](#fn1)</sup>
 2. We expect you to arrange a proper development plan to feel the possible gap with CTO and HR during your first 1-to-1
-3. Your impact score must to raise to the average level within the second check (6 months of employment)
+3. Your impact score must to raise to the average level within the second check (8 months of employment)
 
 ## Impact scoring adjustments
 
