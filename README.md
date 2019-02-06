@@ -1,12 +1,13 @@
-## SparkFabrik dockerized Raneto-based playbook
+## SparkFabrik playbook
 
-This repository contains our company playbook (and possibly all the knowledge around our company-wide practices and policies), packed with a Raneto container to consult them.  
-Ideal destination for this stuff is on a domain like **playbook.sparkfabrik.com**. So far you can `docker-compose up -d` and visit http://playbook.sparkfabrik.loc to enjoy the result.
+This repository contains our [company playbook](https://playbook.sparkfabrik.com) (and possibly all the knowledge around our company-wide practices and policies), packed with a Raneto container to consult them.
 
 ## Contributions
 
-So far the project is meant to be internal. All company members can download the project and provide merge-requests towards `master` branch.  
-The naming convention for the branches is:
+So far the project is meant to be internal, all company members can clone the project and set up a local environment with the command `docker-compose up -d`. 
+After that, a local instance of the playbook will be available at `http://playbook.sparkfabrik.loc`.
+
+To contribute provide pull-requests towards `master` branch. The naming convention for the branches is:
 
 * `section/section-slug-title` for new sections (hardly they will be open by a company member, mostly it will be a matter of pre-made structure, but suggestions are welcome)
 * `content/description-of-the-content` for content contributions of various nature, like typo corrections, adding a new procedure or policy, etc
