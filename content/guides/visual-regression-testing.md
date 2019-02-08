@@ -2,8 +2,8 @@
 
 Billion of words have been spent about test benefits. We're going to spend some here too. Tests are a best practice not because it is funny to talk about (well, maybe it could be), but because they allow you to write down clearly what you're developing, they help you find a bug before your customer do, and they quickly route you on debugging. In short, they save you a lot of time (and stress).
 
-Within visual regression tests, every single person has ventured into CSS development knows how it's awfully easy to get into truble through the style cascade. Despite the valid methodologies to avoid these issues (BEM, SMACSS, etc), the risk of an unforeseen change is always around the corner.
-Can you say how long it takes to check, at every change in code, every single page for every single breakpoint? And when page number increases, manual visual testing takes more and more amount of time.
+Within visual regression tests, every single person which has ventured into CSS development knows how it's awfully easy to get into truble through the style cascade. Despite the valid methodologies to avoid these issues (BEM, SMACSS, etc), the risk of an unforeseen change is always around the corner.
+Can you say how long it takes to check, at every change in code, every single page for every single breakpoint? And when page number increases, manual visual testing takes more and more time.
 A VR test does all these tasks for us, in a matter of minutes.
 
 After having tried some tools, unfortunately with mediocre results, we finally chose [BackstopJS](https://github.com/garris/BackstopJS) as favourite tool of Visual Regression Testing. It is sufficiently stable, reliable and configurable to meet our needs.
@@ -13,12 +13,25 @@ After having tried some tools, unfortunately with mediocre results, we finally c
 BackstopJS documentation is rather exhaustive, but we think it's usefull to give you some clues that can save you time and effort.
 
 **Note: ** at time of writing, latest version (3.9.2) seems to be broken and makes tests fail, so if you're building a new prject, please check you're using the version 3.9.0.
+
 _Source:_ [#982 Error running scenarios in docker image 3.9.2](https://github.com/garris/BackstopJS/issues/982)
 
-### Basic scenario
-For now, we don't use any package manager to install BackstopJS, we just have some versioned folder and files in our starting project.
+BackstopJS is not in each of our projects yet, so we're going to install it in specific prjects when needed. Follow us:
 
-```bash
+1. add the following lines to `docker-compose.loc.yml.template`:
+
+    ```
+    backstopjs:
+    image: backstopjs/backstopjs:latest
+    volumes:
+      - .:/src
+    ```
+2. rebuild with `docker-compose down && docker-compose up -d`
+3. run `docker-compose run --rm backstopjs init`
+
+BackstopJS will create a default configuration file and project scaffolding in your current working directory:
+
+```
 .
 ├── backstop_data
 │   ├── bitmaps_reference
@@ -60,8 +73,8 @@ Here you must define two required properties: `label` and `url`. All the others 
             "height": 1024
         }
     ],
+    "onBeforeScript": "puppet/onBefore.js",
     "onReadyScript": "puppet/onReady.js",
-    "removeSelectors": [],
     "scenarios": [
         {
             "label": "Homepage",
@@ -158,3 +171,7 @@ It's important to point out that a single scenario can generate multiple screens
             ]
         }
 ```
+
+### Need help or want to improve the doc?
+
+Do you think this documentation lacks some important info? Drop up a line with your question or [fork the project on GitHub](https://github.com/sparkfabrik/company-playbook) to add your suggestions.
