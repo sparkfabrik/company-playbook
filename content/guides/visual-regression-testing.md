@@ -1,12 +1,19 @@
 ## Introduction
 
-[Some info about VRT]
+Billion of words have been spent about test benefits. We're going to spend some here too. Tests are a best practice not because it is funny to talk about (well, maybe it could be), but because they allow you to write down clearly what you're developing, they help you find a bug before your customer do, and they quickly route you on debugging. In short, they save you a lot of time (and stress).
 
-We introduced [BackstopJS](https://github.com/garris/BackstopJS) as favourite tool of Visual Regression Testing.
+Within visual regression tests, every single person has ventured into CSS development knows how it's awfully easy to get into truble through the style cascade. Despite the valid methodologies to avoid these issues (BEM, SMACSS, etc), the risk of an unforeseen change is always around the corner.
+Can you say how long it takes to check, at every change in code, every single page for every single breakpoint? And when page number increases, manual visual testing takes more and more amount of time.
+A VR test does all these tasks for us, in a matter of minutes.
+
+After having tried some tools, unfortunately with mediocre results, we finally chose [BackstopJS](https://github.com/garris/BackstopJS) as favourite tool of Visual Regression Testing. It is sufficiently stable, reliable and configurable to meet our needs.
 
 ## Using BackstopJS
 
 BackstopJS documentation is rather exhaustive, but we think it's usefull to give you some clues that can save you time and effort.
+
+**Note: ** at time of writing, latest version (3.9.2) seems to be broken and makes tests fail, so if you're building a new prject, please check you're using the version 3.9.0.
+_Source:_ [#982 Error running scenarios in docker image 3.9.2](https://github.com/garris/BackstopJS/issues/982)
 
 ### Basic scenario
 For now, we don't use any package manager to install BackstopJS, we just have some versioned folder and files in our starting project.
@@ -118,10 +125,9 @@ It's possible to add specific viewports to override the default ones, to specify
 
 It's important to point out that a single scenario can generate multiple screenshots. This is most important when we need to test user interactions more complex than a single click.
 > A scenario represents a single state for your app. Given that state, a screenshot will be generated for each DOM selector you specify.
+  #406](https://github.com/garris/BackstopJS/issues/406)
 
-_Source: [Is there a way to make multiple screenshots per scenario?  #406](https://github.com/garris/BackstopJS/issues/406)_
-
-**Note:** for now, this seems to be an issue, as stated on [two times clickselector or clickselectors doesn't seem to work #807](https://github.com/garris/BackstopJS/issues/807)
+**Note:** for now, this seems to be an issue, as stated on [#807 two times clickselector or clickselectors doesn't seem to work](https://github.com/garris/BackstopJS/issues/807)
 
 #### Example of advanced scenario
 
