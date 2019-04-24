@@ -39,7 +39,7 @@ Talking about our everyday work, we recognize three different type of activities
 
 * **Approved tasks**: this is what the customers usually call us for. These activities are described in a signed agreement of sort, have a budget, a deadline and deploy a deliverable (even intangile, like a training course or T&M consultancy).
 * **Warranty**: this is what the customer wants done but does not expect to pay for. Fixing a bug or amending an issue which is due to us, for example.
-* **Customer Care**: this is the time spent to deliver the _approved_ tasks_ or to help a customer getting what he need, not only in term of deliverables. These activities are often (not always) in charge to project or customer leads.
+* **Support**: this is the time spent to deliver the _approved_ tasks_ or to help a customer getting what he need, not only in term of deliverables. These activities are often (not always) in charge to project or customer leads.
 
 We track time differently for those activities.
 
@@ -53,7 +53,10 @@ As a general rule, all time entries must contain links to specific issue codes w
 
 ### Approved tasks
 
-Each task for a customer/project is tracked on Toggl as a `Task` (heh!), with the format `[Agreement Code] Task Name`, where `Agreement Code` is the code of the signed (or near-to-be-signed) agreement, in the format `YYYYMMDDII` (where `II` is a simple discrimination incremental), and `Task Name` is a mnemonic description such as `Website development` or `New media gallery`, etc.
+> **Forenote**: Despite we try to group tiny activities to form a _3+ working days whole_, it happens that we must deliver very small tasks to our customers, such as one-shot security upgrades or very small changes to a living product.  
+> Such small, isolated activities, must be tracked under the [Support](#support) rolling task (see below).
+
+Each task approved by a customer/for a project is tracked on Toggl as a `Task` (heh!), with the format `[Task ID] Task Name`, where `Task ID` is an internal reference code, in the format `YYYYMM[DDII]` (where `DDII` is an optional part composed by two-digits day (`DD`) and a discriminant incremental), and `Task Name` is a mnemonic description such as `Website development`, `New media gallery`, `Q3 Maintenance` etc.
 
 Approved tasks have a time budget on Toggl and the tracked time is counted against that time budget. Should a customer extend the budget, the task will be updated/extended or a new task will be created, depending on what makes more sense in the context.
 
@@ -61,31 +64,34 @@ Project/Customer leads should take care of keeping things consistent in terms of
 
 ### Warranty
 
-Each customer project has a _Warranty_ task in it. This is a "rolling" task, in that it has no time budget assigned. Administrtion will get a monthly chunk of the time entries for reporting. It is important to undestand that, should we discover that a warranty issue is not actually covered by warranty (it happens sometimes), we will move it where it belongs (customer care or other tasks): to this extent, **it is mandatory that each time entry refers to an issue on the tracker**.
+Each customer project has a _Warranty_ task in it. This is a "rolling" task, in that it has no time budget assigned. Administrtion will get a monthly chunk of the time entries for reporting. It is important to undestand that, should we discover that a warranty issue is not actually covered by warranty (it happens sometimes), we will move it where it belongs (Support or other tasks): to this extent, **it is mandatory that each time entry refers to an issue on the tracker**.
 
-### Customer Care
+### Support
 
 Most of the time, who stands in the front line is most likely to track time under this task. As the _Warranty_ task, this is also a rolling activity and we can see it as a catchall for the many different tasks a project/customer lead must undergo from day to day.
 
-It is very unlikely that you can refer an issue for such type of activities: having a phone call, reviewing the project status, replying mails etc have too much overhead in tracking. To make some distinction during reporting and lifecycle analysis, there is four tags to apply to time entries that falls under _Customer Care_ umbrella:
+It is very unlikely that you can refer an issue for such type of activities: having a phone call, reviewing the project status, replying mails etc have too much overhead in tracking. To make some distinction during reporting and lifecycle analysis, there is four tags to apply to time entries that falls under _Support_ umbrella:
 
-* **Support**: when you help a customer doing stuff or making sense out of something.
+* **Customer care**: when you help a customer doing stuff or making sense out of something.
 * **Estimation**: when you devote time to estimate new features, projects or improvements.
 * **Project Management**: all activites partaining to helping the team and the customer getting _approved tasks_ done (agile events, validation, grooming, etc)-
 * **Issue checking**: when an issue is raised you may have to spend time making sure it is properly detailed or to verify it is actually relevant (think about bug tracking for example). Here is where you'll track such time.
 
 Not all these entries will result in a cost for the customer, so don't worry about this: **just track everything you do**! You will be engaged in analysis by the administration during the reporting phases.
 
-#### Customer Care tags examples
+In addition, all time entries for those very small activities agreed with the customer by mail or without a purchase order, which we performe from time to time, such as security updates, small and sporadic changes, etc, must be tracked as `Support`. When you track a `Support` entry of that kind **it is important that you refer to an issue and provide a sound description** since no written contract or purchase order will help us track the request during reporting.
+
+#### Support tags examples
 
 Find below some examples on how to use those tags.
 
 | Source | Event | Tag | Notes |
 | ------ | ----- | --- | ----- |
-| Client | `I can't remember how to insert a news on the site, can you help me?` | `Support` | The customer can be expected to be trained on this, or to keep notes, so you are actually supporting it. |
+| Client | `I can't remember how to insert a news on the site, can you help me?` | `Customer Care` | The customer can be expected to be trained on this, or to keep notes, so you are actually supporting it. |
 | Client | `I need you to reschedule releases since the marketing asked` | `Project Management` | The customer can't do this without our involvement. This activity helps providing the correct service. |
 | Team | `Let's take some time to groom the backlog and refine estimation` | `Project Management` | All partecipants have to track individual entries; despite this involves estimations, the activity is necessary to keep things on track and is not triggered by the client that needs cost-related information for his decisional process. That's why it is tagged as `Project Management`. |
 | Client | `The site is not working as expected, we have filed a bug` | `Issue checking` and if it is indeed a bug, move time entry to `Warranty` | We will check the issue, the provided information and verify it is a bug (our fault). If this is the case the whole time spent will be classified as warranty effort. |
 | Client | `I may need a new feature/an improvement; is this technically feasible?` | `Issue checking` | This may involve the whole team, in which case all will have to track under this task and tag. |
 | Client | `Can you please provide an estimation for this new feature so we decide if we want to pay for it?` | `Estimation` | |
-| Sales | "I need help from your team to estimate a new project" | `Estimation` | All partecipants have to track individual entries; If the new project falls under an existing main project, use the `Customer Care` rolling task of the main project; in case of new clients with no main project, track the entries on `Sparkfabrik Internal -> Sales` tagged as `Estimation`, and name the customer in the description. |
+| Sales | `I need help from your team to estimate a new project` | `Estimation` | All partecipants have to track individual entries; If the new project falls under an existing main project, use the `Support` rolling task of the main project; in case of new clients with no main project, track the entries on `Sparkfabrik Internal -> Sales` tagged as `Estimation`, and name the customer in the description. |
+| You | `I really need to keep track of those request e-mails and set their priorities` | `Project Management` | There are customers that for contextual reasons won't use our tracker and will keep going the same old root. Our task is to keep things tidy and organized and this is management and ownership. |
