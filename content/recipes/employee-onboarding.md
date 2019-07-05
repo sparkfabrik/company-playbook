@@ -53,7 +53,6 @@ What follows will be performed with the help of your buddy, if needed
 * Access all the services and check you can interact with them
 * Activate two-factor auth on Gitlab
 * Add SSH keys on Gitlab so you can clone the repositories
-* Setup a complete `.gitconfig` file ([an example]())
 * Set your profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate/decent close-up (or use the [facewall shot](#facewall-shot))
 * Set your e-mail signature in [the format](#Standard-mail-signature-format) below (respect bolds)
 
@@ -86,50 +85,3 @@ Role or function can be:
 * C-Level or other management board function
 
 When in doubt, ask a HR representative.
-
-### Example git configuration
-
-This is an example `~/.gitconfig` file that can be set to enforce some "standard" among peers
-
-```ini
-[user]
-    name = Name Surname
-    email = name.surname@sparkfabrik.com
-[color]
-    ui = auto
-[color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
-[color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
-[color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
-[alias]
-    st = status
-    ci = commit
-    br = branch
-    co = checkout
-    cp = cherry-pick
-    sq = rebase -i
-    df = diff
-    lg = log -p
-    lol = log --graph --decorate --pretty=oneline --abbrev-commit
-    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-    ls = ls-files
-    unstage = reset HEAD --
-    last = log -1 HEAD
-[core]
-    editor = vim
-[merge]
-    tool = vimdiff
-[push]
-    default = simple
-[credential]
-    helper = store
-```
