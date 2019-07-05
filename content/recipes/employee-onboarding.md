@@ -22,7 +22,6 @@ An HR or Admin representative will perform the following actions:
 
 * Open a `@sparkfabrik.com` account
 * Add the newly created account to `staff@sparkfabrik.com` group
-* Add the account to Google Cloud Registry
 * Add the account to company's OpenVPN firewall (for external access)
 * Open the Gitlab account and add it to all relevant projects
 * Open the Toggl account and make sure it can access all relevant projects
@@ -39,12 +38,16 @@ An HR or Admin representative will perform the following actions:
   * Resource access
   * Time tracking
   * Management of off/sick days
+  * Google Drive folder structure and usage
+  * Google Calender configuration and conventions
   * How and whom to ask for help
   * 1:1 meetings and performance review policies (ISCs)
+* HR must meet with the employee to make sure she got the policies and she can correctly understand them in context
 * Tech should send in introductory e-mail with information (links) about
   * Relevant starting training resources (accounts on _drupalize.me_ or _Udemy_, books or playbook pages)
   * How to contribute to the projects (branching model, peer review, etc)
   * Required tools, procedures and practices one need to know from the very beginning
+* Tech and/or buddy must explain our key internal projects and self-made tools (sparkdrupal, sparkangular, sparkboard, firestarter, etc) to the employee
 
 ### For the employee
 
