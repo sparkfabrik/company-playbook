@@ -28,7 +28,7 @@ An HR or Admin representative will perform the following actions:
 * Open the Toggl account and make sure it can access all relevant projects
 * Add the account to Slack and _invite_ it on `#general` and `#tech` as well as on all channels related to relevant projects
 
-## First things to do on the first day
+## Things to do on the first day
 
 ### For the company
 
@@ -93,8 +93,8 @@ This is an example `~/.gitconfig` file that can be set to enforce some "standard
 
 ```ini
 [user]
-    name = Paolo Pustorino
-    email = paolo.pustorino@sparkfabrik.com
+    name = Name Surname
+    email = name.surname@sparkfabrik.com
 [color]
     ui = auto
 [color "branch"]
