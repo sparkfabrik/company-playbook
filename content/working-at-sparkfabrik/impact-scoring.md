@@ -37,7 +37,7 @@ The total score is calculated by the following formula:
 
 > (4 x _A+++ count_ + 3 x _A+ count_ + 2 x _A count_ + 1 x _B count_ + 0 x _C count_ + 0 x _X count_) / (_Total aspects count_)
 
-The resulting score is and average awesomeness indicator you can keep track of. It is bound to grow and when it constantly stays over the _Awesomeness horizon_ reported in your impact scoring card, you'll be eligible for a [career advancement](/job-roles/career-advancement).
+The resulting score is and average awesomeness indicator you can keep track of. It is bound to grow and when it constantly stays over the _Awesomeness horizon_ reported in your impact scoring card, you'll be eligible for a [career advancement](/working-at-sparkfabrik/career-advancement).
 
 ## How assessment happens
 
