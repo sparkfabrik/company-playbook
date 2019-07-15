@@ -1,5 +1,5 @@
 /*
-title: Sparkfabrik playbook
+title: SparkFabrik playbook
 */
 
 What you are reading is the _manual_ of our company.  

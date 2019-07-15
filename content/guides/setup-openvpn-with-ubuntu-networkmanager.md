@@ -11,11 +11,11 @@ Setting up OpenVPN on NetworkManager on Ubuntu can be a PITA, but not if you fol
 
 Ubuntu 16.04 ships OpenVPN 2.3+, it's quite easy to upgrade it:
 
-```bash
-curl -s https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add
+```
+sudo curl -s https://swupdate.openvpn.net/repos/repo-public.gpg | sudo apt-key add
 echo "deb http://build.openvpn.net/debian/openvpn/stable xenial main" > /etc/apt/sources.list.d/openvpn-aptrepo.list
-apt update
-apt install -y openvpn
+sudo apt update
+sudo apt install -y openvpn
 ```
 
 ## Step-by-step
