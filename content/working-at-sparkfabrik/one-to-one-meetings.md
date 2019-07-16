@@ -9,7 +9,7 @@ HR representative and team leads engaging in one-to-ones with developers are req
 
 ## Scheduling
 
-Three (3) one-to-one meetingd are scheduled each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
+Three (3) one-to-one meetings are scheduled each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
 Each employee must [get ready for the meeting compiling her ISC](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) with her team leader.  
 Optionally junior developers ISCs [may be compiled with the help of a senior team mate](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) and their one-to-one conducted by a lead developer.
 
@@ -20,7 +20,7 @@ The one-to-one meeting is **not** an occasion for control or top-down education.
 * Receive honest feedback
 * Provide honest feedback
 * Discuss impediments
-* Setting near-range goals and check the milestone
+* Setting near-range goals and check the milestones
 
 ## Agenda
 
