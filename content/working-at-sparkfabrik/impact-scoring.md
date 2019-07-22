@@ -13,11 +13,11 @@ We stumbled upon [Deeson's model](https://handbook.deeson.co.uk/working-at-deeso
 
 We evaluate each other based on the desired impact we should get during our daily work. To this extent each role's duties in Sparkfabrik is detailed based on the expected outcomes, not a series of tasks or procedures that people must follow blindly.
 
-These outcomes is seen as important to business, context and company culture by [company governance](/job-roles/governance).
+These outcomes is seen as important to business, context and company culture by [company governance](/organization/governance).
 
 ## Impact assessment
 
-In [one-to-one meetings](/working-at-sparkfabrik/one-to-one-meetings) at the start of every quarter (Jan, April, July, Oct), we evaluate a developers against the outcomes listed in their [impact scoring cards](/our-company/impact-scoring-cards) on the same scale from A (and above) to C used by Deeson.
+In [one-to-one meetings](/working-at-sparkfabrik/one-to-one-meetings) at the start of every quarter (Jan, April, July, Oct), we evaluate a developers against the outcomes listed in their [impact scoring cards](/tools-and-polices/impact-scoring-cards) on the same scale from A (and above) to C used by Deeson.
 
 Each outcome or skill gets one of the following rates:
 

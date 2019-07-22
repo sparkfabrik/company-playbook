@@ -124,7 +124,6 @@ Some of the lines above are very important:
 * `author` must match the key of your `[Params.Authors]` entry in `config.toml` (see above). In our example we used `[Params.Authors.LeanJohn]` as a key, so we kept the example consistent.
 * `tags` and `topics` are other metadata that currently have no effect from a user perspective. Use them at your own discretion; if in doubt spy what your mates have done in other posts and keep things consistent.
 
-
 ### Add your post text
 
 Under that block, please add your markdown as you normally would with any other md-based product, **but beware** that since an `h1` is used to print the page title by Hugo, your document sections hierarchy must start from `h2`, so your first-level titles should be like:
@@ -170,7 +169,7 @@ We are using the typical GitHub contribution flow, based on pull requests, so:
 
 Deploy occurs automatically on PR merge, so sit back and enjoy fame.
 
-**NOTE**: a quick checklist is availabe at [Recipes / Tech Blog Checklist](/recipes/tech-blog-checklist) page.
+**NOTE**: a quick checklist is availabe [as a procedure](/procedures/tech-blog-contributions-checklist) page.
 
 ## External contributions
 

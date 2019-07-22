@@ -22,7 +22,7 @@ Matching (or exceeding) a score of `2.5` for three times in a row will allow you
 Stepping up will impact:
 
 * your salary following [this table](/working-at-sparkfabrik/salaries#salary-variations);
-* your duties in accordance to your new [impact scoring card](/our-company/impact-scoring-cards).
+* your duties in accordance to your new [impact scoring card](/tools-and-polices/impact-scoring-cards).
 
 ```
 NOTE: Salary brackets valures and direct bonds between performance and salary step-ups are still in "alpha" stage.

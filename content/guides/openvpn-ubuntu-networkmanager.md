@@ -29,11 +29,11 @@ Then create a new network using NetworkManager's settings.
 
 On the type of network selection screen, select `VPN`.
 
-![NM Select network](%image_url%/recipes/nm-select.png)
+![NM Select network](%image_url%/procedures/nm-select.png)
 
 Then `Import from file...`.
 
-![NM Select ovpn](%image_url%/recipes/nm-openvpn-select.png)
+![NM Select ovpn](%image_url%/procedures/nm-openvpn-select.png)
 
 And select the file that `support@sparkfabrik` sent you. The filename should be similar to:
 
@@ -43,8 +43,8 @@ And select the file that `support@sparkfabrik` sent you. The filename should be 
 
 When you review the settings that NM imported, enter the username and password given to you by `support` and then check the option `Store the password for all users` on the password's options.
 
-![NM All Users](%image_url%/recipes/nm-allusers.png)
+![NM All Users](%image_url%/procedures/nm-allusers.png)
 
 ### There you go!
 
-![NM Connected](%image_url%/recipes/nm-vpn-connected.png)
+![NM Connected](%image_url%/procedures/nm-vpn-connected.png)

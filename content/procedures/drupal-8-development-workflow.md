@@ -27,4 +27,4 @@ https://drive.google.com/open?id=0B3bEkSMDrX8YRzBrWkxkZ3FxQkk5UEJNMnktZS11UDZjc0
 
 ### Excerpt from this presentation:
 
-![Slides by nuvole](%image_url%/recipes/drupal-8-development-workflow.png)
+![Slides by nuvole](%image_url%/procedures/drupal-8-development-workflow.png)
