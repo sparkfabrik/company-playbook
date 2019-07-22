@@ -17,7 +17,7 @@ These outcomes is seen as important to business, context and company culture by 
 
 ## Impact assessment
 
-In [one-to-one meetings](/working-at-sparkfabrik/one-to-one-meetings) at the start of every quarter (Jan, April, July, Oct), we evaluate a developers against the outcomes listed in their [impact scoring cards](/tools-and-polices/impact-scoring-cards) on the same scale from A (and above) to C used by Deeson.
+In [one-to-one meetings](/working-at-sparkfabrik/one-to-one-meetings) at the start of every quarter (Jan, April, July, Oct), we evaluate a developers against the outcomes listed in their [impact scoring cards](/resources/impact-scoring-cards) on the same scale from A (and above) to C used by Deeson.
 
 Each outcome or skill gets one of the following rates:
 
