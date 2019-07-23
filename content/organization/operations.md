@@ -19,6 +19,8 @@ We recognize four levels of professional skills, depending on seniority and leve
 * **Lead developer**: those are the people that lead teams and projects in Sparkfabrik. Those people have a senior level background on top of which they developed the soft skills necessary to govern the social, technical and organizative complexity of our work.
 * **Professional**: this is the highest operational role in Sparkfabrik. Professionals are the people that embody a speciality, can work with one or multiple teams at once, represent Sparkfabrik at important tables, provide training and mentorships, etc. Professionals may occasionally lead a team, but they are actually supposed to work cross-teams as reference key people.
 
+Learn more about each [role accountabilities](/organization/roles-accountabilities).
+
 ### Specialities
 
 We explained Sparkfabrik only employs _developers_. Sure there are differences and each person has her own natural or acquired inclination. We broadly recognize four _Specialities_ that qualifies you as a developer and do our best to make you shine in accordance with your nature. During your career you will be probably cover more than a single speciality, even at the same time.

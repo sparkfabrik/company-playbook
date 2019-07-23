@@ -1,14 +1,14 @@
 /*
-Title: Roles - Professional
-Description: Professional role in SparkFabrik
-Sort: 80
+Title: Impact Scoring Card - Lead Developer
+Description: Lead Developer role in SparkFabrik
+Sort: 70
 */
 
 ## Mission
 
-* To make your unique skills available to the whole company.
-* To help lead and senior development achieving their mission.
-* To dominate complexity, chew difficulties and laugh in the face of pressure.
+* To understand customer's needs and help the customer state them in a clear, understandable form.
+* To design systems that satisfies customer's needs.
+* To guide your development team to implement those systems.
 * To promote our procedures and standards and to find new opportunities to improve them.
 * To teach by example and words, showing the value of excellence.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
@@ -18,18 +18,14 @@ Sort: 80
 ## Values
 
 * Passion
-* Availability
+* Discipline
 * Teamwork
 
 ## Awesomeness horizon
 
-You are already topping the awsomeness level. The higher your score, the higher the reward.
+If you score three times in a row over `2.5` you may get a career advancement.
 
 ## Attitude
-
-### Advocacy
-
-You are the professional model for your colleagues. You represent the company both inside and outside and are actively involved in the promotion of our culture. You are an antenna for the company, picking up information essential to validate and shape our overall strategy, of which you are an active and informed part.
 
 ### Leadership
 
@@ -58,18 +54,17 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 ## Business impacts
 
 * You clearly identify the value behind a requirement and orient your work towards the delivery of that value, in accordance with our technical and human standards.
+* You lead the creation of high-quality software, on time and in budget.
 * You define the architecture of solutions that fulfill business goals, matching our high quality standards.
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
-* You realize solutions that business goals, matching our high quality standards, as defined with your team.
+* You help your team define implementative details of solutions that fulfill business goals, matching our high quality standards.
 * You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company.
-* You own one or more internal projects making sure they are in good shape, documented and up to date.
+* You help your team substantially improve internal projects, leading joint effort and/or directly contributing work as necessary.
 * You shape new technologies, practices, tools and knowledge, even when you work on customer projects, in accordance with the direction set by the CTO.
-* You participate with CTO, COO and other relevant company staff to cross-project strategy and tactics meetings.
-
 
 ## Contributions
 
-* You generate (or help to) content about technology, methodology or practices for Sparkfabrik's media.
+* You generate content about technology, methodology or practices for Sparkfabrik's media.
+* You lead, with the help of Sales and Communication, the production of a case study within two weeks by the end of each project.
+* You make sure your team members (you also) participate in CFPs, applying as speakers at relevant conferences. You facilitate the organization of work to allow them (or yourself) to prepare the necessary material.
 * You keep our Company Playbook up to date, extend and fix it every time you see the need.
-* You deliver substantial contributions (new features, bugfixes, documentation, translations) to community projects based on your skills, aspirations and training goals.
-* You own one or more community projects making sure they are in good shape, documented and up to date.
+* You deliver substantial contributions (new features, bugfixes, documentation, translations) to community projects, , leading joint effort and/or directly contributing work as necessary.

@@ -1,3 +1,7 @@
+/*
+Sort: 20
+*/
+
 This page lists a set of official resources that anyone in SparkFabrik may use for communication and promotion.
 
 Those assets must be preferred to any other variant, so always make use of these templates and media, unless you have a very good reason not to.
