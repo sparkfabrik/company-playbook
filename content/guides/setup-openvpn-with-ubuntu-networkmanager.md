@@ -1,6 +1,7 @@
 /*
 Title: Setup OpenVPN with Ubuntu NetworkManager
 */
+
 Setting up OpenVPN on NetworkManager on Ubuntu can be a PITA, but not if you follow these steps!
 
 ## Prerequisite
@@ -10,7 +11,7 @@ Setting up OpenVPN on NetworkManager on Ubuntu can be a PITA, but not if you fol
 
 Ubuntu 16.04 ships OpenVPN 2.3+, it's quite easy to upgrade it:
 
-```
+```bash
 curl -s https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add
 echo "deb http://build.openvpn.net/debian/openvpn/stable xenial main" > /etc/apt/sources.list.d/openvpn-aptrepo.list
 apt update
@@ -21,7 +22,7 @@ apt install -y openvpn
 
 First of all install the NetworkManager OpenVPN extension.
 
-```
+```bash
 sudo apt install network-manager-openvpn-gnome
 ```
 
