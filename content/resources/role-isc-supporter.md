@@ -1,7 +1,7 @@
 /*
-Title: Roles - Supporter
+Title: Impact Scoring Card - Supporter
 Description: Role that owns administrative and support processes in SparkFabrik
-Sort: 80
+Sort: 90
 */
 
 ## Mission

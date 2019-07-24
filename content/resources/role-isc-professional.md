@@ -1,15 +1,16 @@
 /*
-Title: Roles - Senior Developer
-Description: Senior Developer role in SparkFabrik
-Sort: 60
+Title: Impact Scoring Card - Professional
+Description: Professional role in SparkFabrik
+Sort: 80
 */
 
 ## Mission
 
-* To define and realize technical solutions that satisfies customer's needs.
-* To follow the direction of your team lead in doing so.
-* To help your junior mates grow, challenging them and giving them fishing cans, not fish.
-* To work following agreed procedures and matching our quality standards.
+* To make your unique skills available to the whole company.
+* To help lead and senior development achieving their mission.
+* To dominate complexity, chew difficulties and laugh in the face of pressure.
+* To promote our procedures and standards and to find new opportunities to improve them.
+* To teach by example and words, showing the value of excellence.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
 * To contribute to the company's technical culture, sharing your mastery with others.
@@ -17,14 +18,26 @@ Sort: 60
 ## Values
 
 * Passion
-* Discipline
-* Communication
+* Availability
+* Teamwork
 
 ## Awesomeness horizon
 
-If you score three times in a row over `2.5` you may get a career advancement.
+You are already topping the awsomeness level. The higher your score, the higher the reward.
 
 ## Attitude
+
+### Advocacy
+
+You are the professional model for your colleagues. You represent the company both inside and outside and are actively involved in the promotion of our culture. You are an antenna for the company, picking up information essential to validate and shape our overall strategy, of which you are an active and informed part.
+
+### Leadership
+
+You are an organizational model for you colleagues. You live by best practices and require and help others to meet your high standards. You do your best to lead by consensus, listening to your team, but you always remember they look at you as a guide. You protect your team and remove obstacles but keep them committed and fit to create value.
+
+### Decisiveness
+
+You take promptly decisions, even on partial data, perceiving the overall impacts on people, schedule and deliverables. You face challenges proactively, not waiting for others to solve problems for you. You handle difficult situations without losing your mind and help others enduring them.
 
 ### Teamwork
 
@@ -44,15 +57,19 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
+* You clearly identify the value behind a requirement and orient your work towards the delivery of that value, in accordance with our technical and human standards.
+* You define the architecture of solutions that fulfill business goals, matching our high quality standards.
 * You define implementative details of solutions that fulfill business goals, matching our high quality standards.
 * You realize solutions that business goals, matching our high quality standards, as defined with your team.
 * You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company.
-* You substantially improve internal projects (new features, bugfixes, documentation) based on your skills, aspirations and training goals.
+* You own one or more internal projects making sure they are in good shape, documented and up to date.
 * You shape new technologies, practices, tools and knowledge, even when you work on customer projects, in accordance with the direction set by the CTO.
+* You participate with CTO, COO and other relevant company staff to cross-project strategy and tactics meetings.
+
 
 ## Contributions
 
 * You generate (or help to) content about technology, methodology or practices for Sparkfabrik's media.
 * You keep our Company Playbook up to date, extend and fix it every time you see the need.
-* You partecipate in CFPs and apply as speaker at relevant conferences.
 * You deliver substantial contributions (new features, bugfixes, documentation, translations) to community projects based on your skills, aspirations and training goals.
+* You own one or more community projects making sure they are in good shape, documented and up to date.
