@@ -1,5 +1,5 @@
 /*
-Title: Roles - Junior Developer
+Title: Impact Scoring Card - Junior Developer
 Description: Junior Developer role in SparkFabrik
 Sort: 50
 */
