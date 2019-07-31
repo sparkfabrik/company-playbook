@@ -25,7 +25,7 @@ Stepping up will impact:
 * your duties in accordance to your new [impact scoring card](/resources/impact-scoring-cards).
 
 ```
-NOTE: Salary brackets valures and direct bonds between performance and salary step-ups are still in "alpha" stage.
+NOTE: Salary brackets values and direct bonds between performance and salary step-ups are still in "alpha" stage.
 ```
 
 ## Taking the challenge
