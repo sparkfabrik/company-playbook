@@ -47,7 +47,7 @@ When your length of service exceeds the following milestones your wage will auto
 
 ## Job interview scoring adjustments
 
-During your job interview we will assess your profinciency and skills level so we can place you on the ladder.
+During your job interview we will assess your proficiency and skills level so we can place you on the ladder.
 Depending on your expectations, the interviewer perception and the overall [job interview score](/working-at-sparkfabrik/job-interviews) you will be assigned an _Impact-equivalent score_.
 
 A negative adjustment means we feel you can't match our expectations from the start, but we recognize key aspects of your personality that can fill the gap in the very first period of your career.  

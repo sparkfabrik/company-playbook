@@ -11,7 +11,7 @@ What follow is a broad depiction of our hiring workflow, from first contact to j
 ## How we collect CVs
 
 Candidates apply via our company website or by mail, to jobs@sparkfabrik.com.
-Please send your CV in the format that more represents your skills and attitude. Beside your CV a bit of a presentation is very welcome as it can help us understand who you are and what you exepect from us.
+Please send your CV in the format that more represents your skills and attitude. Beside your CV a bit of a presentation is very welcome as it can help us understand who you are and what you expect from us.
 
 ## First interview
 
