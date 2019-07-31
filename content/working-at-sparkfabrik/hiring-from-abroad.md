@@ -7,7 +7,7 @@ We are very happy to receive application from around the globe.
 Actually we like SparkFabrik to be a multicultural melting pot, where ideas can spark (heh!) from our cultural differences and richness.
 
 In this page we summarize what we know about relocation processes for people coming to Italy from foreign countries.  
-We are pretty new to this and Italy is a very bureaucratic country, where procedures tend to change over time. The following overview will hopefully clarify what to expect and help our personnel and the candidate to be on the same page, should we embark in the process.
+We are pretty new to this and Italy is a very bureaucratic country, where procedures tend to change over time, so we won't go into too much details here. The following overview will hopefully clarify what to expect and help our personnel and the candidate to be on the same page, should we embark in the process.
 
 ## Relocating from EU
 
@@ -78,6 +78,9 @@ Of the costs involved in your relocation, SparkFabrik will cover:
 * Meals vouchers (lunch) for your first days of staying in the office before your actual hiring (see caveat #1 below).
 
 Your flight, local transportation and other expenses are supposed to be on you.
+
+We are working to switch to a relocation fee model, reimbursing a flat fee of ideally € 1.000 for you to spend as better fit your moving plan.  
+Mind thought that you will still have restrictions on your accommodation for the first 30 days so that it will be apt to require the Blue Card.
 
 ### Caveats
 
