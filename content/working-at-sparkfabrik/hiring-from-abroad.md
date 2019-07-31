@@ -12,7 +12,7 @@ We are pretty new to this and Italy is a very bureaucratic country, where proced
 ## Relocating from EU
 
 Citizen of EU Countries can move freely to Italy and take advantage of an unrestricted labour market.  
-This means that relocating is as simple as finding an accommodation and signing the employment contract. Easypeasy.
+This means that **relocating is as simple as finding an accommodation and signing the employment contract**. Easypeasy.
 
 ## Relocating from outside EU with Blue Card
 
@@ -32,6 +32,8 @@ We will sign an agreement about your hiring, clearly stating your job role, you 
 
 We can sign the agreement remotely or you can come visit (yay!). If you decide to come visit, ask your local autorities for a tourist visa. In those cases where traveling costs too much, you can send an original signed copy. In this case it's adviced to **send it alongside your Declaration of Value**, since we will also need the original letter to make our request.  
 Of course we'll send you our signed copy also!
+
+This step will actually go in parallel with the previous one.
 
 #### 3. Send the request for your Blue Card
 
@@ -55,7 +57,8 @@ The Blue Card (and residence permit) will be issued after you will go for your r
 
 #### 5. Hiring
 
-Your hiring will legally begin from the day after you get the receipt. As soon as you'll have your postal receipt we will sign your hiring contract and we'll take care of the rest.
+Your hiring will legally begin from the day after you get the receipt.  
+**As soon as you'll have your postal receipt you will sign your hiring contract and we'll take care of the rest**.
 
 #### 6. Registration
 
@@ -84,7 +87,8 @@ Your flight, local transportation and other expenses are supposed to be on you.
 
 3. For a incoherent regulation, **you can be hired with the sole postal receipt but you can't have an italian bank account without a definitive residence permit**. Since italian companies are bound to pay wages with traceable transitions, in the first couple of months or so (depending from when you'll get your registration appointment), we will have to either pay you on a foreign bank account or paying you with checks. In the second case, you will have to change checks in cash at our bank branch. This is an annoyance we are working to solve.
 
-4. For bureaucratic reasons, **passing the first 30 days in a hotel is the quicker way to activate the Blue Card contract procedure**. There are other options but they will take (way) longer. Among them, you may want to rent an apartment before your trip. In this case, consider that you will have to produce all necessary documentation for a legal rent agreement by the day of your appointment in Prefecture. In addition you will need to already have an italian Fiscal Code, which basically means you have already been in Italy in the past. If you want to go that way SparkFabrik won't be able to act on your behalf, nor to refund your costs. We will still do our best to help on a practical perspective, like talk to the apartment owner, collect physical documents and the like.
+4. For bureaucratic reasons, **passing the first 30 days in a hotel is the quicker way to activate the Blue Card contract procedure**. There are other options but they will take (way) longer. Among them, you may want to rent an apartment before your trip. In this case, consider that you will have to produce all necessary documentation for a legal rent agreement by the day of your appointment in Prefecture. In addition you will need to already have an italian Fiscal Code, which basically means you have already been in Italy in the past. If you want to go that way SparkFabrik won't be able to act on your behalf, nor to refund your costs. We will still do our best to help on a practical perspective, like talk to the apartment owner, collect physical documents and the like.  
+Since 30 days pass fast, our advice is to begin to look anyway for a more stable accommodation in the days before your departure. Finding accommodations in Milan may be a non trivial task depending on your budget, your expectations and the period of the year. As above, we can provide best-effort help, contacting a shortlist of locators of your choice.
 
 ## Relocating from outside EU with a Green Card
 
