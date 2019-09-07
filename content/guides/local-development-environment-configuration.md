@@ -126,13 +126,13 @@ docker/scripts/clean-dns.cache.sh
 *Test* that everything is working as expected, by issuing these commands:
 
 ```bash
-% docker run -d -e DNSDOCK_ALIAS=test1.mysql.docker.loc -e MYSQL_ROOT_PASSWORD=root --name mysql-test sparkfabrik/docker-mysql
-% ping test1.mysql.docker.loc
+% docker run -d -e DNSDOCK_ALIAS=test1.redis.docker.loc --name redis-test redis:alpine
+% ping test1.redis.docker.loc
 
-PING test1.mysql.docker.loc (172.17.42.37): 56 data bytes
+PING test1.redis.docker.loc (172.17.42.37): 56 data bytes
 64 bytes from 172.17.42.37: icmp_seq=0 ttl=63 time=0.275 ms
 
-% docker rm -vf mysql-test
+% docker rm -vf redis-test
 ```
 
 These commands:
