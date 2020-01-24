@@ -51,7 +51,7 @@ var config = {
   image_url: '/images',
 
   // Add your analytics tracking code (including script tags)
-  analytics: '',
+  analytics: '<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(\'js\', new Date());gtag(\'config\', \'UA-62993647-4\', { \'anonymize_ip\': true });</script>',
 
   // Set to true to enable the web editor
   allow_editing : false,
