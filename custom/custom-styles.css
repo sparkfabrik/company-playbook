@@ -5,3 +5,8 @@
 .content img {
   margin-left: 0;
 }
+
+.footer-content {
+  font-size: 0.925rem;
+  text-align: right;
+}

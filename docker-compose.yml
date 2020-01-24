@@ -7,3 +7,5 @@ documentation:
     - ./content:/srv/locke/content
     - ./custom/config.js:/srv/locke/config.js
     - ./custom/custom-styles.css:/srv/locke/themes/spark/public/styles/custom.css
+    - ./custom/templates/layout.html:/srv/locke/themes/spark/templates/layout.html
+    - ./custom/templates/page.html:/srv/locke/themes/spark/templates/page.html
