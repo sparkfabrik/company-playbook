@@ -269,7 +269,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You deliver substantial contributions (new features, bugfixes, documentation, translations) to community projects, , leading joint effort and/or directly contributing work as necessary.
+* You deliver substantial contributions (new features, bug fixes, documentation, translations) to community projects, leading joint effort and/or directly contributing work as necessary.
 
 <span class='score only-print'>
 
@@ -290,7 +290,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - **A**: You totally do what's expected, matching our high standards. Undeniably positive impact.
 - **B**: Good performance but with improvement headroom. When you have to set your quarterly or yearly professional goal, here is where to put your energy first.
 - **C**: This falls way behind our expectations and you need to improve significantly in this area. Such a score will inevitably set a goal for you for the next quarter, when this is expected to have become a B. Scoring the same C over and over is not acceptable.
-- **X**: Not applicable
+- **X**: Not applicable.
 
 </span>
 ⠀
