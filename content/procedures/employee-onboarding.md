@@ -22,6 +22,7 @@ An HR or Admin representative will perform the following actions:
 
 * Open a `@sparkfabrik.com` account
 * Add the newly created account to `staff@sparkfabrik.com` group
+* Add the newly created account to all relevant `*-team@sparkfabrik.com` project/team mail groups
 * Add the account to company's OpenVPN firewall (for external access)
 * Open the Gitlab account and add it to all relevant projects
 * Open the Toggl account and make sure it can access all relevant projects
