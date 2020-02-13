@@ -40,4 +40,4 @@ As you take on new roles and possibly even move between specialities (we love mu
 * [Professional](/resources/role-isc-professional)
 * [Supporter](/resources/role-isc-supporter)
 
-You can directly print the ISC page you need from the browser.
+Printing ICSs directly from the browser will result in a version properly formatted to sit together and tick single scores. Try it out!
