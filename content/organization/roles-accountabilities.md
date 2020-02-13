@@ -40,4 +40,4 @@ As you take on new roles and possibly even move between specialities (we love mu
 * [Professional](/resources/role-isc-professional)
 * [Supporter](/resources/role-isc-supporter)
 
-Find [printable version of all ISCs](https://docs.google.com/document/d/1U_aoVG1i1KkP7u-JvzBdoExGK_R6iZgTo0E6Ylm1alU/edit?usp=sharing) in this document. It's a single file, so mind to print only the pages you need.
+You can directly print the ISC page you need from the browser.
