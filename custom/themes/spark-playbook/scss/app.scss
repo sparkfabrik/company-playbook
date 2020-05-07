@@ -1,0 +1,39 @@
+// BOOTSTRAP - Required
+@import "bootstrap.variables"; // --> you use it to insert the bootstrap variables edit
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// BOOTSTRAP - Optional
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
+
+
+// SCSS CUSTOM - Abstracts
+@import "abstracts.mixins";
+@import "abstracts.variables";
+
+// SCSS CUSTOM - Settings
+@import "settings.base";
+@import "settings.typography";
+
+// SCSS CUSTOM - Layout
+@import "layout.grid";
+@import "layout.footer";
+@import "layout.header";
+@import "layout.navigation";
+@import "layout.search";
+@import "layout.home";
+
+// SCSS CUSTOM - Components
+@import "components.buttons";
+@import "components.icons";
+@import "components.search-bar";
+
+// SCSS CUSTOM - Utilities
+@import "utilities.position";

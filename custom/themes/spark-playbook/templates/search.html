@@ -1,0 +1,128 @@
+<!-- Header -->
+<header class="header d-print-none">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 d-none d-md-flex">
+        {{#config.authentication}}
+        <form class="form-inline form-login">
+          {{#loggedIn}}
+          <a href="{{config.base_url}}/logout" class="btn btn-info">{{lang.login.logout}}</a>
+          {{/loggedIn}}
+          {{^loggedIn}}
+          <a href="{{config.base_url}}/login" class="btn btn-info">{{lang.login.login}}</a>
+          {{/loggedIn}}
+        </form>
+        {{/config.authentication}}
+      </div>
+      <div class="col-sm-8">
+        <div class="header__cont">
+          <a href="https://www.sparkfabrik.com/" class="header__logo-link">
+            <img src="{{config.image_url}}/logo_white.svg" alt="Logo Header" class="header__logo-img">
+          </a>
+          <div class="header__company-playbook">
+            <p class="header__company-playbook-title"><a href="{{config.base_url}}/" class="header__company-playbook-link">{{config.site_title}}</a></p>
+
+            <!--Search-->
+            <input type="checkbox" class="d-none" id="searchbar-viewer"/>
+            <div class="search-bar fixed-bottom">
+              <form class="search-bar__form search-form form-inline" action="{{config.base_url}}/">
+                <div class="search-bar__group form-group{{#config.authentication}} pushed {{/config.authentication}}">
+                  <label class="sr-only search-bar__label" for="search">{{lang.global.search}}</label>
+                  <input type="search" class="search-bar__input form-control" name="search" id="search" size="30" value="{{search}}" placeholder="search for a topic here"> <!--placeholder="{{lang.global.search}}"-->
+                </div>
+                <label class="search-bar__close-icon icon-navbar icon-navbar--p0" for="searchbar-viewer">
+                  <div class="icon-navbar__cont-span">
+                    <span class="icon-navbar__span"></span>
+                    <span class="icon-navbar__span"></span>
+                    <span class="icon-navbar__span"></span>
+                  </div>
+                </label>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main -->
+<main class="container">
+  <div class="row">
+    <div class="col-md-4 d-print-none col-sidebar">  
+      <!--Menu-->
+      <input type="checkbox" class="menu__general-toggle-input d-none" id="menu__general-toggle" checked/>
+      <nav class="menu">
+        <!--button collapse all (desktop)-->
+        <label class="menu__collapse-all btn-text d-none d-md-block" for="menu__general-toggle">
+          <span class="menu__label-close">close all</span>
+          <span class="menu__label-open">open all</span>
+        </label>
+        <!--navbar mobile-->
+        <div class="menu__navbar d-flex d-md-none">
+          <label class="icon-search" for="searchbar-viewer">
+            <img src="{{config.image_url}}/icon_search.svg" alt="Search">
+          </label>
+          <label class="icon-navbar" for="menu__general-toggle">
+            <div class="icon-navbar__cont-span">
+              <span class="icon-navbar__span"></span>
+              <span class="icon-navbar__span"></span>
+              <span class="icon-navbar__span"></span>
+            </div>
+          </label>
+        </div>
+        <ul class="menu__category-list">
+          {{#canEdit}}
+            <li><input id="newCategory" type="text" class="form-control" placeholder="{{lang.page.addCategory}}"/></li>
+            <a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>
+          {{/canEdit}}
+          {{#pages}}
+            {{^is_index}}
+              <li class="menu__category-item">
+                <input class="menu__toggle-input d-none" type="checkbox" id="menu__toggle-{{title}}" checked/>
+                  <label class="menu__collapse-label" for="menu__toggle-{{title}}">
+                    <h5 class="menu__category-title">
+                      {{title}} 
+                      {{#canEdit}}<a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>{{/canEdit}}
+                    </h5>
+                    <div class="menu__category-plus d-none d-md-block"></div>
+                  </label>
+                <ul class="menu__pages-list {{#is_index}} menu__pages-list--home {{/is_index}}">
+                  {{#files}}
+                    <li class="menu__page {{#active}} menu__page--active {{/active}}"><a class="menu__page-link" href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
+                  {{/files}}
+                </ul>
+              </li>
+            {{/is_index}}
+          {{/pages}}
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="col-md-8 col-print-12">
+      <section class="search content">
+        <h3 class="search__title">{{lang.search.resultsFor}}: {{search}}</h3>
+        {{#searchResults.length}}
+          {{#searchResults}}
+            <div class="search__page">
+              <h3 class="search__page-title">
+                <a href="{{config.base_url}}/{{slug}}">
+                  {{#category}}
+                    <span class="search__page-title--category">({{category}})</span>
+                  {{/category}}
+                  {{title}} 
+                </a>
+              </h3>
+              <div class="search__page-excerpt">{{{excerpt}}}</div>
+            </div>
+          {{/searchResults}}
+        {{/searchResults.length}}
+        {{^searchResults.length}}
+          <p class="search__nothing-found">{{lang.search.noResultsFor}} "{{search}}"</p>
+        {{/searchResults.length}}
+      </section>
+    </div>
+
+  </div>
+</main>

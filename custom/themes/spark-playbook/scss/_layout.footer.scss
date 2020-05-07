@@ -1,0 +1,50 @@
+/* BEM syntax */
+.footer {
+  margin-top: 4.5rem;
+  font-size: .75rem;
+
+  &__separation {
+    display: block;
+    height: 3rem;
+    background-color: $secondary;
+  }
+
+  &__container {
+    margin: 1.5rem auto;
+    color: $black;
+  }
+
+  &__copyright{
+    margin-bottom: .75rem;
+    font-weight: 600;
+
+    & a,
+    & a:link {
+      color: $black;
+    }
+  }
+
+  &__address {
+    margin-bottom: .75rem;
+    font-weight: 600;
+
+    @include media-breakpoint-up(md) {
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media print {
+    margin-top: 1rem;
+
+    &__copyright {
+      margin-bottom: 1rem;
+    }
+
+    &__address {
+      margin-bottom: .5rem;
+    }
+  }
+}
