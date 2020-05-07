@@ -7,7 +7,9 @@ var path = require('path');
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'SparkFabrik playbook',
+  site_title: 'Company playbook',
+
+  site_title_logo: 'SparkFabrik',
 
   // The base URL of your site (can use %base_url% in Markdown files)
   base_url: '',
@@ -16,7 +18,9 @@ var config = {
   support_email: '',
 
   // Footer Text / Copyright
-  copyright: 'Copyright &copy; ' + new Date().getFullYear() + ' - <a href="http://raneto.com">Powered by Raneto</a>',
+  copyright: '&copy; ' + new Date().getFullYear() + ' - <a href="https://www.sparkfabrik.com">SparkFabrik</a>',
+  sparkfabrik_address_it: 'Sparkfabrik SRL - Via Gustavo Fara 9, 20124 Milano (MI) - Italy - P.IVA IT08557930966',
+  sparkfabrik_address_de: 'Sparkfabrik GmbH - Linprunstraße 49 80335 München - Germany - P.IVA 93037780157',
 
   // Excerpt length (used in search)
   excerpt_length: 400,
@@ -35,7 +39,7 @@ var config = {
 
   // Which Theme to Use?
   theme_dir  : path.join(__dirname, 'themes'),
-  theme_name : 'spark',
+  theme_name : 'spark-playbook',
 
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Needs trailing slash for now!

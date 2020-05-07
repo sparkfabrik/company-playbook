@@ -1,0 +1,33 @@
+.search {
+
+  &__title {
+    margin-bottom: 1.8rem;
+  }
+
+  &__page-title {
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+    color: $secondary;
+
+    & a {
+      color: inherit;
+    }
+
+    &--category {
+      display: block;
+      font-size: .9rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #a5a5a5;
+    }
+  }
+
+  &__page-excerpt {
+    margin-bottom: 1.5rem;
+    color: $black;
+  }
+
+  &__nothing-found {
+    text-align: center;
+  }
+}

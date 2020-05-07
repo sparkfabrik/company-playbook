@@ -1,0 +1,121 @@
+.icon-navbar {
+  padding: .75rem;
+  margin: 0;
+
+  &--p0 {
+    padding: 0;
+  }
+
+  &__cont-span {
+    position: relative;
+    float: right;
+    width: 2.25rem;
+    height: 1.5rem;
+  }
+
+  &__span {
+    position: absolute;
+    top: calc(50% - (#{$icon-span-height} / 2));
+    right: 0;
+    display: inline-table;
+    width: 2.25rem; //45px
+    height: $icon-span-height; //6px
+    font-size: 0;
+    background: #fff;
+    transition: all .3s;
+
+    //close icon
+    &:first-child {
+      transform: rotate(45deg);
+    }
+    &:last-child {
+      transform: rotate(-45deg);
+    }
+    &:nth-child(2) {
+      opacity: 0;
+    }
+  }
+}
+
+// hamburger icon
+#menu__general-toggle:checked ~ .menu .menu__navbar .icon-navbar__span {
+
+  &:first-child {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  &:last-child {
+    top: calc(100% - #{$icon-span-height});
+    transform: rotate(0deg);
+  }
+  &:nth-child(2) {
+    opacity: 1;
+  }
+}
+
+
+// Search icon
+.icon-search {
+  margin: 0;
+
+  img {
+    padding: .55rem .75rem .6rem;
+  }
+}
+
+// to use it, insert this markup: <i class="spark-icon icon-sparkfabrik">&#xe800;</i>
+.icon-sparkfabrik {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0 auto 1rem;
+  font-family: "fontello";
+  font-size: 55px;
+  font-style: normal;
+  line-height: 1em;
+  color: #212121;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 50px;
+}
+
+.icon-category {
+  display: block;
+  margin: 0 0 1rem;
+
+  &::before{
+    @include icon-category ();
+    background-image: url(../images/icon-category-01.svg);
+  }
+
+  &--organization::before{
+    background-image: url(../images/icon-category-01.svg);
+  }
+
+  &--working-at-sparkfabrik::before {
+    background-image: url(../images/icon-category-02.svg);
+  }
+
+  &--tools-and-policies::before {
+    background-image: url(../images/icon-category-03.svg);
+  }
+
+  &--procedures::before {
+    background-image: url(../images/icon-category-07.svg);
+  }
+
+  &--guides::before {
+    background-image: url(../images/icon-category-05.svg);
+  }
+
+  &--resources::before {
+    background-image: url(../images/icon-category-06.svg);
+  }
+
+  &--FAQ::before {
+    background-image: url(../images/icon-category-04.svg);
+  }
+}

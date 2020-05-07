@@ -1,0 +1,170 @@
+<!-- Header -->
+<header class="header d-print-none">
+  <div class="container position-relative">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="header__cont header__cont--home">
+          <a href="https://www.sparkfabrik.com/" class="header__logo-link header__logo-link--home">
+            <img src="{{config.image_url}}/logo_white.svg" alt="Logo Header" class="header__logo-img">
+          </a>
+          <div class="header__company-playbook">
+            <p class="header__company-playbook-title"><a href="{{config.base_url}}/" class="header__company-playbook-link">{{config.site_title}}</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 position-absolute b0">
+        <!--Search-->
+        <input type="checkbox" class="d-none" id="searchbar-viewer"/>
+        <div class="search-bar fixed-bottom">
+          <form class="search-bar__form search-form form-inline" action="{{config.base_url}}/">
+            <div class="search-bar__group form-group{{#config.authentication}} pushed {{/config.authentication}}">
+              <label class="sr-only search-bar__label" for="search">{{lang.global.search}}</label>
+              <input type="search" class="search-bar__input form-control" name="search" id="search" size="30" value="{{search}}" placeholder="search for a topic here"> <!--placeholder="{{lang.global.search}}"-->
+            </div>
+            <label class="search-bar__close-icon icon-navbar icon-navbar--p0" for="searchbar-viewer">
+              <div class="icon-navbar__cont-span">
+                <span class="icon-navbar__span"></span>
+                <span class="icon-navbar__span"></span>
+                <span class="icon-navbar__span"></span>
+              </div>
+            </label>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+<div class="home__description">
+  <div class="container-fluid container-md">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="home__description-title">{{config.welcome.title}}</h2>
+        <div class="home__description-text">
+          <p>What you are reading is the manual of our company.</p>
+          <p>As every organization we have rules, policies, practices, processes and procedures and these pages are primarly meant as a clear reference for our workforce, so that nobody gets lost during everyday work.</p>
+          <p>But at the same time, this is our effort to be transparent, clear and fair to anyone so that the way we work may be followed, discussed and evolved even by people outside the organization.</p>
+          <p>Many useful information can be found here about how SparkFabrik works and we also value contributions and feedback, so don't be shy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main -->
+<main class="container-fluid container-md">
+  <div class="row">
+    <div class="col-md-4 d-print-none home__menu">  
+      <!--Menu-->
+      <input type="checkbox" class="menu__general-toggle-input d-none" id="menu__general-toggle" checked/>
+      <nav class="menu">
+        <!--button collapse all (desktop)-->
+        <label class="menu__collapse-all btn-text d-none d-md-block" for="menu__general-toggle">
+          <span class="menu__label-close">close all</span>
+          <span class="menu__label-open">open all</span>
+        </label>
+        <!--navbar mobile-->
+        <div class="menu__navbar d-flex d-md-none">
+          <label class="icon-search" for="searchbar-viewer">
+            <img src="{{config.image_url}}/icon_search.svg" alt="Search">
+          </label>
+          <label class="icon-navbar" for="menu__general-toggle">
+            <div class="icon-navbar__cont-span">
+              <span class="icon-navbar__span"></span>
+              <span class="icon-navbar__span"></span>
+              <span class="icon-navbar__span"></span>
+            </div>
+          </label>
+        </div>
+        <ul class="menu__category-list">
+          {{#canEdit}}
+            <li><input id="newCategory" type="text" class="form-control" placeholder="{{lang.page.addCategory}}"/></li>
+            <a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>
+          {{/canEdit}}
+          {{#pages}}
+            {{^is_index}}
+              <li class="menu__category-item">
+                <input class="menu__toggle-input d-none" type="checkbox" id="menu__toggle-{{title}}" checked/>
+                  <label class="menu__collapse-label" for="menu__toggle-{{title}}">
+                    <h5 class="menu__category-title">
+                      {{title}} 
+                      {{#canEdit}}<a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>{{/canEdit}}
+                    </h5>
+                    <div class="menu__category-plus d-none d-md-block"></div>
+                  </label>
+                <ul class="menu__pages-list {{#is_index}} menu__pages-list--home {{/is_index}}">
+                  {{#files}}
+                    <li class="menu__page {{#active}} menu__page--active {{/active}}"><a class="menu__page-link" href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
+                  {{/files}}
+                </ul>
+              </li>
+            {{/is_index}}
+          {{/pages}}
+        </ul>
+      </nav>
+    </div>
+
+    <div class="col-12 col-print-12">
+      <div class="home__category">
+        <div class="row align-items-baseline justify-content-around">
+          {{#pages}}
+            {{^is_index}}
+              <div class="home__category-col col-sm-12 col-md-4 col-xl-3">
+                <div class="home__category-panel icon-{{class}}">
+                  <input class="home__category-input d-none" type="checkbox" id="home__collapse-{{title}}"/>
+                  <i class="home__icon icon-category icon-category--{{slug}}"></i>
+                  <h2 class="home__category-heading">{{title}}</h2>
+                  <p class="home__category-description">{{description}}</p>
+                  <label class="home__category-label" for="home__collapse-{{title}}">Explore<span class="home__category-plus"></span></label>
+                  <ul class="home__category-pages">
+                    <div class="home__category-pages-cont">
+                      <h3 class="home__category-title">{{title}}</h3>
+                      {{#files}}
+                        <li class="home__category-item"><a class="home__category-link" href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
+                      {{/files}}
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            {{/is_index}}
+          {{/pages}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+<div class="home__credits">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container container-md">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h3 class="home__credits-title">Credits</h3>
+            <div class="home__credits-text">
+              <p>This playbook and many company practices have been heavily inspired by <a href="https://www.deeson.co.uk/">Deeson</a>, so many thanks go to that nice guy.</p>
+              <p>Our practices owe a great tribute to the guys at <a href="https://stackoverflow.com/">StackOverflow</a>.</p>
+              <p>We learned to value transparency as a propeller to innovation dwelling in <a href="https://agilemanifesto.org/">Agile</a> and <a href="https://www.fsf.org/">FOSS</a> culture.</p>
+              <p>This Playbook is powered by a small and effective piece of free software called <a href="http://raneto.com/">Raneto</a>, one of the best choice for minimum effort knowledgebase keeping.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <h3 class="home__credits-title">Feedback and contributions</h3>
+            <div class="home__credits-text">
+              <p>You can find the source of these pages on <a href="https://github.com/sparkfabrik/company-playbook">GitHub</a>.<br>You can file issues, fork the project and send PRs.</p>
+            </div>
+            <h3 class="home__credits-title">License</h3>
+            <div class="home__credits-text">
+              <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a></p>
+              <p><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SparkFabrik Playbook</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.sparkfabrik.com" property="cc:attributionName" rel="cc:attributionURL">Sparkfabrik Srl</a> is distributed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution - Sharealike 4.0 International</a> license.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
