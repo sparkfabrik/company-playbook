@@ -1,0 +1,70 @@
+.search-bar {
+  width: 100vw;
+  padding: .75rem;
+  visibility: hidden;
+  background-color: $secondary;
+  transition: all .3s ease-out;
+  transform: translateY($height-navbar);
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__group {
+    width: calc(100% - 4rem);
+    background-color: #031527;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: .75rem;
+    color: $secondary_variant_01;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color .5s ease;
+
+    &::placeholder {
+      color: currentColor;
+    }
+
+    &:focus{
+      border-bottom-color: #fff;
+      outline: none;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    position: static;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 2.35rem;
+    visibility: visible;
+    background-color: transparent;
+    transition: unset;
+    transform: unset;
+
+    &__group {
+      width: 100%;
+      border: 1px solid $secondary;
+    }
+
+    &__close-icon {
+      display: none;
+    }
+  }
+
+}
+
+// funtionality to show search-bar when a user click on search icon
+#searchbar-viewer:checked + .search-bar {
+  visibility: visible;
+  transform: translateY(0);
+}

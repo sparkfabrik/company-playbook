@@ -1,0 +1,18 @@
+html{
+  font-size: 20px; //20px
+}
+body {
+  padding-bottom: $height-navbar;
+  overflow-x: hidden;
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    padding-bottom: 0;
+  }
+}
+
+.content {
+  margin-top: 1.5rem;
+  overflow-x: auto;
+}
