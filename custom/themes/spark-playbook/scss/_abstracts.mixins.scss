@@ -1,0 +1,16 @@
+// :selection, -moz-::selection
+@mixin selection-text {
+  font-weight: 400;
+  color: color("white");
+  text-shadow: none;
+  background: theme-color("secondary_variant_01");
+}
+
+@mixin icon-category {
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  content: "";
+  background-position: center;
+  background-size: cover;
+}

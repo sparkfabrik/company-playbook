@@ -12,6 +12,7 @@
 }
 
 .score ul {
+  margin-bottom: 2rem !important;
   display: flex;
   list-style: none;
   padding-bottom: 0.6rem;
@@ -24,10 +25,10 @@
 }
 
 .score input[type="checkbox"] {
+  margin-right: .5rem;
   position: relative;
-  top: 0.5rem;
-  width: 2rem;
-  height: 2rem;
+  width: .8rem;
+  height: .8rem;
 }
 
 .background-grey {
@@ -51,7 +52,8 @@
   .search-form,
   .col-sm-3.hidden-xs,
   .footer,
-  .page-meta {
+  .page-meta,
+  .score.only-print ul li::before {
     display: none;
   }
 
@@ -61,19 +63,6 @@
 
   .header .logo span {
     visibility: hidden;
-  }
-
-  .content h2 {
-    font-size: 2.7rem;
-    font-weight: 600;
-  }
-
-  .content h3 {
-    font-size: 2.1rem;
-  }
-
-  .content p, .content ul {
-    font-size: 1.2rem;
   }
 
 }

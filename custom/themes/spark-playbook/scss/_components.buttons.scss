@@ -1,0 +1,22 @@
+.btn-text {
+  &,
+  &:link,
+  &:visited {
+    padding: 3px;
+    font-size: .5rem;
+    font-weight: bold;
+    color: theme-color("secondary");
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform .1s;
+  }
+
+  &:hover {
+    color: theme-color("secondary_variant_01");
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
