@@ -21,3 +21,7 @@ theme-scss-lint:
 theme-scss-lint-fix:
 	chmod +x bin/npm
 	bin/npm run scss-lint-fix
+
+theme-install-dep:
+	chmod +x bin/npm
+	bin/npm install
