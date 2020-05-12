@@ -103,8 +103,8 @@ var config = {
 
   // Edit Home Page title, description, etc.
   home_meta : {
-    title       : 'SparkFabrik playbook',
-    description : 'All you - hopefully - need to know to work in and with SparkFabrik.'
+    title       : 'SparkFabrik Playbook',
+    description : 'All you - hopefully - need to know to work in and with SparkFabrik'
   },
 
   // variables: [
