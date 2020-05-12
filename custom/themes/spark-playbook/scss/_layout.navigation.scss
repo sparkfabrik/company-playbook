@@ -215,13 +215,6 @@
   // this code align the icon near to category-title only for desktop version
   @include media-breakpoint-up(lg) {
 
-    &__category-item {
-
-      &:first-child .menu__category-title {
-        margin: $margin-t0-menu__category-title;
-      }
-    }
-
     &__collapse-all {
       position: absolute;
       top: 0;
