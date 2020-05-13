@@ -19,9 +19,9 @@ COPY ./custom/raneto/home.route.js /srv/locke/node_modules/raneto/app/routes/hom
 
 WORKDIR /srv/locke/themes/spark-playbook
 
-# RUN \
-#   npm update && \
-#   npm install && \
-#   npm run build
+RUN \
+  npm update && \
+  npm install && \
+  npm run build
 
-# WORKDIR /srv/locke/
+WORKDIR /srv/locke/
