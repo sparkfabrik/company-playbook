@@ -10,3 +10,5 @@ services:
       - ./custom/config.js:/srv/locke/config.js
       - ./custom/themes:/srv/locke/themes
       - ./custom/raneto/contents.js:/srv/locke/node_modules/raneto/app/core/contents.js
+      - ./custom/raneto/wildcard.route.js:/srv/locke/node_modules/raneto/app/routes/wildcard.route.js
+      - ./custom/raneto/home.route.js:/srv/locke/node_modules/raneto/app/routes/home.route.js
