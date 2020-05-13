@@ -4,8 +4,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site_title}}</title>
-  {{#meta.description}}<meta name="description" content="{{meta.description}}">{{/meta.description}}
+  {{#meta.description}}
+  <meta name="description" content="{{meta.description}}">
+  {{/meta.description}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{current_url}}">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:image" content="{{config.image_url}}/fb_share_image.png">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:locale" content="en_EN">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sparkfabrik" />
+  <meta name="twitter:title" content="{{meta.title}}" />
+  <meta name="twitter:description" content="{{meta.description}}" />
+  <meta name="og:image" content="{{config.image_url}}/tw_share_image.png" />
+  <meta name="twitter:url" content="{{current_url}}" />
   <link rel="shortcut icon" href="{{config.base_url}}/favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700&display=swap">
   <link rel="stylesheet" href="{{config.base_url}}/lib/highlightjs/styles/solarized_light.css">

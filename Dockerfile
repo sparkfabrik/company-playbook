@@ -14,6 +14,8 @@ COPY ./assets /srv/locke/assets
 # to enchance RANETO waiting for the pull request
 # in the project to be accepted.
 COPY ./custom/raneto/contents.js /srv/locke/node_modules/raneto/app/core/contents.js
+COPY ./custom/raneto/wildcard.route.js /srv/locke/node_modules/raneto/app/routes/wildcard.route.js
+COPY ./custom/raneto/home.route.js /srv/locke/node_modules/raneto/app/routes/home.route.js
 
 WORKDIR /srv/locke/themes/spark-playbook
 
