@@ -1,3 +1,6 @@
+
+all: theme-install-dep theme-build up
+
 up:
 	docker-compose pull
 	docker-compose up -d
