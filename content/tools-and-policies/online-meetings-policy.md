@@ -29,8 +29,7 @@ The host of an online meeting should always ensure the following items:
 
 ## Tips to run an high-quality virtual meeting
 
-Some of the points come from this super cool post from the MIT Media Lab: https://www.media.mit.edu/posts/a-few-simple-tips-for-better-online-meetings-covid-19-edition they also have a community-editable document [here](https://docs.google.com/document/d/1ubzFL5XWA4F4_O90VtkFn_cbCok5IXl5XZABrj9iq_4/edit) 
-f
+Some of the points come from this super cool post from the MIT Media Lab: https://www.media.mit.edu/posts/a-few-simple-tips-for-better-online-meetings-covid-19-edition they also have a community-editable document [here](https://docs.google.com/document/d/1ubzFL5XWA4F4_O90VtkFn_cbCok5IXl5XZABrj9iq_4/edit)
 1. **Designate a facilitator**: we highly recommend having a facilitator who can keep an eye on group dynamics and guide the conversation. It can be the host or to make it simple, a shared role, rolling among the participants.
 2. **The key to a good video call is the audio**: Nothing improves the quality of a video meeting as much as a headset and good audio etiquette. Make sure all participants use a headset or a good directional microphone, and encourage participants to mute themselves when they are not speaking. If necessary this is one of the areas where it’s ok for the facilitator to get a little heavy handed if necessary. Bad audio from one or two participants can ruin the meeting for everyone else. In addition, all participants should be in a quiet space when they connect.
 3. **Raise your hand/use a speaker queue**: This may sound like we’re back in elementary school, but it’s amazing how well the conversation flows if all participants “raise their hand” to indicate they want to chime in.  It’s the facilitator’s job to make sure that people are asked to speak in the order in which they added themselves to the queue.
@@ -61,7 +60,7 @@ You can just follow these steps:
 
 Users inside the organizations are not covered with a paid membership, it is generally granted just for specific use cases (like online webinar, public meeting with more that 10+ participants, virtual conference, hackathon etc.), if you think you need it ask to your team leader or our accounting department.
 
-Anyway Zoom can be used also without a paid membership, with the free plan you can also host meetings but you have some limitations, you cannot record it and group meetings have a 40-minutes duration limit.
+Anyway Zoom can be used also without a paid membership, with the free plan you can also host meetings but you have some limitations, you cannot record in cloud (just locally) and group meetings have a 40-minutes duration limit.
 
 As by the nature of this platform, the security risks are very high when a meeeting is misconfigured, when you decide to use it, especially when someone outside the organization will join, the host **must strictly follow** the following steps:
 
@@ -84,7 +83,7 @@ As by the nature of this platform, the security risks are very high when a meeet
 9. **REMOVE NUISANCE ATTENDEES**: If you find that someone is disrupting a meeting, you can kick them out under the "Participants" tab. Hover over the name, click "More," and remove them. You can also make sure they cannot rejoin by disabling "Allow Removed Participants to Rejoin" under the "Settings: Meetings - Basic" tab. To simplify this process you can always (and we suggest to do so) to clip the participants tab to the main window and leave it always there, so it is easy easily reachable at every moment.
 
 10. **CHECK FOR UPDATES**: As security issues crop up and patches are deployed or functions are disabled, you should make sure you have the latest build. In order to check, open the desktop application, click on your profile in the top-right, and select "Check for updates."
-Linux does not have an auto-update feature, so you must do it manually and regurarly using this commands:
+Linux does not have an auto-update feature, so you must do it manually and regularly using this commands:
 
 ```bash
 cd /tmp && wget https://zoom.us/client/latest/zoom_amd64.deb && sudo dpkg -i zoom_amd64.deb && cd -
