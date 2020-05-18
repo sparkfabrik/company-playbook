@@ -49,13 +49,12 @@ You can just follow these steps:
 
 1. In a web browser, enter https://meet.google.com.
 2. Click Join or Start a meeting.
-3. (Optional for G Suite users) Create a nickname for your meeting and enter the nickname. Click Continue.
+3. (Optional for G Suite users) Type an optional name for your meeting or leave blank. Click Continue.
 4. Click **Join now**.
 5. To add someone to a meeting, choose an option:
    * Click Copy joining info Copy and paste the meeting details into an email or another app.
    * Click Add people and choose an option:
      * Under the Invite section, select a name, or enter an email address and click Send invite.
-        * *Tip: For meetings created via a personal Google account, only the meeting moderator can send an in call invite.*
     * Under the Call section, enter a phone number and press Call. This feature is currently available only for US and Canada numbers.
 
 ## Zoom
