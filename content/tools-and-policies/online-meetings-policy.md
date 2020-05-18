@@ -31,11 +31,16 @@ The host of an online meeting should always ensure the following items:
 ## Tips to run an high-quality virtual meeting
 
 Some of the points come from this super cool post from the MIT Media Lab: https://www.media.mit.edu/posts/a-few-simple-tips-for-better-online-meetings-covid-19-edition they also have a community-editable document [here](https://docs.google.com/document/d/1ubzFL5XWA4F4_O90VtkFn_cbCok5IXl5XZABrj9iq_4/edit) 
-
+f
 1. **Designate a facilitator**: we highly recommend having a facilitator who can keep an eye on group dynamics and guide the conversation.
 2. **The key to a good video call is the audio**: Nothing improves the quality of a video meeting as much as a headset and good audio etiquette. Make sure all participants use a headset, and encourage participants to mute themselves when they are not speaking. If necessary this is one of the areas where it’s ok for the facilitator to get a little heavy handed if necessary. Bad audio from one or two participants can ruin the meeting for everyone else. In addition, all participants should be in a quiet space when they connect
 3. **Raise your hand/use a speaker queue**: This may sound like we’re back in elementary school, but it’s amazing how well the conversation flows if all participants “raise their hand” to indicate they want to chime in.  It’s the facilitator’s job to make sure that people are asked to speak in the order in which they added themselves to the queue.
 4. **Use the calendar to setup a meeting**: Most of the tools nowadays allow to create a meeting from within your calendar tool, you can here to the instructions for [Google Meet](https://support.google.com/meet/answer/9302870?co=GENIE.Platform%3DDesktop&hl=en) and (Zoom)[https://support.zoom.us/hc/en-us/articles/360020187492-Google-Calendar-add-on]
+5. **Make sure you have enough bandwidth**: If you are experienceing connection issues or just using a low-quality connection, you can try to:
+    * Reduce the used bandwidth of your webcam: (Google Meet)[https://support.google.com/meet/answer/9302964?co=GENIE.Platform%3DDesktop&hl=en] and (Zoom)[https://wiki.millersville.edu/display/instructdocs/Improving+your+Zoom+connection]
+    * Disable the webcam and ask the other ones to do the same
+    * Connect to the meeting using the landline phone number
+
 
 ## Google Meet
 
