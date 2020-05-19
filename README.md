@@ -16,6 +16,20 @@ To contribute provide pull-requests towards `master` branch. The naming conventi
 A broad list of still-to-be-stubbed contents can be found on this Trello board (restricted access to the management board, so far): https://trello.com/b/uJMBxjZZ/sparkfabrik-playbook-and-documentation.  
 A new board will likely be spawned to act as a "parking lot" for changes to this playbook and to track the contents proposals and issues.
 
+## Theme
+
+You can edit the `spark-playbook` theme in the `custom/themes/` to match the styles and settings of your new project, you won't need to change the machine name of the theme.
+
+`make theme-install-dep` will install all the dependencies in the theme folder for you.
+
+`make theme-build` will build the CSS & JS compiled in the theme folder for you.
+
+`make theme-watch` will trigger the watcher to allow you to work on the SCSS files in the theme. At the end of watch lint task will be triggered.
+
+`make theme-lint` / `make theme-lint-fix` will trigger the lint to allow you to check if SCSS are correctly written and auto fix them.
+
+The PHP docker image will take care of the CSS & JS compiling for CI, Stage and Production, so you don't need to commit the compiled files.
+
 ## Signaling issues or improvement
 
 To keep things simple, we'll use gitlab issues to keep track of all improvements or ideas we'll have. If you notice something that can be made better and want to either signal it to the authors or work it out by yourself, please, open an issue on gitlab so that the commits can reference it.
