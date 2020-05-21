@@ -97,14 +97,18 @@
     </div>
   {{/loggedIn}}
   {{/config.allow_editing}}
+
+  {{! You need of these lib to create new categories and pages by frontend editor.
+      This happen when the allow_editing and authentication variables are set to true in config.js.}}
+      {{! script src="/lib/jquery/dist/jquery.min.js"
+                src="/lib/bootstrap/dist/js/bootstrap.min.js">
+                src="/lib/masonry-layout/dist/masonry.pkgd.min.js">
+                src="/js/ghostdown.js">
+                src="/lib/highlightjs/highlight.pack.min.js">
+                src="/lib/fitvids/fitvids.min.js">
+                src="/js/spark.js"> }}
+  
   <!-- JavaScript -->
-  <script src="{{config.base_url}}/lib/jquery/dist/jquery.min.js"></script>
-  <script src="{{config.base_url}}/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="{{config.base_url}}/lib/highlightjs/highlight.pack.min.js"></script>
-  <script src="{{config.base_url}}/lib/fitvids/fitvids.min.js"></script>
-  <script src="{{config.base_url}}/lib/masonry-layout/dist/masonry.pkgd.min.js"></script>
-  <script src="{{config.base_url}}/js/ghostdown.js"></script>
-  <script src="{{config.base_url}}/js/spark.js"></script>
   <script src="{{config.base_url}}/dist/main.js"></script>
 </body>
 </html>
