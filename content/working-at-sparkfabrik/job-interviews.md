@@ -131,9 +131,9 @@ Your technical interview score will depend on various aspects, not just producti
 * You know what a backlog is
 * You played the Product/Project/Process Owner role in a Scrum or Kanban team
 * You played the Scrum Master role in a Scrum team
-* You was part of a development team using Scrum or Kanban and you can articulate on your experience
+* You were part of a development team using Scrum or Kanban and you can articulate on your experience
 * You are certified in one of the named frameworks
-* You can explain when and why it is not adviced to use such approaches
+* You can explain when and why it is not advised to use such approaches
 
 ### Passion and contributions
 
