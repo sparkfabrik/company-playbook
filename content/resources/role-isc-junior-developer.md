@@ -160,20 +160,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Contributions
 
-* You propose or help to generate content about technology, methodology or practices for Sparkfabrik's media.
-
-<span class='score only-print'>
-
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
-
-</span>
-
-* You keep our Company Playbook up to date, extend and fix it every time you see the need.
+* You seize all opportunities to contribute to Sparkfabrik's internal projects or media, even with things as small as dependencies updates or typo corrections.
 
 <span class='score only-print'>
 
@@ -210,4 +197,3 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - **X**: Not applicable.
 
 </span>
-⠀

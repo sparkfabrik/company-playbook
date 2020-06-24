@@ -217,7 +217,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Contributions
 
-* You generate content about technology, methodology or practices for Sparkfabrik's media.
+* You actively contribute and/or make sure your team members contribute to Sparkfabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generating content on our channels and on this playbook.
 
 <span class='score only-print'>
 
@@ -230,7 +230,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You lead, with the help of Sales and Communication, the production of a case study within two weeks by the end of each project.
+* You coordinate, when required by Sales and Communication, the production of a case study on the projects you lead.
 
 <span class='score only-print'>
 
@@ -243,7 +243,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You make sure your team members (you also) participate in CFPs, applying as speakers at relevant conferences. You facilitate the organization of work to allow them (or yourself) to prepare the necessary material.
+* You help promoting our brand, from paying attention to your professional social media presence to participating (better if as a speaker) to relevant conferences.
 
 <span class='score only-print'>
 
@@ -256,20 +256,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You keep our Company Playbook up to date, extend and fix it every time you see the need.
-
-<span class='score only-print'>
-
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
-
-</span>
-
-* You deliver substantial contributions (new features, bug fixes, documentation, translations) to community projects, leading joint effort and/or directly contributing work as necessary.
+* You deliver and/or make sure your team members deliver contributions (bug fixes, documentation, translations) to community projects, leading joint effort and/or directly contributing work as necessary.
 
 <span class='score only-print'>
 
@@ -293,4 +280,3 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - **X**: Not applicable.
 
 </span>
-⠀
