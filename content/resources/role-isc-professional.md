@@ -244,7 +244,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Contributions
 
-* You generate (or help to) content about technology, methodology or practices for Sparkfabrik's media.
+* You actively and substantially contribute to Sparkfabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generating content on our channels and on this playbook.
 
 <span class='score only-print'>
 
@@ -257,7 +257,20 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You keep our Company Playbook up to date, extend and fix it every time you see the need.
+* You own long-running or occasional internal initiatives to sustain our culture, be it by owning an internal project, fostering good communication, taking in charge internal training programs and the like.
+
+<span class='score only-print'>
+
+- [ ] A++
+- [ ] A+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] X
+
+</span>
+
+* You actively promote our brand, paying attention to your professional social media presence, participating as a speaker to relevant conferences or online events and creating good content on behalf of the company.
 
 <span class='score only-print'>
 
@@ -283,19 +296,6 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You own one or more community projects making sure they are in good shape, documented and up to date.
-
-<span class='score only-print'>
-
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
-
-</span>
-
 <span class='background-grey only-print'>
 
 #### Impact scoring values
@@ -307,4 +307,3 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - **X**: Not applicable.
 
 </span>
-⠀
