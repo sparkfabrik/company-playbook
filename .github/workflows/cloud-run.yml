@@ -21,7 +21,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
-  RUN_REGION: eu-west1
+  RUN_REGION: europe-west1
   SERVICE_NAME: company-playbook
 
 jobs:
