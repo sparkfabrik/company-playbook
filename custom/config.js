@@ -55,14 +55,8 @@ var config = {
   image_url: '/images',
 
   // Add your analytics tracking code (including script tags)
-  analytics: '<!-- Global site tag (gtag.js) - Google Analytics -->\n' +
-              '\xa0\xa0<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62993647-4" ></script>\n' +
-              '\xa0\xa0<script>\n' +
-              '\xa0\xa0\xa0\xa0window.dataLayer = window.dataLayer || [];\n' +
-              '\xa0\xa0\xa0\xa0function gtag(){dataLayer.push(arguments);}\n' +
-              '\xa0\xa0\xa0\xa0gtag(\'js\', new Date());\n\n' +
-              '\xa0\xa0\xa0\xa0gtag(\'config\', \'UA-62993647-4\' , {\'anonymize_ip\' : true }) ;\n' +
-              '\xa0\xa0</script>',
+  analytics: '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62993647-4" ></script>\n'+
+    '<script>window.dataLayer = window.dataLayer || []; function gtag(){ dataLayer.push(arguments);}gtag(\'js\', new Date());gtag(\'config\', \'UA-62993647-4\', { \'anonymize_ip\': true });</script>',
 
   // Set to true to enable the web editor
   allow_editing : false,
