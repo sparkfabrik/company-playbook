@@ -234,7 +234,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 <span class='background-grey only-print'>
 
 #### Impact scoring values
-- **A+++**: Over the top amazingness. You do, teach and lead. When people think of this skill, they think of you. Even in Sparkfabrik, where people are expected to excel, such a score will be rare. You can aim here but are not expected to, probably this reflects an aspect of your personality or a natural talent.
+- **A++**: Over the top amazingness. You do, teach and lead. When people think of this skill, they think of you. Even in Sparkfabrik, where people are expected to excel, such a score will be rare. You can aim here but are not expected to, probably this reflects an aspect of your personality or a natural talent.
 - **A+**: You do more than your mates expect, even considering we have demandingly high standards.
 - **A**: You totally do what's expected, matching our high standards. Undeniably positive impact.
 - **B**: Good performance but with improvement headroom. When you have to set your quarterly or yearly professional goal, here is where to put your energy first.
