@@ -1,5 +1,9 @@
 // GRID
 @media print {
+  .container {
+    max-width: 100%;
+  }
+
   .col-print-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;

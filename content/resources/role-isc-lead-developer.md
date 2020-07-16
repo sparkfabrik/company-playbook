@@ -3,6 +3,7 @@ Title: Impact Scoring Card - Lead Developer
 Description: Lead Developer role in SparkFabrik
 Sort: 70
 */
+<input class='no-print btn-text btn-print' type="button" value="Print this ics" onclick="window.print();" >
 
 <span class='no-print'>
 
