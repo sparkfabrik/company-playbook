@@ -3,6 +3,7 @@ Title: Impact Scoring Card - Supporter
 Description: Role that owns administrative and support processes in SparkFabrik
 Sort: 90
 */
+<input class='no-print btn-text btn-print' type="button" value="Print this ics" onclick="window.print();" >
 
 <span class='no-print'>
 
