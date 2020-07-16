@@ -19,4 +19,13 @@
   &:active {
     transform: translateY(1px);
   }
+
+  &.btn-print {
+    background-color: transparent;
+    border: 0;
+
+    &:focus {
+      outline: none;
+    }
+  }
 }
