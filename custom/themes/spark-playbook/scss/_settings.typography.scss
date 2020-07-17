@@ -4,9 +4,9 @@
   font-weight: 400;
   src: url("public/font/fontello.eot?4337484");
   src:
-    url("public/font/fontello.eot?4337484#iefix") format("embedded-opentype"), 
-    url("public/font/fontello.woff?4337484") format("woff"), 
-    url("public/font/fontello.ttf?4337484") format("truetype"), 
+    url("public/font/fontello.eot?4337484#iefix") format("embedded-opentype"),
+    url("public/font/fontello.woff?4337484") format("woff"),
+    url("public/font/fontello.ttf?4337484") format("truetype"),
     url("public/font/fontello.svg?4337484#fontello") format("svg");
 }
 
@@ -64,7 +64,7 @@ h4 { line-height: 1.5; }
         line-height: 1rem;
         color: $secondary_variant_01;
         font-weight: bold;
-        display: inline-block; 
+        display: inline-block;
         margin: 4px 0 0 -1em;
         position: absolute;
       }
@@ -105,4 +105,12 @@ h4 { line-height: 1.5; }
     }
   }
 
+}
+
+.quote {
+  margin: auto;
+  border-left: 0.25rem solid theme-color("secondary");
+  padding: 0.5rem 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
 }
