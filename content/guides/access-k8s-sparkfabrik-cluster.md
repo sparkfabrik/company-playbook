@@ -12,7 +12,7 @@ Rejoy! Your `sparkfabrik.com` account is enough to perform authentication, but y
 Once done, you can authenticate running
 
 ```text
-$ gcloud auth login
+$ gcloud auth application-default login
 ```
 
 Provide your `sparkfabrik.com` credentials.
