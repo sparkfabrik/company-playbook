@@ -13,15 +13,15 @@ We stumbled upon [Deeson's model](https://handbook.deeson.co.uk/working-at-deeso
 
 We evaluate each other based on the desired impact we should get during our daily work. To this extent each role's duties in Sparkfabrik is detailed based on the expected outcomes, not a series of tasks or procedures that people must follow blindly.
 
-These outcomes is seen as important to business, context and company culture by [company governance](/job-roles/governance).
+These outcomes is seen as important to business, context and company culture by [company governance](/organization/governance).
 
 ## Impact assessment
 
-In [one-to-one meetings](/working-at-sparkfabrik/one-to-one-meetings) at the start of every quarter (Jan, April, July, Oct), we evaluate a developers against the outcomes listed in their [impact scoring cards](/our-company/impact-scoring-cards) on the same scale from A (and above) to C used by Deeson.
+In [one-to-one meetings](/working-at-sparkfabrik/one-to-one-meetings) at the start of every quarter (Jan, April, July, Oct), we evaluate a developers against the outcomes listed in their [impact scoring cards](/organization/roles-accountabilities#per-role-accountabilities) on the same scale from A (and above) to C used by Deeson.
 
 Each outcome or skill gets one of the following rates:
 
-* **A+++**: Over the top amazingness. You do, teach and lead. When people think of this skill, they think of you. Even in Sparkfabrik, where people are expected to excel, such a score will be rare. You can aim here but are not expected to, probably this reflects an aspect of your personality or a natural talent.
+* **A++**: Over the top amazingness. You do, teach and lead. When people think of this skill, they think of you. Even in Sparkfabrik, where people are expected to excel, such a score will be rare. You can aim here but are not expected to, probably this reflects an aspect of your personality or a natural talent.
 * **A+**: You do more than your mates expect, even considering we have demandingly high standards.
 * **A**: You totally do what's expected, matching our high standards. Undeniably positive impact.
 * **B**: Good performance but with improvement headroom. When you have to set your quarterly or yearly professional goal, here is where to put your energy first.
@@ -35,9 +35,9 @@ An additional value is
 
 The total score is calculated by the following formula:
 
-> (4 x _A+++ count_ + 3 x _A+ count_ + 2 x _A count_ + 1 x _B count_ + 0 x _C count_ + 0 x _X count_) / (_Total aspects count_)
+> (4 x _A++ count_ + 3 x _A+ count_ + 2 x _A count_ + 1 x _B count_ + 0 x _C count_ + 0 x _X count_) / (_Total aspects count_)
 
-The resulting score is and average awesomeness indicator you can keep track of. It is bound to grow and when it constantly stays over the _Awesomeness horizon_ reported in your impact scoring card, you'll be eligible for a [career advancement](/job-roles/career-advancement).
+The resulting score is and average awesomeness indicator you can keep track of. It is bound to grow and when it constantly stays over the _Awesomeness horizon_ reported in your impact scoring card, you'll be eligible for a [career advancement](/working-at-sparkfabrik/career-advancement).
 
 ## How assessment happens
 

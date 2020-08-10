@@ -1,0 +1,235 @@
+/* BEM syntax */
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  transition: height .3s;
+
+  &__navbar {
+    position: absolute;
+    bottom: 0;
+    z-index: 120;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: $height-navbar;
+    margin: 0;
+    background-color: $secondary;
+  }
+
+  &__category-list {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: calc(100vh - #{$height-navbar});
+    padding: 1.5rem;
+    overflow: auto;
+    list-style: none;
+    background-color: $secondary;
+    transition: margin-top .3s;
+  }
+
+  &__category-item {
+    position: relative;
+    margin-bottom: 1.25rem;
+  }
+
+  &__category-title {
+    position: relative;
+    padding-right: .4rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+
+    &--home {
+      margin-top: 0;
+    }
+  }
+
+  &__pages-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__page {
+    font-size: .75rem;
+    line-height: 1.5rem;
+
+    &--active {
+      font-weight: bold;
+    }
+  }
+
+  &__page-link {
+    display: inline-block;
+    line-height: 1rem;
+    color: $white;
+
+    &:hover,
+    &:active {
+      color: $white;
+    }
+  }
+
+  // hidden menu - this input start already checked, so if it checked, the &__category-list go down to hide
+  #menu__general-toggle:checked ~ & {
+    height: $height-navbar;
+  }
+
+
+  // Functionality of click on category to show page-links (Desktop)
+  @include media-breakpoint-up(md) {
+
+    & {
+      position: relative;
+      bottom: unset;
+      left: unset;
+      z-index: unset;
+      width: 100%;
+      height: auto;
+      margin: 2rem 0 0;
+    }
+
+    &__category-list {
+      position: relative;
+      top: unset;
+      z-index: unset;
+      width: 100%;
+      height: unset;
+      padding: 0;
+      margin-top: unset;
+      overflow: hidden;
+      background-color: transparent;
+      transition: unset;
+    }
+
+    &__category-item {
+      position: relative;
+    }
+
+    &__category-title {
+      color: $black;
+
+      &--home {
+        padding-right: 2.5rem;
+      }
+    }
+
+    &__pages-list {
+      &:not(&--home) {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .5s ease-out;
+      }
+    }
+
+    &__page-link {
+      color: $secondary;
+
+      &:hover {
+        color: $secondary_variant_01;
+        text-decoration: none;
+      }
+    }
+
+    &__collapse-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    &__category-plus {
+      position: relative;
+      width: 1rem;
+      height: 1.1rem;
+      margin: 0;
+
+      &::after,
+      &::before {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 10px;
+        height: 2px;
+        content: "";
+        background: $secondary;
+        opacity: 1;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+      }
+      &::before {
+        transform: rotate(90deg);
+      }
+    }
+
+    //reset function menu mobile
+    #menu__general-toggle:checked ~ & {
+      height: auto;
+    }
+
+    // collapse category's items
+    [id^="menu__toggle-"]:checked ~ &__pages-list {
+      max-height: 30rem;
+    }
+
+    [id^="menu__toggle-"]:checked + &__collapse-label &__category-plus::before {
+      opacity: 0;
+      transform: rotate(180deg);
+    }
+
+    // toogle general to show or hide all page-link of every category
+    &__collapse-all {
+      z-index: 1;
+      float: right;
+    }
+
+    &__label-open {
+      display: block;
+    }
+
+    &__label-close {
+      display: none;
+    }
+
+    #menu__general-toggle:checked ~ & &__label-open {
+      display: none;
+    }
+
+    #menu__general-toggle:checked ~ & &__label-close {
+      display: block;
+    }
+
+  }
+
+  // this code align the icon near to category-title only for desktop version
+  @include media-breakpoint-up(lg) {
+
+    &__collapse-all {
+      position: absolute;
+      top: 0;
+      right: .5rem;
+    }
+
+    &__collapse-label {
+      justify-content: flex-start;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    &__collapse-all {
+      right: 3rem;
+    }
+  }
+
+}

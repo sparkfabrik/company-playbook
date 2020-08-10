@@ -1,0 +1,97 @@
+/**
+ * This file is a copy of the original Bootstrap _variables.scss file.
+ * In our theme we are importing this one instead of the original file in
+ * "../node_modules/bootstrap/scss/variables"
+ *
+ * This file is based on Bootstrap v4.3.1 (https://getbootstrap.com/),
+ * please check changes if upgrading Bootstrap version.
+ */
+
+// GRID - Configuration column & gutter
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+
+// GRID - Breakpoint
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1280px
+);
+
+// GRID - width container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 900px,
+  xl: 1260px
+);
+
+
+// TYPOGRAPHY - body
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$font-family-base: "Barlow Semi Condensed", sans-serif;
+$font-weight-base: 300;
+
+// default weight light/normal/bold
+$font-weight-light:           300;
+$font-weight-lighter:         300;
+$font-weight-normal:          300;
+$font-weight-bold:            700;
+$font-weight-bolder:          700;
+
+// default heading
+$headings-font-weight:        700;
+$headings-color:              var(--black);
+$headings-line-height:        1.2;
+
+$h1-font-size:                1.75rem; //35x
+$h2-font-size:                1.5rem; //30px
+$h3-font-size:                1.25rem; // 25px
+$h4-font-size:                1rem; // 20px
+$h5-font-size:                1rem; // it's not specified in the visual, we leave 1rem
+
+// MARGIN - Heading and Paragraph
+$paragraph-margin-bottom:   1.5rem;
+$headings-margin-bottom:    .75rem;
+
+
+// COLOR - settings primary and body color
+//
+// if you want use this color palette, you can use variables, functions and even the root's variables:
+// theme-color("secondary"), color("black") // var(--secondary) // $primary
+//
+// example => color: theme-color("secondary");
+// example => color: $primary;
+
+// palette
+$primary: #ff0523;
+$secondary: #29537d;
+$secondary_variant_01: #6e90b2;
+$black: #031527;
+$gray-dark: #222;
+
+// you should use these functions to add color to the color palette
+$theme-colors: (
+  "secondary_variant_01": $secondary_variant_01
+);
+$colors: (
+  "gray-dark": $gray-dark,
+  "black": $black
+);
+
+// add this only after the palette
+$body-color: $black;
+$link-color: $secondary_variant_01;
+$link-hover-color: $secondary;
+
+// BACKGROUND - body
+$body-bg: var(--white);

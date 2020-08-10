@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{config.locale}}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site_title}}</title>
+  {{#meta.description}}
+  <meta name="description" content="{{meta.description}}">
+  {{/meta.description}}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{current_url}}">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:image" content="{{config.image_url}}/fb_share_image.png">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:locale" content="en_EN">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sparkfabrik" />
+  <meta name="twitter:title" content="{{meta.title}}" />
+  <meta name="twitter:description" content="{{meta.description}}" />
+  <meta name="og:image" content="{{config.image_url}}/tw_share_image.png" />
+  <meta name="twitter:url" content="{{current_url}}" />
+  <link rel="shortcut icon" href="{{config.base_url}}/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700&display=swap">
+  <link rel="stylesheet" href="{{config.base_url}}/lib/highlightjs/styles/solarized_light.css">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/spark.css">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/ghostdown.css">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/custom.css">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/custom-styles.css">
+  <link rel="stylesheet" href="{{config.base_url}}/dist/style.css">
+  {{#config.rtl_layout}}
+    <link rel="stylesheet" href="{{config.base_url}}/styles/spark.rtl.css">
+    <link rel="stylesheet" href="{{config.base_url}}/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+  {{/config.rtl_layout}}
+  {{{config.analytics}}}
+</head>
+<body class="{{body_class}}">
+
+  <!--contents--->
+  {{{yield}}}
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__separation d-print-none"></div>
+    <div class="container footer__container">
+      <div class="row">
+        <div class="col-md-4 col-print-12">
+          {{#config.copyright}}
+            <p class="footer__copyright">{{{config.copyright}}}</p>
+          {{/config.copyright}}
+        </div>
+        <div class="col-md-8 col-print-12">
+          <p class="footer__address footer__address--it">{{{config.sparkfabrik_address_it}}}</p>
+          <p class="footer__address footer__address--de">{{{config.sparkfabrik_address_de}}}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  {{#config.allow_editing}}
+  {{#loggedIn}}
+    <!-- Modal: Add Page -->
+    <div class="modal fade" id="addModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="{{lang.global.close}}">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">{{lang.global.addPage}}</h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="page-name" class="control-label">{{lang.global.pageName}}:</label>
+              <input type="text" class="form-control" id="page-name">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" type="button">{{lang.global.cancel}}</button>
+            <button class="btn btn-primary" id="add-page-confirm" type="button">{{lang.global.save}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal: Delete Page -->
+    <div class="modal fade" id="deleteModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h4 class="modal-title" id="myModalLabel">{{lang.global.reallyDeletePage}}</h4>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" type="button">{{lang.global.no}}</button>
+            <button class="btn btn-primary" id="delete-page-confirm" type="button">{{lang.global.yes}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/loggedIn}}
+  {{/config.allow_editing}}
+  <!-- JavaScript -->
+  <script src="{{config.base_url}}/lib/jquery/dist/jquery.min.js"></script>
+  <script src="{{config.base_url}}/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="{{config.base_url}}/lib/highlightjs/highlight.pack.min.js"></script>
+  <script src="{{config.base_url}}/lib/fitvids/fitvids.min.js"></script>
+  <script src="{{config.base_url}}/lib/masonry-layout/dist/masonry.pkgd.min.js"></script>
+  <script src="{{config.base_url}}/js/ghostdown.js"></script>
+  <script src="{{config.base_url}}/js/spark.js"></script>
+  <script src="{{config.base_url}}/dist/main.js"></script>
+</body>
+</html>

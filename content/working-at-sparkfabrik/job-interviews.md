@@ -11,7 +11,7 @@ What follow is a broad depiction of our hiring workflow, from first contact to j
 ## How we collect CVs
 
 Candidates apply via our company website or by mail, to jobs@sparkfabrik.com.
-Please send your CV in the format that more represents your skills and attitude. Beside your CV a bit of a presentation is very welcome as it can help us understand who you are and what you exepect from us.
+Please send your CV in the format that more represents your skills and attitude. Beside your CV a bit of a presentation is very welcome as it can help us understand who you are and what you expect from us.
 
 ## First interview
 
@@ -131,9 +131,9 @@ Your technical interview score will depend on various aspects, not just producti
 * You know what a backlog is
 * You played the Product/Project/Process Owner role in a Scrum or Kanban team
 * You played the Scrum Master role in a Scrum team
-* You was part of a development team using Scrum or Kanban and you can articulate on your experience
+* You were part of a development team using Scrum or Kanban and you can articulate on your experience
 * You are certified in one of the named frameworks
-* You can explain when and why it is not adviced to use such approaches
+* You can explain when and why it is not advised to use such approaches
 
 ### Passion and contributions
 

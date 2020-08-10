@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: 400;
+  src: url("public/font/fontello.eot?4337484");
+  src:
+    url("public/font/fontello.eot?4337484#iefix") format("embedded-opentype"),
+    url("public/font/fontello.woff?4337484") format("woff"),
+    url("public/font/fontello.ttf?4337484") format("truetype"),
+    url("public/font/fontello.svg?4337484#fontello") format("svg");
+}
+
+// Selection text
+::selection { @include selection-text; }
+::-moz-selection { @include selection-text; }
+
+img::selection { background: transparent; }
+img::-moz-selection { background: transparent; }
+
+// Heading text
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  line-height: 1.142857143;
+}
+
+h2 { line-height: 1.166666667; }
+h3 { line-height: 1.2; }
+h4 { line-height: 1.5; }
+
+// text page
+.content  {
+  margin: 30px 0;
+
+  & h2 {
+    margin-top: 3rem;
+  }
+
+  & img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+  & ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+
+    & li {
+      position: relative;
+
+      &::before {
+        content: "\2022";
+        font-size: 1.3rem;
+        line-height: 1rem;
+        color: $secondary_variant_01;
+        font-weight: bold;
+        display: inline-block;
+        margin: 4px 0 0 -1em;
+        position: absolute;
+      }
+    }
+  }
+
+  & code {
+    color: #555;
+    background-color: #FFFDDC;
+  }
+
+  & pre {
+    background: #FFFDDC;
+    border: 0;
+
+    & code {
+      color: #657B83;
+    }
+  }
+
+  & .hljs {
+    background: none;
+  }
+
+  & .page-meta {
+    margin-top: 50px;
+    font-size: 85%;
+    color: #999;
+
+    & a {
+      color: #999;
+      border-bottom: 1px dotted #999;
+
+      &:hover {
+        color: #428BCA;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+.quote {
+  margin: auto;
+  border-left: 0.25rem solid theme-color("secondary");
+  padding: 0.5rem 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
