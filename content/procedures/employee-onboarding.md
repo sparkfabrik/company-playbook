@@ -98,4 +98,4 @@ When in doubt, ask a HR representative.
 
 We ask every employee who joins Sparkfabrik and who has a LinkedIn account to immediately add an Experience record, connected to Sparkfabrik's company profile with the correct role and starting date.
 
-In addition, we ask to set the branded Sparkfabrik's banner as background photo of her profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
+In addition, we ask to set the [branded Sparkfabrik's banner](/downloads/spark_linkedin_cover.png) as background photo of her profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
