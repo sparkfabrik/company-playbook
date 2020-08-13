@@ -24,9 +24,10 @@ An HR or Admin representative will perform the following actions:
 * Add the newly created account to `staff@sparkfabrik.com` group
 * Add the newly created account to all relevant `*-team@sparkfabrik.com` project/team mail groups
 * Add the account to company's OpenVPN firewall (for external access)
-* Open the Gitlab/Github account and add it to all relevant projects
 * Open the Toggl account and make sure it can access all relevant projects
-* Add the account to Slack and _invite_ it on `#general` and `#tech` as well as on all channels related to relevant projects
+* Open the Gitlab account and add it to all relevant projects
+* Add the GitHub account of the employee (or open it if not available) to Sparkfabrik organization and relevant projects
+* Add the account to Slack and _invite_ it on `#general`, `#tech` and `#tech-support` as well as on all channels related to relevant projects
 
 ## Things to do on the first day
 
@@ -59,18 +60,21 @@ What follows will be performed with the help of your buddy, if needed
 * Add SSH keys on Gitlab so you can clone the repositories
 * Set your profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate/decent close-up (or use the [facewall shot](#facewall-shot))
 * Set your e-mail signature in [the format](#Standard-mail-signature-format) below (respect bolds)
+* Set the [Sparkfabrik branded LinkedIn banner](#LinkedIn-brand-guidelines) on the Linkedin profile
 
 ## Things to do within the first week
 
+* HR will schedule a call with the employee and her buddy to clarify [onboarding goals](/guides/an-effective-onboarding-structure) and schedule the checkpoints
+* HR will schedule a quick call to introduce the company management to the employee, and viceversa
 * HR and the employee will schedule a brief talk where the employee will self-introduce to the company
 * <a name="facewall-shot"></a>HR will arrange a shooting session for the website facewall (this can also be used as a profile picture)
 
 ## Things to do one month after the onboarding
 
 * HR will survey the employee to collect feedback about the onboarding process
-* HR will arrange a meeting between the whole management and the employee to share general evaluations and conclude the onboarding phase
+* If necessary, HR will arrange a meeting between the management and the employee to share general evaluations and conclude the onboarding phase
 
-## Snippets
+## Standard formats and snippets
 
 ### Standard mail signature format
 
@@ -79,7 +83,7 @@ What follows will be performed with the help of your buddy, if needed
 > **Name Surname**  
 > Role or function
 >
-> +39 XXX XX.XX.XXX  
+> +XX YYY ZZ.ZZ.ZZZ
 > https://www.sparkfabrik.com
 
 Role or function can be:
@@ -89,3 +93,9 @@ Role or function can be:
 * C-Level or other management board function
 
 When in doubt, ask a HR representative.
+
+### Branded LinkedIn banner
+
+We ask every employee who joins Sparkfabrik and who has a LinkedIn account to immediately add an Experience record, connected to Sparkfabrik's company profile with the correct role and starting date.
+
+In addition, we ask to set the branded Sparkfabrik's banner as background photo of her profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
