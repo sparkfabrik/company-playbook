@@ -1,104 +1,94 @@
 /*
-Description: Things to know if you want to move to Italy
+Description: Joining Sparkfabrik if you are not an Italian citizen
 Sort: 35
 */
 
-We are very happy to receive application from around the globe.  
+We are very happy to receive applications from around the globe.  
 Actually we like SparkFabrik to be a multicultural melting pot, where ideas can spark (heh!) from our cultural differences and richness.
 
-In this page we summarize what we know about relocation processes for people coming to Italy from foreign countries.  
-We are pretty new to this and Italy is a very bureaucratic country, where procedures tend to change over time, so we won't go into too much details here. The following overview will hopefully clarify what to expect and help our personnel and the candidate to be on the same page, should we embark in the process.
+Sparkfabrik has its offices in Milan, Italy, but the company is structured with a remote-first approach, meaning that the procedures and communication channel are thought out to support remote alongside in-person workflows.  
+So we equally consider both applications for remote working and for relocating to Italy, near Milan.
 
-## Relocating from EU
+The main difference lies in the type of contract we sign with the new employee.
 
-Citizen of EU Countries can move freely to Italy and take advantage of an unrestricted labour market.  
-This means that **relocating is as simple as finding an accommodation and signing the employment contract**. Easypeasy.
+## Relocating foreign workers
 
-## Relocating from outside EU with Blue Card
+Relocating to Italy will require effort and paperwork (we have a [guide to relocation](/guides/relocating-to-italy) that explains the process in detail) but will allow Sparkfabrik to grant you a _Collective Labour Agreement_ (CLA).
 
-Moving from outside EU for working reasons requires the issuing of the Blue Card, an EU permission to practice in european area. Issuing a Blue Card in Italy is allowed only for _high specialization_ professionals so **you must be graduated (Bachelor's degree or higher) in Computer Science or Computer Engineering** for us to request the emission of a Blue Card.
+Depending on where you come from, you may or may not have to ask for a visa. European citizens may come to Italy and be hired freely, as they were italian citizens. From other countries a working or family visa will be required.
 
-### Steps to obtain a Blue Card
+No matter what, Sparkfabrik offers permanent employment contracts (find here the [full Italian CLA](https://www.contrattocommercio.it) - sadly no official English translation is available). This arrangement allows for open-ended visa renovation, among other things.
 
-#### 1. Obtain a _Declaration of Value_
+With such a contract, your yearly **gross** salary will be paid in 14 **net** monthly wages. This is because:
 
-This document states that the graduation you achieved in your country qualifies as an Italian Bachelor's degree (or higher).  
-The Italian Embassy or Consulate in your country can release one for you (contact your university if in doubt). **This is usually the step with the longer elapse**: how much it will take depends on your country's bureaucracy and disposition to emigration of specialized labourers.  
-Once you got it, make a copy and send the original to us **with a fast and secure shipment**! We will need it to make our request for your visa.
+1. June and December you get double wage (hence, 14 wages)
+2. Sparkfabrik will retain taxes following regulations and pay them for you (hence, they are net)
 
-#### 2. Sign a Letter of Intent
+The retained tax amount depends on a lot of factors, like the agreed gross wage, your level, possible dependent relatives, etc. As a rule of thumb, you can consider **one third of the gross salary to be retained** in taxes.
 
-We will sign an agreement about your hiring, clearly stating your job role, you salary, the duration of the contract (usually permanent) and other details.
+[Find here our standard gross salaries table](/working-at-sparkfabrik/salaries).
 
-We can sign the agreement remotely or you can come visit (yay!). If you decide to come visit, ask your local autorities for a tourist visa. In those cases where traveling costs too much, you can send an original signed copy. In this case it's adviced to **send it alongside your Declaration of Value**, since we will also need the original letter to make our request.  
-Of course we'll send you our signed copy also!
+## Remote foreign workers
 
-This step will actually go in parallel with the previous one.
+Remote workers living in foreign countries, even european ones, can't be employed with a CLA. Among others, the main blocker is that Sparkfabrik can't easily pay your taxes in your country, while the Italian CLA requires that we do.
 
-#### 3. Send the request for your Blue Card
+For this reason we have a standard private agreement that guarantees:
 
-This is on SparkFabrik. We will make formal request for a Blue Card in the light of your professional qualification and our will to hire you.
+* Full-time engagement
+* 24 leave days each year (like the Italian CLA)
+* A mutual withdrawal period of 1 to 3 months, depending on your level
+* The same general treatement reserved to resident workers
+* The same mutual obbligations valid for resident workers
 
-Your country will have then to evaluate the request and issue you a **visa to permanently move to Italy**.  
-We need you to send a color scan of your passport (relevant pages) that clearly shows the visa. The visa number must be clearly readable, since we'll have to attach it to book the appointment for your Blue Card.
+Under this agreement we will pay you the **gross** salary in 12 **gross** monthly wages.
 
-Almost there...
+[Find here our standard gross salaries table](/working-at-sparkfabrik/salaries).
 
-#### 4. Book all the things
+To this extent we need you to be able to issue valid invoices to Sparkfabrik. We will pay your invoices with the rest of the wages each month.
 
-Once you have the visa we can book what's necessary:
+To issue valid invoice you may have to register for a VAT position in your country, depending on your local regulations. We can't give advice on this so it's up to you.
 
-* We'll agree on a possible arrival date and you'll book your flight.
-* We will book your hotel for the first month.
-* We will book the appointment in local Prefecture to sign your Blue Card contract. We can not guarantee for the date of that appointment but the sooner we'll book, the sooner we'll get it.
+Remote foreign workers will be invited to join the yearly SparkMeeting, we usually run in September. The event will last for three days. Bed and board, plus travel expanses to join the meeting will be on us.
 
-The day after the appointment (the same day won't work) we'll go together to a local post office to send your request for registration to the immigration offices.  
-The Blue Card (and residence permit) will be issued after you will go for your registration, but **with the postal receipt we can proceed with your hiring**.
+Usually we also ask foreign workers to be available to travel to Italy for very peculiar events or in special occasions. Should this be the case, all expanses are still on us.
 
-#### 5. Hiring
+## Timetable and working hours
 
-Your hiring will legally begin from the day after you get the receipt.  
-**As soon as you'll have your postal receipt you will sign your hiring contract and we'll take care of the rest**.
+Italy working week is made of **5 working days** (monday to friday) of **8 working hours**, with a **1-hour lunch break** in the middle.
 
-#### 6. Registration
+Sparkfabrik official working timetable is:
 
-With your postal receipt you will also get a date for **an appointment to the immigration offices**. You'll have to leave your fingerprints and other information. After the registration you will be issued your Blue Card and the process will finally be over.
+| Segment | Start | End |
+| --- | --- | --- |
+| **Morning** | 9.30 | 13.00 |
+| **Lunch break** | 13.00 | 14.00 |
+| **Afternoon** | 14.00 | 18.30 |
 
-### Our role
+We **officially allow for 30 minutes of flexibility** both for start/end time and for the lunch break, as long as you provide 8 hours of valuable work each day:
 
-We will take care of collecting all the documents if not for your Declaration of Value (you must provide it on your own, sorry).  
-We will be present during all the necessary steps, so you don't get lost in bureaucracy or with possible non-english-speaking operators in the various offices.
+So, if you want to:
 
-### Costs
+* Begin at 9.00 in the morning
+* Stop at 13.00 for lunch to have a longer break
+* Restart at 14.30 for the afternoon
+* Leave at 18.30
 
-Of the costs involved in your relocation, SparkFabrik will cover:
+this is feasible without asking for specific permission.
 
-* The hotel for the first 30 days. Having a 30 days long accommodation is mandatory to book the appointment in Prefecture.
-* The costs of all the paperwork (stamps, postal expenses, etc).
-* Meals vouchers (lunch) for your first days of staying in the office before your actual hiring (see caveat #1 below).
+Same if you want to do **9.00 - 18.00** or **9.30 - 18.00** with **30mins** lunch break.
 
-Your flight, local transportation and other expenses are supposed to be on you.
+In practice we are pretty flexible and keen to address family or personal needs, as well as matching the rhythms of your home country that may differ from italian ones.
 
-We are working to switch to a relocation fee model, reimbursing a flat fee of ideally € 1.000 for you to spend as better fit your moving plan.  
-Mind thought that you will still have restrictions on your accommodation for the first 30 days so that it will be apt to require the Blue Card.
+If you have special needs, please talk about them with the management in advance (HR is a good touchpoint). We will surely work them out as long as:
 
-### Caveats
+* You provide 8 hours of valuable work each day
+* You have at least 5 hours of co-presence with your colleagues
+* You are present for daily meetings and cadenced events at the time defined by and with your team
 
-1. There will be **a gap between your arrival and the appointment you will have in prefecture for the Blue Card contract signing**, plus two more working days from the signing to the legal hiring. We'll do our best to shrink that gap but since it doesn't entirely depend on us, it is better to **take into account 7 to 15 days passing between your arrival and your actual hiring**. Of course, during that period you will be a welcomed guest to our offices so you can get acquainted with the environment and the people and possibly get to know something on how we work.
+## Other relevant information
 
-2. As an immigrant from outside the EU you will have to attend 2 days of civic education. The training calendar will be provided when your sign your Blue Card contract. If for any reason you won't be able to attend an event **you must provide proper justification** or you'll invalidate your Blue Card request. The training has no costs. SparkFabrik won't count the training days as leave or off-time, they'll be on us.
+Different cultures bring different takes on work relations to the table. Plus remote foreign employments run on a private agreement, _in lieu_ of a stricter CLA: this may lead some remote employee to think they are working as contractors.
 
-3. For a incoherent regulation, **you can be hired with the sole postal receipt but you can't have an italian bank account without a definitive residence permit**. Since italian companies are bound to pay wages with traceable transitions, in the first couple of months or so (depending from when you'll get your registration appointment), we will have to either pay you on a foreign bank account or paying you with checks. In the second case, you will have to change checks in cash at our bank branch. This is an annoyance we are working to solve.
+This is not the case: fiscal arrangement does not imply a temporary or loose releationship. Remote foreign workers are still considered Sparkfabrik employees and have the same privileges and duties of each other colleague.
 
-4. For bureaucratic reasons, **passing the first 30 days in a hotel is the quicker way to activate the Blue Card contract procedure**. There are other options but they will take (way) longer. Among them, you may want to rent an apartment before your trip. In this case, consider that you will have to produce all necessary documentation for a legal rent agreement by the day of your appointment in Prefecture. In addition you will need to already have an italian Fiscal Code, which basically means you have already been in Italy in the past. If you want to go that way SparkFabrik won't be able to act on your behalf, nor to refund your costs. We will still do our best to help on a practical perspective, like talk to the apartment owner, collect physical documents and the like.  
-Since 30 days pass fast, our advice is to begin to look anyway for a more stable accommodation in the days before your departure. Finding accommodations in Milan may be a non trivial task depending on your budget, your expectations and the period of the year. As above, we can provide best-effort help, contacting a shortlist of locators of your choice.
-
-## Relocating from outside EU with a Green Card
-
-If you have relatives in Italy, asking for a family reunification Green Card may be faster.
-
-This permission is available to everyone with a strict relative (parent, child or spouse) who is an italian citizen or have obtained a regular residence permit. To be entitled for such Green Card you must enter Italy with the proper visa (for family reunification). Ask your local authority how to obtain one. Mind that in case you declare the relative is a spouse, cohabitation is necessary to obtain such Green Card.
-
-SparkFabrik can't help in obtaining such Green Card but the permit allows for normal hiring, exactly as a Blue Card.
-
-Should the relationship that sustains the Green Card cease (divorce, death or other events) while you are already hired, the Green Card can be converted to a Blue Card with a simple request.
+Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](/working-at-sparkfabrik/personal-projects.mdpersonal-projects).
