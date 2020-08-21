@@ -3,6 +3,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/tables";
 
 // BOOTSTRAP - Optional
 @import "../node_modules/bootstrap/scss/reboot";
@@ -21,6 +22,7 @@
 // SCSS CUSTOM - Settings
 @import "settings.base";
 @import "settings.typography";
+@import "settings.table";
 
 // SCSS CUSTOM - Layout
 @import "layout.grid";
