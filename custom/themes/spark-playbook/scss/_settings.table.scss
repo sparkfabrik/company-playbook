@@ -1,0 +1,46 @@
+.content {
+
+  table,
+  .table {
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    
+    @include media-breakpoint-down(lg) {
+      overflow: scroll;
+      display: block; // To allow scroll table if is too huge
+    }
+
+    thead {
+      background: #f1f1f1;
+    
+      th {
+        border: 0px solid #dee2e6;
+      }
+    }
+
+    th, 
+    td {
+      padding: .4rem 0.4rem .5rem 0.4rem;
+      border-bottom: 1px solid #ececec;
+      font-size: .86rem;
+      border-top: 0px solid #f2f2f2;
+
+      &:first-child{
+        padding-left: .5rem;
+      }
+      &:last-child {
+        padding-right: .5rem;
+      }
+
+      // If table have 5 or more column: 
+      // https://css-tricks.com/solved-with-css-logical-styling-based-on-the-number-of-given-elements/
+      &:first-child:nth-last-child(n + 5),
+      &:first-child:nth-last-child(n + 5) ~ * {
+        font-size: .78rem;
+        padding: .7rem 0.4rem .8rem 0.4rem;
+      }
+    }
+  }
+}
+
