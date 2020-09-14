@@ -22,7 +22,7 @@ Matching (or exceeding) a score of `2.5` for three times in a row will allow you
 Stepping up will impact:
 
 * your salary following [this table](/working-at-sparkfabrik/salaries#salary-variations);
-* your duties in accordance to your new [impact scoring card](/resources/impact-scoring-cards).
+* your duties in accordance to your new [impact scoring card](/organization/roles-accountabilities#per-role-accountabilities).
 
 ```
 NOTE: Salary brackets values and direct bonds between performance and salary step-ups are still in "alpha" stage.
@@ -37,4 +37,4 @@ When you as a senior developer meet the requirements for a career advancement, w
 
 We encourage everybody to accept the challenge and may, in many cases, probe people that already refused if we see a new occasion for them to shine, but won't push or force any advancement.
 
-Still we expect **every senior developer** to constantly increase her scoring and set new professional goals, maybe tackling new [Specialities](job-roles/operations#specialities) in their career, making side steps instead of climbing the ledder.
+Still we expect **every senior developer** to constantly increase her scoring and set new professional goals, maybe tackling new [Specialities](/organization/operations#specialities) in their career, making side steps instead of climbing the ledder.
