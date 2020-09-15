@@ -3,31 +3,30 @@ Description: Sparkfabrik's take on the work done out of the company
 Sort: 90
 */
 
+Sparkfabrik was born and constantly dwells in the open culture movement. We do our best to inspire all our workforce to share knowledge, ideas and great software with the world. Also, we choose our team-mates based on their passion, willpower and drive.
 
-Sparkfabrik was born and constantly dwells in the open culture movement. We do our best to inspire all our workforce to share knowledge, ideas and great software with the world. Also, we choose our team mates based on their passion, willpower and drive.
+A qualities mix that hardly defines a 9-18 performer.
 
-This qualities mix hardly define a 9-18 performer.
+We know that, from time to time, the boundaries of the project we are assigned to become too narrow for our passion. We know we may want to explore new roads, learn new things and - why not - shape our very own brainchild.
 
-We know that it may happen, from time to time, that the boundaries of the project we work on become too narrow for our passion. We know we may want to explore new roads, learn new things and - why not - give shape to something that's our very own brainchild.
+Maybe a friend contact us for a quick job, like a small website or a personal-use application and we want to take the challenge and fun. We guess this may happen quite often, in fact.
 
-Maybe a friend asks us to do a quick job for him, develop a small site or a small business application and we want to take the challenge and fun. Well, we guess this may happen quite often.
+Nothing wrong.  
+Still **a thin line runs between fuelling passion for everyone's sake and working against Sparkfabrik**. Possibly, without even noticing.
 
-Nothing bad with any of the above.  
-Still **a thin line runs between fueling passion to everyone's good and working against Sparkfabrik**. Possibly, without even noticing.
-
-This page is here to clarify the company's positions on personal projects - or on work you may want to do outside Sparkfabrik - and to provide guidelines for an open, honest and transparent dialogue around those themes.
+This page clarifies the company's positions on personal projects - or on work you may want to do outside Sparkfabrik - and to provide guidelines for an open, honest and transparent dialogue around those themes.
 
 ## Foreword
 
-Sparkfabrik provides specific assets to each and every employee:
+Sparkfabrik provides specific assets to every employee:
 
 * A company laptop
 * Training programs, on-the-job and education resources
-* Possible access to additional online resources or devices
+* Possible access to additional online resources or special devices
 
 Using the mentioned assets for personal training, learning and tinkering is OK, but you are **NOT allowed** to make use of those for personal gain or to perform work for third parties, unless expressively authorized by the company management.
 
-In addition our employees learn classified or confidential information related to the company strategy, our customers, etc.
+In addition, our employees learn classified or confidential information related to the company strategy, our customers, etc.
 
 **Our employment contracts binds all employees to strict secrecy about those information. In no way what's contained in this page overrides or relax those obligations.**
 
@@ -40,7 +39,7 @@ If you decide the world lacks a smart-coffee-machine driver written in [ocaml](h
 Same is for free knowledge: do you think there is value in explaining the anthropological effects of agile on packs of developers under 25 and you want to write an article on Medium? Well, ok.  
 Again, we are always keen to host your content if you feel it is a good fit for Sparkfabrik's communication.
 
-Anyway, as long as you release your work under a free or Creative Commons license, you can go for it.
+Anyway, as long as you release your work under a [free](https://en.wikipedia.org/wiki/Free-software_license) or [Creative Commons](https://creativecommons.org/) license, you can go for it.
 
 **An important caveat thou**: if you publish content about experiences you did while working in Sparkfabrik, **mentioning this is really appreciated**.
 
