@@ -45,7 +45,7 @@ Anyway, as long as you release your work under a [free](https://en.wikipedia.org
 
 ### Creating tools or software for personal use
 
-Your garden needs irrigation and you'd be delighted to create a rain-o-matic with an RPi and Typescript?  
+Your garden needs irrigation and you'd be delighted to create a rain-o-matic with an RPi and [Typescript](https://www.typescriptlang.org/)?  
 No problem at all. As a matter of fact, we'd love to hear about your experience during an internal talk, if you don't mind.
 
 ### Making use of free software publicly released by Sparkfabrik
@@ -54,7 +54,7 @@ Want to use or fork [SparkDock](https://github.com/sparkfabrik/sparkdock) or thi
 
 Please, mind **this is NOT the same for the packages stored on internal Gitlab or in private GitHub repos**. After all those packages are **not** published on GitHub for a reason.
 
-## What is usually allowed but we want you to discuss with us before
+## What is usually allowed but we require you discuss with us before
 
 ### Working on a no-profit closed/non-free personal project that has public exposition
 
@@ -75,21 +75,23 @@ Should your cousin's fishing club ask you to create a site for them free of char
 
 ### Working on a profitable personal project outside Sparkfabrik
 
-If you want to create a new startup and gain from it, go all-in: leave your workplace and invest personally on your dream. It will be sad seeing you go, but that's the right arrangement.
+If you want to create a new startup and become the new sensation, go all-in: leave your workplace and invest personally on your dream. It will be sad seeing you go, but that's the correct arrangement.
 
 There are three very important reasons for that:
 
 1. While most IT companies work with contractors or on-demand workforce, Sparkfabrik only hires full-time employees. This is one of our main selling points and we take pride in this. Running two ponies, you are casting shadows on our honesty and reliability with both clients and colleagues, vaporizing our efforts and investiments.
-2. We invest sound money and a lot of effort ensuring a sustainable working pace and a positive work-life balance. We want everyone to relax, take sleep and live a healthy life outside work so that - when you are at your desk - you can perform at your best. If you split your energies over two endeavours, Sparkfabrik will be damaged in its ability to deliver. Yes, yes we know... you can bear with it... but we can't trust superheroes. They seem cool but they wear a mask.
+2. We invest sound money and a lot of effort ensuring a sustainable working pace and a positive work-life balance. We want everyone to relax, take sleep and live a healthy life outside work so that - when you are at your desk - you can perform at your best. If you split your energies over two endeavours, Sparkfabrik will be damaged in its ability to deliver. Yes, yes we know... you can bear with it... but we can't trust superheroes. They seem cool but they wear masks.
 3. Sparkfabrik constantly invests in your training and professional growth. This is nothing we can (nor want!) to take you away, but this means that - provide your personal project is not a woodworking _atelier_ - we are basically sustaining your personal goals with our resources ("our" includes everyone in the company). We feel this is irrespectful in the face of your colleagues.
 
-Despite all of this, we are big fans of enterpreneurship: come, talk to us and we may work our an arrangement.
+For these same reasons, cultivating your **developer** profile on freelancing sites like Fiverr, Upwork, etc is not nice to Sparkfabrik.
 
-### Provide paid work outside of Sparkfabrik
+Despite all of this, we are big fans of enterpreneurship: come, talk to us and we may come to an agreement.
+
+### Provide paid work outside Sparkfabrik
 
 As simple as it is. You can **NOT** work as a contractor for other competing companies. You would be breaching your non-concurrency obbligations.
 
-Granted, if you can seize the opportunity for an occasional small income (your cousin's fishing club wants to pay you an invoice for their small new site), we are usually keen to grant you the permission. Not the same if you sistematically work outside the company. If you are really in the need, talk to us: we may decide to pay you a perfectly legal overtime so it's a win/win.
+Granted, if you can seize the opportunity for an occasional small income (your cousin's fishing club wants to pay you an invoice for their small new site), we are usually keen to grant you the permission. Not the same if you sistematically work outside the company. If you really are in the need, talk to us: we may decide to pay you a perfectly legal overtime so it's a win/win.
 
 **In no case, working with direct competitors will be tolerated.**
 
@@ -102,9 +104,9 @@ Good fences make good neighbours, right?
 
 Addressing every possible case with a playbook page is very hard.
 
-We value personal freedom and our employees well-being so much, it's the first point in our mission.  
+We value personal freedom and well-being so much, they are first-in-line in our mission.  
 For this very reason, **we value transparency and honesty over everything else**.
 
-The golden rule to avoid any possible issue is: **talk to us**.
+The golden rule to avoid issues is: **talk to us**.
 
 With an open dialogue we will always figure out how to save everyone's day.
