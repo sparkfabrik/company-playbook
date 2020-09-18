@@ -1,6 +1,7 @@
 const path = require('path');
 const StylelintPlugin = require('stylelint-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+var webpack = require('webpack');
 
 module.exports = env => {
   // inProduction is true when we are building the production code.
@@ -14,6 +15,10 @@ module.exports = env => {
       new StylelintPlugin({
         // fix: inProduction, // Enable if you want to autofix SCSS files when building production dist files.
         lintDirtyModulesOnly: true,
+      }),
+      new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
       })
     ],
 
