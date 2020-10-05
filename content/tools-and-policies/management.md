@@ -1,20 +1,25 @@
+/*
+Description: Project management
+Sort: 40
+*/
+
     @todo create detailed chapters on what the tools are meant for and the polices to use them
-
-
 
 ## Table of Content
 
-* [Redmine](#redmine)
-* [Toggl](#toggl)
-* [GMail](#gmail)
-* [Hangout](#hangout)
-* [Google Drive](#google-drive)
-* [Trello](#trello)
-* [Other communication channels](#other-communication-channels)
+- [Table of Content](#table-of-content)
+- [Redmine](#redmine)
+- [Toggl](#toggl)
+- [Slack](#slack)
+- [GMail](#gmail)
+- [Hangout](#hangout)
+- [Google Drive](#google-drive)
+- [Trello](#trello)
+- [Other communication channels](#other-communication-channels)
 
-## Redmine 
+## Redmine
 
-    @todo summariza what we use Redmine for and link specific articles and recipes to help people get the info they need
+    @todo summarize what we use Redmine for and link specific articles and recipes to help people get the info they need
 
 ## Toggl
 
@@ -27,7 +32,7 @@
     - List general purpose channels, their topics, what can be discussed and what not
     - Give information on how to set the online status to inform others of your availability
 
-## GMail 
+## GMail
 
     @todo nothing terrible to be said here, if not for subscription to G+ so that hangout is available and maybe usage of company account for personal purposes (related to the migration of mails in case of resignation)
 
@@ -55,4 +60,3 @@
     - Telegram chat channel
     - Skype
     - Others? 
-

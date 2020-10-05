@@ -1,27 +1,32 @@
+/*
+Description: A set of polices we use while doing fronted on Drupal 8
+Sort: 100
+*/
+
 ## Table of Content
 
-* [Table of Content](#table-of-content)
-* [Purpose of this document](#purpose-of-this-document)
-* [Tools](#tools)
- * [Frontend framework](#frontend-framework)
- * [CSS](#css)
-* [CSS: architecture and guidelines](#css-architecture-and-guidelines)
- * [CSS architecture](#css-architecture)
-  * [Principles](#principles)
-  * [Best practices](#best-practices)
-   * [Avoid reliance on HTML structure](#avoid-reliance-on-html-structure)
-   * [Define component elements (sub-objects) using their own classes](#define-component-elements-sub-objects-using-their-own-classes)
-   * [Extend components using modifier classes.](#extend-components-using-modifier-classes)
-   * [Separate Concerns](#separate-concerns)
-   * [Name Components Using Design Semantics](#name-components-using-design-semantics)
-   * [Formatting Class Names](#formatting-class-names)
-   * [Specificity, ids and !important](#specificity-ids-and-important)
-   * [Case study and pitfalls](#case-study-and-pitfalls)
-  * [File structure](#file-structure)
- * [CSS formatting guidelines](#css-formatting-guidelines)
-* [Javascript](#javascript)
- * [Best practices](#best-practices)
- * [JavaScript and JQuery formatting guidelines](#javascript-and-jquery-formatting-guidelines)
+- [Table of Content](#table-of-content)
+- [Purpose of this document](#purpose-of-this-document)
+- [Tools](#tools)
+  - [Frontend framework](#frontend-framework)
+  - [CSS](#css)
+- [CSS: architecture and guidelines](#css-architecture-and-guidelines)
+  - [CSS architecture](#css-architecture)
+    - [Principles](#principles)
+    - [Best practices](#best-practices)
+      - [Avoid reliance on HTML structure](#avoid-reliance-on-html-structure)
+      - [Define component elements (sub-objects) using their own classes](#define-component-elements-sub-objects-using-their-own-classes)
+      - [Extend components using modifier classes.](#extend-components-using-modifier-classes)
+      - [Separate Concerns](#separate-concerns)
+      - [Name Components Using Design Semantics](#name-components-using-design-semantics)
+      - [Formatting Class Names](#formatting-class-names)
+      - [Specificity, ids and !important](#specificity-ids-and-important)
+      - [Case study and pitfalls](#case-study-and-pitfalls)
+    - [File structure](#file-structure)
+  - [CSS formatting guidelines](#css-formatting-guidelines)
+- [Javascript](#javascript)
+  - [Best practices](#best-practices-1)
+  - [JavaScript and JQuery formatting guidelines](#javascript-and-jquery-formatting-guidelines)
 
 ## Purpose of this document
 

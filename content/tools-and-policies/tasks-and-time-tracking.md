@@ -1,3 +1,8 @@
+/*
+Description: How we track time and manage tasks
+Sort: 70
+*/
+
 ## Basic principles
 
 Working as a team, and loving order and focus, we want to keep track of all our tasks.  
