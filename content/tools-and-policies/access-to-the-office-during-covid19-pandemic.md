@@ -22,9 +22,8 @@ At the office entrance those items can be found:
 * The sanitizing gel.
 * A contactless thermometer.
 * An access log (paper).
-* A sheet for the delegation of the safety manager.
-* Surgical masks.
 * A proxy sheet (for the first person entering the office, see [Responsible of security](#responsible-of-security) below).
+* Surgical masks.
 
 The access is allowed according to the following safety rules:
 
