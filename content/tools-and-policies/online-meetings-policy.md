@@ -1,5 +1,5 @@
 /*
-Description: Tools and policies to run secure and effective online meetings 
+Description: Tools and policies to run secure and effective online meetings
 Sort: 60
 */
 

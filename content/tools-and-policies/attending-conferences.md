@@ -1,3 +1,8 @@
+/*
+Description: How to attend conferences as part of your work in Sparkfabrik
+Sort: 20
+*/
+
 SparkFabrik encourages team members to attend relevant conferences for personal development and to promote us around the industry.
 
 ## How to file an attendance request

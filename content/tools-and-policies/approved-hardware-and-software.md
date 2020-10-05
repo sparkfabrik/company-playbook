@@ -1,6 +1,6 @@
 /*
-Description: How we require you to care in your devices during your daily work at SparkFabrik
-Sort: 60
+Description: Hardware and software you can use at work
+Sort: 50
 */
 
 SparkFabrik is primarly a web-development company, dwelling in the realm of FOSS (Free and Open-Source Software).
