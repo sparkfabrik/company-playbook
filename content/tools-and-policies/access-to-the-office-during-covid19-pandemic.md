@@ -13,7 +13,7 @@ Limitations also apply to access the meeting rooms and common areas.
 ## Booking a seat
 
 To book access to the office, write to office-booking@sparkfabrik.com.
-Wait for a confirmation e-mail. To know who's in the office, take a look at this calendar.
+Wait for a confirmation e-mail. To know who's in the office, take a look at [this calendar](https://calendar.google.com/calendar/u/1?cid=YWdhdmVlLmNvbV8xZWFlZmxmbzRxOXNpZmZtNGJqNnVta3B1a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 ## Accessing the office
 
@@ -46,7 +46,7 @@ We have set up **two seats for each island** in order to maintain an adequate di
 
 **No seat is considered personal**. When you book a seat for a day you can take the first free seat you spot or prefer.  
 
-Your personal keyboard, mouse and headphones (the stuff you touch) are all in a box in a cabinet in the first room. Take them when you enter and bring them to your desk of choice.  
+Your personal keyboard, mouse and headphones (the stuff you touch) are all in a box on the shelves in the room adjacent to the meeting room (the first when you enter). Take them when you enter and bring them to your desk of choice.  
 On each desk you'll find sanitizing wipes and alcohol-based gel. **Before going out, put your things in the box and sanitize the desk with wipes**. Please leave the desk clear of devices, books or other objects.
 
 The use of the meeting room is limited to a maximum of **4 people** at a time, by reservation (same booking rules apply).
