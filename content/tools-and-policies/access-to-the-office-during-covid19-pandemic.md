@@ -31,7 +31,7 @@ The access is allowed according to the following safety rules:
 * You **MUST** sanitize their hands with the gel.
 * You **MUST** have you temperature measured and written down: should the body temperature exceed 37.5°C, you won't be allowed to access the office.
 * You **MUST** log your presence on the register.
-* We **strongly** recomend to install Immuni tracking app.
+* We **strongly** recommend to install Immuni tracking app.
 
 ## Responsible of security
 
@@ -42,7 +42,7 @@ This person is appointed the **Responsible for Security** role and will have to 
 
 Once in the office, keep in mind that:
 
-We have set up **two seats for each island** in order to maintain an adequate distance. Do not move the seats and respect 1.5m distancing. Due to 7/10/2020 DPCM you are asked to **always wear a mask** while staying in the office unless you are alone.
+We have set up **two seats for each island** in order to maintain an adequate distance. Do not move the seats and respect 1.5m distancing. Due to [7/10/2020 DPCM](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2020-10-07&atto.codiceRedazionale=20G00144&elenco30giorni=false) you are asked to **always wear a mask** while staying in the office unless you are alone.
 
 **No seat is considered personal**. When you book a seat for a day you can take the first free seat you spot or prefer.
 
