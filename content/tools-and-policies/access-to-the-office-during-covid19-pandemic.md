@@ -12,9 +12,11 @@ Limitations also apply to access the meeting rooms and common areas.
 
 ## Booking a seat
 
+
+
 To book access to the office, write to office-booking@sparkfabrik.com.
 
-Wait for a confirmation e-mail. To know who's in the office, take a look at [this calendar (Presenze in ufficio)](https://calendar.google.com/calendar/u/1/embed?src=agavee.com_1eaeflfo4q9siffm4bj6umkpuk@group.calendar.google.com&ctz=Europe/Rome) or add (this ical)[https://calendar.google.com/calendar/ical/agavee.com_1eaeflfo4q9siffm4bj6umkpuk%40group.calendar.google.com/private-999297412c557aade34f6654b5e2b923/basic.ics] to your calendar tool.
+Wait for a confirmation e-mail. To know who's in the office, take a look at this calendar [Presenze in ufficio](https://calendar.google.com/calendar/u/1/embed?src=agavee.com_1eaeflfo4q9siffm4bj6umkpuk@group.calendar.google.com&ctz=Europe/Rome) or add [this ical](https://calendar.google.com/calendar/ical/agavee.com_1eaeflfo4q9siffm4bj6umkpuk%40group.calendar.google.com/private-999297412c557aade34f6654b5e2b923/basic.ics) to your calendar tool.
 
 ## Accessing the office
 
