@@ -228,14 +228,13 @@ The piece basically sits where `dnsmasq` used to in former OS versions. Sadly `r
 1. We have to change a system configuration file to make it work. This becomes a problem if you want to upgrade to the next LTS since the procedure will complain about the changed file (not a big problem but still).
 2. The service happens to head in a sort of race condition when new containers are spawn from time to time, so resolve new containerized service can stop working (we have [a simple workaround](#workaround-for-resolveddnsdock-lock-up) for this).
 
-The good news is that the procedure is simpler than `dnsmasq` configuration. Just edit `/etc/systemd/resolved.conf` as superuser and add the following lines to the end of the file:
+The good news is that the procedure is simpler than `dnsmasq` configuration. Just create this new file `/etc/systemd/resolved.conf.d/dnsdock.conf` as superuser with the following content:
 
 ```text
+[Resolve]
 DNS=172.17.0.1
 Domains=~loc
 ```
-
-> **NOTE**: both `DNS` and `Domains` config options are commented in the standard `resolved.conf` file, but both are present. You can uncomment them of course. We advice you to put new lines at the end since it will be simpler to compare changes during an LTS upgrade. The important thing is that you **make sure you don't have conflicting configurations from a previous customization**.
 
 #### Workaround for resolved/dnsdock lock-up
 
