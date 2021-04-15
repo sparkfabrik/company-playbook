@@ -186,7 +186,7 @@ version of Docker.
 In order to upgrade it:
 
 1. git clone `git@#######:sparkfabrik/projects/ubuntu-provisioner.git`
-2. `m̀ake docker`
+2. `make docker`
 
 At the finish of this process you will have the Docker PPA installed and a version higher than 20.10.1.
 
@@ -198,7 +198,7 @@ export DOCKER_BUILDKIT=1
 export COMPOSE_DOCKER_CLI_BUILD=1
 ```
 
-Just place them under your `.bashrc` or `.zshrc` it depends on what shell you are using.
+Just place them under your `.bashrc` or `.zshrc` (it depends on what shell you are using).
 
 ### Installing Docker engine and command
 
