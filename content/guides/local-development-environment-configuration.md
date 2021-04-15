@@ -191,10 +191,14 @@ In order to upgrade it:
 At the finish of this process you will have the Docker PPA installed and a version higher than 20.10.1.
 
 You must now enable [Docker buildkit](https://docs.docker.com/develop/develop-images/build_enhancements/) as the default builder, to do that
-you must export a variable in your local environment.
+you must export the following variables in your local environment.
 
-`export DOCKER_BUILDKIT=1` just place this under your `.bashrc` or `.zshrc` it depends on what shell you are using.
+```bash
+export DOCKER_BUILDKIT=1
+export COMPOSE_DOCKER_CLI_BUILD=1
+```
 
+Just place them under your `.bashrc` or `.zshrc` it depends on what shell you are using.
 
 ### Installing Docker engine and command
 
