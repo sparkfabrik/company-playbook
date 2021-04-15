@@ -38,8 +38,6 @@ curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/spar
 chmod +x /usr/local/bin/run-dinghy-proxy
 ```
 
-####
-
 ## Overview
 
 Our local development environment is build on docker, to achieve:
