@@ -8,6 +8,37 @@ Click the links to jump to the section of interest.
 * Access to a Bourne-compatible shell (all the following procedures have been tested with bash)
 * VirtualBox (for OS X).  
   If you don't have VB, yet, Docker Toolbox will install it for you. If you already have VB, you may want to choose the custom install of Docker Toolbox and deselect VB installation.
+  
+## Run dnsdock or dinghy http proxy
+
+If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have delete the pods),
+you can rely on sparkdock scripts:
+
+1. Linux
+  1. `run-dnsdock`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dnsdock
+  2. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dinghy-proxy
+2. MacOS:
+  1. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macosx/bin/run-dinghy-proxy
+
+You should have it in your system, but in case of missing:
+
+**Ubuntu** 
+
+```bash
+curl -slo /usr/local/bin/run-dnsdock https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/ubuntu/bin/run-dnsdock
+curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/ubuntu/bin/run-dinghy-proxy
+chmod +x /usr/local/bin/run-dnsdock
+chmod +x /usr/local/bin/run-dinghy-proxy
+```
+
+**MacOS**
+
+```bash
+curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/macosx/bin/run-dinghy-proxy
+chmod +x /usr/local/bin/run-dinghy-proxy
+```
+
+####
 
 ## Overview
 
@@ -145,26 +176,24 @@ These commands:
 
 ## Ubuntu Linux
 
-> _The guide for Ubuntu Linux is maintained by Paolo Pustorino_
-
 ### Forenote
 
-It my be late to state this but **avoid to encrypt your home directory**! It will gives at least two major disservice:
+Our Linux systems are automatically provisioned using our internal project `ubuntu-provisioner`,
+you can find under your gitlab at this path `sparkfabrik/projects/ubuntu-provisioner`, it is an Ansible-based
+provisioner that you can always re-run to upgrade or add new packages.
 
-1. Build operations on Drupal sites will have a **relevant** drop in performance
-1. Crypted FS in Ubuntu won't support filenames longer than 143 chars. We rely on **at least** a community contributed patch which name sums up to 144 chars. 
+### Upgrade from Docker 19.03 to a recent version
 
-### Overview
+If you have an ubuntu provisioned machine before the Februrary 2021, it is possible that you are still using an old
+version of Docker.
 
-Being containers a property of Linux kernel, `docker` is a native tool on Linux distros.
-This guide will work with little tweaking on most distributions (as long as the kernel supports containers) and will reference original documentation to avoid it runs outdated.
+In order to upgrade it:
 
-To have a functional environment on a Linux machine we will:
+1. git clone `git@#######:sparkfabrik/projects/ubuntu-provisioner.git`
+2. `m̀ake docker`
 
-* Install docker-engine and the docker command
-* Install docker-compose, the official container orchestrator command-line tool
-* Use docker itself to install `dnsdock`, a local resolver which works automagically with `docker-compose` to resolve local URLs to dynamically assigned container IPs
-* Make the native Ubuntu local resolver and network-configuration stack work nicely with dnsdock (both bind local port 53 to expose a NS)
+At the finish of this process you will have the Docker PPA installed and a version higher than 20.10.1.
+
 
 ### Installing Docker engine and command
 
