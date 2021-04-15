@@ -3,41 +3,6 @@
 This guide is available for [MacOSX](#macosx) and [Ubuntu](#ubuntu-linux).  
 Click the links to jump to the section of interest.
 
-## Prerequisites
-
-* Access to a Bourne-compatible shell (all the following procedures have been tested with bash)
-* VirtualBox (for OS X).  
-  If you don't have VB, yet, Docker Toolbox will install it for you. If you already have VB, you may want to choose the custom install of Docker Toolbox and deselect VB installation.
-  
-## Run dnsdock or dinghy http proxy
-
-If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have delete the pods),
-you can rely on sparkdock scripts:
-
-1. Linux
-  1. `run-dnsdock`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dnsdock
-  2. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dinghy-proxy
-2. MacOS:
-  1. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macosx/bin/run-dinghy-proxy
-
-You should have it in your system, but in case of missing:
-
-**Ubuntu** 
-
-```bash
-curl -slo /usr/local/bin/run-dnsdock https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/ubuntu/bin/run-dnsdock
-curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/ubuntu/bin/run-dinghy-proxy
-chmod +x /usr/local/bin/run-dnsdock
-chmod +x /usr/local/bin/run-dinghy-proxy
-```
-
-**MacOS**
-
-```bash
-curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/macosx/bin/run-dinghy-proxy
-chmod +x /usr/local/bin/run-dinghy-proxy
-```
-
 ## Overview
 
 Our local development environment is build on docker, to achieve:
@@ -67,6 +32,37 @@ In particular MacOSX scheme is a bit different. Since MacOSX's kernel can't run 
 ![Local environment on MacOSX](%image_url%/procedures/local-development-environment--depiction-macosx.png)
 
 On MacOSX the local host resolver is the one native to MacOSX itself, while the rest of the stack runs in a VM, where the Linux distro acts only as a containers-provider.
+
+***
+
+## Run dnsdock or dinghy http proxy
+
+If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have delete the pods),
+you can rely on sparkdock scripts:
+
+1. Linux
+  1. `run-dnsdock`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dnsdock
+  2. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dinghy-proxy
+2. MacOS:
+  1. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macosx/bin/run-dinghy-proxy
+
+You should have it in your system, but in case of missing:
+
+**Ubuntu** 
+
+```bash
+curl -slo /usr/local/bin/run-dnsdock https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/ubuntu/bin/run-dnsdock
+curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/ubuntu/bin/run-dinghy-proxy
+chmod +x /usr/local/bin/run-dnsdock
+chmod +x /usr/local/bin/run-dinghy-proxy
+```
+
+**MacOS**
+
+```bash
+curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/macosx/bin/run-dinghy-proxy
+chmod +x /usr/local/bin/run-dinghy-proxy
+```
 
 ***
 
@@ -182,6 +178,8 @@ provisioner that you can always re-run to upgrade or add new packages.
 
 ### Upgrade from Docker 19.03 to a recent version
 
+> This chapter is intended to be executed on a Ubuntu 20.04.x machine.
+
 If you have an ubuntu provisioned machine before the Februrary 2021, it is possible that you are still using an old
 version of Docker.
 
@@ -191,6 +189,11 @@ In order to upgrade it:
 2. `m̀ake docker`
 
 At the finish of this process you will have the Docker PPA installed and a version higher than 20.10.1.
+
+You must now enable [Docker buildkit](https://docs.docker.com/develop/develop-images/build_enhancements/) as the default builder, to do that
+you must export a variable in your local environment.
+
+`export DOCKER_BUILDKIT=1` just place this under your `.bashrc` or `.zshrc` it depends on what shell you are using.
 
 
 ### Installing Docker engine and command
