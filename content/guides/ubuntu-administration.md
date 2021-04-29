@@ -46,6 +46,10 @@ To install updates:
 
 For more detailed info check this guide: https://wiki.archlinux.org/index.php/Fwupd
 
+### Dual Boot Troubleshooting
 
+In the event that you receive a new laptop with a dual boot of Windows/Ubuntu, and you are not prompted to boot into Ubuntu, or for some reasons the grub bootloader gets overwritten by the Windows counterpart, first boot into Windows, open a command prompt as an Administrator and execute the following command:
 
+`bcdedit /set "{bootmgr}" path \EFI\ubuntu\grubx64.efi`
 
+After restarting the Grub bootloader should now prompt you to select Ubuntu.
