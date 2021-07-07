@@ -3,38 +3,42 @@ Description: How people grow and specialize in SparkFabrik
 Sort: 40
 */
 
-People in Sparkfabrik should expect to advance on their career path almost constantly.  
-Growth is awarded by the combination of two mechanisms.
+People in Sparkfabrik should expect to advance on their career path, depending on their inclinations and will.  
+The company will work to give equal oportunities for growth to everyone, rewarding results and commitment.
 
-## Length of service
+## Checkpoints
 
-We value people to stick with us.  
-Turnover is costly and investement on team building pays more in the long term. That's why we want people to stay around. We reward anyone with a salary increase after 3, 5, 7 and 10 years of work. This happens automatically, regardless of performance and will go beyond the tenth year.
+Each developer can assess her overall level of proficiency by [Impact assessment](/working-at-sparkfabrik/impact-assessment), a qualitative measure of the expected positive outcome of our work<sup>[1](#fn1)</sup>.
 
-## Impact scoring
+Stepping up on your career path will then be based on adherence to values and the actual impact you make, not on personal perception of your merit.  
+Each developer role model has its impact assessment card.
 
-This practice is heavily inspired by how [Deeson](https://www.deeson.co.uk) and [Stack Overflow](https://stackoverflow.com/) help their employees achieve their goals and commit to their duties.
+To understand if you can cover a specific role, you can take the role's IAC and self-assess how well you are fulfilling the expectations.  
+Or you can reach out for your responsible (your team leader or direct report), asking for her feedback.
 
-Once every three months, as a developer, you attend an [1:1 meeting](/working-at-sparkfabrik/one-to-one-meetings). Among other things, [Impact scoring](/working-at-sparkfabrik/impact-scoring) will be evaluated and discussed in that occasion, to measure your growth on the various business-impacting aspects.
+The IAC result is pretty self-explanatory. Either you match or exceed the role's expectations, or you get an idea about where to invest to grow your skills.  
+Ask for a meeting with your manager or an HR representative to set your goals and make sure the company will do its best helping your being successful.
 
-Matching (or exceeding) a score of `2.5` for three times in a row will allow you to be assigned a higher role. Stepping up on your career path will then be based on adherence to values and the actual impact you make, not on personal perception of your merit.
+## Stepping up
 
-Stepping up will impact:
+Taking a new role will impact:
 
-* your salary following [this table](/working-at-sparkfabrik/salaries#salary-variations);
-* your duties in accordance to your new [impact scoring card](/organization/roles-accountabilities#per-role-accountabilities).
-
-```
-NOTE: Salary brackets values and direct bonds between performance and salary step-ups are still in "alpha" stage.
-```
+* your salary according to the baselines for that role (may change over time);
+* your duties in accordance to your new [impact assessment card](/organization/roles-accountabilities#per-role-accountabilities).
 
 ## Taking the challenge
 
-To fullfill [its vision](https://www.sparkfabrik.com/en/who-we-are.html), Sparkfabrik sells and cultivates high seniorities. Thus we expect junior developers to work hard to step up and we **require** that, once the proper goals are completed they will be ready to take the responsibilities of a senior developer.
+To fullfill [its vision](https://www.sparkfabrik.com/en/who-we-are.html), Sparkfabrik sells and cultivates high seniorities. We generally expect junior developers to eventually become senior developers.
 
-Not all senior developers crave to become leaders or top professionals, instead. This is understandable and we respect the choice.  
-When you as a senior developer meet the requirements for a career advancement, we will present you the opportunity, explain new role's benefits, expectations and duties. It is to you to take or leave.
+Still, despite nobody can consciously avoid learning from experience, not all juniors want to take over the responsibilities of a senior. And not all seniors crave to become team leaders or software architects. This is understandable and we respect the choice.  
 
-We encourage everybody to accept the challenge and may, in many cases, probe people that already refused if we see a new occasion for them to shine, but won't push or force any advancement.
+Every time you will match the requirements for a career advancement and if the company recognizes in you the qualities to cover a new role, you'll be granted the opportunity to take it over.  
+We will help you understand the new role's benefits, expectations and duties. It is to you to take or leave.
 
-Still we expect **every senior developer** to constantly increase her scoring and set new professional goals, maybe tackling new [Specialities](/organization/operations#specialities) in their career, making side steps instead of climbing the ledder.
+We encourage everybody to take the challenge and we may even probe people who already refused if we see a new opportunity for them to shine, but we can't push or force any advancement.
+
+Still we expect **every developer** to constantly increase her assessment and set new professional goals, maybe tackling new [Specialities](/organization/operations#specialities) in their career, making side steps instead of climbing a ladder.
+
+---
+
+<small><a name="fn1">1</a>: Our model is inspired by [Deeson](https://www.deeson.co.uk) and [Stack Overflow](https://stackoverflow.com/) performance review practices.</small>

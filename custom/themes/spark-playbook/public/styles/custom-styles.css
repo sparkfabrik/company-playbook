@@ -13,7 +13,6 @@
 
 .score ul {
   margin-bottom: 2rem !important;
-  display: flex;
   list-style: none;
   padding-bottom: 0.6rem;
   border-bottom: 1px solid #ccc;
@@ -21,7 +20,7 @@
 
 .score li {
   width: 100%;
-  font-weight: 700;
+  font-size: .8rem;
 }
 
 .score input[type="checkbox"] {

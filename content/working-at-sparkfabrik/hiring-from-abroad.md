@@ -1,6 +1,6 @@
 /*
 Description: Joining Sparkfabrik if you are not an Italian citizen
-Sort: 35
+Sort: 85
 */
 
 We are very happy to receive applications from around the globe.  
@@ -26,8 +26,6 @@ With such a contract, your yearly **gross** salary will be paid in 14 **net** mo
 
 The retained tax amount depends on a lot of factors, like the agreed gross wage, your level, possible dependent relatives, etc. As a rule of thumb, you can consider **one third of the gross salary to be retained** in taxes.
 
-[Find here our standard gross salaries table](/working-at-sparkfabrik/salaries).
-
 ## Remote foreign workers
 
 Remote workers living in foreign countries, even european ones, can't be employed with a CLA. Among others, the main blocker is that Sparkfabrik can't easily pay your taxes in your country, while the Italian CLA requires that we do.
@@ -41,8 +39,6 @@ For this reason we have a standard private agreement that guarantees:
 * The same mutual obbligations valid for resident workers
 
 Under this agreement we will pay you the **gross** salary in 12 **gross** monthly wages.
-
-[Find here our standard gross salaries table](/working-at-sparkfabrik/salaries).
 
 To this extent we need you to be able to issue valid invoices to Sparkfabrik. We will pay your invoices with the rest of the wages each month.
 
@@ -87,8 +83,32 @@ If you have special needs, please talk about them with the management in advance
 
 ## Other relevant information
 
+### Contracts
+
 Different cultures bring different takes on work relations to the table. Plus remote foreign employments run on a private agreement, _in lieu_ of a stricter CLA: this may lead some remote employee to think they are working as contractors.
 
 This is not the case: fiscal arrangement does not imply a temporary or loose releationship. Remote foreign workers are still considered Sparkfabrik employees and have the same privileges and duties of each other colleague.
 
 Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](/working-at-sparkfabrik/personal-projects.mdpersonal-projects).
+
+### Language barrier
+
+SparkFabrik is a place where friendly and healthy relationships flourish. Despite being remote, we invest in moments of socialization, organizing online coffee-breaks, internal talks, all-hands meetings and encouraging every new sparker to get to know her colleagues, not only working on the projects.
+
+Despite we can 100% work in English, many casual conversation still happen in Italian and that may be also the case during more officials events like all-hands meetings or some internal talk, depending on the context and topic.
+
+Our current track-record is that non-italian speakers had a hard time remaining engaged and building strong bonds.
+
+We don't have sound statistical evidence, but we want to share our findings with every possible applicant:
+
+1. Italian is NOT trivial to learn. Unless you already proved to be a real language hacker or your mother tongue has a lot in common with Italian (like French, Spanish, Portuguese or Romanian), don't expect to become proficient in a few months, especially if you live overseas.
+2. Don't underestimate the negative effect of limited conversations on your engagement. Working on projects is not everything in SparkFabrik and feeling an outsider may be very detrimental to your morale.
+
+Forewarned is forearmed.
+
+### Devices specifications
+
+We will provide you with a company laptop and related battery charger.
+The laptop will most probably have an Italian keyboard layout, plus a 220V battery charger.
+
+We'll do our best to also provide a compatible power cord for your country, but if your power grid don't run on 220V tension, please worn us so we can address the problem beforehand.

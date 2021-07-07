@@ -1,6 +1,6 @@
 /*
 Title: Roles accountabilities
-Description: Accountabilities and Scoring Cards for the different roles in Sparkfabrik
+Description: Accountabilities and Assessment Cards for the different roles in Sparkfabrik
 Sort: 40
 */
 
@@ -30,9 +30,9 @@ We prefer processes and evolutionary agreements over rules. Still we want everyb
 
 ## Per-role accountabilities
 
-Operational roles are described in terms of **impact scoring cards**: documents that describe the expected positive impact a role has to the business.
+Operational roles are described in terms of **impact asssessment cards**: documents that describe the expected positive impact a role has to the business.
 
-As you take on new roles and possibly even move between specialities (we love multi-talented people), your specific accountabilities will be described by one (or more) scoring cards.
+As you take on new roles and possibly even move between specialities (we love multi-talented people), your specific accountabilities will be described by one (or more) assessment cards.
 
 * [Junior developer](/resources/role-isc-junior-developer)
 * [Senior developer](/resources/role-isc-senior-developer)
