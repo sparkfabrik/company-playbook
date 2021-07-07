@@ -12,7 +12,8 @@ The following steps give access to all confidential information in the company, 
 ## Devices, tools and objects
 
 * A laptop PC must be ordered **in advance** so that it will be available on the first day of work
-* For resident employees, coming to the office on a daily basis, a the office keys must be provided ideally from the first day
+* For foreigners employees a proper power cord and optionally a compatible power supply (depending on the power grid voltage) must be bought in advance
+* For resident employees, coming to the office on a daily basis, the office keys must be provided ideally from the first day
 * Named business cards will usually be ordered after the end of the contractual trial period
 * We usually provide a branded backpack with the laptop and branded stickers for the screen lid
 
@@ -43,7 +44,7 @@ An HR or Admin representative will perform the following actions:
   * Google Drive folder structure and usage
   * Google Calender configuration and conventions
   * How and whom to ask for help
-  * 1:1 meetings and performance review policies (ISCs)
+  * 1:1 meetings and performance review policies (IACs)
 * HR must meet with the employee to make sure she got the policies and she can correctly understand them in context
 * Tech should send in introductory e-mail with information (links) about
   * Relevant starting training resources (accounts on _drupalize.me_ or _Udemy_, books or playbook pages)

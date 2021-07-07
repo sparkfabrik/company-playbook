@@ -1,17 +1,21 @@
 /*
 Description: How we make sure people grow and express themselves in SparkFabrik
-Sort: 80
+Sort: 60
 */
 
 Our one-to-one meeting is heavily inspired in spirit and practice by the [24 questions to ask in your next 1:1 meeting](https://www.small-improvements.com/blog/24-questions-ask-next-11-meeting/) post by Jason Lauristen on _Small improvements_ blog.
 
 HR representative and team leads engaging in one-to-ones with developers are required to read the whole post and take inspiration.
 
-## Scheduling
+## Cadence
 
-Three (3) one-to-one meetings are scheduled each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
-Each employee must [get ready for the meeting compiling her ISC](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) with her team leader.  
-Optionally junior developers ISCs [may be compiled with the help of a senior team mate](/working-at-sparkfabrik/impact-scoring#how-scoring-happens) and their one-to-one conducted by a lead developer.
+Time is always right for a one-to-one, should the need arise. Anyone who wants to have a conversation with the HR or the company management, be it on a specific topic or to share general feedback, can ask for one to the HR.
+
+As a rule of thumb, the company will make sure that every employee have at least two one-to-one meetings each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
+There are no prerequisites for one-to-ones, and an effective agenda for the meeting is detailed below, but each employee who wants to take the most out of the event must come prepared with topics to discuss.
+
+The one-to-one is a great opportunity to talk about your career, your performance and your professional goals. If you feel this is important, we strongly advise you [get ready for the meeting with a self-assesment](/working-at-sparkfabrik/impact-assessment).  
+Optionally you can ask for an assessment to your responsible or senior team mate - this is especially recommended to junior developers.
 
 ## Goal
 
@@ -20,13 +24,13 @@ The one-to-one meeting is **not** an occasion for control or top-down education.
 * Receive honest feedback
 * Provide honest feedback
 * Discuss impediments
-* Setting near-range goals and check the milestones
+* Setting short-term goals and check the former ones
 
 ## Agenda
 
 To achieve meeting goals we set the following agenda over a 60 minutes meeting:
 
-1. **Warm-up** (5 mins): What is the single most important thing we need to discuss today?
+1. **Warm-up** (5 mins): What is the single most important thing we need to discuss today? (Adjust the agena accordingly, if there is a main topic)
 2. **Celebration** (10 mins): What are your most significant accomplishments since we last met? Did you already match the goals you set last time?
 3. **Impediments** (15 mins): What obstacles are you encountering right now? Where do you struggle?
 4. **Next goals** (15 mins): What are the most important things you will focus on before we meet next (relates to point 1)? Can we state it as a [SMART](https://en.wikipedia.org/wiki/SMART_criteria) goal?
@@ -35,5 +39,5 @@ To achieve meeting goals we set the following agenda over a 60 minutes meeting:
 
 ## Outcome
 
-The HR representative will summarize the outcome and new goals in a private mail with the employee.  
+The HR representative will summarize the outcome and new goals in a private mail with the employee, if relevant.  
 The outcome of the meeting will be shared by discussion with the company governance, and potentially team leads if applicable.

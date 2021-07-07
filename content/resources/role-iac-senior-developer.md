@@ -1,15 +1,15 @@
 /*
-Title: Impact Scoring Card - Senior Developer
+Title: Impact Assessment Card - Senior Developer
 Description: Senior Developer role in SparkFabrik
 Sort: 60
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
     <div class="col mb-3 mb-lg-0">
-      <p class="quote font-italic">Print this page! The printed version of this page will be formatted to allow you to compile the ISC.</p>
+      <p class="quote font-italic">Print this page! The printed version of this page will be formatted to allow you to compile the IAC.</p>
     </div>
     <div class="col-lg-auto">
-      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this ISC</button>
+      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this IAC</button>
     </div>
   </div>
 
@@ -29,10 +29,6 @@ Sort: 60
 * Discipline
 * Communication
 
-## Awesomeness horizon
-
-If you score three times in a row over `2.5` you may get a career advancement.
-
 </span>
 
 ## Attitude
@@ -43,12 +39,9 @@ You share your goals with your mates and work with them, never playing the hero 
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -58,12 +51,9 @@ Your own schedule and workload balance is your responsibility. You have clear wh
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -73,12 +63,9 @@ You have clear what's expected from you and what you have to do to match the exp
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -88,12 +75,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -103,12 +87,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -116,12 +97,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -129,12 +107,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -142,12 +117,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -155,12 +127,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -171,12 +140,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -184,12 +150,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
@@ -197,23 +160,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] A++
-- [ ] A+
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] X
+- [ ] I still can't match the expectation
+- [ ] I deliver what's expected
+- [ ] I exceed this expectation
 
 </span>
 
-<span class='background-grey only-print'>
-
-#### Impact scoring values
-- **A++**: Over the top amazingness. You do, teach and lead. When people think of this skill, they think of you. Even in Sparkfabrik, where people are expected to excel, such a score will be rare. You can aim here but are not expected to, probably this reflects an aspect of your personality or a natural talent.
-- **A+**: You do more than your mates expect, even considering we have demandingly high standards.
-- **A**: You totally do what's expected, matching our high standards. Undeniably positive impact.
-- **B**: Good performance but with improvement headroom. When you have to set your quarterly or yearly professional goal, here is where to put your energy first.
-- **C**: This falls way behind our expectations and you need to improve significantly in this area. Such a score will inevitably set a goal for you for the next quarter, when this is expected to have become a B. Scoring the same C over and over is not acceptable.
-- **X**: Not applicable.
-
-</span>
