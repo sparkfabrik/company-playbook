@@ -38,9 +38,9 @@ You are an organizational and procedural reference for both employees and manage
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -50,9 +50,9 @@ You do your best to facilitate administrative and organizational processes. You 
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -62,9 +62,9 @@ You know when to take promptly decisions, even on partial data, or require manag
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -74,9 +74,9 @@ You share your goals with the management and work with them. You also explain yo
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -86,9 +86,9 @@ Your own schedule and workload balance is your responsibility. You have clear wh
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -98,9 +98,9 @@ You have clear what outcomes are expected from your work and what you have to do
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -110,9 +110,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -122,9 +122,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -132,9 +132,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -142,9 +142,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -152,9 +152,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -162,9 +162,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -176,9 +176,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
 
@@ -186,8 +186,8 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] I still can't match the expectation
-- [ ] I deliver what's expected
-- [ ] I exceed this expectation
+- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take a note!)_
 
 </span>
