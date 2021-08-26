@@ -34,10 +34,10 @@ Operational roles are described in terms of **impact asssessment cards**: docume
 
 As you take on new roles and possibly even move between specialities (we love multi-talented people), your specific accountabilities will be described by one (or more) assessment cards.
 
-* [Junior developer](/resources/role-isc-junior-developer)
-* [Senior developer](/resources/role-isc-senior-developer)
-* [Lead developer](/resources/role-isc-lead-developer)
-* [Professional](/resources/role-isc-professional)
-* [Supporter](/resources/role-isc-supporter)
+* [Junior developer](/resources/role-iac-junior-developer)
+* [Senior developer](/resources/role-iac-senior-developer)
+* [Lead developer](/resources/role-iac-lead-developer)
+* [Professional](/resources/role-iac-professional)
+* [Supporter](/resources/role-iac-supporter)
 
 Printing ICSs directly from the browser will result in a version properly formatted to sit together and tick single scores. Try it out!
