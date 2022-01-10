@@ -115,7 +115,7 @@ export DOCKER_MACHINE_IP=$(docker-machine ip dinghy)
 Install *dnsdock* with this command, that will create a container that will always start once the dinghy machine starts:
 
 ```bash
-docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.42.1:53:53/udp aacebedo/dnsdock:v1.15.0-amd64
+docker run --restart=always -d -v /var/run/docker.sock:/var/run/docker.sock --name dnsdock -p 172.17.0.1:53:53/udp aacebedo/dnsdock:v1.16.4-amd64
 ```
 
 ### Check networking setup
