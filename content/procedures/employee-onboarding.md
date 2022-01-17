@@ -28,6 +28,7 @@ An HR or Admin representative will perform the following actions:
 * Open the Toggl account and make sure it can access all relevant projects
 * Open the Gitlab account and add it to all relevant projects
 * Add the GitHub account of the employee (or open it if not available) to Sparkfabrik organization and relevant projects
+* Log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
 * Add the account to Slack and _invite_ it on `#general`, `#tech` and `#tech-support` as well as on all channels related to relevant projects
 
 ## Things to do on the first day

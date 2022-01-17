@@ -154,8 +154,8 @@ docker/scripts/clean-dns.cache.sh
 % docker run -d -e DNSDOCK_ALIAS=test1.redis.docker.loc --name redis-test redis:alpine
 % ping test1.redis.docker.loc
 
-PING test1.redis.docker.loc (172.17.42.37): 56 data bytes
-64 bytes from 172.17.42.37: icmp_seq=0 ttl=63 time=0.275 ms
+PING test1.redis.docker.loc (172.17.0.37): 56 data bytes
+64 bytes from 172.17.0.37: icmp_seq=0 ttl=63 time=0.275 ms
 
 % docker rm -vf redis-test
 ```
@@ -342,6 +342,22 @@ cache-size=0
 
 So that all `.loc` subdomains are resolved to localhost *but* `sparkfabrik.loc` subdomains which is proxied to dnsdock.
 
+### Log into GCloud
+
+To build our projects you'll need access to GCP image registry to start with, so you need to login with your SparkFabrik account.
+
+Run the following commands in the order:
+
+```bash
+gcloud auth login
+gcloud auth application-default login
+gcloud auth configure-docker
+```
+
+Running the first couple commands, your browser will open, asking for authorization to access your account. If you have more than one Google/GMail account configured you'll have to explicitely choose the `sparkfabrik.com` one.
+
+Once you run all three commands above, you're done.
+
 ### Test and enjoy
 
 To test everything is working as expected, we'll try to run a service in a container, exposing it through a local URL.
@@ -357,7 +373,7 @@ You should see you can ping the running container smoothly (something in the lin
 
 ```bash
 PING testing.docker.with.mysql.sparkfabrik.loc (172.17.0.37): 56 data bytes
-64 bytes from 172.17.42.37: icmp_seq=0 ttl=63 time=0.275 ms
+64 bytes from 172.17.0.37: icmp_seq=0 ttl=63 time=0.275 ms
 ```
 
 If all works, clean the test container and remove its image with
