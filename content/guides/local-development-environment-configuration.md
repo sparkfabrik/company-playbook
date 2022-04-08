@@ -1,7 +1,8 @@
 ## Operating systems
 
 This guide is available for [MacOS](#macosx) and [Ubuntu](#ubuntu-linux).
-Click the links to jump to the section of interest.
+
+To provision your system just head here: https://github.com/sparkfabrik/sparkdock and follow the instructions.
 
 ## Overview
 
@@ -32,7 +33,8 @@ Let me start by linking the projects:
 * https://github.com/sparkfabrik/dinghy-http-proxy
 
 Both projects are used by our internal docker-compose projects and they basically are in place
-to provide a direct connection from your localhost to containers just by using a `sparkfabrik.loc` tld domain.
+to provide a direct connection from your localhost to containers just by using a `.loc` tld domain.
+*It is important to remember* that all `.loc` domains are taken in charge from the dns resolvers, not just `sparkfabrik.loc`.
 
 The big difference here is that `dnsdock` can be easily used on Linux because your host can access docker containers network (eg: you can access a container by using its ip) but the same is not achievable on MacOS or Windows WSL because the networks are implemented in a very different way and between you and the containers exists a Linux VM.
 
@@ -40,10 +42,24 @@ Dinghy http proxy instead try to resolve the problem from a different perspectiv
 
 You can see how they work watching the following swimlanes.
 
-### DNSDOCK swimlane
+### DNSDOCK
+
+DNSDock to know which containers it shuold manage it inspects a label or env variable exposed
+by containers, specifically:
+
+```
+environment:
+  - DNSDOCK_ALIAS:
+
+labels:
+  com.dnsdock.alias:
+```
+
+The ENV variable is going to be deprecated soon, so *just use* the labels.
+
+#### Swimlane
 
 ![DNSDOCK Swimlane](%image_url%/guides/swimlane-dnsdock.png)
-
 
 ```
 title: Dnsdock
@@ -59,10 +75,19 @@ DNS -> User: website.sparkfabrik.loc 172.12.4.13_
 User -> Container 172.12.4.13: GET /
 ```
 
-### Dinghy http proxy swimlane
+### Dinghy http proxy
+
+Dinghy http proxy to know which containers it shuold manage it inspects an env variable exposed
+by containers, specifically:
+
+```
+environment:
+  - VIRTUAL_HOST:
+```
+
+#### Swimlane
 
 ![DNSDOCK Swimlane](%image_url%/guides/swimlane-dinghy-http-proxy.png)
-
 
 ```
 title: Dinghy http proxy
