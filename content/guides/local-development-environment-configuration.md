@@ -66,7 +66,11 @@ title: Dnsdock
 
 User -> System DNS: Access to "website.sparkfabrik.loc"
 
-DNS -> Dnsdock: Dns query
+note:
+
+All the domains ending with ".loc" are always taken in charge by dns resolvers
+
+System DNS -> Dnsdock: Dns query
 
 Dnsdock -->> System DNS: _Found it: 172.12.4.13_
 
