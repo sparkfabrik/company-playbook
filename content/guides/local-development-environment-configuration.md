@@ -74,7 +74,7 @@ System DNS -> Dnsdock: Dns query
 
 Dnsdock -->> System DNS: _Found it: 172.12.4.13_
 
-DNS -> User: website.sparkfabrik.loc 172.12.4.13_
+DNS -> User: website.sparkfabrik.loc 172.12.4.13
 
 User -> Container 172.12.4.13: GET /
 ```
@@ -100,7 +100,7 @@ User -> System DNS: Access to "website.sparkfabrik.loc"
 
 System DNS -> Dinghy http proxy: Dns query for ".loc" domains
 
-Dinghy http proxy -->> System DNS: _Found it: 127.0.0.1
+Dinghy http proxy -->> System DNS: _Found it: 127.0.0.1_
 
 note:
 
