@@ -4,6 +4,7 @@ services:
     image: sparkfabrik/docker-locke-server:latest
     environment:
       - DNSDOCK_ALIAS=playbook.sparkfabrik.loc
+      - VIRTUAL_HOST=playbook.sparkfabrik.loc
     volumes:
       - ./assets:/srv/locke/assets
       - ./content:/srv/locke/content
