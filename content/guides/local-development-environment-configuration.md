@@ -6,22 +6,22 @@ To provision your system just head here: https://github.com/sparkfabrik/sparkdoc
 
 ## Overview
 
-Our local development environment is build on docker, to achieve:
+Our local development environment is built on docker, to achieve:
 
-* High decoupling from host OS
-* Different services versions and configuration for each application/project
-* The ability to commit the infrastructure together with the application in the same repository
-* _One click_ local setup of projects for everyone in the team
+* High decoupling from host OS.
+* Different services versions and configuration for each application/project.
+* The ability to commit the infrastructure together with the application in the same repository.
+* _One click_ local setup of projects for everyone in the team.
 
 One image is worth a thousand words, so here follows a simplified depiction of our local environment model:
 
 ![Local environment schema](%image_url%/procedures/local-development-environment--depiction-linux.png)
 
-Basically, what we've got here is a set of containers, partaining to different projects. They are inerconnected via docker links so that each project has its own service: for example both Drupal projects in the image have dedicated MySQL and Apache/PHP containers, perfectly isolated. They can be stopped and started at will on a "by project" basis.
+Basically, what we've got here is a set of containers, pertaining to different projects. They are interconnected via docker links so that each project has its own service: for example both Drupal projects in the image have dedicated MySQL and Apache/PHP containers, perfectly isolated. They can be stopped and started at will on a "by project" basis.
 
 To keep containers sets isolated we rely on `docker-compose`, a simple orchestrator that's easy to configure and run locally.
 
-To reach each entry point, that in case of web applications is the HTTP server that exposes the app for that project, we need a resolver able to dinamically map containers to URLs when a container is started or stopped (mind a container IP is inherently dynamic so a static map won't do).
+To reach each entry point, that in case of web applications is the HTTP server that exposes the app for that project, we need a resolver able to dynamically map containers to URLs when a container is started or stopped (mind a container IP is inherently dynamic so a static map won't do).
 
 The last ingredient consists in a local resolver able to inform the system to proxy the calls for a given TLD (`.loc` in our case) to `dnsdock` or by using an http proxy currently implemented with `dinghy-http-proxy`.
 
@@ -32,19 +32,19 @@ Let me start by linking the projects:
 * https://github.com/aacebedo/dnsdock
 * https://github.com/sparkfabrik/dinghy-http-proxy
 
-Both projects are used by our internal docker-compose projects and they basically are in place
+Both projects can be used alternately by our internal docker-compose projects and they basically are in place
 to provide a direct connection from your localhost to containers just by using a `.loc` tld domain.
 *It is important to remember* that all `.loc` domains are taken in charge from the dns resolvers, not just `sparkfabrik.loc`.
 
-The big difference here is that `dnsdock` can be easily used on Linux because your host can access docker containers network (eg: you can access a container by using its ip) but the same is not achievable on MacOS or Windows WSL because the networks are implemented in a very different way and between you and the containers exists a Linux VM.
+The big difference here is that `dnsdock` can be easily used on Linux because your host can access docker containers network (eg: you can access a container by using its ip) but the same is not achievable on MacOS or Windows WSL because the networks are implemented in a very different way (in order to reach the containers you need to go through a Linux VM).
 
-Dinghy http proxy instead try to resolve the problem from a different perspective, proxying the http requests to the containers and giving back the response, by exposing the ports 80/443 on your host + an UDP port to resolve DNS queries.
+Dinghy http proxy instead tries to resolve the problem from a different perspective, proxying the http requests to the containers and giving back the response, by exposing the ports 80/443 on your host + an UDP port to resolve DNS queries.
 
-You can see how they work watching the following swimlanes.
+You can see how both of these approaches work watching the following swimlanes.
 
 ### DNSDOCK
 
-DNSDock to know which containers it shuold manage it inspects a label or env variable exposed
+DNSDock to know which containers it should manage it inspects a label or env variable exposed
 by containers, specifically:
 
 ```
@@ -124,7 +124,7 @@ Dinghy http proxy -> User: Response
 
 ## Run dnsdock or dinghy http proxy
 
-If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have delete the pods),
+If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have deleted the pods),
 you can rely on sparkdock scripts:
 
 1. Linux
