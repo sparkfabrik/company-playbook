@@ -25,29 +25,27 @@ To reach each entry point, that in case of web applications is the HTTP server t
 
 The last ingredient consists in a local resolver able to inform the system to proxy the calls for a given TLD (`.loc` in our case) to `dnsdock` or by using an http proxy currently implemented with `dinghy-http-proxy`.
 
-## Why do we have dnsdock and dinghy-http-proxy ?
+## Why we have dnsdock and dinghy-http-proxy
 
-Let me start by linking the projects:
+Let's start with the projects' links:
 
 * https://github.com/aacebedo/dnsdock
 * https://github.com/sparkfabrik/dinghy-http-proxy
 
-Both projects are used by our internal docker-compose projects and they basically are in place
-to provide a direct connection from your localhost to containers just by using a `.loc` tld domain.
-*It is important to remember* that all `.loc` domains are taken in charge from the dns resolvers, not just `sparkfabrik.loc`.
+Both tools are used by our internal docker-compose projects and they are basically in place to provide a direct connection from localhost to running containers by mean of a `.loc` top level domain.
+*It is important to remember* that every `.loc` top level domains are taken in charge from this DNS resolver, not just `sparkfabrik.loc`.
 
-The big difference here is that `dnsdock` can be easily used on Linux because your host can access docker containers network (eg: you can access a container by using its ip) but the same is not achievable on MacOS or Windows WSL because the networks are implemented in a very different way and between you and the containers exists a Linux VM.
+The main difference between `dnsdock` and `dinghy-http-proxy` is that `dnsdock` can be directly used on Linux, where your host has direct access to docker containers network (eg: you can connect to a container by its IP address) but that's not possible on MacOS or Windows/WSL since the containers are actually running in a Linux VM, so different networking layers are in place that prevents a direct connection between your host and the containers.
 
-Dinghy http proxy instead try to resolve the problem from a different perspective, proxying the http requests to the containers and giving back the response, by exposing the ports 80/443 on your host + an UDP port to resolve DNS queries.
+Dinghy HTTP Proxy then, tries to resolve the problem from a different perspective: proxying the http requests to the containers and giving back the response, by exposing ports 80/443 on your host, plus a UDP port to resolve DNS queries.
 
-You can see how they work watching the following swimlanes.
+The following diagrams show the respective workflows.
 
 ### DNSDOCK
 
-DNSDock to know which containers it shuold manage it inspects a label or env variable exposed
-by containers, specifically:
+To know if a container needs to be mapped by it's resolver, DNSDock inspects a label or env variable exposed by containers, specifically:
 
-```
+```yaml
 environment:
   - DNSDOCK_ALIAS:
 
@@ -55,9 +53,9 @@ labels:
   com.dnsdock.alias:
 ```
 
-The ENV variable is going to be deprecated soon, so *just use* the labels.
+The ENV variable is going to be deprecated soon, so please **use the label only**.
 
-#### Swimlane
+#### Request flow diagram
 
 ![DNSDOCK Swimlane](%image_url%/guides/swimlane-dnsdock.png)
 
@@ -81,15 +79,14 @@ User -> Container 172.12.4.13: GET /
 
 ### Dinghy http proxy
 
-Dinghy http proxy to know which containers it shuold manage it inspects an env variable exposed
-by containers, specifically:
+To know if a container needs to be proxied, Dinghy HTTP Proxy inspects an env variable exposed by containers, specifically:
 
-```
+```yaml
 environment:
   - VIRTUAL_HOST:
 ```
 
-#### Swimlane
+#### Request flow diagram
 
 ![DNSDOCK Swimlane](%image_url%/guides/swimlane-dinghy-http-proxy.png)
 
@@ -122,10 +119,9 @@ Dinghy http proxy -> User: Response
 
 ***
 
-## Run dnsdock or dinghy http proxy
+## Run dnsdock or Dinghy HTTP Proxy
 
-If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have delete the pods),
-you can rely on sparkdock scripts:
+If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have delete the pods), you can rely on `sparkdock` scripts:
 
 1. Linux
   1. `run-dnsdock`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dnsdock
@@ -133,7 +129,7 @@ you can rely on sparkdock scripts:
 2. MacOS:
   1. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macosx/bin/run-dinghy-proxy
 
-You should have it in your system, but in case of missing:
+If you work in SparkFabrik with the provided hardware, those scripts should already be available in your system. In case they're missing:
 
 **Ubuntu**
 
