@@ -3,7 +3,6 @@ Description: Sparkfabrik's take on the work done out of the company
 Sort: 90
 */
 
-
 Sparkfabrik was born and constantly dwells in the open culture movement. We do our best to inspire all our workforce to share knowledge, ideas and great software with the world. Also, we choose our team mates based on their passion, willpower and drive.
 
 This qualities mix hardly define a 9-18 performer.
@@ -84,7 +83,7 @@ There are three very important reasons for that:
 2. We invest sound money and a lot of effort ensuring a sustainable working pace and a positive work-life balance. We want everyone to relax, take sleep and live a healthy life outside work so that - when you are at your desk - you can perform at your best. If you split your energies over two endeavours, Sparkfabrik will be damaged in its ability to deliver. Yes, yes we know... you can bear with it... but we can't trust superheroes. They seem cool but they wear a mask.
 3. Sparkfabrik constantly invests in your training and professional growth. This is nothing we can (nor want!) to take you away, but this means that - provide your personal project is not a woodworking _atelier_ - we are basically sustaining your personal goals with our resources ("our" includes everyone in the company). We feel this is irrespectful in the face of your colleagues.
 
-Despite all of this, we are big fans of enterpreneurship: come, talk to us and we may work our an arrangement.
+Despite all of this, we are big fans of enterpreneurship: come, talk to us and we may work out an arrangement.
 
 ### Provide paid work outside of Sparkfabrik
 
