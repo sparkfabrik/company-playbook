@@ -37,7 +37,7 @@ Given the wide offering of topics on Udemy, more courses can be added in the fut
 
 #### Ultimate Courses
 
-On Ultimate Courses, you can access a set of very thoroghful and deep courses on Angular by Todd Motto. Those courses are very good for who wants to deepen his understanding of Angular, get the hang of it's internals and learning how to use NgRx (a reactive state management library).
+On Ultimate Courses, you can access a set of very thorogh and deep courses on Angular by Todd Motto. Those courses are very good for whom who wants to deepen their understanding of Angular, get the hang of its internals and learn how to use NgRx (a reactive state management library).
 
 > 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
 > 2. Head to [Ultimate Courses](https://app.ultimatecourses.com), then obtain access credentials issuing this command into a terminal:
@@ -48,7 +48,7 @@ On Ultimate Courses, you can access a set of very thoroghful and deep courses on
 
 #### Drupalize.me
 
-On Drupalize.me you can build up a strong understanting on Drupal CMS, following extensive training paths that will guide you from the basics to the more advenced topics.
+On Drupalize.me you can build up a strong understanding on Drupal CMS, following extensive training paths that will guide you from the basics to the more advenced topics.
 
 Those resources are available to PHP developers who needs to understand how Drupal works as well as to Drupal developers who need to dig deeper into specific parts of the framework.
 
@@ -73,7 +73,7 @@ Those resources are great if you and your team want to leverage AWS services in 
 
 As GCP Partners, SparkFabrik has free access to a huge amount of training material on Google Cloud Platform's offering and services, through their _Skill Boost_ portal.
 
-Those resources are great if you and your team want to leverage AWS services in the project at hand.
+Those resources are great if you and your team want to leverage GCP services in the project at hand.
 
 > Head to [GCP Skill Boost](https://partners.cloudskillsboost.google), then access using your `sparkfabrik.com` account.
 
@@ -99,7 +99,7 @@ If you want to discuss a Certified Training on Cloud topics, please let us know 
 
 SparkFabrik employees can file a request for specific training resources, by filling in [this _Training Request_ form](https://forms.gle/D3sMame93iJ6avxX7).
 
-The requests will be evaluated by the management taking into account may factors, among which:
+The requests will be evaluated by the management taking into account many factors, among which:
 
 * The available training budget
 * The relevance and impact on your professional position/growth
