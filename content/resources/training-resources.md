@@ -19,7 +19,6 @@ Please find here a TOC of the available training resources.
 | [Google SkillBoost](#google-skillboost) | Cloud | Google Cloud Platform | Corporate account |
 | [Cloud Academy](#cloud-academy) | Cloud | Vendor-specific services (AWS, GCP, Azure, Alibaba), Kubernetes, complete Cloud training offering | Reserved seats |
 
-
 ### Development
 
 #### Udemy
@@ -29,20 +28,22 @@ Mainly you can find training on frameworks and technologies (also Cloud technolo
 
 Given the wide offering of topics on Udemy, more courses can be added in the future, even in non technical topics.
 
-> Head to [Udemy](https://www.udemy.com/join/login-popup/), then obtain access credentials through your SparkFabrik account, issuing this command into a terminal:
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 2. Head to [Udemy](https://www.udemy.com/join/login-popup/), then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash
-> ..... the command ..... @TODO
+> gcloud secrets versions access "latest" --secret credentials-udemy --project sf-public-ring
 > ```
 
 #### Ultimate Courses
 
 On Ultimate Courses, you can access a set of very thoroghful and deep courses on Angular by Todd Motto. Those courses are very good for who wants to deepen his understanding of Angular, get the hang of it's internals and learning how to use NgRx (a reactive state management library).
 
-> Head to [Ultimate Courses](https://app.ultimatecourses.com), then obtain access credentials through your SparkFabrik account, issuing this command into a terminal:
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 2. Head to [Ultimate Courses](https://app.ultimatecourses.com), then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash
-> ..... the command ..... @TODO
+> gcloud secrets versions access "latest" --secret credentials-ultimate-courses --project sf-public-ring
 > ```
 
 #### Drupalize.me
@@ -51,10 +52,11 @@ On Drupalize.me you can build up a strong understanting on Drupal CMS, following
 
 Those resources are available to PHP developers who needs to understand how Drupal works as well as to Drupal developers who need to dig deeper into specific parts of the framework.
 
-> Head to [Drupalize.me](https://drupalize.me), then obtain access credentials through your SparkFabrik account, issuing this command into a terminal:
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 2. Head to [Drupalize.me](https://drupalize.me), then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash
-> ..... the command ..... @TODO
+> gcloud secrets versions access "latest" --secret credentials-drupalize-me --project sf-public-ring
 > ```
 
 ### Cloud
@@ -74,6 +76,11 @@ As GCP Partners, SparkFabrik has free access to a huge amount of training materi
 Those resources are great if you and your team want to leverage AWS services in the project at hand.
 
 > Head to [GCP Skill Boost](https://partners.cloudskillsboost.google), then access using your `sparkfabrik.com` account.
+
+With Google SkillBoost comes **Qwiklabs**, a real cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes and more.
+
+> To access **QwikLabs** you just have to fill in [a registration form](https://partner.cloudskillsboost.google/course_sessions/1257385/video/187468
+) using your `sparkfabrik.com' account.
 
 
 #### Cloud Academy
