@@ -77,7 +77,7 @@ Those resources are great if you and your team want to leverage GCP services in 
 
 > Head to [GCP Skill Boost](https://partners.cloudskillsboost.google), then access using your `sparkfabrik.com` account.
 
-With Google SkillBoost comes **Qwiklabs**, a real cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes and more.
+With Google SkillBoost comes **Qwiklabs**, a service providing real cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes and more.
 
 > To access **QwikLabs** you just have to fill in [a registration form](https://partner.cloudskillsboost.google/course_sessions/1257385/video/187468
 ) using your `sparkfabrik.com' account.
