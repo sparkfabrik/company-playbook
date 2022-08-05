@@ -140,6 +140,7 @@ Run the following commands in the order:
 gcloud auth login
 gcloud auth application-default login
 gcloud auth configure-docker
+gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services
 ```
 
 Running the first couple commands, your browser will open, asking for authorization to access your account. If you have more than one Google/GMail account configured you'll have to explicitely choose the `sparkfabrik.com` one.
