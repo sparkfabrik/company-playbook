@@ -93,7 +93,7 @@ Given that, we invite remote foreign applicants to take a look at our take on [p
 
 ### Language barrier
 
-SparkFabrik is a place where friendly and healthy relationships flourish. Despite being remote, we invest in moments of socialization, organizing online coffee-breaks, internal talks, all-hands meetings and encouraging every new sparker to get to know her colleagues, not only working on the projects.
+SparkFabrik is a place where friendly and healthy relationships flourish. Despite being remote, we invest in moments of socialization, organizing online coffee-breaks, internal talks, all-hands meetings and encouraging every new sparker to get to know their colleagues, not just working on projects.
 
 Despite we can 100% work in English, many casual conversation still happen in Italian and that may be also the case during more officials events like all-hands meetings or some internal talk, depending on the context and topic.
 

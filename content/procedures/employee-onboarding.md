@@ -1,6 +1,6 @@
 This is a checklist and flight-plan for new employees onboarding.
 
-The document provides both _procedural_ tasks (such as opening accounts) and a depiction of the processes and assets that can help the decision making phase of an onboarding: assigning the employee to a team, mentoring her, setting goals and evaluate results.
+The document provides both _procedural_ tasks (such as opening accounts) and a depiction of the processes and assets that can help the decision-making phase of an onboarding: assigning the employee to a team, mentoring them, setting goals and evaluate results.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ An HR or Admin representative will perform the following actions:
 ### For the company
 
 * HR must introduce the new employee to the resident team and, on slack `#general` channel, to the remote colleagues
-* HR must assign a buddy (usually her team leader) to the new employee
+* HR must assign a buddy (usually their team leader) to the new employee
 * Tech must make sure the local development environment is working on the employee's PC
 * HR must send an introductory e-mail with policies (links) about
   * Resource access
@@ -46,7 +46,7 @@ An HR or Admin representative will perform the following actions:
   * Google Calender configuration and conventions
   * How and whom to ask for help
   * 1:1 meetings and performance review policies (IACs)
-* HR must meet with the employee to make sure she got the policies and she can correctly understand them in context
+* HR must meet with the employee to make sure they got the policies and that they can correctly understand them in context
 * Tech should send in introductory e-mail with information (links) about
   * Relevant starting training resources (accounts on _drupalize.me_ or _Udemy_, books or playbook pages)
   * How to contribute to the projects (branching model, peer review, etc)
@@ -66,7 +66,7 @@ What follows will be performed with the help of your buddy, if needed
 
 ## Things to do within the first week
 
-* HR will schedule a call with the employee and her buddy to clarify [onboarding goals](/guides/an-effective-onboarding-structure) and schedule the checkpoints
+* HR will schedule a call with the employee and their buddy to clarify [onboarding goals](/guides/an-effective-onboarding-structure) and schedule the checkpoints
 * HR will schedule a quick call to introduce the company management to the employee, and viceversa
 * HR and the employee will schedule a brief talk where the employee will self-introduce to the company
 * <a name="facewall-shot"></a>HR will arrange a shooting session for the website facewall (this can also be used as a profile picture)
@@ -100,4 +100,4 @@ When in doubt, ask a HR representative.
 
 We ask every employee who joins Sparkfabrik and who has a LinkedIn account to immediately add an Experience record, connected to Sparkfabrik's company profile with the correct role and starting date.
 
-In addition, we ask to set the [branded Sparkfabrik's banner](/downloads/spark_linkedin_cover.png) as background photo of her profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
+In addition, we ask them to set the [branded Sparkfabrik's banner](/downloads/spark_linkedin_cover.png) as background photo of their profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.

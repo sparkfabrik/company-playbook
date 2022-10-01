@@ -36,7 +36,7 @@ To keep things simple, we'll use gitlab issues to keep track of all improvements
 
 ## What's inside
 
-Basically this is the "SparkFabrik handbook". It is meant to be made public and contains all the information and recipes (hey) an employee has to know either before apply or during her everyday work.  
+Basically this is the "SparkFabrik handbook". It is meant to be made public and contains all the information and recipes (hey) an employee has to know either before apply or during their everyday work.  
 You will get the major benefit if you are either:
 
 * A newcomer, recent hire or in you onboarding phase, to learn a lot of information on how we do what we do, how we communicate and which principles drive our decisions

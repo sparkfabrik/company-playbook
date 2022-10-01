@@ -18,7 +18,7 @@ Simple as it sounds. On time, on budget, on specs.
 
 ### Respecting you colleagues
 
-Be friendly. Keep in mind that we share the same goal but everybody may have different way to achieve it. Always presume everybody il well-meaning and help her to improve. Don't waste others time: be timely at meetings, point out when other forget something and state your requirements or needs in a clear way so other should not try to figure out what you mean.
+Be friendly. Keep in mind that we share the same goal but everybody may have different ways to achieve it. Always presume everybody is well-meaning and help them to improve. Don't waste other people's time: be timely at meetings, point out when others forget something and state your requirements or needs in a clear way so others shouldn't try to figure out what you mean.
 
 ### Supporting your colleagues
 

@@ -1,13 +1,13 @@
-When a new team mate enters the company, she is assigned a buddy. Someone who helps her getting up to speed with our habits, processes, vocabulary, unwritten rules (if any) and that explain the overload of inside jokes we crack every day.
+When a new team mate enters the company, they are assigned a buddy. Someone who helps them getting up to speed with our habits, processes, vocabulary, unwritten rules (if any) and who explains the overload of inside jokes we crack every day.
 
-This is a very important task, usually carried out by seasoned sparkers. This page is a practical guidelines for both the buddy and the employee about what to focus on to make sure the first month in Sparkfabrik always is a valuable experience.
+This is a very important task, usually carried out by seasoned sparkers. This page is practical guidelines for both the buddy and the employee about what to focus on to make sure the first month in Sparkfabrik is always a valuable experience.
 
 ## The process
 
 As every process, onboarding has inputs and outputs.
 
 Inputs are the involved people and a set of clear goals.  
-The output is a new team mate who can autonomously find her way within the company, providing valueable work and participating to the whole team life, with little to no friction.
+The output is a new team mate who can autonomously find their way within the company, providing valuable work and participating to the whole team life, with little to no friction.
 
 There are prerequisites, of course. To make sure nothing is missing, it suffices to follow [this handy checklist](/procedures/employee-onboarding).
 
@@ -27,22 +27,22 @@ Once they are fulfilled, the next step is to set the goals and schedule check-up
 **For the employee:**
 
 * Gain a basic but complete understanding of the mentioned workflow and tools
-* Have a clear idea of the social geography of the team she works with and of Sparkfabrik in general
-* Knowing how to track her time and communicate on the right channels
+* Have a clear idea of the social geography of the team they work with and of Sparkfabrik in general
+* Knowing how to track their time and communicate using the right channels
 
 ### For the first month
 
 **For the employee:**
 
-* Have contributed a significant improvement (epic, milestone, etc) to the project she is working on
-* Celebrate the achievement by showing her work to the company, with a quick internal talk
+* Have contributed a significant improvement (epic, milestone, etc) to the project they're working on
+* Celebrate the achievement by showing their work to the company, with a quick internal talk
 * Consolidate its position in the team as an autonomous part of the productive process
 
 ## Checkpoints
 
 ### Two-weeks after joining
 
-HR will schedule a call around this deadline with the new employee and her buddy to:
+HR will schedule a call around this deadline with the new employee and their buddy to:
 
 * Check the progress on the mentioned goals
 * Take note of the actions necessary to fill any gaps
@@ -51,7 +51,7 @@ HR will schedule a call around this deadline with the new employee and her buddy
 
 ### One months after joining
 
-HR will schedule the onboarding final meeting with the new employee and her buddy to:
+HR will schedule the onboarding final meeting with the new employee and their buddy to:
 
 * Have a retrospective of the first month
 * Collect any feedback and define possible corrective actions

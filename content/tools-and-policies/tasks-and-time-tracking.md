@@ -19,7 +19,7 @@ At the same extent, we want to track the time we spend on task so that:
 1. We know if we are exceeding our budget or more basically how much we have spent
 1. We can have metrics related to tasks life-cycles, etc.
 
-We **don't want** to measure velocity or speed of individuals. Everyone has her own pace.  
+We **don't want** to measure velocity or speed of individuals. Everyone has their own pace.  
 Velocity rates are kept into consideration for the whole team, with the goal to continuously improve its effectiveness, remove obstacles, make them work less to produce more, etc.
 
 We appreciate people setting personal goals on proficiency or productivity but to us it's not as a matter of sheer speed, so time is only one of the variables.
@@ -44,7 +44,7 @@ Talking about our everyday work, we recognize three different type of activities
 
 * **Approved tasks**: this is what the customers usually call us for. These activities are described in a signed agreement of sort, have a budget, a deadline and deploy a deliverable (even intangile, like a training course or T&M consultancy).
 * **Warranty**: this is what the customer wants done but does not expect to pay for. Fixing a bug or amending an issue which is due to us, for example.
-* **Support**: this is the time spent to deliver the _approved_ tasks_ or to help a customer getting what he need, not only in term of deliverables. These activities are often (not always) in charge to project or customer leads.
+* **Support**: this is the time spent to deliver the _approved_ tasks_ or to help a customer getting what they need, not only in term of deliverables. These activities are often (not always) in charge to project or customer leads.
 
 We track time differently for those activities.
 
