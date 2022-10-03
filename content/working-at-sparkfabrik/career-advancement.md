@@ -37,7 +37,7 @@ We will help you understand the new role's benefits, expectations and duties. It
 
 We encourage everybody to take the challenge and we may even probe people who already refused if we see a new opportunity for them to shine, but we can't push or force any advancement.
 
-Stil,l we expect **every developer** to constantly increase their assessment and set new professional goals, maybe tackling new [Specialities](/organization/operations#specialities) in their career, making side steps instead of climbing a ladder.
+Still, we expect **every developer** to constantly increase their assessment and set new professional goals, maybe tackling new [Specialities](/organization/operations#specialities) in their career, making side steps instead of climbing a ladder.
 
 ---
 
