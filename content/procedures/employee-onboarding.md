@@ -24,12 +24,14 @@ An HR or Admin representative will perform the following actions:
 * Open a `@sparkfabrik.com` account
 * Add the newly created account to `staff@sparkfabrik.com` group
 * Add the newly created account to all relevant `*-team@sparkfabrik.com` project/team mail groups
-* Add the account to company's OpenVPN firewall (for external access)
-* Open the Toggl account and make sure it can access all relevant projects
-* Open the Gitlab account and add it to all relevant projects
-* Add the GitHub account of the employee (or open it if not available) to Sparkfabrik organization and relevant projects
-* Log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
 * Add the account to Slack and _invite_ it on `#general`, `#tech` and `#tech-support` as well as on all channels related to relevant projects
+* Open the Gitlab account and add it to all relevant projects
+* Log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
+* Open the Toggl account and make sure it can access all relevant projects
+* Invite the employee to PeopleForce and ask them to review their profile information
+* Invite the employee to Dipendenti in Cloud and explain them the related policies
+* Add the GitHub account of the employee (or open it if not available) to Sparkfabrik organization and relevant projects
+* Add the account to company's OpenVPN firewall (for external access)
 
 ## Things to do on the first day
 
@@ -41,11 +43,12 @@ An HR or Admin representative will perform the following actions:
 * HR must send an introductory e-mail with policies (links) about
   * Resource access
   * Time tracking
+  * Emplyee directory management
   * Management of off/sick days
   * Google Drive folder structure and usage
   * Google Calender configuration and conventions
   * How and whom to ask for help
-  * 1:1 meetings and performance review policies (IACs)
+  * 1:1 meetings and performance review policies
 * HR must meet with the employee to make sure they got the policies and that they can correctly understand them in context
 * Tech should send in introductory e-mail with information (links) about
   * Relevant starting training resources (accounts on _drupalize.me_ or _Udemy_, books or playbook pages)
@@ -69,7 +72,7 @@ What follows will be performed with the help of your buddy, if needed
 * HR will schedule a call with the employee and their buddy to clarify [onboarding goals](/guides/an-effective-onboarding-structure) and schedule the checkpoints
 * HR will schedule a quick call to introduce the company management to the employee, and viceversa
 * HR and the employee will schedule a brief talk where the employee will self-introduce to the company
-* <a name="facewall-shot"></a>HR will arrange a shooting session for the website facewall (this can also be used as a profile picture)
+* <a name="facewall-shot"></a>Marketing will contact the employee to choose a facewall shot (this can be used as profile picture as well)
 
 ## Things to do one month after the onboarding
 
@@ -92,9 +95,9 @@ Role or function can be:
 
 * Software Developer
 * Lead developer
-* C-Level or other management board function
+* C-Level or other management / board function
 
-When in doubt, ask a HR representative.
+When in doubt, ask your HR representative.
 
 ### Branded LinkedIn banner
 
