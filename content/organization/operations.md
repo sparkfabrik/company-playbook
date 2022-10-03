@@ -23,7 +23,7 @@ Learn more about each [role accountabilities](/organization/roles-accountabiliti
 
 ### Specialities
 
-We explained Sparkfabrik only employs _developers_. Sure there are differences and each person has her own natural or acquired inclination. We broadly recognize four _Specialities_ that qualifies you as a developer and do our best to make you shine in accordance with your nature. During your career you will be probably cover more than a single speciality, even at the same time.
+We explained Sparkfabrik only employs _developers_. Sure there are differences and each person has their own natural or acquired inclination. We broadly recognize four _Specialities_ that qualifies you as a developer and do our best to make you shine in accordance with your nature. During your career you will be probably cover more than a single speciality, even at the same time.
 
 * **Analyst**: Analysts are great when it comes to map a domain, fathom complexity and express it in a clear, rational, understandable form. Analysts may not always have a solution at hand but for sure they know when a need is fulfilled or a problem is solved. Analysts skills make for great Product Owners.
 * **Architect**: Architects describe the best possible solution to a framed problem. They are great decision makers, understand the long term implications of technical choices, know how to quickly probe, understand and adapt and always grasp the big picture.

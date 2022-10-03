@@ -1,6 +1,6 @@
 ## Introduction
 
-In 2016 we started a technical blog. We decided to keep it separated from the main site or institutional blog to avoid any possible conflict with marketing/PR/communication logic that could hinder the possibility, for every team member, to use his spare (or working) time to jot down a post on anything technical he found interesting.
+In 2016 we started a technical blog. We decided to keep it separated from the main site or institutional blog to avoid any possible conflict with marketing/PR/communication logic that could hinder the possibility, for every team member, to use his spare (or working) time to jot down a post on anything technical they found interesting.
 
 Since static sites are all the rage now (and since it makes perfect sense they are :D) we based the blog on [Hugo](https://gohugo.io/), a great SSG written in go. Portable, fast and very well documented, it supports [Markdown](https://it.wikipedia.org/wiki/Markdown) for pages and posts, has themes and other amazing sweet things.
 

@@ -7,7 +7,7 @@ Sort: 60
 
 As every growing company we faced the problem of unbiased performance and rewarding mechanisms.
 
-Each of us have different ambitions and expectations for her career. With impact assessment, SparkFabrik is hopefully providing a map and a compass to everyone who wants to grow, step up and take over new roles and responsibilities.
+Each of us has different ambitions and expectations for their career. With impact assessment, SparkFabrik is hopefully providing a map and a compass to everyone who wants to grow, step up and take over new roles and responsibilities.
 
 ## How to assess your impact
 
@@ -59,7 +59,7 @@ If you feel you got an unfair assessment from your lead, **you can have a HR rep
 ### Evaluate someone else
 
 It may be difficult and uncomfortable to give honest feedback. You may be tempted to be too soft, too rewarding, shy away from harsh topics, etc. Or, quite the opposite you may be in rage for something really bad that recently happened and be tempted to bash your colleague with a bad evaluation, calling off months of good work and wiping the slate clean.  
-Having to explain your reasons may help you be more objective. Should the conversation become difficult, try to explain your assessee how she may succeed in the future instead that just pointing out how bad she failed. But don't sweep the dirt under the carpet. **Remember that the reason you are providing feedback is to allow your mate to do a better job next time**. Always trust she will.
+Having to explain your reasons may help you be more objective. Should the conversation become difficult, try to explain your assessee how they may succeed in the future instead of just pointing out how bad they failed. But don't sweep the dirt under the carpet. **Remember that the reason you are providing feedback is to allow your mate to do a better job next time**. Always trust they will.
 
 ---
 

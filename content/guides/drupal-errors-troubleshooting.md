@@ -24,7 +24,7 @@ The following steps should be done before asking for help to one of your colleag
 
 * **Dismantle**: if you are still in trouble, you now have to start isolating the problem, disabling every part of your code (or modules, themes, etc) that is not closely related to the error. Disable parts one by one, until the error disappears or you and up with nothing more to disable: third party services, themes, modules... whatever. Disable custom alters or hooks, neutralize functions (i.e. force good return values) and try to locate where the root cause belongs.
 
-* **Call home**: if you are asking for help, start with asking on a chat channel: try to state the problems as "expected outcome vs current outcome", providing the steps to reproduce the error. If one of your colleagues can help you, just ask for a call or a meeting whenever he will be available.
+* **Call home**: if you are asking for help, start by asking on a chat channel: try to state the problems as "expected outcome vs current outcome", providing the steps to reproduce the error. If one of your colleagues can help you, just ask for a call or a meeting whenever they will be available.
 
 ## Useful resources
 

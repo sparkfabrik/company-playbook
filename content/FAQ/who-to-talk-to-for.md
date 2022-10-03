@@ -31,7 +31,7 @@ First of all, try to solve it by mean of polite, explicit discussion. Try not to
 
 If this won't solve, you can talk with your team leader or a management board representative. Odds are good your mate will arrange a meeting with the person your are in trouble with, to help both of you analyzing things from an unbiased position.
 
-We can't promise all will be OK but we are sure that everyone will have a chance to express her voice.
+We can't promise all will be OK but we are sure that everyone will have a chance to express their voice.
 
 ### I want to propose a company-wide activity
 

@@ -9,7 +9,7 @@ This qualities mix hardly define a 9-18 performer.
 
 We know that it may happen, from time to time, that the boundaries of the project we work on become too narrow for our passion. We know we may want to explore new roads, learn new things and - why not - give shape to something that's our very own brainchild.
 
-Maybe a friend asks us to do a quick job for him, develop a small site or a small business application and we want to take the challenge and fun. Well, we guess this may happen quite often.
+Maybe a friend asks us to do a quick job for them, develop a small site or a small business application and we want to take the challenge and fun. Well, we guess this may happen quite often.
 
 Nothing bad with any of the above.  
 Still **a thin line runs between fueling passion to everyone's good and working against Sparkfabrik**. Possibly, without even noticing.
