@@ -3,7 +3,7 @@ Description: Tools and policies to run secure and effective online meetings
 Sort: 60
 */
 
-Sparkfabrik is a remote-friendly company in its DNA, we tend to use all the forms of online collaboration tools,
+SparkFabrik is a remote-friendly company in its DNA, we tend to use all the forms of online collaboration tools,
 from terminal sharing to full-fledged virtual meetings software.
 
 For this reason we believe that is important to have some shared guidelines, on how-to run **effective** and **secure** online meetings. **Security and privacy** are the most important ones because misconfigured public meetings can lead to very bad issues, that can compromise the public image of the company as well as reveal confidential information about us or our customers.

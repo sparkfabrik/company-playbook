@@ -3,7 +3,7 @@ Description: How to access the office during the COVID-19 pandemic
 Sort: 1
 */
 
-Following the COVID-19 outbreak and lockdown, from October 2020 Sparkfabrik's office in Milan is open again for who wants or needs to work there.
+Following the COVID-19 outbreak and lockdown, from October 2020 SparkFabrik's office in Milan is open again for who wants or needs to work there.
 
 The access is possible at reduced capacity, **only during working hours** (9:00-19:00) from Monday to Friday and by reservation.
 Only **10 people** at the same time will be admitted to the office and only at specific seats/desks.

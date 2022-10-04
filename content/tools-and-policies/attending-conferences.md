@@ -1,5 +1,5 @@
 /*
-Description: How to attend conferences as part of your work in Sparkfabrik
+Description: How to attend conferences as part of your work in SparkFabrik
 Sort: 20
 */
 

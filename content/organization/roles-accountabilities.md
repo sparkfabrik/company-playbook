@@ -1,6 +1,6 @@
 /*
 Title: Roles accountabilities
-Description: Accountabilities and Assessment Cards for the different roles in Sparkfabrik
+Description: Accountabilities and Assessment Cards for the different roles in SparkFabrik
 Sort: 40
 */
 

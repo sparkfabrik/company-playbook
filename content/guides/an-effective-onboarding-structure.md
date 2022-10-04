@@ -1,6 +1,6 @@
 When a new team mate enters the company, they are assigned a buddy. Someone who helps them getting up to speed with our habits, processes, vocabulary, unwritten rules (if any) and who explains the overload of inside jokes we crack every day.
 
-This is a very important task, usually carried out by seasoned sparkers. This page is practical guidelines for both the buddy and the employee about what to focus on to make sure the first month in Sparkfabrik is always a valuable experience.
+This is a very important task, usually carried out by seasoned sparkers. This page is practical guidelines for both the buddy and the employee about what to focus on to make sure the first month in SparkFabrik is always a valuable experience.
 
 ## The process
 
@@ -27,7 +27,7 @@ Once they are fulfilled, the next step is to set the goals and schedule check-up
 **For the employee:**
 
 * Gain a basic but complete understanding of the mentioned workflow and tools
-* Have a clear idea of the social geography of the team they work with and of Sparkfabrik in general
+* Have a clear idea of the social geography of the team they work with and of SparkFabrik in general
 * Knowing how to track their time and communicate using the right channels
 
 ### For the first month
