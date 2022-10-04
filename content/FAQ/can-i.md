@@ -42,8 +42,8 @@ Yet, as we don't provide _shipment pick-up as a service_, we can't guarantee som
 
 **Please remember** to include your name in recipient address, eg:
 
-John Doe c/o Sparkfabrik srl   
-Via generale Gustavo Fara 9    
+John Doe c/o SparkFabrik srl   
+Via Gustavo Fara 9    
 Milano (MI)
 20124
 

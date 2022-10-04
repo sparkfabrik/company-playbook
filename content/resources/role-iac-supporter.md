@@ -172,7 +172,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Contributions
 
-* You generate (or help to) content about tools, methodology or practices for Sparkfabrik's media and playbook.
+* You generate (or help to) content about tools, methodology or practices for SparkFabrik's media and playbook.
 
 <span class='score only-print'>
 

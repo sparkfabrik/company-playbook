@@ -3,7 +3,7 @@ Description: How people grow and specialize in SparkFabrik
 Sort: 40
 */
 
-People in Sparkfabrik should expect to advance on their career path, depending on their inclinations and will.  
+People in SparkFabrik should expect to advance on their career path, depending on their inclinations and will.  
 The company will work to give equal oportunities for growth to everyone, rewarding results and commitment.
 
 ## Checkpoints
@@ -28,7 +28,7 @@ Taking a new role will impact:
 
 ## Taking the challenge
 
-To fullfill [its vision](https://www.sparkfabrik.com/en/who-we-are.html), Sparkfabrik sells and cultivates high seniorities. We generally expect junior developers to eventually become senior developers.
+To fullfill [its vision](https://www.sparkfabrik.com/en/who-we-are.html), SparkFabrik sells and cultivates high seniorities. We generally expect junior developers to eventually become senior developers.
 
 Still, despite nobody can consciously avoid learning from experience, not all juniors want to take over the responsibilities of a senior. And not all seniors crave to become team leaders or software architects. This is understandable and we respect the choice.  
 

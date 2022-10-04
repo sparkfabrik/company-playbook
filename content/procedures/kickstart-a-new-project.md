@@ -174,8 +174,8 @@ A group to broadcast mails to the team must be created on GMail.
 
 Ask someone with the owner permissions on Sparfabrik's _Google Apps for Work_ account to create a group with the following properties
 
-* The group name must follow the template: `Sparkfabrik - <Project> Team` (mind the case!)
+* The group name must follow the template: `SparkFabrik - <Project> Team` (mind the case!)
 * Add all Team Leaders and management representatives who are involved as **onwers** of the group
 * Add all developers as **members** of the groups
 
-**IMPORTANT NOTE**: by convention this group contains Sparkfabrik team members only. **Do not** add external users to the group to avoid leaking of classified information.
+**IMPORTANT NOTE**: by convention this group contains SparkFabrik team members only. **Do not** add external users to the group to avoid leaking of classified information.

@@ -136,7 +136,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Contributions
 
-* You seize all opportunities to contribute to Sparkfabrik's internal projects or media, even with things as small as dependencies updates or typo corrections.
+* You seize all opportunities to contribute to SparkFabrik's internal projects or media, even with things as small as dependencies updates or typo corrections.
 
 <span class='score only-print'>
 

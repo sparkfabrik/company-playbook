@@ -19,8 +19,8 @@ var config = {
 
   // Footer Text / Copyright
   copyright: '&copy; ' + new Date().getFullYear() + ' - <a href="https://www.sparkfabrik.com">SparkFabrik</a>',
-  sparkfabrik_address_it: 'Sparkfabrik SRL - Via Gustavo Fara 9, 20124 Milano (MI) - Italy - P.IVA IT08557930966',
-  sparkfabrik_address_de: 'Sparkfabrik GmbH - Linprunstraße 49 80335 München - Germany - P.IVA 93037780157',
+  sparkfabrik_address_it: 'SparkFabrik SRL - Via Gustavo Fara 9, 20124 Milano (MI) - Italy - P.IVA IT08557930966',
+  sparkfabrik_address_de: 'SparkFabrik GmbH - Linprunstraße 49 80335 München - Germany - P.IVA 93037780157',
 
   // Excerpt length (used in search)
   excerpt_length: 400,

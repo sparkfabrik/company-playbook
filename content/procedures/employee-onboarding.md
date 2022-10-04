@@ -30,7 +30,7 @@ An HR or Admin representative will perform the following actions:
 * Open the Toggl account and make sure it can access all relevant projects
 * Invite the employee to PeopleForce and ask them to review their profile information
 * Invite the employee to Dipendenti in Cloud and explain them the related policies
-* Add the GitHub account of the employee (or open it if not available) to Sparkfabrik organization and relevant projects
+* Add the GitHub account of the employee (or open it if not available) to SparkFabrik organization and relevant projects
 * Add the account to company's OpenVPN firewall (for external access)
 
 ## Things to do on the first day
@@ -65,7 +65,7 @@ What follows will be performed with the help of your buddy, if needed
 * Add SSH keys on Gitlab so you can clone the repositories
 * Set your profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate/decent close-up (or use the [facewall shot](#facewall-shot))
 * Set your e-mail signature in [the format](#Standard-mail-signature-format) below (respect bolds)
-* Set the [Sparkfabrik branded LinkedIn banner](#LinkedIn-brand-guidelines) on the Linkedin profile
+* Set the [SparkFabrik branded LinkedIn banner](#LinkedIn-brand-guidelines) on the Linkedin profile
 
 ## Things to do within the first week
 
@@ -101,6 +101,6 @@ When in doubt, ask your HR representative.
 
 ### Branded LinkedIn banner
 
-We ask every employee who joins Sparkfabrik and who has a LinkedIn account to immediately add an Experience record, connected to Sparkfabrik's company profile with the correct role and starting date.
+We ask every employee who joins SparkFabrik and who has a LinkedIn account to immediately add an Experience record, connected to SparkFabrik's company profile with the correct role and starting date.
 
-In addition, we ask them to set the [branded Sparkfabrik's banner](/downloads/spark_linkedin_cover.png) as background photo of their profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
+In addition, we ask them to set the [branded SparkFabrik's banner](/downloads/spark_linkedin_cover.png) as background photo of their profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
