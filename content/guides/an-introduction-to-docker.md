@@ -5,7 +5,7 @@ This tutorial contains examples to become familiar with _docker_'s basics.
 Well, you must have docker up and running on your PC.  
 Follow the guide at [Configure local environment](/guides/local-development-environment-configuration) if you are still out of luck.
 
-> **NOTE**: Mind that if you are on MacOSX, you must make sure that the `DOCKER_MACHINE_IP` environment variable is configured on your host system
+> **NOTE**: Mind that if you are on macOS, you must make sure that the `DOCKER_MACHINE_IP` environment variable is configured on your host system
 
 Check for the following two lines:
 
@@ -21,7 +21,7 @@ To check if for the variable to be set, issue the following command in a termina
 echo $DOCKER_MACHINE_IP
 ```
 
-The _docker-machine_ (aka _docker-host_ or _docker server_) is the server on which we'll start our containers. MacOSX's kernel is unable to provide the container technology docker relies on (which is built-in on Linux kernel), so in the guide linked above, we provisioned a virtual machine with VirtualBox, running a Linux distro.
+The _docker-machine_ (aka _docker-host_ or _docker server_) is the server on which we'll start our containers. macOS's kernel is unable to provide the container technology docker relies on (which is built-in on Linux kernel), so in the guide linked above, we provisioned a virtual machine with VirtualBox, running a Linux distro.
 
 If you have 
 
@@ -546,9 +546,9 @@ Thus all apps will have their own local infrastructure, you can start it with a 
 > To learn all you need on our local environment read our [Local Environment setup guide](/guides/local-development-environment-configuration).
 
 
-### MacOSX Resolver's issues
+### macOS Resolver's issues
 
-If for some reason you can't seem to resolve the dnsdock hostnames on MacOSX, screw it the hard way:
+If for some reason you can't seem to resolve the dnsdock hostnames on macOS, screw it the hard way:
 
 ```
 sudo dscacheutil -flushcache

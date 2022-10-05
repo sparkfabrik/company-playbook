@@ -6,7 +6,7 @@ Setting up OpenVPN on NetworkManager on Ubuntu can be a PITA, but not if you fol
 
 ## Prerequisite
 
-* Ubuntu 18.04+ or 16.04 (preferrably with Gnome Desktop Manager)
+* Ubuntu 18.04+ or 16.04 (preferably with Gnome Desktop Manager)
 * OpenVPN 2.4+
 
 Ubuntu 16.04 ships OpenVPN 2.3+, it's quite easy to upgrade it:
@@ -20,7 +20,7 @@ sudo apt install -y openvpn
 
 ## Step-by-step
 
-First of all install the NetworkManager OpenVPN extension.
+First of all, install the NetworkManager OpenVPN extension.
 
 ```bash
 sudo apt install network-manager-openvpn-gnome
