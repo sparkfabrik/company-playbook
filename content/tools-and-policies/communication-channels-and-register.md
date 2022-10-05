@@ -1,11 +1,11 @@
 /*
-Description: How we require you to care in your devices during your daily work at SparkFabrik
+Description: How we require you to care for your devices during your daily work at SparkFabrik
 Sort: 10
 */
 
 ## Communication channels
 
-    @todo refer to /management page, relevant subsections
+    @todo refer to the [Management](/tools-and-policies/management page), relevant subsections
 
 ## Communication register
 

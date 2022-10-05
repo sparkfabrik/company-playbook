@@ -8,21 +8,21 @@ Sort: 70
 Working as a team, and loving order and focus, we want to keep track of all our tasks.  
 There are a bunch of reasons for this:
 
-1. Since our time on projects is charged to the customers, we want (!) them to know on what we spent our time
+1. Since our time on projects is charged to the customers, we want (!) them to know what we spent our time on
 1. Having tracked tasks allow for project leaders, peers and customers to negotiate their priorities
-1. We don't want ambiguity when we communicate: tracking tasks we can refer them with piercing precision using IDs
+1. We don't want ambiguity when we communicate: tracking tasks we can refer to them with piercing precision using IDs
 1. When a task is properly tracked and described, everybody in the team can work it out (trading off efficiency for efficacy maybe, but still)
 
-At the same extent, we want to track the time we spend on task so that:
+To the same extent, we want to track the time we spend on tasks so that:
 
-1. We can report it to client
+1. We can report it to the client
 1. We know if we are exceeding our budget or more basically how much we have spent
-1. We can have metrics related to tasks life-cycles, etc.
+1. We can have metrics related to tasks lifecycles, etc.
 
-We **don't want** to measure velocity or speed of individuals. Everyone has their own pace.  
-Velocity rates are kept into consideration for the whole team, with the goal to continuously improve its effectiveness, remove obstacles, make them work less to produce more, etc.
+We **don't want** to measure the velocity or speed of individuals. Everyone has their own pace.  
+Velocity rates are kept into consideration for the whole team, to continuously improve its effectiveness, remove obstacles, make them work less to produce more, etc.
 
-We appreciate people setting personal goals on proficiency or productivity but to us it's not as a matter of sheer speed, so time is only one of the variables.
+We appreciate people setting personal goals on proficiency or productivity but to us it's not a matter of sheer speed, so time is only one of the variables.
 
 ### Tracking tasks
 
@@ -40,15 +40,15 @@ There are rules to keep things consistent between the tools so that we can make 
 
 ## Tracking policies
 
-Talking about our everyday work, we recognize three different type of activities:
+Talking about our everyday work, we recognize three different types of activities:
 
-* **Approved tasks**: this is what the customers usually call us for. These activities are described in a signed agreement of sort, have a budget, a deadline and deploy a deliverable (even intangile, like a training course or T&M consultancy).
-* **Warranty**: this is what the customer wants done but does not expect to pay for. Fixing a bug or amending an issue which is due to us, for example.
-* **Support**: this is the time spent to deliver the _approved_ tasks_ or to help a customer getting what they need, not only in term of deliverables. These activities are often (not always) in charge to project or customer leads.
+* **Approved tasks**: this is what the customers usually call us for. These activities are described in a signed agreement of sorts, have a budget and a deadline and deploy a deliverable (even intangible, like a training course or T&M consultancy).
+* **Warranty**: this is what the customer wants to be done but does not expect to pay for. Fixing a bug or amending an issue that is due to us, for example.
+* **Support**: this is the time spent to deliver the _approved_ tasks_ or to help a customer get what they need, not only in terms of deliverables. These activities are often (not always) in charge to project or customer leads.
 
 We track time differently for those activities.
 
-As a general rule, all time entries must contain links to specific issue codes when available; in addition remember the description line always is a gift to your future self, since you may be required to explain the admininistration or the customer why you spent that time and on what.
+As a general rule, all time entries must contain links to specific issue codes when available; in addition remember the description line always is a gift to your future self, since you may be required to explain to the administration or the customer why you spent that time and on what.
 
 | Issue ID and title | Good time entry description | Bad time entry description | Very bad time entry description |
 | ------------------ | --------------------------- | -------------------------- | ------------------------------- |
@@ -65,30 +65,30 @@ Each task approved by a customer/for a project is tracked on Toggl as a `Task` (
 
 Approved tasks have a time budget on Toggl and the tracked time is counted against that time budget. Should a customer extend the budget, the task will be updated/extended or a new task will be created, depending on what makes more sense in the context.
 
-Project/Customer leads should take care of keeping things consistent in terms of issue tracking, using [Gitlab's Milestones](https://docs.gitlab.com/ee/user/project/milestones/). Create a milestone with the same name as the related task (`[Agreement Code] Task Name`) and add all issues partaining to this task in there.
+Project/Customer leads should take care of keeping things consistent in terms of issue tracking, using [Gitlab's Milestones](https://docs.gitlab.com/ee/user/project/milestones/). Create a milestone with the same name as the related task (`[Agreement Code] Task Name`) and add all issues related to this task there.
 
 ### Warranty
 
-Each customer project has a _Warranty_ task in it. This is a "rolling" task, in that it has no time budget assigned. Administrtion will get a monthly chunk of the time entries for reporting. It is important to undestand that, should we discover that a warranty issue is not actually covered by warranty (it happens sometimes), we will move it where it belongs (Support or other tasks): to this extent, **it is mandatory that each time entry refers to an issue on the tracker**.
+Each customer project has a _Warranty_ task in it. This is a "rolling" task, in that it has no time budget assigned. Administration will get a monthly chunk of the time entries for reporting. It is important to understand that, should we discover that a warranty issue is not actually covered by the warranty (it happens sometimes), we will move it where it belongs (Support or other tasks): to this extent, **it is mandatory that each time entry refers to an issue on the tracker**.
 
 ### Support
 
-Most of the time, who stands in the front line is most likely to track time under this task. As the _Warranty_ task, this is also a rolling activity and we can see it as a catchall for the many different tasks a project/customer lead must undergo from day to day.
+Most of the time, those who stand in the front line are most likely to track time under this task. As the _Warranty_ task, this is also a rolling activity and we can see it as a catchall for the many different tasks a project/customer lead must undergo from day to day.
 
-It is very unlikely that you can refer an issue for such type of activities: having a phone call, reviewing the project status, replying mails etc have too much overhead in tracking. To make some distinction during reporting and lifecycle analysis, there is four tags to apply to time entries that falls under _Support_ umbrella:
+It is very unlikely that you can refer an issue for such types of activities: having a phone call, reviewing the project status, replying to emails, etc. have too much overhead in tracking. To make some distinction during reporting and lifecycle analysis, there are four tags to apply to time entries that fall under the _Support_ umbrella:
 
-* **Customer care**: when you help a customer doing stuff or making sense out of something.
+* **Customer care**: when you help a customer do stuff or make sense out of something.
 * **Estimation**: when you devote time to estimate new features, projects or improvements.
-* **Project Management**: all activites partaining to helping the team and the customer getting _approved tasks_ done (agile events, validation, grooming, etc)-
+* **Project Management**: all activities pertaining to helping the team and the customer get _approved tasks__ done (agile events, validation, grooming, etc)-
 * **Issue checking**: when an issue is raised you may have to spend time making sure it is properly detailed or to verify it is actually relevant (think about bug tracking for example). Here is where you'll track such time.
 
 Not all these entries will result in a cost for the customer, so don't worry about this: **just track everything you do**! You will be engaged in analysis by the administration during the reporting phases.
 
-In addition, all time entries for those very small activities agreed with the customer by mail or without a purchase order, which we performe from time to time, such as security updates, small and sporadic changes, etc, must be tracked as `Support`. When you track a `Support` entry of that kind **it is important that you refer to an issue and provide a sound description** since no written contract or purchase order will help us track the request during reporting.
+In addition, all time entries for those very small activities agreed with the customer by mail or without a purchase order, which we perform from time to time, such as security updates, small and sporadic changes, etc, must be tracked as `Support`. When you track a `Support` entry of that kind **it is important that you refer to an issue and provide a sound description** since no written contract or purchase order will help us track the request during reporting.
 
 #### Support tags examples
 
-Find below some examples on how to use those tags.
+Find below some examples of how to use those tags.
 
 | Source | Event | Tag | Notes |
 | ------ | ----- | --- | ----- |

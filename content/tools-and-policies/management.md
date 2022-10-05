@@ -3,7 +3,7 @@ Description: Project management
 Sort: 40
 */
 
-    @todo create detailed chapters on what the tools are meant for and the polices to use them
+    @todo create detailed chapters on what the tools are meant for and the policies to use them
 
 ## Table of Content
 
@@ -11,7 +11,7 @@ Sort: 40
 - [Redmine](#redmine)
 - [Toggl](#toggl)
 - [Slack](#slack)
-- [GMail](#gmail)
+- [Gmail](#gmail)
 - [Hangout](#hangout)
 - [Google Drive](#google-drive)
 - [Trello](#trello)
@@ -28,13 +28,13 @@ Sort: 40
 ## Slack
 
     @todo
-    - Describe how project-channels are organized (and MUST BE organized - link to meaningful recipes)
+    - Describe how project channels are organized (and MUST BE organized - link to meaningful recipes)
     - List general purpose channels, their topics, what can be discussed and what not
     - Give information on how to set the online status to inform others of your availability
 
-## GMail
+## Gmail
 
-    @todo nothing terrible to be said here, if not for subscription to G+ so that hangout is available and maybe usage of company account for personal purposes (related to the migration of mails in case of resignation)
+    @todo nothing terrible to be said here, if not for subscription to G+ so that hangout is available and maybe the usage of company accounts for personal purposes (related to the migration of emails in case of resignation)
 
 ## Hangout
 
@@ -44,7 +44,7 @@ Sort: 40
 
     @todo 
     - describe folder structure and organization. Permissions are set by the app itself so it won't hurt to have a full description of all the main folders
-    - describe the documents naming conventions (AAAAMMDDXX prefix and such), useful to make documents searchable with ease
+    - describe the document naming conventions (AAAAMMDDXX prefix and such), useful to make documents searchable with ease
     - point out the "add to my drive" feature, to make users able to search for documents shared by others (or better yet, have a policy to NOT create docs outside of shared folders!)
 
 ## Trello
