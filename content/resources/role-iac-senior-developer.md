@@ -15,13 +15,13 @@ Sort: 60
 
 ## Mission
 
-* To define and realize technical solutions that satisfies customer's needs.
+* To define and realize technical solutions that satisfy customers' needs.
 * To follow the direction of your team lead in doing so.
-* To help your junior mates grow, challenging them and giving them fishing cans, not fish.
+* To help your junior mates grow, challenge them and give them fishing cans, not fish.
 * To work following agreed procedures and matching our quality standards.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
-* To contribute to the company's technical culture, sharing your mastery with others.
+* To contribute to the company's technical culture, share your mastery with others.
 
 ## Values
 
@@ -39,21 +39,21 @@ You share your goals with your mates and work with them, never playing the hero 
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Self-organization
 
-Your own schedule and workload balance is your responsibility. You have clear what's expected to you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
+Your schedule and workload balance is your responsibility. You have clear what's expected of you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -63,9 +63,9 @@ You have clear what's expected from you and what you have to do to match the exp
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -75,31 +75,31 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 ## Business impacts
 
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
+* You define implementation details of solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You realize solutions that business goals, matching our high quality standards, as defined with your team.
+* You realize solutions that have business goals, matching our high-quality standards, as defined by your team.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -107,9 +107,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -117,9 +117,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -127,32 +127,32 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 
 ## Contributions
 
-* You actively contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generating content on our channels and on this playbook.
+* You actively contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generate content on our channels and this playbook.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You help promoting our brand, from paying attention to your professional social media presence to participating (better if as a speaker) to relevant conferences.
+* You help promote our brand, from paying attention to your professional social media presence to participating (better if as a speaker) at relevant conferences.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -160,9 +160,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 

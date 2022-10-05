@@ -15,7 +15,7 @@ Sort: 50
 
 ## Mission
 
-* To realize technical solutions that satisfies customer's needs.
+* To realize technical solutions that satisfy customers' needs.
 * To follow the direction of your team lead in doing so.
 * To work following our agreed procedures and matching our quality standards.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
@@ -38,21 +38,21 @@ You share your goals with your mates and work with them, never playing the hero 
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Self-organization
 
-Your own schedule and workload balance is your responsibility. You have clear what's expected to you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
+Your schedule and workload balance is your responsibility. You have clear what's expected of you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -62,21 +62,21 @@ You have clear what's expected from you and what you have to do to match the exp
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Awareness
 
-You perceive the overall impacts of your day-to-day choices and know when to ask for validation. You face challenges proactively, not always waiting for others to solve problems for you, but know when to stop and ask for help to avoid wasting time or losing your mind on things bigger than you.
+You perceive the overall impacts of your day-to-day choices and know when to ask for validation. You face challenges proactively, don't wait for others to solve problems for you, but know when to stop and ask for help to avoid wasting time or losing your mind on things bigger than you.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -86,9 +86,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -98,9 +98,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -108,9 +108,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -118,9 +118,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -128,9 +128,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -140,9 +140,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -150,8 +150,8 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>

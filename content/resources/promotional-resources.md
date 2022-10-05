@@ -8,11 +8,11 @@ Those assets must be preferred to any other variant, so always make use of these
 
 ## Presentation templates
 
-Since we have different OSes on our company's hardware, we rely on Google Suite for company documents editing.  
+Since we have different OSes on our company's hardware, we rely on Google Suite for company document editing.  
 When you need to create a new presentation, refrain to use local/proprietary solutions and stick with what we chosed.
 
-For slides sets, we created two layouts, one with a **light** background and one with a **dark** one.
+For slide sets, we created two layouts, one with a **light** background and one with a **dark** one.
 
-Access Drive with your company account allows you to create a new presentation from one of the availabe templates (`Drive -> New -> Presentation -> From template` and choose the `SparkFabrik GmbH` tab at the top).
+Access Drive with your company account allows you to create a new presentation from one of the available templates (`Drive -> New -> Presentation -> From template` and choose the `SparkFabrik GmbH` tab at the top).
 
-Instructions on how to make the best out of those layouts are in the first page of each template.
+Instructions on how to make the best out of those layouts are on the first page of each template.

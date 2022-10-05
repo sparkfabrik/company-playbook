@@ -16,13 +16,13 @@ Sort: 80
 ## Mission
 
 * To make your unique skills available to the whole company.
-* To help lead and senior development achieving their mission.
+* To help lead and senior developers achieve their mission.
 * To dominate complexity, chew difficulties and laugh in the face of pressure.
 * To promote our procedures and standards and to find new opportunities to improve them.
 * To teach by example and words, showing the value of excellence.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
-* To contribute to the company's technical culture, sharing your mastery with others.
+* To contribute to the company's technical culture, share your mastery with others.
 
 ## Values
 
@@ -36,37 +36,37 @@ Sort: 80
 
 #### Advocacy
 
-You are the professional model for your colleagues. You represent the company both inside and outside and are actively involved in the promotion of our culture. You are an antenna for the company, picking up information essential to validate and shape our overall strategy, of which you are an active and informed part.
+You are a professional model for your colleagues. You represent the company both inside and outside and are actively involved in the promotion of our culture. You are an antenna for the company, picking up information essential to validate and shape our overall strategy, of which you are an active and informed part.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Leadership
 
-You are an organizational model for you colleagues. You live by best practices and require and help others to meet your high standards. You do your best to lead by consensus, listening to your team, but you always remember they look at you as a guide. You protect your team and remove obstacles but keep them committed and fit to create value.
+You are an organizational model for your colleagues. You live by best practices and require and help others to meet your high standards. You do your best to lead by consensus, listening to your team, but you always remember they look at you as a guide. You protect your team and remove obstacles but keep them committed and fit to create value.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Decisiveness
 
-You take promptly decisions, even on partial data, perceiving the overall impacts on people, schedule and deliverables. You face challenges proactively, not waiting for others to solve problems for you. You handle difficult situations without losing your mind and help others enduring them.
+You take promptly decisions, even on partial data, perceiving the overall impacts on people, schedule and deliverables. You face challenges proactively, not waiting for others to solve problems for you. You handle difficult situations without losing your mind and help others endure them.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -76,21 +76,21 @@ You share your goals with your mates and work with them, never playing the hero 
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Self-organization
 
-Your own schedule and workload balance is your responsibility. You have clear what's expected to you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
+Your schedule and workload balance is your responsibility. You have clear what's expected of you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -100,9 +100,9 @@ You have clear what's expected from you and what you have to do to match the exp
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -112,9 +112,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -124,39 +124,39 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You define the architecture of solutions that fulfill business goals, matching our high quality standards.
+* You define the architecture of solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
+* You define implementation details of solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You realize solutions that business goals, matching our high quality standards, as defined with your team.
+* You realize solutions that have business goals, matching our high-quality standards, as defined by your team.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -164,9 +164,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -174,9 +174,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -184,61 +184,61 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You participate with CTO, COO and other relevant company staff to cross-project strategy and tactics meetings.
+* You participate with CTO, COO and other relevant company staff in cross-project strategy and tactics meetings.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 ## Contributions
 
-* You actively and substantially contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generating content on our channels and on this playbook.
+* You actively and substantially contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generate content on our channels and this playbook.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You own long-running or occasional internal initiatives to sustain our culture, be it by owning an internal project, fostering good communication, taking in charge internal training programs and the like.
+* You own long-running or occasional internal initiatives to sustain our culture, be it by owning an internal project, fostering good communication, taking charge of internal training programs and the like.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You actively promote our brand, paying attention to your professional social media presence, participating as a speaker to relevant conferences or online events and creating good content on behalf of the company.
+* You actively promote our brand, paying attention to your professional social media presence, participating as a speaker at relevant conferences or online events and creating good content on behalf of the company.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You deliver substantial contributions (new features, bug fixes, documentation, translations) to community projects, leading joint effort and/or directly contributing work as necessary.
+* You deliver substantial contributions (new features, bug fixes, documentation, translations) to community projects, leading joint efforts and/or directly contributing work as necessary.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
