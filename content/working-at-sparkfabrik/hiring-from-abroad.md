@@ -3,10 +3,9 @@ Description: Joining SparkFabrik if you are not an Italian citizen
 Sort: 85
 */
 
-We are very happy to receive applications from around the globe.  
-Actually we like SparkFabrik to be a multicultural melting pot, where ideas can spark (heh!) from our cultural differences and richness.
+We are very happy to receive applications from around the globe. We like SparkFabrik to be a multicultural melting pot, where ideas can spark (heh!) from our cultural differences and richness.
 
-SparkFabrik has its offices in Milan, Italy, but the company is structured with a remote-first approach, meaning that the procedures and communication channel are thought out to support remote alongside in-person workflows.  
+SparkFabrik has its offices in Milan, Italy, but the company is structured with a remote-first approach, meaning that the procedures and communication channels are thought out to support remote alongside in-person workflows.  
 So we equally consider both applications for remote working and for relocating to Italy, near Milan.
 
 The main difference lies in the type of contract we sign with the new employee.
@@ -15,7 +14,7 @@ The main difference lies in the type of contract we sign with the new employee.
 
 Relocating to Italy will require effort and paperwork (we have a [guide to relocation](/guides/relocating-to-italy) that explains the process in detail) but will allow SparkFabrik to grant you a _Collective Labour Agreement_ (CLA).
 
-Depending on where you come from, you may or may not have to ask for a visa. European citizens may come to Italy and be hired freely, as they were italian citizens. From other countries a working or family visa will be required.
+Depending on where you come from, you may or may not have to ask for a visa. European citizens may come to Italy and be hired freely, as they were Italian citizens. People from other countries will require a working or family visa.
 
 No matter what, SparkFabrik offers permanent employment contracts (find here the [full Italian CLA](https://www.contrattocommercio.it) - sadly no official English translation is available). This arrangement allows for open-ended visa renovation, among other things.
 
@@ -24,35 +23,35 @@ With such a contract, your yearly **gross** salary will be paid in 14 **net** mo
 1. June and December you get double wage (hence, 14 wages)
 2. SparkFabrik will retain taxes following regulations and pay them for you (hence, they are net)
 
-The retained tax amount depends on a lot of factors, like the agreed gross wage, your level, possible dependent relatives, etc. As a rule of thumb, you can consider **one third of the gross salary to be retained** in taxes.
+The retained tax amount depends on a lot of factors, like the agreed gross wage, your level, possible dependent relatives, etc. As a rule of thumb, you can consider **one-third of the gross salary to be retained** in taxes.
 
 ## Remote foreign workers
 
-Remote workers living in foreign countries, even european ones, can't be employed with a CLA. Among others, the main blocker is that SparkFabrik can't easily pay your taxes in your country, while the Italian CLA requires that we do.
+Remote workers living in foreign countries, even European ones, can't be employed with a CLA. Among others, the main blocker is that SparkFabrik can't easily pay your taxes in your country, while the Italian CLA requires that we do.
 
-For this reason we have a standard private agreement that guarantees:
+For this reason, we have a standard private agreement that guarantees:
 
 * Full-time engagement
 * 24 leave days each year (like the Italian CLA)
 * A mutual withdrawal period of 1 to 3 months, depending on your level
-* The same general treatement reserved to resident workers
-* The same mutual obbligations valid for resident workers
+* The same general treatment is reserved for resident workers
+* The same mutual obligations valid for resident workers
 
-Under this agreement we will pay you the **gross** salary in 12 **gross** monthly wages.
+Under this agreement, we will pay you the **gross** salary in 12 **gross** monthly wages.
 
-To this extent we need you to be able to issue valid invoices to SparkFabrik. We will pay your invoices with the rest of the wages each month.
+To this extent, we need you to be able to issue valid invoices to SparkFabrik. We will pay your invoices with the rest of the wages each month.
 
-To issue valid invoice you may have to register for a VAT position in your country, depending on your local regulations. We can't give advice on this so it's up to you.
+To issue a valid invoice you may have to register for a VAT position in your country, depending on your local regulations. We can't advise on this so it's up to you.
 
-Remote foreign workers will be invited to join the yearly SparkMeeting, we usually run in September. The event will last for three days. Bed and board, plus travel expanses to join the meeting will be on us.
+Remote foreign workers will be invited to join the yearly SparkMeeting, which we usually run in September. The event will last for three days. Bed and board, plus travel expenses to join the meeting will be on us.
 
-Usually we also ask foreign workers to be available to travel to Italy for very peculiar events or in special occasions. Should this be the case, all expanses are still on us.
+Usually, we also ask foreign workers to be available to travel to Italy for very peculiar events or special occasions. Should this be the case, all expanses are still on us.
 
 ## Timetable and working hours
 
-Italy working week is made of **5 working days** (monday to friday) of **8 working hours**, with a **1-hour lunch break** in the middle.
+Italy's working week is made of **5 working days** (monday to friday) of **8 working hours**, with a **1-hour lunch break** in the middle.
 
-SparkFabrik official working timetable is:
+SparkFabrik's official working timetable is:
 
 | Segment | Start | End |
 | --- | --- | --- |
@@ -73,7 +72,7 @@ this is feasible without asking for specific permission.
 
 Same if you want to do **9.00 - 18.00** or **9.30 - 18.00** with **30mins** lunch break.
 
-In practice we are pretty flexible and keen to address family or personal needs, as well as matching the rhythms of your home country that may differ from italian ones.
+In practice, we are pretty flexible and keen to address family or personal needs, as well as match the rhythms of your home country that may differ from Italian ones.
 
 If you have special needs, please talk about them with the management in advance (HR is a good touchpoint). We will surely work them out as long as:
 
@@ -85,24 +84,24 @@ If you have special needs, please talk about them with the management in advance
 
 ### Contracts
 
-Different cultures bring different takes on work relations to the table. Plus remote foreign employments run on a private agreement, _in lieu_ of a stricter CLA: this may lead some remote employee to think they are working as contractors.
+Different cultures bring different takes on work relations to the table. Plus remote foreign employment run on a private agreement, _in lieu_ of a stricter CLA: this may lead some remote employees to think they are working as contractors.
 
-This is not the case: fiscal arrangement does not imply a temporary or loose releationship. Remote foreign workers are still considered SparkFabrik employees and have the same privileges and duties of each other colleague.
+This is not the case: fiscal arrangement does not imply a temporary or loose releationship. Remote foreign workers are still considered SparkFabrik employees and have the same privileges and duties as each other colleagues.
 
 Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](/working-at-sparkfabrik/personal-projects.mdpersonal-projects).
 
 ### Language barrier
 
-SparkFabrik is a place where friendly and healthy relationships flourish. Despite being remote, we invest in moments of socialization, organizing online coffee-breaks, internal talks, all-hands meetings and encouraging every new sparker to get to know their colleagues, not just working on projects.
+SparkFabrik is a place where friendly and healthy relationships flourish. Despite being remote, we invest in moments of socialization, organizing online coffee breaks, internal talks, all-hands meetings and encouraging every new sparker to get to know their colleagues, not just working on projects.
 
-Despite we can 100% work in English, many casual conversation still happen in Italian and that may be also the case during more officials events like all-hands meetings or some internal talk, depending on the context and topic.
+Despite we can 100% work in English, many casual conversations still happen in Italian and that may be also the case during more official events like all-hands meetings or some internal talk, depending on the context and topic.
 
-Our current track-record is that non-italian speakers had a hard time remaining engaged and building strong bonds.
+Our current track record is that non-italian speakers had a hard time remaining engaged and building strong bonds.
 
 We don't have sound statistical evidence, but we want to share our findings with every possible applicant:
 
 1. Italian is NOT trivial to learn. Unless you already proved to be a real language hacker or your mother tongue has a lot in common with Italian (like French, Spanish, Portuguese or Romanian), don't expect to become proficient in a few months, especially if you live overseas.
-2. Don't underestimate the negative effect of limited conversations on your engagement. Working on projects is not everything in SparkFabrik and feeling an outsider may be very detrimental to your morale.
+2. Don't underestimate the negative effect of limited conversations on your engagement. Working on projects is not everything in SparkFabrik and feeling like an outsider may be very detrimental to your morale.
 
 Forewarned is forearmed.
 
@@ -111,4 +110,4 @@ Forewarned is forearmed.
 We will provide you with a company laptop and related battery charger.
 The laptop will most probably have an Italian keyboard layout, plus a 220V battery charger.
 
-We'll do our best to also provide a compatible power cord for your country, but if your power grid don't run on 220V tension, please worn us so we can address the problem beforehand.
+We'll do our best to also provide a compatible power cord for your country, but if your power grid doesn't run on 220V tension, please warn us so we can address the problem beforehand.

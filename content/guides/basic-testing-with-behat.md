@@ -7,7 +7,7 @@
 
 ## Install
 
-Install behat and it's dependencies
+Install behat and its dependencies
 
 ```
 composer require drupal/drupal-extension

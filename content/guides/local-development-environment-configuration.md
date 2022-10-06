@@ -1,49 +1,49 @@
 ## Operating systems
 
-This guide is available for [MacOS](#macosx) and [Ubuntu](#ubuntu-linux).
+This guide is available for macOS and Ubuntu.
 
-To provision your system just head here: https://github.com/sparkfabrik/sparkdock and follow the instructions.
+To provision your system, just head here: https://github.com/sparkfabrik/sparkdock and follow the instructions.
 
 ## Overview
 
-Our local development environment is built on docker, to achieve:
+Our local development environment is built on Docker, to achieve:
 
 * High decoupling from host OS.
-* Different services versions and configuration for each application/project.
+* Different service versions and configurations for each application/project.
 * The ability to commit the infrastructure together with the application in the same repository.
-* _One click_ local setup of projects for everyone in the team.
+* _One-click_ local setup of projects for everyone in the team.
 
 One image is worth a thousand words, so here follows a simplified depiction of our local environment model:
 
 ![Local environment schema](%image_url%/procedures/local-development-environment--depiction-linux.png)
 
-Basically, what we've got here is a set of containers, pertaining to different projects. They are interconnected via docker links so that each project has its own service: for example both Drupal projects in the image have dedicated MySQL and Apache/PHP containers, perfectly isolated. They can be stopped and started at will on a "by project" basis.
+What we've got here is a set of containers, related to different projects. They are interconnected via Docker links so that each project has its service: for example, both Drupal projects in the image have dedicated MySQL and Apache/PHP containers, perfectly isolated. They can be stopped and started at will on a "by project" basis.
 
-To keep containers sets isolated we rely on `docker-compose`, a simple orchestrator that's easy to configure and run locally.
+To keep container sets isolated we rely on `docker-compose`, a simple orchestrator that's easy to configure and run locally.
 
-To reach each entry point, that in case of web applications is the HTTP server that exposes the app for that project, we need a resolver able to dynamically map containers to URLs when a container is started or stopped (mind a container IP is inherently dynamic so a static map won't do).
+To reach each entry point -- which for a web application is the HTTP server that exposes the app for that project -- we need a resolver able to dynamically map containers to URLs when a container is started or stopped (mind a container IP is inherently dynamic so a static map won't do).
 
-The last ingredient consists in a local resolver able to inform the system to proxy the calls for a given TLD (`.loc` in our case) to `dnsdock` or by using an http proxy currently implemented with `dinghy-http-proxy`.
+The last ingredient consists of a local resolver able to inform the system to proxy the calls for a given TLD (`.loc` in our case) to `dnsdock` or by using an HTTP proxy currently implemented with `dinghy-http-proxy`.
 
-## Why we have dnsdock and dinghy-http-proxy
+## Why do we have `dnsdock` and `dinghy-http-proxy`
 
 Let's start with the projects' links:
 
 * https://github.com/aacebedo/dnsdock
 * https://github.com/sparkfabrik/dinghy-http-proxy
 
-These tools are used (as alternatives) by our internal docker-compose projects and they both enable requests generating from localhost to reach running containers by querying a domain. To avoid collisions, all local projects are mapped under a `.loc` "fictional" top level domain.
-**Important note**: please remember that every `.loc` top level domains are mapped by these DNS resolvers, not just `sparkfabrik.loc`.
+These tools are used (as alternatives) by our internal docker-compose projects and they both enable requests generated from localhost to reach running containers by querying a domain. To avoid collisions, all local projects are mapped under a "fictional" `.loc` top-level domain.
+**Important note**: please remember that every `.loc` top-level domain is mapped by these DNS resolvers, not just `sparkfabrik.loc`.
 
-So why two options? The reason is that `dnsdock` is a viable solution for Linux environments, where your host has direct access to docker containers network (you can reach a docker container on its IP address) but that's not possible on MacOS or Windows/WSL. In these environments, docker is running inside a Linux VM under the hood. Different networking layers are in place that prevents a direct connection between your host and the containers.
+So why two options? The reason is that `dnsdock` is a viable solution for Linux environments, where your host has direct access to Docker containers network (you can reach a Docker container on its IP address) but that's not possible on macOS or Windows/WSL. In these environments, Docker is running inside a Linux VM under the hood. Different networking layers are in place that prevent a direct connection between your host and the containers.
 
-On MacOS and Windows then, `Dinghy HTTP Proxy` solves the problem from a different perspective: tt exposes ports 80/443 on your host, plus a UDP port to resolve DNS queries. On those ports it proxies HTTP requests to the correct containers, providing the response back to the browser.
+On macOS and Windows then, `Dinghy HTTP Proxy` solves the problem from a different perspective: it exposes ports 80/443 on your host, plus a UDP port to resolve DNS queries. On those ports it proxies HTTP requests to the correct containers, responding to the browser.
 
 The following diagrams show the respective workflows.
 
 ### DNSDock
 
-To know if a container must be mapped by it's resolver, DNSDock inspects a label or env variable exposed by containers, specifically:
+To know if a container must be mapped by its resolver, DNSDock inspects a label or env variable exposed by containers, specifically:
 
 ```yaml
 environment:
@@ -104,12 +104,12 @@ Dinghy http proxy -> User: Response
 
 ## Run dnsdock or Dinghy HTTP Proxy
 
-If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reasons (maybe you have deleted the containers), you can rely on `sparkdock` scripts:
+If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reason (maybe you have deleted the containers), you can rely on `sparkdock` scripts:
 
 1. Linux
   1. `run-dnsdock`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dnsdock
   2. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dinghy-proxy
-2. MacOS:
+2. macOS
   3. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macosx/bin/run-dinghy-proxy
 
 If you work in SparkFabrik with the provided hardware, those scripts should already be available in your system. In case they're missing:
@@ -123,7 +123,7 @@ chmod +x /usr/local/bin/run-dnsdock
 chmod +x /usr/local/bin/run-dinghy-proxy
 ```
 
-**MacOS**
+**macOS**
 
 ```bash
 curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/sparkfabrik/sparkdock/master/config/macosx/bin/run-dinghy-proxy
@@ -132,7 +132,7 @@ chmod +x /usr/local/bin/run-dinghy-proxy
 
 ### Log into GCloud
 
-To build our projects you'll need access to GCP image registry to start with, so you need to login with your SparkFabrik account.
+To build our projects you'll need access to GCP image registry to start with, so you need to log in with your SparkFabrik account.
 
 Run the following commands in the order:
 
@@ -143,13 +143,13 @@ gcloud auth configure-docker
 gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services
 ```
 
-Running the first couple commands, your browser will open, asking for authorization to access your account. If you have more than one Google/GMail account configured you'll have to explicitely choose the `sparkfabrik.com` one.
+Running the first couple commands, your browser will open, asking for authorization to access your account. If you have more than one Google/Gmail account configured you'll have to explicitly choose the `sparkfabrik.com` one.
 
 Once you run all three commands above, you're done.
 
 ### Test and enjoy
 
-To test everything is working as expected, we'll try to run a service in a container, exposing it through a local URL.
+To test that everything is working as expected, we'll try to run a service in a container, exposing it through a local URL.
 
 #### DNSDock
 
@@ -170,7 +170,7 @@ To test everything is working as expected, we'll try to run a service in a conta
 
 ```
 
-#### Dinghy http proxy
+#### Dinghy HTTP proxy
 
 ```bash
 ❯ docker run -d -e DNSDOCK_ALIAS=test.sparkfabrik.loc nginx:alpine

@@ -5,16 +5,16 @@ When you start working, commit your local changes and merge the integration bran
 
 ## In pills
 
-* Export your drupal configuration into sync directory: `drush config-export sync`
+* Export your drupal configuration into the sync directory: `drush config-export sync`
 * Commit your drupal configuration
-* Pull or merge integration branch to get other devs changes
+* Pull or merge integration branch to get other devs' changes
 * Resolve merge conflicts
 * Import the resulting configuration into your drupal installation: `drush config-import sync`
-* Check that after the import everything in working as expected (better running tests)
+* Check that after the import everything is working as expected (better running tests)
 * Export again your configuration: `drush config-export sync` (credits to Nuvole for this suggestion)
-* **OPTIONAL** Squash if submitting a MR
+* **OPTIONAL** Squash if submitting a Merge Request
 * Push your changes
-* **OPTIONAL** create a MR on gitlab
+* **OPTIONAL** create a Merge Request on GitLab
 * live happily forever after :)
 
 

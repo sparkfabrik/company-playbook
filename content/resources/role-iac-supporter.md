@@ -15,12 +15,12 @@ Sort: 90
 
 ## Mission
 
-* To help the management achieving company's mission.
+* To help the management achieve the company's mission.
 * To own support processes, improving them as necessary.
 * To promote our procedures and standards and to find new opportunities to improve them.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To value continuous improvement, seek out opportunities to learn and live by the principles of Lean Thinking.
-* To contribute to the company's organizational culture, sharing your mastery with others.
+* To contribute to the company's organizational culture, share your mastery with others.
 
 ## Values
 
@@ -34,61 +34,61 @@ Sort: 90
 
 #### Clarity
 
-You are an organizational and procedural reference for both employees and management. You live by and shape clearly defined practices and help others creating new ones.
+You are an organizational and procedural reference for both employees and management. You live by and shape clearly defined practices and help others create new ones.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Fluidity
 
-You do your best to facilitate administrative and organizational processes. You build bridges across the whole company and work hard to highlight and remove wastes and obstacles as you identify them. You listen what happens at all levels and help both management and workforce find a common ground when you feel they lack the proper alignment.
+You do your best to facilitate administrative and organizational processes. You build bridges across the whole company and work hard to highlight and remove wastes and obstacles as you identify them. You listen to what happens at all levels and help both management and the workforce find a common ground when you feel they lack the proper alignment.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Proactivity
 
-You know when to take promptly decisions, even on partial data, or require management validation. You perceive the impacts your choices will have on the company and make sure you always work to fulfill the current strategy. You face challenges proactively, not waiting for others to solve problems for you. You handle chaotic situations without losing your mind and help others making sense of them.
+You know when to take promptly decisions, even on partial data, or require management validation. You perceive the impacts your choices will have on the company and make sure you always work to fulfill the current strategy. You face challenges proactively, not waiting for others to solve problems for you. You handle chaotic situations without losing your mind and help others make sense of them.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Teamwork
 
-You share your goals with the management and work with them. You also explain your needs or decisions to the workforce so that they'll be on your same page and understand the real value you want delivered. You speak your voice clearly, even when it's difficult, without holding relevant information for fear or stubbornness. When being frank makes you uncomfortable, you still strive to be polite and cheerful so you can make your point.
+You share your goals with the management and work with them. You also explain your needs or decisions to the workforce so that they'll be on the same page and understand the real value you want to be delivered. You speak your voice clearly, even when it's difficult, without holding relevant information for fear or stubbornness. When being frank makes you uncomfortable, you still strive to be polite and cheerful so you can make your point.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
 #### Self-organization
 
-Your own schedule and workload balance is your responsibility. You have clear what's expected from you and step up to discuss conflicting priorities and possible bottlenecks with the management.
+Your schedule and workload balance is your responsibility. You have clear what's expected from you and step up to discuss conflicting priorities and possible bottlenecks with the management.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -98,9 +98,9 @@ You have clear what outcomes are expected from your work and what you have to do
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -110,9 +110,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -122,9 +122,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -132,9 +132,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -142,33 +142,31 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You shape new practices, tools and knowledge, while working on your daily duties, in accordance with the direction agreed with the management.
+* You shape new practices, tools and knowledge while working on your daily duties, in accordance with the direction agreed with the management.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
-* You participate with the company governance and other relevant company staff to cross-project/cross-process strategy and tactics meetings.
+* You participate with the company governance and other relevant company staff in cross-project/cross-process strategy and tactics meetings.
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
-
-
 
 ## Contributions
 
@@ -176,9 +174,9 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
 
@@ -186,8 +184,8 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 <span class='score only-print'>
 
-- [ ] **I still can't match the expectation** _(Why? Take a note!)_
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take a note!)_
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>

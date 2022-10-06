@@ -1,19 +1,19 @@
-This is a checklist and flight-plan for new employees onboarding.
+This is a checklist and flight plan for new employees onboarding.
 
-The document provides both _procedural_ tasks (such as opening accounts) and a depiction of the processes and assets that can help the decision-making phase of an onboarding: assigning the employee to a team, mentoring them, setting goals and evaluate results.
+The document provides both _procedural_ tasks (such as opening accounts) and a depiction of the processes and assets that can help the decision-making phase of an onboarding: assigning the employee to a team, mentoring them, setting goals and evaluating results.
 
 ## Requirements
 
 The following steps give access to all confidential information in the company, so before proceeding, check that:
 
 1. The person hiring legally started (from the present day) **OR**
-2. There is a _non disclosure agreement_ running between the parties
+2. There is a _non-disclosure agreement_ running between the parties
 
 ## Devices, tools and objects
 
 * A laptop PC must be ordered **in advance** so that it will be available on the first day of work
-* For foreigners employees a proper power cord and optionally a compatible power supply (depending on the power grid voltage) must be bought in advance
-* For resident employees, coming to the office on a daily basis, the office keys must be provided ideally from the first day
+* For foreign employees, a proper power cord and optionally a compatible power supply (depending on the power grid voltage) must be bought in advance
+* For resident employees, coming to the office daily, the office keys must be provided ideally from the first day
 * Named business cards will usually be ordered after the end of the contractual trial period
 * We usually provide a branded backpack with the laptop and branded stickers for the screen lid
 
@@ -29,9 +29,9 @@ An HR or Admin representative will perform the following actions:
 * Log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
 * Open the Toggl account and make sure it can access all relevant projects
 * Invite the employee to PeopleForce and ask them to review their profile information
-* Invite the employee to Dipendenti in Cloud and explain them the related policies
-* Add the GitHub account of the employee (or open it if not available) to SparkFabrik organization and relevant projects
-* Add the account to company's OpenVPN firewall (for external access)
+* Invite the employee to Dipendenti in Cloud and explain to them the related policies
+* Add the GitHub account of the employee (or open it if not available) to the SparkFabrik organization and relevant projects
+* Add the account to the company's OpenVPN firewall (for external access)
 
 ## Things to do on the first day
 
@@ -43,24 +43,24 @@ An HR or Admin representative will perform the following actions:
 * HR must send an introductory e-mail with policies (links) about
   * Resource access
   * Time tracking
-  * Emplyee directory management
+  * Employee directory management
   * Management of off/sick days
   * Google Drive folder structure and usage
-  * Google Calender configuration and conventions
+  * Google Calendar configuration and conventions
   * How and whom to ask for help
   * 1:1 meetings and performance review policies
 * HR must meet with the employee to make sure they got the policies and that they can correctly understand them in context
-* Tech should send in introductory e-mail with information (links) about
+* Tech should send an introductory e-mail with information (links) about
   * Relevant starting training resources (accounts on _drupalize.me_ or _Udemy_, books or playbook pages)
   * How to contribute to the projects (branching model, peer review, etc)
-  * Required tools, procedures and practices one need to know from the very beginning
+  * Required tools, procedures and practices one needs to know from the very beginning
 * Tech and/or buddy must explain our key internal projects and self-made tools (sparkdrupal, sparkangular, sparkboard, firestarter, etc) to the employee
 
 ### For the employee
 
 What follows will be performed with the help of your buddy, if needed
 
-* Access all the services and check you can interact with them
+* Access all the services and check if you can interact with them
 * Activate two-factor auth on Gitlab
 * Add SSH keys on Gitlab so you can clone the repositories
 * Set your profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate/decent close-up (or use the [facewall shot](#facewall-shot))
@@ -70,9 +70,9 @@ What follows will be performed with the help of your buddy, if needed
 ## Things to do within the first week
 
 * HR will schedule a call with the employee and their buddy to clarify [onboarding goals](/guides/an-effective-onboarding-structure) and schedule the checkpoints
-* HR will schedule a quick call to introduce the company management to the employee, and viceversa
+* HR will schedule a quick call to introduce the company management to the employee and vice-versa
 * HR and the employee will schedule a brief talk where the employee will self-introduce to the company
-* <a name="facewall-shot"></a>Marketing will contact the employee to choose a facewall shot (this can be used as profile picture as well)
+* <a name="facewall-shot"></a>Marketing will contact the employee to choose a facewall shot (this can be used as a profile picture as well)
 
 ## Things to do one month after the onboarding
 
@@ -95,7 +95,7 @@ Role or function can be:
 
 * Software Developer
 * Lead developer
-* C-Level or other management / board function
+* C-Level or other management/board function
 
 When in doubt, ask your HR representative.
 
@@ -103,4 +103,4 @@ When in doubt, ask your HR representative.
 
 We ask every employee who joins SparkFabrik and who has a LinkedIn account to immediately add an Experience record, connected to SparkFabrik's company profile with the correct role and starting date.
 
-In addition, we ask them to set the [branded SparkFabrik's banner](/downloads/spark_linkedin_cover.png) as background photo of their profile and (not mandatory but really welcomed) to use the facewall shot as LinkedIn and sparkfabrik.com email profile picture.
+In addition, we ask them to set the [branded SparkFabrik's banner](/downloads/spark_linkedin_cover.png) as a background photo of their profile and (not mandatory but welcome) to use the facewall shot as the LinkedIn and sparkfabrik.com email profile picture.
