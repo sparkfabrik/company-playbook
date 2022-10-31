@@ -33,7 +33,7 @@ But still, there are some **universal principles** that can apply to all project
 
 ### Checklist
 
-- **The PR/MR is linked to an actual issue on the used issue tracker using our standard notation _"refs <url>: <description>."_**
+- **The PR/MR is linked to an actual issue on the used issue tracker using our standard notation _"refs <url>: <description>."_ or the agreed one for the project.**
 - **CI is working as expected, any needed new job is in place, and the timing to run it is not significantly impacting the global timing of the pipeline.**
 - **All tasks and dependent services needed to build the feature on the local development environment are automated and integrated.**
 - **The feature is covered with tests, such as unit, functional, or e2e, and the tests are green, significant, and fast.**
