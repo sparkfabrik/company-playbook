@@ -4,14 +4,14 @@ _/
 
 We love to build **high-quality products**, always following the market **best practices** regarding **tools**, **security**, **coding**, and **team collaboration**.
 
-To better **achieve our standards** in all the **technologies** we work with, we have in place **several practices** to help **everyone** to be **successful**:
+To better **match our standards** in all the **technologies** we work with, we have in place **several practices** to help **everyone** to be **successful**:
 
 1.  Starter-kits (our custom package system) to quickly bootstrap new projects.
-2.  Automation from the local development environment to the CI/CD pipelines (Gitlab and Github).
+2.  Automation from the local development environment to the CI/CD pipelines (Gitlab and GitHub).
 3.  Code review
 4.  Upskilling and training program
 5.  Internal tech talks and company hackathon
-6.  On-demand QA team to help to test a feature
+6.  On-demand QA team to help testing features
 
 Any of the following items allows you to shape a **better product**, reducing the **cognitive load** needed to **build, test, and deliver** **digital products** compatible with the **company standard**.
 
@@ -34,11 +34,11 @@ But still, there are some **universal principles** that can apply to all project
 ### Checklist
 
 - **The PR/MR is linked to an actual issue on the used issue tracker using our standard notation _"refs <url>: <description>."_ or the agreed one for the project.**
-- **CI is working as expected, any needed new job is in place, and the timing to run it is not significantly impacting the global timing of the pipeline.**
+- **CI is working as expected, any needed new job is in place, and the time it takes is not significantly impacting the global timing of the pipeline.**
 - **All tasks and dependent services needed to build the feature on the local development environment are automated and integrated.**
 - **The feature is covered with tests, such as unit, functional, or e2e, and the tests are green, significant, and fast.**
 - **QA has been done on a local or a review environment.**
-- **All “To Do” annotations on the issue must have been resolved.**
+- **All "To Do" annotations on the issue must have been resolved.**
 - **Code is reviewed from at least one senior member of the team.**
 - **Acceptance criteria, when present on the issue, are all met.**
 
@@ -48,4 +48,4 @@ This is a general list of **rules that can apply to all kinds of scenarios**; it
 
 **Technologies** and **best practices** are **fast-changing**, **development environments** are **complex** with many **moving parts**, and **microservices**/**decoupling** methodologies **raise the bar of complexity very high.**
 
-This means feeling **disoriented** for new (and seasoned) developers when **approaching new projects**; this is where the **UDoD comes into help.**
+This means feeling **disoriented** for new (and seasoned) developers when **approaching new projects**; this is where the **UDoD comes in help.**
