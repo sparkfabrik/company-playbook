@@ -38,8 +38,7 @@ This is the full list of tools we use for theming’ s development:
 
 ### Frontend framework
 
-* Foundation: [http://foundation.zurb.com/](http://foundation.zurb.com/)
-* Foundation docs: [http://foundation.zurb.com/sites/docs/](http://foundation.zurb.com/sites/docs/)
+* Bootstrap: [https://getbootstrap.com/](https://getbootstrap.com/)
 
 ### CSS
 
