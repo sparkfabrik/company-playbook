@@ -6,7 +6,7 @@ This process is in charge to the **team leader**, with the aid of accountant and
 
 **In charge to**: `Accountant`
 
-Information about contracts are no held by Redmine, but by Toggl instead.  
+Information about contracts are no held by GitLab, but by Toggl instead.
 This means team-members have to know which contract they have to track time onto.
 
 To achieve this, we use the _Project/Task_ feature of Toggl, following this schema:
@@ -54,14 +54,14 @@ The keys are:
 * The task name contains an intuitive description for the developers
 
 
-## Redmine
+## GitLab
 
-### Create main "Customer" project (if need be)
+### Create "Customer" group (if need be)
 
-**In charge to**: someone who is Administrator on Redmine
+**In charge to**: someone who is Administrator on GitLab
 
-Redmine allows projects to contain subprojects.  
-To keep things well organized we use to create an _parent_ project for each customer so that:
+GitLab allows groups to contain subgroups.  
+To keep things well organized we use to create a _parent_ project for each customer so that:
 
 * Top-right select menu is easier to navigate for those of us who see a lot of projects
 * All information partaining to a customer, which impacts on all projects for that customer (say access credentials, contacts, workflow modifications, customer-related policies, etc) can be stored in the main project's wiki.
@@ -86,34 +86,38 @@ If the customer is a new one, you'll have to create a main project for it. Here'
 
 ### Create project
 
-**In charge to**: someone who is Administrator on Redmine
+**In charge to**: someone who is at least Developer in the group
 
-Create new project on Redmine, with the following settings:
+Create new project on GitLab, with the following settings:
 
 * Name you project **in a meaningful way**
-  `New site` is bad, `Corporate site redesign 2016` is good. Also avoid putting the customer's name in it again (say `ACME - Corporate site redesign 2016`), since the project is namespaced in its identifier (see below)
-* Populate the _Description_ textarea as you see fit. Mind to not disclose information if the customer must have access to the project.
-* Populate _Identifier_ field with a short and matching machine name, namespaced by the main project's identifier (in the previous example it was `acme` or `grcu`, so `acme-corpsite-redesign-2016` or `grcu-sales-rest-api` are good examples)
-* The _Public_ checkbox must be left off
-* Select the right customer's project in  _Subproject of_ select and check _Inherit member_ as you see fit
+  `New site` is bad, `Corporate site redesign 2022` is good. Also avoid putting the customer's name in it again (say `ACME - Corporate site redesign 2016`), since the project is namespaced in its identifier (see below)
+* Populate _Project slug_ field with a short and matching machine name
+* The _Visibility level_ setting must be kept as `Private`
 
-#### Enable standard plugins
+#### Generical Settings
+* Populate the _Description_ textarea as you see fit, but keep in mind it can be used to search the project. Mind to not disclose information if the customer must have access to the project.
+* You can add topics and a project avatar here
+* Check the option "Enable "Delete source branch" option by default"
 
-In the _Modules_ subsection:
-* Make sure _Wiki_ and  _Wiki extensions_ are **disabled**, unless your main project refers to an agency/provider (so different subprojects refer to different final customers)
-* Make sure _Issue tracking_, _Time tracking_ and _Agile_ plugins are **enabled**
-* Activate other plugins as you see fit (leave disabled in doubt, less fuss, less troubles)
+#### Repository Settings:
+- create a `develop` branch and set it as default and protected (only developers and maintainers are allowed to merge, only mainteiners to push)
+- create a `stage` branch and set it as default and protected (only maintainers are allowed to merge and push)
+- uncheck the option "Auto-close referenced issues on default branch"
 
+#### Board
+
+- add the columns "Backlog", "To Do" and "Done" to the board
+- add relevant labels to the project
 
 #### Add members to the project
 
-Once the project has been created, visit the project's _Settings_ page (last tab in the project's menu), _Members_ subtab.
+Once the project has been created, visit the project's _Members_ page.
 
 Add all project members, with those roles:
 
-* _Manager_ to Team Leader (he will make other senior dev managers if the need arise)
-* _Developers_ to other team members
-
+* _Maintainer_ to Team Leader (he will make other senior dev maintainers if the need arise)
+* _Developer_ to other team members
 
 ### Create first project version
 
@@ -133,7 +137,6 @@ No matter what, define a first version for your project:
 * Insert `SPRINT-1` for scrum-like projects or an identifier for the first milestone/group (i.e. `2016-07-31 Deploy`) for kanbans
 * (Optional) Set the end date, so we know when the sprint is supposed to finish or when the expected delivery is
 * Save and done
-
 
 ## Slack
 
