@@ -22,16 +22,20 @@ The deployment scripts also provide a handy setup for helm, which is already con
 
 ## How to use it
 
-(Note: describing the syntax of Gitlab CI pipelines description is out of scope, here)
+(Note: describing the syntax of Gitlab CI pipelines is out of scope, here)
 
-When you create Gitlab CI pipelines for one of our projects, you can take advantage of the templates available from spark-k8s-deployer. Some of them can be seen as general-purpose templates: you just need to include them, and create your deployment jobs invoking the scripts, maybe passing several environment variables. This is the most common use of the image, but you can also look at more elaborate templates, that are available and self-documented (see comments) in the spark-k8s-deployer repository.
+When you create Gitlab CI pipelines for one of our projects, you can take advantage of the templates available from spark-k8s-deployer. Some of them can be seen as general-purpose templates: you just need to include them, and create your deployment jobs invoking the scripts, maybe passing several environment variables. This is the most common use of the image, but you can also look at more elaborate templates, that are available and self-documented (look at comments in the templates) in the spark-k8s-deployer repository.
+
+### Granting access to the development and review enviroment to members of the team
+
+The deployment scripts provided by the image (specifically the `helm3-init` script) allow to set several environment variables, useful to set RBAC permissions to team members, or to the team itself. Please read the [documentation about those variables inside the general-purpose template](https://github.com/sparkfabrik/spark-k8s-deployer/blob/master/templates/.gitlab-ci-template.yml#L31)
 
 ### Examples
 
 Let's start with the most general-purpose template…
 
 ```yaml
-# Use the general-purpose template
+# Use the template
 include:
   - remote: "https://raw.githubusercontent.com/sparkfabrik/spark-k8s-deployer/master/templates/.gitlab-ci-template.yml"
 
