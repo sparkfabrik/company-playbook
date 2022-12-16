@@ -15,7 +15,7 @@ Please find here a TOC of the available training resources.
 | [Udemy](#udemy)| Development | Angular, React, React Native, Hasura | Credentials |
 | [Ultimate Courses](#ultimate-courses) | Development | Angular, React, Typescript | Credentials |
 | [Drupalize.me](#drupalizeme) | Development | Drupal | Credentials |
-| [AWS SkillBuilder](#aws-skillbuilder) | Cloud | Amazon Web Services | Corporate account |
+| [AWS Skill Builder](#aws-skill-builder) | Cloud | Amazon Web Services | Corporate account |
 | [Google SkillBoost](#google-skillboost) | Cloud | Google Cloud Platform | Corporate account |
 | [Cloud Academy](#cloud-academy) | Cloud | Vendor-specific services (AWS, GCP, Azure, Alibaba), Kubernetes, complete Cloud training offering | Reserved seats |
 
@@ -61,14 +61,14 @@ Those resources are available to PHP developers who need to understand how Drupa
 
 ### Cloud
 
-#### AWS Skillbuilder
+#### AWS Skill Builder
 
-As AWS Partners, SparkFabrik has free access to a huge amount of training material on Amazon's Cloud offering and services, through their _Skillbuilder_ portal.
+As AWS Partners, SparkFabrik has free access to a huge amount of training material on Amazon's Cloud offering and services, through their _Skill Builder_ portal.
 
 Those resources are great if you and your team want to leverage AWS services in the project at hand.
 
 > To get access, first you have to [register an AWS Partner Network account](https://partnercentral.awspartner.com/APNSelfRegister) using your `sparkfabrik.com` email and your personal information.
-> Then, head to [AWS Skillbuilder](https://explore.skillbuilder.aws) and access using credentials you've just entered.
+> Then, head to [AWS Skill Builder](https://explore.skillbuilder.aws) and access using credentials you've just entered.
 
 #### Google SkillBoost
 
