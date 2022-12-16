@@ -67,7 +67,8 @@ As AWS Partners, SparkFabrik has free access to a huge amount of training materi
 
 Those resources are great if you and your team want to leverage AWS services in the project at hand.
 
-> Head to [AWS Skillbuilder](https://explore.skillbuilder.aws), then access using your `sparkfabrik.com` account.
+> To get access, first you have to [register an AWS Partner Network account](https://partnercentral.awspartner.com/APNSelfRegister) using your `sparkfabrik.com` email and your personal information.
+> Then, head to [AWS Skillbuilder](https://explore.skillbuilder.aws) and access using credentials you've just entered.
 
 #### Google SkillBoost
 
