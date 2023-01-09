@@ -4,7 +4,7 @@ _/
 
 We love to build **high-quality products**, always following the market **best practices** regarding **tools**, **security**, **coding**, and **team collaboration**.
 
-To better **match our standards** in all the **technologies** we work with, we have in place **several practices** to help **everyone** being **successful**:
+To better **match our standards** in all the **technologies** we work with, we have in place **several practices** to help **everyone** to be **successful**:
 
 1.  Starter-kits (our custom package system) to quickly bootstrap new projects
 2.  Automation from the local development environment to the CI/CD pipelines (Gitlab and GitHub)
@@ -13,7 +13,7 @@ To better **match our standards** in all the **technologies** we work with, we h
 5.  Internal tech talks and company hackathon
 6.  On-demand QA team to help testing features
 
-All this helps us shaping a **better product**, reducing the **cognitive load** needed to **build, test, and deliver** **digital products** compatible with the **company standards**.
+All this helps us to shape a **better product**, reducing the **cognitive load** needed to **build, test, and deliver** **digital products** compatible with the **company standards**.
 
 ### What's a Definition of Done?
 
@@ -23,7 +23,7 @@ According to the _Scrum Alliance_ definition:
 
 _Source:_ [_https://resources.scrumalliance.org/Article/definition-dod_](https://resources.scrumalliance.org/Article/definition-dod)
 
-In simple words a _Definition of Done_ is **a checklist of non-functional requirements** that ensure to be on the **right path** and understand if a **task is actually done** or if it needs more work.
+In simple words a _Definition of Done_ is **a checklist of non-functional requirements** to ensure to be on the **right path** and understand if a **task is actually done** or if it needs more work.
 
 Definitions of done **are living documents**, significantly depending on **the context in which they are applied**, such as technologies, team composition, contracts, policies, etc.  
 Still, there are some **universal principles** we apply to all and every projects, and they define what we call the "**Universal Definition of Done"** (_UDoD_)
@@ -63,7 +63,7 @@ A SparkFabrik project can be deemed done when:
 
 ### Conclusion
 
-This is a general list of **non-functional rules that apply to every scenarios**; with _non-functional_ we mean **they are not bound to specific use cases** but to the **project itself**, **agreed** upon by the **team members**, and **constantly reviewed** to keep it **valuable and doable**.
+This is a general list of **non-functional rules that apply to every scenario**; with _non-functional_ we mean **they are not bound to specific use cases** but to the **project itself**, **agreed** upon by the **team members**, and **constantly reviewed** to keep it **valuable and doable**.
 
 **Technologies** and **best practices** are **fast-changing**, **development environments** are **complex** with many **moving parts**, and **microservices**/**decoupling** methodologies **raise the bar of complexity to high levels.**
 This may **disorient** new and seasoned developers, who naturally focus on functional aspects of the work at hand, even most when they are called to **innovate and step out of their comfort zone**.
