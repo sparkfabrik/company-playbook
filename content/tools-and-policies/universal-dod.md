@@ -32,7 +32,7 @@ Still, there are some universal principles we apply to all and every projects, a
 
 When working on a SparkFabrik project, a task is considered done when:
 
-- **The related PR/MR is linked to an actual issue** on the tracker of choice, using our standard notation `refs <url>: <description>.` or a different one for the specific project, if so agreed.
+- **The related PR/MR is linked to an actual issue** on the tracker of choice, using our standard notation `refs <url>: <description>.` or a different one for the specific project, if so agreed, like [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 - **CI is working as expected**, any new job that is deemed necessary for the feature is in place, **without significant impacts on the total time** it takes to run the related pipeline.
 - **All the tasks** and dependent services needed to build the feature in the local development environment **are automated and integrated** (no manual tasks to be performed to build from scratch).
 - In case some tasks are not automatable, **clear instructions are providid at the end of the local build process as console outputs**.
@@ -54,7 +54,7 @@ When working on a SparkFabrik project, a task is considered done when:
 
 A SparkFabrik project can be deemed done when:
 
-- The project can be entirely built locally by running `make` on a correctly and freshly provisioned computer.
+- The project can be entirely built locally by running `make` or equivalent on a correctly and freshly provisioned computer.
 - All the operations to deploy the project to non-local environments are automated and don't depend on manual task or personal knowledge.
 - All information to access the environments are properly documented (see above).
 - No mocked or half-baked features are deployed to the staging or production environments.
