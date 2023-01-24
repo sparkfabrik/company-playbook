@@ -35,7 +35,7 @@ When working on a SparkFabrik project, a task is considered done when:
 - **The related PR/MR is linked to an actual issue** on the tracker of choice, using our standard notation `refs <url>: <description>.` or a different one for the specific project, if so agreed, like [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 - **CI is working as expected**, any new job that is deemed necessary for the feature is in place, **without significant impacts on the total time** it takes to run the related pipeline.
 - **All the tasks** and dependent services needed to build the feature in the local development environment **are automated and integrated** (no manual tasks to be performed to build from scratch).
-- In case some tasks are not automatable, **clear instructions are providid at the end of the local build process as console outputs**.
+- In case some tasks are not automatable, **clear instructions are provided at the end of the local build process as console outputs**.
 - **The feature is covered with tests**, either unit, functional, or e2e, and the tests are green, significant, and fast.
 - **Fixtures** to help QA or perform smoke-tests **are automatically created during the local or review builds** and documented for testers (see below).
 - **Significant QA has been performed** in the local or review environment.
