@@ -5,9 +5,18 @@ Sort: 110
 
 ## Table of Content
 
+- [Issue templates](#introduction)
 - [Feature](#feature)
 - [Bug](#bug)
 - [Techical task](#technical-task)
+- [Support](#support)
+
+## Introduction
+When you create a new project on GitLab, even before creating the first issue, we strongly advise you to add these templates, in order to immediately have issues structured in the correct way.  
+Templates must be added to the `.gitlab/issue_templates` folder of the project root.
+
+Some default labels are set as an example.  
+Edit or remove them according to your project settings.
 
 ## Feature
 
@@ -76,6 +85,9 @@ _This section is populated by the developer and reports the expected practical a
 *
 *
 *
+
+/label ~CR
+
 ```
 
 ## Bug
@@ -107,6 +119,9 @@ _A clear and concise description of what happens instead._
 ## Screenshots
 
 _If relevant, copy and paste screenshots or photos of the problem here._
+
+/label ~Bug
+
 ```
 
 ## Technical task
@@ -129,4 +144,21 @@ _**Tip**: Explain your motivations and goals so that whoever takes it in charge 
 * [ ] The system has...
 * [ ] We have a tool for...
 * [ ] Data is successfully migrated...
+
+/label ~Task
+
+```
+
+## Support
+
+When the board is accessible to the customer, it may be useful to provide a template for support requests.
+It is a generic template that can be used when none else is applicable.
+
+```
+## Description and goal
+
+_**Tip**: Enter the description of the request, indicating the degree of priority compared to other activities in progress or planned._
+
+/label ~Support
+
 ```
