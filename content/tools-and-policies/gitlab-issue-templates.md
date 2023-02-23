@@ -5,7 +5,7 @@ Sort: 110
 
 ## Table of Content
 
-- [Issue templates](#introduction)
+- [Introduction on issue templates](#introduction)
 - [Feature](#feature)
 - [Bug](#bug)
 - [Techical task](#technical-task)
@@ -13,10 +13,21 @@ Sort: 110
 
 ## Introduction
 When you create a new project on GitLab, even before creating the first issue, we strongly advise you to add these templates, in order to immediately have issues structured in the correct way.  
-Templates must be added to the `.gitlab/issue_templates` folder of the project root.
+Templates must be added to the `.gitlab/issue_templates` folder of the project root, one file for each template.
+
+For example:
+```
+.
+├── .gitlab
+│   └── issue_templates
+│       ├── feature.md
+│       └── bug.md
+```
 
 Some default labels are set as an example.  
 Edit or remove them according to your project settings.
+
+Feel free to download [this package](../../assets/downloads/issue_templates.tar.gz), unpack it in your repository and adapt the templates to your needs.
 
 ## Feature
 
