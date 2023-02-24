@@ -1,7 +1,7 @@
-/_
+/*
 Description: What is GitHub Copilot, and how do we use it
 Sort: 110
-_/
+*/
 
 ## Table of Content
 
