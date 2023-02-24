@@ -27,7 +27,7 @@ For example:
 Some default labels are set as an example.  
 Edit or remove them according to your project settings.
 
-Feel free to download [this package](../../assets/downloads/issue_templates.tar.gz), unpack it in your repository and adapt the templates to your needs.
+Feel free to download [this package](/downloads/issue_templates.tar.gz), unpack it in your repository and adapt the templates to your needs.
 
 ## Feature
 
