@@ -51,4 +51,4 @@ As the subscription will be made through our Github Organization, your already e
 
 ## Refunding of a previously purchased subscription
 
-If you have already purchased the personal Github Copilot subscription, when the new Organization subscription will be attached to your Github account, Github will refund you for the unused portion of the subscription. You can request a refund for the partial paid subscription using the dedicated platform for employees refunds.
+If you have already purchased the personal Github Copilot subscription, when the new Organization subscription will be attached to your Github account, Github will refund you for the unused portion of the subscription. You can request a refund for the partial paid subscription using the dedicated platform for employees refunds, only if it was previously approved as a company expense.
