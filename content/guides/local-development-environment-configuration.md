@@ -173,7 +173,7 @@ To test that everything is working as expected, we'll try to run a service in a 
 #### Dinghy HTTP proxy
 
 ```bash
-❯ docker run -d -e DNSDOCK_ALIAS=test.sparkfabrik.loc nginx:alpine
+❯ docker run -d -e VIRTUAL_HOST=test.sparkfabrik.loc nginx:alpine
 
 ❯ curl test.sparkfabrik.loc | grep -i nginx
 
