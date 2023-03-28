@@ -147,6 +147,45 @@ Running the first couple commands, your browser will open, asking for authorizat
 
 Once you run all three commands above, you're done.
 
+#### Upgrading from the old Google Cloud SDK
+
+If you are running the old Google Cloud SDK, you need to first update it to the new Google Cloud CLI.
+
+**Ubuntu**
+
+Remove the old SDK:
+```bash
+sudo apt-get remove google-cloud-sdk
+```
+
+Install the dependencies for the new CLI (see [here](https://cloud.google.com/sdk/docs/install?hl=it#deb) for details):
+```bash
+sudo apt-get install apt-transport-https ca-certificates gnupg
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list`
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+```
+
+Install the CLI (see [here](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke) for details):
+```bash
+sudo apt-get update && sudo apt-get install google-cloud-cli
+```
+
+Install the Google Auth plugin:
+```bash
+sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
+```
+
+Add `export USE_GKE_GCLOUD_AUTH_PLUGIN=True` to your `.(ba|z)shrc` file:
+```bash
+sudo nano .bashrc
+source .bashrc
+```
+
+Get the credentials for the cluster:
+```bash
+gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services
+```
+
 ### Test and enjoy
 
 To test that everything is working as expected, we'll try to run a service in a container, exposing it through a local URL.
