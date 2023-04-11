@@ -78,13 +78,21 @@ No examples here but from time to time it may be useful to tell issues that requ
 
 Consider using those only when required because well... less is more. A cluttered board becomes unreable and useless.
 
-### Pro tip
-
-GitLab supports _scoped labels_, which allows you to create labels with two areas. To create a scoped label you write the label name as two parts separated by `::`. This is useful to group them. For example: `Tech::POC`, `Tech::Upgrade` and `Tech::Security`. Try it to see the result.
-
 ## Assignees
 
-Unassigned cards in `Doing` are terrible from a project government perspective. Cards in the backlog are usually always unassigned, with the honorable exception of those which are assigned to an analyst that's taking care of detailing them.
+Unassigned cards in `Doing` are terrible from a project government perspective. Cards in the backlog are usually always unassigned, with the honorable exception of those who are in the process of being detailed by an analyst.
 
-Usually you want people to self-assign cards in _pull: flows. When you have clear assignees already in the planning phase, you can "pre-assign" them in the iteration backlog (`To do` column). Beware that assigning and reassigning cards is not a good idea, not even during review or validation! Leave the cards assigned to who worked on them, assigning merge requests to the reviewers. This will help understand how much work may come back during validation phases on a single person.
+Usually you want people to self-assign cards with a _pull_ approach. When you have clear assignees already in the planning phase, you can "pre-assign" them right away in the iteration backlog (`To do` column). Beware that assigning and reassigning cards is not a good idea, not even during review or validation! Leave the cards assigned to who worked on them, **assigning merge requests to the reviewers** instead.
 
+The main reason for this is that leaving assignees visible during validation will help understand how much work may come back on a specific person during validation phases if something bounces. If the validation column is full of cards assigned to John, maybe the next iteration the best option is for John to reserve some time, just in case.  
+But the is one more subtler dynamic at work: when you reassign one of your tasks to someone else who is maybe just validating it, it's like you are formally losing the responsibilityu to bring the task to production. That's not what we want.
+
+Of course this is more of a suggestion than an actual rule. Just remember to always observe disfunctions in your workflow and try to setup the board so that you can **visualize** what is important to smooth the delivery flow. Fight opacity and make the process ispectionable.
+
+## Pro tips
+
+Here are some common stuff that may come in handy during your experiments with the board layouts:
+
+* GitLab supports _scoped labels_, which allows you to create labels with two areas. To create a scoped label you write the label name as two parts separated by `::`. This is useful to group them. For example: `Tech::POC`, `Tech::Upgrade` and `Tech::Security`. Try it to see the result.
+* When you review the work done (during daily standups, planning or review), read the project board from right to left. The most important thing is to close the work that's in progress, not to pile more half-baked work in a queue. Do you have a card in validation for days? Maybe you can ping the client and make yourself available for a joint review. Do you need pairing with a busy colleague to close an issue that's "on hold"? Declare it and work with the team to find a solution. Remember, moving things to "Done" (at the right pace and with high quality) is the single most important thing to focus on during delivery.
+* Always make your policies explicit. Gitlab offers little help on this in the board view, but at least keeping a short wiki page up to date with the meaning of each column, who is in charge and how you move stuff from the one to the next (triggers, gates, checks, responsibles, etc) is a good starting point. It's also something you can update during your retrospective, if you decide do evolve your workflow rules.
