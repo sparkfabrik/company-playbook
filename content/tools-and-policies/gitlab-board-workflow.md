@@ -7,6 +7,8 @@ Sort: 110
 
 - [Board columns](#board-columns)
 - [Labels](#labels)
+- [Assignees](#assignees)
+- [Pro tips](#pro-tips)
 
 Each project has its peculiarities, but you can start from the following suggestions, inspired by Kanban methodology, on how to setup your board for visualization, readability and clarity.
 
