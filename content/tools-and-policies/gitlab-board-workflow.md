@@ -12,7 +12,7 @@ Sort: 110
 
 Each project has its peculiarities, but you can start from the following suggestions, inspired by Kanban methodology, on how to setup your board for visualization, readability and clarity.
 
-Before we start, consider starting from our [templates](/tools-and-policies/gitlab-issue-templates) when you write your issues. A well organized board with poor requirements in them is pretty useless, after all.
+Before we start, consider starting from our [templates](/tools-and-policies/gitlab-issue-templates) when you write your issues. A well organized board with poor requirements is pretty useless, after all.
 
 ## Board columns
 
