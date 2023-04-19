@@ -1,27 +1,20 @@
-FROM sparkfabrik/docker-locke-server:latest
+FROM linuxserver/raneto:0.17.3
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
-# Remove content folder
-RUN rm -rf content/
+RUN apk add --no-cache npm
 
 # Copy content and configuration
-COPY ./custom/config.js /srv/locke/config.js
-COPY ./custom/themes /srv/locke/themes
-COPY ./content /srv/locke/content
-COPY ./assets /srv/locke/assets
+COPY ./content /app/raneto/content
+COPY ./custom/themes /app/raneto/themes
+COPY ./config /app/raneto/config
 
-# This file copy is a simple and effective way
-# to enchance RANETO waiting for the pull request
-# in the project to be accepted.
-COPY ./custom/raneto/contents.js /srv/locke/node_modules/raneto/app/core/contents.js
-COPY ./custom/raneto/wildcard.route.js /srv/locke/node_modules/raneto/app/routes/wildcard.route.js
-COPY ./custom/raneto/home.route.js /srv/locke/node_modules/raneto/app/routes/home.route.js
-
-WORKDIR /srv/locke/themes/spark-playbook
+WORKDIR /app/raneto/themes/spark-playbook
 
 RUN \
-  npm update && \
   npm install && \
   npm run build
 
-WORKDIR /srv/locke/
+# Copy assets
+COPY ./assets /app/raneto/assets
+
+WORKDIR /app/raneto

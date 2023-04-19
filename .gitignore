@@ -1,4 +1,18 @@
-.DS_Store
-**/public/dist/
-node_modules/
+# node modules
+node_modules
+
+# Logs
 *.log
+
+# Editor directories and files
+.idea
+
+# OS generated files
+.DS_Store
+
+# Build files
+assets/**/*
+**/*.min.js
+**/*.min.css
+**/*.map
+dist

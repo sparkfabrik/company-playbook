@@ -4,7 +4,7 @@ This repository contains our [company playbook](https://playbook.sparkfabrik.com
 
 ## Contributions
 
-So far the project is meant to be internal, all company members can clone the project and set up a local environment with the command `docker-compose up -d`. 
+So far the project is meant to be internal, all company members can clone the project and set up a local environment with the command `make`. 
 After that, a local instance of the playbook will be available at `http://playbook.sparkfabrik.loc`.
 
 To contribute provide pull-requests towards `master` branch. The naming convention for the branches is:

@@ -1,18 +1,41 @@
-
-'use strict';
-
 // Modules
 var path = require('path');
 
-var config = {
+// Which Theme to Use?
+//
+// Local Directory Example (for development or custom themes)
+// var theme_dir = path.join(__dirname, 'themes');
+// var theme_name = 'my-theme-directory';
+//
+// Themes from NPM
+// use "dist" as the theme name for modules (for now)
+var theme_dir = path.join(
+  __dirname,
+  '..',
+  'themes'
+);
+var theme_name = 'spark-playbook';
 
+var config = {
   // Your site title (format: page_title - site_title)
   site_title: 'Company playbook',
 
-  site_title_logo: 'SparkFabrik',
-
   // The base URL of your site (can use %base_url% in Markdown files)
+  // This should be the full path to your Raneto installation:
+  //   example 1: https://raneto.mydomain.com
+  //   example 2: https://www.mydomain.com/raneto
+  // Do not include a trailing "/"
+  // Leave this as an empty string to use the default
   base_url: '',
+  nowrap: true,
+
+  // Path Prefix
+  // If you are running Raneto on a subpath of your domain, add it here
+  // Leave it blank if you are not sure
+  //
+  // Example: if you are running Raneto at http://www.mydomain.com/raneto
+  //          then you would enter '/raneto' below
+  path_prefix: '',
 
   // Used for the "Get in touch" page footer link
   support_email: '',
@@ -37,17 +60,16 @@ var config = {
   // all categories or files that do not specify ShowOnHome meta property will be shown
   show_on_home_default: true,
 
-  // Which Theme to Use?
-  theme_dir  : path.join(__dirname, 'themes'),
-  theme_name : 'spark-playbook',
+  // Theme (see top of file)
+  theme_dir,
+  theme_name,
 
   // Specify the path of your content folder where all your '.md' files are located
-  // Fix: Needs trailing slash for now!
   // Fix: Cannot be an absolute path
-  content_dir : path.join(__dirname, 'content'),
+  content_dir : path.join(__dirname, '..', 'content', 'pages'),
 
   // Where is the public directory or document root?
-  public_dir  : path.join(__dirname, 'assets'),
+  public_dir  : path.join(__dirname, '..', 'assets'),
 
   // The base URL of your images folder,
   // Relative to config.public_dir
@@ -59,10 +81,10 @@ var config = {
     '<script>window.dataLayer = window.dataLayer || []; function gtag(){ dataLayer.push(arguments);}gtag(\'js\', new Date());gtag(\'config\', \'UA-62993647-4\', { \'anonymize_ip\': true });</script>',
 
   // Set to true to enable the web editor
-  allow_editing : false,
+  allow_editing: false,
 
   // Set to true to enable HTTP Basic Authentication
-  authentication : false,
+  authentication: false,
 
   // If editing is enabled, set this to true to only authenticate for editing, not for viewing
   authentication_for_edit: true,
@@ -72,23 +94,36 @@ var config = {
 
   // Google OAuth
   googleoauth: false,
-  oauth2 : {
+  google_group_restriction: {
+    enabled: false,
+    api_key: 'GOOGLE_API_KEY',
+    group_name: 'GOOGLE_GROUP_NAME',
+  },
+  oauth2: {
     client_id: 'GOOGLE_CLIENT_ID',
     client_secret: 'GOOGLE_CLIENT_SECRET',
     callback: 'http://localhost:3000/auth/google/callback',
-    hostedDomain: 'google.com'
+    hostedDomain: 'google.com',
   },
   secret: 'someCoolSecretRightHere',
 
-  credentials    : [
+  // ##### WARNING #####
+  // You MUST change the username and password for security
+  // Do NOT use "admin" as a username as it's easily guessed.
+  // You are encouraged to use tools to generate a password
+  // Preferably, use a local password manager
+  // If you absolutely must use an online tool, here are some suggestions
+  // https://bitwarden.com/password-generator/
+  // https://www.grc.com/passwords.htm
+  credentials: [
     {
-      username : 'admin',
-      password : 'password'
+      username: 'admin',
+      password: 'password',
     },
     {
-      username : 'admin2',
-      password : 'password'
-    }
+      username: 'admin2',
+      password: 'password',
+    },
   ],
 
   locale: 'en',
@@ -119,8 +154,18 @@ var config = {
   //   }
   // ]
 
-  table_of_contents: false
+  // Set to true to enable generation of table of contents
+  table_of_contents: false,
 
+  // Configure generation of table of contents (see markdown-toc's docs for details on available options)
+  table_of_contents_options: {
+    // append: 'Table of contents appendix',
+    // maxdepth: 6,
+    // firsth1: true,
+  },
+
+  menu_on_pages: true,
+  menu_on_page_collapsible: true,
 };
 
 // Exports

@@ -1,10 +1,8 @@
 const path = require('path');
 const StylelintPlugin = require('stylelint-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = env => {
-  // inProduction is true when we are building the production code.
-  const inProduction = env.NODE_ENV === 'production';
   const sourceMapEnabled = !!env.enableSourceMap;
 
   return {
@@ -14,7 +12,25 @@ module.exports = env => {
       new StylelintPlugin({
         // fix: inProduction, // Enable if you want to autofix SCSS files when building production dist files.
         lintDirtyModulesOnly: true,
-      })
+      }),
+      new CopyPlugin({
+        patterns: [
+          // copy the theme assets to the public folder
+          {
+            context: 'public',
+            from: '**/*',
+            to: "../../../../assets/",
+            toType: 'dir',
+          },
+          // copy the content static files to the public folder
+          {
+            context: '../../../content/static',
+            from: '**/*',
+            to: "../../../../assets/",
+            toType: 'dir',
+          },
+        ],
+      }),   
     ],
 
     entry: [
@@ -24,6 +40,7 @@ module.exports = env => {
 
     output: {
       filename: 'dist/main.js',
+      // public path is the 'assets' folder in the project root
       path: path.resolve(__dirname, 'public'),
       // publicPath: '../',
     },
@@ -31,7 +48,7 @@ module.exports = env => {
     watch: false,
 
     optimization: {
-      minimizer: [new UglifyJsPlugin()],
+      minimize: true,
     },
 
     module: {
@@ -76,20 +93,14 @@ module.exports = env => {
             {
               loader: 'postcss-loader',
               options: {
-                ident: 'postcss',
                 sourceMap: sourceMapEnabled,
-                plugins: [
-                  require('postcss-import')(),
-                  // Autoprefixer get settings from the .browserslistrc file
-                  require('autoprefixer'),
-                ],
-                config: {
-                  ctx: {
-                    cssnano: {
-                      preset: 'default',
-                    }
-                  }
-                }
+                postcssOptions: {
+                  plugins: [
+                    'postcss-import',
+                    'autoprefixer',
+                    'cssnano'
+                  ],
+                },
               }
             },
             // Compiles Sass to CSS.
