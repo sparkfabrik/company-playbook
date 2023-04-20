@@ -12,6 +12,7 @@ var path = require('path');
 var theme_dir = path.join(
   __dirname,
   '..',
+  'custom',
   'themes'
 );
 var theme_name = 'spark-playbook';

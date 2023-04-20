@@ -5,18 +5,15 @@ RUN apk add --no-cache --virtual .gyp npm make g++ py3-pip
 
 # Copy content and configuration
 COPY ./content /app/raneto/content
-COPY ./custom/themes /app/raneto/themes
+COPY ./custom/themes /app/raneto/custom/themes
 COPY ./config /app/raneto/config
 
-WORKDIR /app/raneto/themes/spark-playbook
+WORKDIR /app/raneto/custom/themes/spark-playbook
 
 RUN \
   npm install && \
   npm run build
 
 RUN apk del .gyp
-
-# Copy assets
-COPY ./assets /app/raneto/assets
 
 WORKDIR /app/raneto

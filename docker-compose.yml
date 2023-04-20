@@ -9,7 +9,7 @@ services:
       - 3000:3000
     volumes:
       - ./content:/app/raneto/content
-      - ./custom/themes:/app/raneto/themes
+      - ./custom/themes:/app/raneto/custom/themes
       - ./config:/app/raneto/config
       - ./assets:/app/raneto/assets
     working_dir: /app/raneto
