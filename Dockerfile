@@ -1,7 +1,7 @@
 FROM linuxserver/raneto:0.17.3
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
-RUN apk add --no-cache npm
+RUN apk add --no-cache npm python3 make g++
 
 # Copy content and configuration
 COPY ./content /app/raneto/content

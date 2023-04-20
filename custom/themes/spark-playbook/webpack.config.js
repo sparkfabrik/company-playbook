@@ -19,14 +19,14 @@ module.exports = env => {
           {
             context: 'public',
             from: '**/*',
-            to: "../../../../assets/",
+            to: "/app/raneto/assets/",
             toType: 'dir',
           },
           // copy the content static files to the public folder
           {
-            context: '../../../content/static',
+            context: '/app/raneto/content/static',
             from: '**/*',
-            to: "../../../../assets/",
+            to: "/app/raneto/assets/",
             toType: 'dir',
           },
         ],
