@@ -1,7 +1,7 @@
 FROM linuxserver/raneto:0.17.3
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
-RUN apk add --no-cache npm python3 make g++
+RUN apk add --no-cache --virtual .gyp npm make g++ py3-pip
 
 # Copy content and configuration
 COPY ./content /app/raneto/content
@@ -13,6 +13,8 @@ WORKDIR /app/raneto/themes/spark-playbook
 RUN \
   npm install && \
   npm run build
+
+RUN apk del .gyp
 
 # Copy assets
 COPY ./assets /app/raneto/assets
