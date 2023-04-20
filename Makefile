@@ -1,4 +1,3 @@
-
 all: theme-install-dep theme-build up
 
 up:
@@ -13,21 +12,16 @@ logs:
 
 # Sparkkit based themes specific commands.
 theme-watch:
-	chmod +x bin/npm
-	bin/npm run watch
+	cd custom/themes/spark-playbook && npm run watch
 
 theme-build:
-	chmod +x bin/npm
-	bin/npm run build
+	cd custom/themes/spark-playbook && npm run build
 
 theme-scss-lint:
-	chmod +x bin/npm
-	bin/npm run scss-lint
+	cd custom/themes/spark-playbook && npm run scss-lint
 
 theme-scss-lint-fix:
-	chmod +x bin/npm
-	bin/npm run scss-lint-fix
+	cd custom/themes/spark-playbook && npm run scss-lint-fix
 
 theme-install-dep:
-	chmod +x bin/npm
-	bin/npm install
+	cd custom/themes/spark-playbook && npm install
