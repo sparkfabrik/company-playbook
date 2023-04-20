@@ -1,17 +1,14 @@
 .header {
-  background-image: url(../images/header_640.png);
+  background-image: url(../images/header_small.png);
   background-position: center;
   background-size: cover;
 
   @include media-breakpoint-up(sm) {
-    background-image: url(../images/header_1024.png);
+    background-image: url(../images/header_medium.png);
     background-position: right;
   }
   @include media-breakpoint-up(lg) {
-    background-image: url(../images/header_1440.png);
-  }
-  @include media-breakpoint-up(xl) {
-    background-image: url(../images/header_1920.png);
+    background-image: url(../images/header_large.png);
   }
 
   &__cont {
