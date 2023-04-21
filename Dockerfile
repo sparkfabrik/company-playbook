@@ -3,6 +3,9 @@ LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
 RUN apk add --no-cache --virtual .gyp npm make g++ py3-pip
 
+# Remove content folder
+RUN rm -rf /app/raneto/content
+
 # Copy content and configuration
 COPY ./content /app/raneto/content
 COPY ./custom/themes /app/raneto/custom/themes
