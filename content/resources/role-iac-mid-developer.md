@@ -19,7 +19,6 @@ Sort: 50
 * To follow our procedures and match our quality standards.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To seek assistance when the need is, not trying to shine by self-love or obstinacy.
-* To deliver software solutions to our customers by completing assigned tasks.
 
 ## Values
 
@@ -43,9 +42,9 @@ You share your goals with your mates and work with them, never playing the hero 
 
 </span>
 
-#### Respect
+#### Self-organization
 
-Your duties, schedule, and assignments have a reason to be and you respect this. You can - and must - be curious about the reasons behind our choices and it's always ok to ask for clarifications. When giving you the whole context is not possible, respect your more experienced colleagues, trust their judgment, and observe how things unfold.
+Your schedule and workload balance is your responsibility. You have clear what's expected of you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
 
 <span class='score only-print'>
 
@@ -57,7 +56,7 @@ Your duties, schedule, and assignments have a reason to be and you respect this.
 
 #### Lucidity
 
-You have a clear idea of what's expected from you and what you have to do to match the expectation. When you feel like you lost your goals, you speak up and do your best to have them clarified.
+You have clear what's expected from you and what you have to do to match the expectation. When you feel like you lost your goals, you speak up and do your best to have them clear.
 
 <span class='score only-print'>
 
@@ -93,7 +92,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
-* You realize solutions that fulfill business goals, matching our high-quality standards, as defined together with your team.
+* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
 
 <span class='score only-print'>
 
@@ -103,7 +102,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You learn new, useful skills, taking advantage of any opportunity but discussing possible negative impacts on your duties with your team mates.
+* You realize solutions that fulfill business goals, matching our high quality standards, as defined with your team.
 
 <span class='score only-print'>
 
@@ -113,7 +112,17 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You help improve internal projects (even if just with bug fixes or documentation) based on your skills, aspirations, and training goals.
+* You learn new, useful skills, taking advantage of any opportunity, balancing possible negative impacts on your duties.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
+* You help improve internal projects (even if just with bug fixes or documentation) based on your skills, aspirations and training goals.
 
 <span class='score only-print'>
 
@@ -135,7 +144,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You deliver contributions (bug fixes, documentation, translations) to community projects based on your skills, aspirations, and training goals.
+* You deliver contributions (bug fixes, documentation, translations) to community projects based on your skills, aspirations and training goals.
 
 <span class='score only-print'>
 
