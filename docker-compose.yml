@@ -1,16 +1,12 @@
-version: "3.8"
+version: "3"
 services:
   documentation:
-    image: linuxserver/raneto:0.17.3
+    build: .
     environment:
       - DNSDOCK_ALIAS=playbook.sparkfabrik.loc
       - VIRTUAL_HOST=playbook.sparkfabrik.loc
-    ports:
-      - 3000:3000
     volumes:
-      - ./content:/app/raneto/content
-      - ./custom/themes:/app/raneto/custom/themes
-      - ./config:/app/raneto/config
-      - ./assets:/app/raneto/assets
-    working_dir: /app/raneto
-    
+      - ./assets:/opt/raneto/assets
+      - ./content:/opt/raneto/content
+      - ./custom/config.js:/opt/raneto/config.js
+      - ./custom/themes:/opt/raneto/themes
