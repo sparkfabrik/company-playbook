@@ -21,7 +21,7 @@ RUN npm ci
 WORKDIR $INSTALL_DIR/themes/spark-playbook
 
 RUN \
-  npm install && \
+  npm ci && \
   npm run build
 
 WORKDIR $INSTALL_DIR
