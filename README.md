@@ -4,7 +4,7 @@ This repository contains our [company playbook](https://playbook.sparkfabrik.com
 
 ## Contributions
 
-So far the project is meant to be internal, all company members can clone the project and set up a local environment with the command `docker-compose up -d`. 
+So far the project is meant to be internal, all company members can clone the project and set up a local environment issuing `make`. 
 After that, a local instance of the playbook will be available at `http://playbook.sparkfabrik.loc`.
 
 To contribute provide pull-requests towards `master` branch. The naming convention for the branches is:
@@ -20,13 +20,10 @@ A new board will likely be spawned to act as a "parking lot" for changes to this
 
 You can edit the `spark-playbook` theme in the `custom/themes/` to match the styles and settings of your new project, you won't need to change the machine name of the theme.
 
-`make theme-install-dep` will install all the dependencies in the theme folder for you.
-
-`make theme-build` will build the CSS & JS compiled in the theme folder for you.
-
-`make theme-watch` will trigger the watcher to allow you to work on the SCSS files in the theme. At the end of watch lint task will be triggered.
-
-`make theme-lint` / `make theme-lint-fix` will trigger the lint to allow you to check if SCSS are correctly written and auto fix them.
+* `make theme-install-dep` will install all the dependencies in the theme folder for you.
+* `make theme-build` will build the CSS & JS compiled in the theme folder for you.
+* `make theme-watch` will trigger the watcher to allow you to work on the SCSS files in the theme. At the end of watch lint task will be triggered.
+* `make theme-lint` / `make theme-lint-fix` will trigger the lint to allow you to check if SCSS are correctly written and auto fix them.
 
 The PHP docker image will take care of the CSS & JS compiling for CI, Stage and Production, so you don't need to commit the compiled files.
 
