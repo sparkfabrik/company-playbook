@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+QUOTEDCMD=()
+for token in "$@"; do
+  QUOTEDCMD+=($(printf "%q" "$token"))
+done
+CMD="${QUOTEDCMD[*]}"
+if [ -z "$CMD" ]
+then
+  CMD="version"
+fi
+docker-compose run -w "/opt/raneto/themes/spark-playbook" --rm documentation npm ${CMD}

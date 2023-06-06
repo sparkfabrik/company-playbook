@@ -1,22 +1,33 @@
-FROM linuxserver/raneto:0.17.3
+FROM node:18-alpine
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
-RUN apk add --no-cache --virtual .gyp npm make g++ py3-pip
-
-# Remove content folder
-RUN rm -rf /app/raneto/content
+# Variables
+ENV INSTALL_DIR=/opt/raneto
+ENV PORT=80
 
 # Copy content and configuration
-COPY ./content /app/raneto/content
-COPY ./custom/themes /app/raneto/custom/themes
-COPY ./config /app/raneto/config
+COPY ./custom/server.js $INSTALL_DIR/
+COPY ./custom/package.json $INSTALL_DIR/
+COPY ./custom/package-lock.json $INSTALL_DIR/
+COPY ./custom/config.js $INSTALL_DIR/config.js
+COPY ./custom/themes $INSTALL_DIR/themes
+COPY ./content $INSTALL_DIR/content
+COPY ./assets $INSTALL_DIR/assets
 
-WORKDIR /app/raneto/custom/themes/spark-playbook
+# Install raneto and deps
+WORKDIR $INSTALL_DIR
+RUN npm ci
+
+WORKDIR $INSTALL_DIR/themes/spark-playbook
 
 RUN \
-  npm install && \
+  npm ci && \
   npm run build
 
-RUN apk del .gyp
+WORKDIR $INSTALL_DIR
 
-WORKDIR /app/raneto
+# Expose port 80
+EXPOSE $PORT
+
+# Let's go
+CMD ["npm", "start"]

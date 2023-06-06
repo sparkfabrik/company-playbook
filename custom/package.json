@@ -1,0 +1,16 @@
+{
+    "name": "sparkfabrik-playbook",
+    "version": "2.0.0",
+    "description": "SparkFabrik Company Playbook",
+    "author": "Paolo Pustorino <paolo.pustorino@sparkfabrik.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "dependencies": {
+      "raneto": "0.17.3",
+      "gulp": "4.0.2"
+    }
+  }
