@@ -3,10 +3,11 @@ services:
   documentation:
     build: .
     environment:
-      - DNSDOCK_ALIAS=playbook.sparkfabrik.loc
       - VIRTUAL_HOST=playbook.sparkfabrik.loc
     volumes:
       - ./assets:/opt/raneto/assets
       - ./content:/opt/raneto/content
       - ./custom/config.js:/opt/raneto/config.js
       - ./custom/themes:/opt/raneto/themes
+    labels:
+      com.dnsdock.alias: playbook.sparkfabrik.loc
