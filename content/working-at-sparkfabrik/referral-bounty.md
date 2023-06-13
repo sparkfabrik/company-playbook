@@ -16,7 +16,7 @@ If you know anyone who you think is a good fit for a role we are searching for, 
 
 * Keep an eye on our [open positions](https://careers.sparkfabrik.com/en/#open-positions)
 * If you know someone who's a good fit for one of the positions, talk to them and head them to the relevant application form (mind to ask them to specify your name as a referral in the presentation letter)
-* The candidate will undergo the normal [selection process](/working-at-sparkfabrik/job-interviews)
+* The candidate will undergo the normal [selection process](../working-at-sparkfabrik/job-interviews.md)
 * If we actually hire the applicant and if they pass the probation period, you'll be rewarded a € 1K bonus
 
 ## Conditions

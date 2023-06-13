@@ -3,7 +3,7 @@
 Our CI pipelines build a lot of different environments for each project every day.  
 Aside from branch-related pipelines built for automated testing purposes, we also have more stable environments like `staging`, `demos` or `develop`.
 
-Those environments live on a Kubernetes cluster (see [Access Kubernetes SparkFabrik cluster](/guides/local-development-environment-configuration#log-into-gcloud)) which under load may scale well over 20 active nodes. To reduce costs **and** to enforce our policies on a healthy work/life balance, we leverage the dynamic nature of the cloud and scale the cluster down to 2 or 3 nodes after 8:00 PM. At 8:00 AM the environment respawns transparently.  
+Those environments live on a Kubernetes cluster (see [Access Kubernetes SparkFabrik cluster](../guides/local-development-environment-configuration.md#log-into-gcloud)) which under load may scale well over 20 active nodes. To reduce costs **and** to enforce our policies on a healthy work/life balance, we leverage the dynamic nature of the cloud and scale the cluster down to 2 or 3 nodes after 8:00 PM. At 8:00 AM the environment respawns transparently.  
 The same happens during the weekends, so you're not supposed to visit a staging environment on Sunday. We hope you got something better to do!
 
 So, **if you try to connect to an environment during the _down phase_** and you get something like a _503 Bad gateway_ error, don't fire the alarm! As long as nobody on the operations team communicated scheduled or unscheduled maintenance activities, your environments will be up and running normally the next day.

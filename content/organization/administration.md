@@ -5,11 +5,11 @@ Sort: 15
 
 ## Administration owners
 
-Administration in SparkFabrik is carried out mainly by members of the [Executive Board](/organization/governance) with the help of [Supporters](/organization/role-isc-supporter) - employees owning one or more processes and procedures vital to the health of the company.
+Administration in SparkFabrik is carried out mainly by members of the [Executive Board](../organization/governance.md) with the help of [Supporters](../organization/role-isc-supporter.md) - employees owning one or more processes and procedures vital to the health of the company.
 
 Despite not being directly involved in the core business or value delivery, Supporters are **the glue that holds governance and operations together**, thus being an essential gear in the company machinery.  
 They are facilitators, assistants, secretaries, organizers and the ultimate source of truth about so much information necessary for managers to properly hold the steering wheel.
 
-The [Supporter role](/organization/role-isc-supporter) has its [impact assessment card](/working-at-sparkfabrik/impact-assessment) and, if not for the nature of its duties, is subject to the same requirements and quality standards as the other [operational roles](/organization/operations).
+The [Supporter role](../organization/role-isc-supporter.md) has its [impact assessment card](../working-at-sparkfabrik/impact-assessment.md) and, if not for the nature of its duties, is subject to the same requirements and quality standards as the other [operational roles](../organization/operations.md).
 
-In addition to supporters, [Lead developers](/organization/role-isc-lead-developer) and [Professionals](/organization/role-isc-professional) are often involved in administrative processes like reporting, project budgeting, lead assessment and so on.
+In addition to supporters, [Lead developers](../organization/role-isc-lead-developer.md) and [Professionals](../organization/role-isc-professional.md) are often involved in administrative processes like reporting, project budgeting, lead assessment and so on.

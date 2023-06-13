@@ -7,7 +7,7 @@ People in SparkFabrik should expect to advance on their career path, depending o
 
 ## Checkpoints
 
-Each developer can assess their overall level of proficiency by their [impact assessment](/working-at-sparkfabrik/impact-assessment), a qualitative measure of the expected positive outcome of our work<sup>[1](#fn1)</sup>.
+Each developer can assess their overall level of proficiency by their [impact assessment](../working-at-sparkfabrik/impact-assessment.md), a qualitative measure of the expected positive outcome of our work<sup>[1](#fn1)</sup>.
 
 Stepping up on your career path will then be based on adherence to values and the actual impact you make, not on personal perception of your merit.  
 Each developer role model has its impact assessment card.
@@ -23,7 +23,7 @@ Ask for a meeting with your manager or an HR representative to set your goals an
 Taking a new role will impact:
 
 * your salary according to the baselines for that role (may change over time);
-* your duties following your new [impact assessment card](/organization/roles-accountabilities#per-role-accountabilities).
+* your duties following your new [impact assessment card](../organization/roles-accountabilities.md#per-role-accountabilities).
 
 ## Taking the challenge
 
@@ -36,7 +36,7 @@ We will help you understand the new role's benefits, expectations and duties. It
 
 We encourage everybody to take the challenge and we may even probe people who already refused if we see a new opportunity for them to shine, but we can't push or force any advancement.
 
-Still, we expect **every developer** to constantly increase their assessment and set new professional goals, maybe tackling new [Specialities](/organization/operations#specialities) in their career, making side steps instead of climbing a ladder.
+Still, we expect **every developer** to constantly increase their assessment and set new professional goals, maybe tackling new [Specialities](../organization/operations.md#specialities) in their career, making side steps instead of climbing a ladder.
 
 ---
 

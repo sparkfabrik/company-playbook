@@ -3,7 +3,7 @@ This tutorial contains examples to become familiar with _docker_'s basics.
 ## Requirements
 
 Well, you must have docker up and running on your PC.  
-Follow the guide at [Configure local environment](/guides/local-development-environment-configuration) if you are still out of luck.
+Follow the guide at [Configure local environment](local-development-environment-configuration.md) if you are still out of luck.
 
 > **NOTE**: Mind that if you are on macOS, you must make sure that the `DOCKER_MACHINE_IP` environment variable is configured on your host system
 
@@ -543,7 +543,7 @@ With docker-compose this is a breeze. What we basically did was:
 
 Thus all apps will have their own local infrastructure, you can start it with a single command and only when needed. The only persistent (i.e. `--restart=always`) container on the local machine is the dnsdock one.
 
-> To learn all you need on our local environment read our [Local Environment setup guide](/guides/local-development-environment-configuration).
+> To learn all you need on our local environment read our [Local Environment setup guide](../guides/local-development-environment-configuration.md).
 
 
 ### macOS Resolver's issues

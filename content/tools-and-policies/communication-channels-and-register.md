@@ -5,7 +5,7 @@ Sort: 10
 
 ## Communication channels
 
-    @todo refer to the [Management](/tools-and-policies/management page), relevant subsections
+    @todo refer to the [Management](../tools-and-policies/management.md) page, relevant subsections
 
 ## Communication register
 

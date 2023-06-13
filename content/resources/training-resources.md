@@ -28,7 +28,7 @@ Mainly you can find training on frameworks and technologies (also Cloud technolo
 
 Given the wide offering of topics on Udemy, more courses can be added in the future, even in non-technical topics.
 
-> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 1. Make sure you are [logged into GCloud](../guides/local-development-environment-configuration.md#log-into-gcloud) with your SparkFabrik account.  
 > 2. Head to [Udemy](https://www.udemy.com/join/login-popup/), then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash
@@ -39,7 +39,7 @@ Given the wide offering of topics on Udemy, more courses can be added in the fut
 
 On Ultimate Courses, you can access a set of very thorough and deep courses on Angular by Todd Motto. Those courses are very good for those who want to deepen their understanding of Angular, get the hang of its internals and learn how to use NgRx (a reactive state management library).
 
-> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 1. Make sure you are [logged into GCloud](../guides/local-development-environment-configuration.md#log-into-gcloud) with your SparkFabrik account.  
 > 2. Head to [Ultimate Courses](https://app.ultimatecourses.com), then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash
@@ -52,7 +52,7 @@ On Drupalize.me you can build up a strong understanding of Drupal CMS, following
 
 Those resources are available to PHP developers who need to understand how Drupal works as well as to Drupal developers who need to dig deeper into specific parts of the framework.
 
-> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 1. Make sure you are [logged into GCloud](../guides/local-development-environment-configuration.md#log-into-gcloud) with your SparkFabrik account.  
 > 2. Head to [Drupalize.me](https://drupalize.me), then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash

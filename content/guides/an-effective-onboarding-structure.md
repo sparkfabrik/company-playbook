@@ -9,7 +9,7 @@ As with every process, onboarding has inputs and outputs.
 Inputs are the involved people and a set of clear goals.  
 The output is a new teammate who can autonomously find their way within the company, providing valuable work and participating in the whole team life, with little to no friction.
 
-There are prerequisites, of course. To make sure nothing is missing, it suffices to follow [this handy checklist](/procedures/employee-onboarding).
+There are prerequisites, of course. To make sure nothing is missing, it suffices to follow [this handy checklist](../procedures/employee-onboarding.md).
 
 Once they are fulfilled, the next step is to set the goals and schedule check-ups.
 

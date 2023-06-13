@@ -16,7 +16,7 @@ Sort: 110
 
 Each project has its peculiarities, but you can start from the following suggestions, inspired by Kanban methodology, on how to set up your board for visualization, readability and clarity.
 
-Before we start, consider starting from our [templates](/tools-and-policies/gitlab-issue-templates) when you write your issues. A well-organized board with poor requirements is pretty useless, after all.
+Before we start, consider starting from our [templates](../tools-and-policies/gitlab-issue-templates.md) when you write your issues. A well-organized board with poor requirements is pretty useless, after all.
 
 ## Board columns
 
@@ -33,7 +33,7 @@ It's a good idea to tell issues which requirements are complete enough to be tak
 1. **To do:** When a team plans a new iteration, they move the cards from the `Open` column in `To Do`. This represents the team's commitment.  
 Each team member can then pull tasks from `To Do`, moving them to the `Doing` column, either choosing the ones that are assigned to them or choosing from the unassigned ones.
 
-1. **Doing:** This column represents the work-in-progress. We don't want this column to grow too large, since too much WIP is detrimental to the delivery flow. When an issue is done (see our [Universal Definition of Done (UDoD)](/tools-and-policies/universal-dod)), the assignee can move it to the next column.
+1. **Doing:** This column represents the work-in-progress. We don't want this column to grow too large, since too much WIP is detrimental to the delivery flow. When an issue is done (see our [Universal Definition of Done (UDoD)](../tools-and-policies/universal-dod.md)), the assignee can move it to the next column.
 
 1. **Closed:** This column is where all completed tasks are placed. Once a task has been completed and reviewed - and usually merged and deployed to the production environment - it can be moved to this column.
 
@@ -58,7 +58,7 @@ Here we provide the most common cases we use labels for. Labels may be configure
 
 ### Issue type
 
-1. **Bug:** This label is used to mark issues that seem to be or are in fact bugs. It's typically used when a piece of functionality isn't working as expected and needs to be fixed. If it applies, please reference the original feature issue in a bug issue and make sure the description contains a list of steps to reproduce the bug, the expected behavior and the observed behavior (refer to our [templates](/tools-and-policies/gitlab-issue-templates) for a good starting point).
+1. **Bug:** This label is used to mark issues that seem to be or are in fact bugs. It's typically used when a piece of functionality isn't working as expected and needs to be fixed. If it applies, please reference the original feature issue in a bug issue and make sure the description contains a list of steps to reproduce the bug, the expected behavior and the observed behavior (refer to our [templates](../tools-and-policies/gitlab-issue-templates.md) for a good starting point).
 
 1. **CR** or **Change Request:** This label is used to mark maintenance activities. It's typically used when a change needs to be made to an existing feature or functionality, instead of adding a new one. If the customer has access to the board and files bugs report directly to the project backlog, some bugs may requalify as CRs when analyzed.
 

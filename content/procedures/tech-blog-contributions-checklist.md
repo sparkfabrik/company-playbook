@@ -1,6 +1,6 @@
 ## Checklist for technical blog contributions
 
-For a complete introduction to tech blog contributions see [Contributing to Tech Blog](/guides/contributing-to-tech-blog).
+For a complete introduction to tech blog contributions see [Contributing to Tech Blog](../guides/contributing-to-tech-blog.md).
 
 Here follows a quick checklist to make sure you don't miss anything.
 

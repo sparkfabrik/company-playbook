@@ -12,14 +12,14 @@ Operational career paths expand vertically (_Growth_) and horizontally (_Special
 
 ### Growth
 
-We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its salary bracket, mission and clear expectations. Developers [progress over this career path](/working-at-sparkfabrik/career-advancement.md) by their length of service, their results and by nurturing their technical and non-technical skills.
+We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its salary bracket, mission and clear expectations. Developers [progress over this career path](../working-at-sparkfabrik/career-advancement.md) by their length of service, their results and by nurturing their technical and non-technical skills.
 
 * **Junior developer**: this is the level where duly graduated people or developers already experienced in other technologies start. We expect people to quickly step up to the next level, ideally in 12 to 36 months of employment.
 * **Senior developer**: this is the level that composes the big part of our company and that we heavily rely upon. People at this level are skilled and proficient with both our technology and our methodology. They can mentor juniors and are autonomous in their work.
 * **Lead developer**: those are the people that lead teams and projects in SparkFabrik. Those people have a senior-level background on top of which they developed the soft skills necessary to govern the social, technical and organizational complexity of our work.
 * **Professional**: this is the highest operational role in SparkFabrik. Professionals are the people that embody a speciality, can work with one or multiple teams at once, represent SparkFabrik at important tables, provide training and mentorships, etc. Professionals may occasionally lead a team, but they are supposed to work cross-teams as reference key people.
 
-Learn more about each [role accountabilities](/organization/roles-accountabilities).
+Learn more about each [role accountabilities](../organization/roles-accountabilities.md).
 
 ### Specialities
 
@@ -32,4 +32,4 @@ We explained that SparkFabrik only employs _developers_. Sure there are differen
 
 ## How to advance
 
-We track and rule [people career advancement](/working-at-sparkfabrik/career-advancement.md) to make it fair and clear to everybody.
+We track and rule [people career advancement](../working-at-sparkfabrik/career-advancement.md) to make it fair and clear to everybody.

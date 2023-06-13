@@ -12,7 +12,7 @@ The main difference lies in the type of contract we sign with the new employee.
 
 ## Relocating foreign workers
 
-Relocating to Italy will require effort and paperwork (we have a [guide to relocation](/guides/relocating-to-italy) that explains the process in detail) but will allow SparkFabrik to grant you a _Collective Labour Agreement_ (CLA).
+Relocating to Italy will require effort and paperwork (we have a [guide to relocation](../guides/relocating-to-italy.md) that explains the process in detail) but will allow SparkFabrik to grant you a _Collective Labour Agreement_ (CLA).
 
 Depending on where you come from, you may or may not have to ask for a visa. European citizens may come to Italy and be hired freely, as they were Italian citizens. People from other countries will require a working or family visa.
 
@@ -88,7 +88,7 @@ Different cultures bring different takes on work relations to the table. Plus re
 
 This is not the case: fiscal arrangement does not imply a temporary or loose releationship. Remote foreign workers are still considered SparkFabrik employees and have the same privileges and duties as each other colleagues.
 
-Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](/working-at-sparkfabrik/personal-projects.mdpersonal-projects).
+Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](../working-at-sparkfabrik/personal-projects.md).
 
 ### Language barrier
 

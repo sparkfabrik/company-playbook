@@ -17,7 +17,7 @@ All this helps us to **shape a better product**, reducing the cognitive load nee
 
 ### What's a Definition of Done?
 
-According to the [_Scrum Alliance_ definition]((https://resources.scrumalliance.org/Article/definition-dod)):
+According to the [_Scrum Alliance_ definition](https://resources.scrumalliance.org/Article/definition-dod):
 
 > _"Definition of done is a simple list of activities (writing code, coding comments, unit testing, integration testing, release notes, design documents, etc.) that add verifiable/demonstrable value to the product. Focusing on value-added steps allows the team to focus on what must be completed in order to build software while eliminating wasteful activities that only complicate software growth efforts."_
 

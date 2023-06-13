@@ -13,9 +13,9 @@ Each of us has different ambitions and expectations for our careers. With impact
 
 Instead of putting numbers or quantitative goals on our heads, we evaluate our employees based on the impact they must have on the company's business<sup><a href="#fn1">1</a></sup>. The duties of each role are detailed based on the desired outcome, not as a set of tasks and procedures to put in place.
 
-These outcomes are seen as important to business, context and company culture by the [company governance](/organization/governance) and each of us is called to put his creativity, wit and experience to good use so that we can reach our goals together.
+These outcomes are seen as important to business, context and company culture by the [company governance](../organization/governance.md) and each of us is called to put his creativity, wit and experience to good use so that we can reach our goals together.
 
-Each role has its [impact assessment card](/organization/roles-accountabilities#per-role-accountabilities), which lists all expected impacts and qualities that the role is expected to have.
+Each role has its [impact assessment card](../organization/roles-accountabilities.md#per-role-accountabilities), which lists all expected impacts and qualities that the role is expected to have.
 
 For each point in the impact assessment card, you can mark out one of three possible values:
 
@@ -30,10 +30,10 @@ If you can't say or are confused, that's a sign you'd better talk to your respon
 You can print an IAC every time you feel like it and go with a self-assessment. Because, why not?  
 Of course, there are moments when this is most valuable:
 
-* When you feel lost about your [role and duties](/organization/roles-accountabilities) and want to check in on them to focus on what's important
-* When you think you are ready for a [step up in your career](/working-at-sparkfabrik/career-advancement), so you can take your self-assessment to the management so you can talk about your perceived strengths and weaknesses
+* When you feel lost about your [role and duties](../organization/roles-accountabilities.md) and want to check in on them to focus on what's important
+* When you think you are ready for a [step up in your career](../working-at-sparkfabrik/career-advancement.md), so you can take your self-assessment to the management so you can talk about your perceived strengths and weaknesses
 * When you ask for a raise, so you can sustain your request with a list of your positive impacts
-* Before one of the [one-to-one meeting](/working-at-sparkfabrik/one-to-one-meetings) scheduled by the company
+* Before one of the [one-to-one meeting](../working-at-sparkfabrik/one-to-one-meetings.md) scheduled by the company
 
 ## Self-assessment vs normal assessment
 

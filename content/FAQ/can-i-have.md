@@ -3,7 +3,7 @@
 Yes. We have budgets for Linux PCs, Apple machines, PHPStorm licenses and some more gizmos that you may need.
 
 Other than that, if you need a device or license to speed up your work, just ask your team leader and we'll evaluate case by case.
-On standard hardware and software, please read [this section](/tools-and-policies/approved-hardware-and-software) to learn more.
+On standard hardware and software, please read [this section](../tools-and-policies/approved-hardware-and-software.md) to learn more.
 
 ### Books
 
@@ -27,7 +27,7 @@ Of course, if you suffer real disease, we'll do our best to acknowledge you all 
 
 ### Tickets for a conference
 
-We always love to stay in the _consphere_, [here you can find](/tools-and-policies/attending-conferences) our policies.
+We always love to stay in the _consphere_, [here you can find](../tools-and-policies/attending-conferences.md) our policies.
 
 ### A training course
 

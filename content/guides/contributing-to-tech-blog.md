@@ -169,7 +169,7 @@ We are using the typical GitHub contribution flow, based on pull requests, so:
 
 Deploy occurs automatically on PR merge, so sit back and enjoy fame.
 
-**NOTE**: a quick checklist is available [as a procedure](/procedures/tech-blog-contributions-checklist) page.
+**NOTE**: a quick checklist is available [as a procedure](../procedures/tech-blog-contributions-checklist.md) page.
 
 ## External contributions
 

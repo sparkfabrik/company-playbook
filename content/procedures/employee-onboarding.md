@@ -52,13 +52,13 @@ An HR representative will perform the following actions:
 The employee must, with the help of an HR representative:
 
 * Duly sign in and check their ability to access every service
-* If they are a developer, log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
+* If they are a developer, log into GCP using [this procedure](../guides/local-development-environment-configuration.md#log-into-gcloud)
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
 * Access all relevant calendars
 * Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate close-up
-* Set their e-mail signature in [the official format](#Standard-mail-signature-format) (respect bolds)
-* Set the [SparkFabrik branded LinkedIn banner](#LinkedIn-brand-guidelines) on the Linkedin profile
+* Set their e-mail signature in [the official format](#standard-mail-signature-format) (respect bolds)
+* Set the [SparkFabrik branded LinkedIn banner](#branded-linkedin-banner) on the Linkedin profile
 
 ### Company overview
 
@@ -96,7 +96,7 @@ The Team Leader will also make sure that:
 
 * The buddy reviews the core-skills list with the colleague and a training plan is laid out on the topics that need upskilling
 * HR and the employee will schedule a 30 mins self-introduction to the whole company
-* HR will schedule a 1-on-1 meeting with the employee at the end of the second week, to check in on the [onboarding goals](/guides/an-effective-onboarding-structure)
+* HR will schedule a 1-on-1 meeting with the employee at the end of the second week, to check in on the [onboarding goals](../guides/an-effective-onboarding-structure.md)
 * The Team Leader will schedule a 1-on-1 meeting with the employee at the end of the first month, to exchange feedback and set the goals for the next couple months
 * Marketing will contact the employee to choose a face wall shot (this can be used as a profile picture as well)
 
