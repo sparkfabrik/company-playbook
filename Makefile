@@ -11,6 +11,9 @@ cli:
 logs:
 	docker-compose logs -f
 
+check:
+	npx --yes markdown-link-validator ./content
+
 # Sparkkit based themes specific commands.
 theme-watch:
 	chmod +x bin/npm
