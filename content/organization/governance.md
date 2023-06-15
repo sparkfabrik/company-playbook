@@ -3,8 +3,8 @@ Description: Governance roles and functions in SparkFabrik
 Sort: 20
 */
 
-Governance in SparkFabrik is organized in functions, not roles.  
-C-level roles are assigned to key people, that generally own government functions. Owning doesn't imply the function is completely carried out by that person. Professionals and lead developers at the operational level cooperate with the government function owner to make it happen.
+Governance in SparkFabrik is organized by functions, not roles.  
+C-level roles are assigned to key people, who generally own government functions. Owning doesn't imply the function is completely carried out by that person. Professionals and lead developers at the operational level cooperate with the government function owner to make it happen.
 
 ## Executive Board
 
@@ -24,7 +24,7 @@ The steering committee works to overcome organizational problems and advance the
 This committee is composed of the CTO, COO, Head of HR, all Professionals and all Lead Developers in the company.
 The owner of Steering committee events is the COO.
 
-Each quarter (the first Wednesday of each quarter's first month) the committee has a 2 hours facilitated meeting in which they define:
+Each quarter (the first Wednesday of each quarter's first month) the committee has a 2-hour facilitated meeting in which they define:
 
 * Top priorities to be addressed (C-levels can set them or call for co-generation and voting)
 * State top priorities in terms of initiatives
@@ -44,10 +44,10 @@ The format of the quarterly meeting is aggressively timeboxed:
 
 The presentation of the initiative plan must include:
 
-* Quantification/qualification of time and resources necessary to fulfill the goal.
+* Quantification/qualification of time and resources required to fulfill the goal.
 * A list of the deliverables to be expected (tools, docs, materials, etc).
-* A calendar for brown bags/internal presentation to review increments with the whole company.
+* A calendar for brown bags/internal presentations to review increments with the whole company.
 * If and how the company is expected to support the initiative deliverables, during the quarter and in the future (say, open source contributions etc).
 * A list of outward-facing material to communicate how your initiative is making a difference, such as blog posts, events speeches or the maintenance of open source contributions.
 
-While the initiative should be completed in the quarter, the ownership won't stop there: communication, promotion and ongoing maintenance may last longer and owners are supposed to take the commitment.
+While the initiative should be completed in the quarter, the ownership won't stop there: communication, promotion and ongoing maintenance may last longer; owners are thus expected to commit to the initiative for a longer period than the initial quarter.

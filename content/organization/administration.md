@@ -8,7 +8,7 @@ Sort: 15
 Administration in SparkFabrik is carried out mainly by members of the [Executive Board](/organization/governance) with the help of [Supporters](/organization/role-isc-supporter) - employees owning one or more processes and procedures vital to the health of the company.
 
 Despite not being directly involved in the core business or value delivery, Supporters are **the glue that holds governance and operations together**, thus being an essential gear in the company machinery.  
-They are facilitators, assistants, secretaries, organizers and the ultimate source of truth about so much information necessary for managers to properly hold the steering wheel.
+They are facilitators, assistants, secretaries, organizers and the ultimate source of truth about all the necessary information for managers to properly hold the steering wheel.
 
 The [Supporter role](/organization/role-isc-supporter) has its [impact assessment card](/working-at-sparkfabrik/impact-assessment) and, if not for the nature of its duties, is subject to the same requirements and quality standards as the other [operational roles](/organization/operations).
 
