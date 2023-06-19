@@ -7,7 +7,7 @@ People in SparkFabrik should expect to advance on their career path, depending o
 
 ## Checkpoints
 
-Each developer can assess their overall level of proficiency by their [impact assessment](/working-at-sparkfabrik/impact-assessment), a qualitative measure of the expected positive outcome of our work<sup>[1](#fn1)</sup>.
+Each developer can assess their overall level of proficiency by their [impact assessment](/working-at-sparkfabrik/impact-assessment), a qualitative measure of the expected positive outcome of our work<sup><a href="#fn1">1</a></sup>.
 
 Stepping up on your career path will then be based on adherence to values and the actual impact you make, not on personal perception of your merit.  
 Each developer role model has its impact assessment card.

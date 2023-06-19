@@ -63,4 +63,4 @@ Having to explain your reasons may help you be more objective. Should the conver
 
 ---
 
-<small><a name="fn1">1</a>: Our model has been inspired by [Deeson's one](https://handbook.deeson.co.uk/working-at-deeson/impact-assessment/), which in turn is claimed to be borrowed from [Stack Overflow](https://stackoverflow.com/company/salary/skills/web-developer?e=1&l=1) in the first place. Credits go to both companies for the great catch on evaluating substance and not numbers. Thank you guys!</small>
+<small><a name="fn1">1</a>: Our model has been inspired by [Deeson's one](https://handbook.deeson.co.uk/personal-development/impact-scoring), which in turn is claimed to be borrowed from [Stack Overflow](https://stackoverflow.co/company/careers/) in the first place. Credits go to both companies for the great catch on evaluating substance and not numbers. Thank you guys!</small>
