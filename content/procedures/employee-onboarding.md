@@ -57,8 +57,8 @@ The employee must, with the help of an HR representative:
 * Generate an SSH key and add it among the available keys for their Gitlab account
 * Access all relevant calendars
 * Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate close-up
-* Set their e-mail signature in [the official format](#Standard-mail-signature-format) (respect bolds)
-* Set the [SparkFabrik branded LinkedIn banner](#LinkedIn-brand-guidelines) on the Linkedin profile
+* Set their e-mail signature in [the official format](#standard-mail-signature-format) (respect bolds)
+* Set the [SparkFabrik branded LinkedIn banner](#branded-linkedin-banner) on the Linkedin profile
 
 ### Company overview
 
