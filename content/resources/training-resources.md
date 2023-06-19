@@ -29,7 +29,7 @@ Mainly you can find training on frameworks and technologies (also Cloud technolo
 Given the wide offering of topics on Udemy, more courses can be added in the future, even in non-technical topics.
 
 > 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
-> 2. Head to [Udemy](https://www.udemy.com/join/login-popup/), then obtain access credentials issuing this command into a terminal:
+> 2. Head to [Udemy](https://www.udemy.com/) login page, then obtain access credentials issuing this command into a terminal:
 > 
 > ```bash
 > gcloud secrets versions access "latest" --secret credentials-udemy --project sf-public-ring
