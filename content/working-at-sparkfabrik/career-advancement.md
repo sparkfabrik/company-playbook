@@ -27,7 +27,7 @@ Taking a new role will impact:
 
 ## Taking the challenge
 
-To fulfill [its vision](https://www.sparkfabrik.com/en/who-we-are.html), SparkFabrik sells and cultivates high seniorities. We generally expect junior developers to eventually become senior developers.
+To fulfill [its vision](https://www.sparkfabrik.com/en/the-manifesto/), SparkFabrik sells and cultivates high seniorities. We generally expect junior developers to eventually become senior developers.
 
 Still, despite nobody can consciously avoid learning from experience, not all juniors want to take over the responsibilities of a senior. And not all seniors crave to become team leaders or software architects. This is understandable and we respect the choice.  
 
