@@ -88,7 +88,7 @@ Different cultures bring different takes on work relations to the table. Plus re
 
 This is not the case: fiscal arrangement does not imply a temporary or loose releationship. Remote foreign workers are still considered SparkFabrik employees and have the same privileges and duties as each other colleagues.
 
-Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](/working-at-sparkfabrik/personal-projects.mdpersonal-projects).
+Given that, we invite remote foreign applicants to take a look at our take on [personal projects and work](/working-at-sparkfabrik/personal-projects).
 
 ### Language barrier
 
