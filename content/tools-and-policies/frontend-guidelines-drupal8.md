@@ -13,7 +13,7 @@ Sort: 100
 - [CSS: architecture and guidelines](#css-architecture-and-guidelines)
   - [CSS architecture](#css-architecture)
     - [Principles](#principles)
-    - [Best practices](#best-practices)
+    - [Best practices](#best-practices-for-css)
       - [Avoid reliance on HTML structure](#avoid-reliance-on-html-structure)
       - [Define component elements (sub-objects) using their own classes](#define-component-elements-sub-objects-using-their-own-classes)
       - [Extend components using modifier classes.](#extend-components-using-modifier-classes)
@@ -25,7 +25,7 @@ Sort: 100
     - [File structure](#file-structure)
   - [CSS formatting guidelines](#css-formatting-guidelines)
 - [Javascript](#javascript)
-  - [Best practices](#best-practices-1)
+  - [Best practices](#best-practices-for-js)
   - [JavaScript and JQuery formatting guidelines](#javascript-and-jquery-formatting-guidelines)
 
 ## Purpose of this document
@@ -63,7 +63,7 @@ The goals of good CSS should be:
 * Maintainable: As new components and features are needed, it should be easy to add, modify and extend CSS without breaking (or refactoring) existing styles.
 * Scalable: CSS should be easy to manage for a single developer or large, distributed teams.
 
-#### Best practices
+#### Best practices for CSS
 
 ##### Avoid reliance on HTML structure
 
@@ -233,7 +233,7 @@ To learn more look at official community documentation:
 
 * [https://www.drupal.org/docs/develop/standards/javascript](https://www.drupal.org/docs/develop/standards/javascript)
 
-### Best practices
+### Best practices for JS
 
 * **JavaScript code SHOULD NOT be embedded in the HTML** where possible, as it adds significantly to page weight with no opportunity for mitigation by caching and compression.
 * **Code SHOULD use literal expressions instead of the new operator**:
