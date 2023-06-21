@@ -110,7 +110,7 @@ If you need to re-run `dnsdock` or `dinghy-http-proxy` for some reason (maybe yo
   1. `run-dnsdock`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dnsdock
   2. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/ubuntu/bin/run-dinghy-proxy
 2. macOS
-  3. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macosx/bin/run-dinghy-proxy
+  3. `run-dinghy-proxy`: https://github.com/sparkfabrik/sparkdock/blob/master/config/macos/bin/run-dinghy-proxy
 
 If you work in SparkFabrik with the provided hardware, those scripts should already be available in your system. In case they're missing:
 

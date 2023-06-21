@@ -142,7 +142,7 @@ bin/e bin/behat -dl
 
 http://www.slideshare.net/sparkfabrik/behaviour-driven-development-con-behat-drupal
 
-https://behat-drupal-extension.readthedocs.io/en/3.1/
+https://behat-drupal-extension.readthedocs.io/en/v3.4.1/
 
 ## Todo
 
