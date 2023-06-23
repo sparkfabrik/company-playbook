@@ -27,4 +27,4 @@ The following steps should be done before asking for help from one of your colle
 
 * The VarDumper Symfony component provides the great `dump()` inspection function: http://symfony.com/doc/current/components/var_dumper.html
 * XDebug extension for PHP allows for deep digging of your problems: https://xdebug.org/docs/  
-In particular backtraces, functions provide you with the context/calls that led to the error: https://xdebug.org/docs/execution_trace
+In particular backtraces, functions provide you with the context/calls that led to the error: https://xdebug.org/docs/trace

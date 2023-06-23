@@ -6,7 +6,7 @@ on Linux and more specifically on our provisioned Ubuntu stack.
 > This piece assumes you are running Ubuntu >= 20.04
 
 Once upon a time, it was quite impossible to upgrade the firmware on Linux, now the situation
-gets a lot better thanks to the great (Linux Vendor Firmware Service - LVFS)[https://fwupd.org/] project,
+gets a lot better thanks to the great [Linux Vendor Firmware Service - LVFS](https://fwupd.org/) project,
 which allows hardware vendors to upload firmware updates, freeing the users to use Windows just to
 upgrade their firmware. We mainly use Lenovo machines and guess what, they are fully supported.
 
