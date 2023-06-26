@@ -6,7 +6,7 @@
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
-        "check": "markdown-link-validator -q -e -o -i ^/downloads/ -i drupal.org -i udemy.com -i sparkfabrik.loc -i acme.sparkfabrik.com ./content",
+        "check": "markdown-link-validator -q -e -o -c 403 --ignorePatternsFrom ./content/.mlvignore ./content",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "license": "https://creativecommons.org/licenses/by-sa/4.0/",
