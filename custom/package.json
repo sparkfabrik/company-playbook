@@ -5,12 +5,18 @@
     "author": "Paolo Pustorino <paolo.pustorino@sparkfabrik.com>",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node server.js",
+        "check": "markdown-link-validator -q -e -o -c 403 --ignorePatternsFrom ./content/.mlvignore ./content",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "cd .. && husky install custom/.husky"
     },
     "license": "https://creativecommons.org/licenses/by-sa/4.0/",
     "dependencies": {
-      "raneto": "0.17.3",
-      "gulp": "4.0.2"
+        "gulp": "4.0.2",
+        "markdown-link-validator": "github:jenkin/markdown-link-validator#feature/sparkfabrik-enhancements",
+        "raneto": "0.17.3"
+    },
+    "devDependencies": {
+        "husky": "^8.0.3"
     }
-  }
+}
