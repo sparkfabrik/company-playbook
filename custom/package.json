@@ -14,7 +14,7 @@
     "dependencies": {
         "gulp": "4.0.2",
         "markdown-link-validator": "github:jenkin/markdown-link-validator#feature/sparkfabrik-enhancements",
-        "raneto": "0.17.3"
+        "raneto": "0.17.5"
     },
     "devDependencies": {
         "husky": "^8.0.3"
