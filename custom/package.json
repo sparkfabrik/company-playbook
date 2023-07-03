@@ -1,22 +1,28 @@
 {
-    "name": "sparkfabrik-playbook",
-    "version": "2.0.0",
-    "description": "SparkFabrik Company Playbook",
-    "author": "Paolo Pustorino <paolo.pustorino@sparkfabrik.com>",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "check": "markdown-link-validator -q -e -o -c 403 --ignorePatternsFrom ./content/.mlvignore ./content",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "prepare": "cd .. && husky install custom/.husky"
-    },
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "dependencies": {
-        "gulp": "4.0.2",
-        "markdown-link-validator": "github:jenkin/markdown-link-validator#feature/sparkfabrik-enhancements",
-        "raneto": "0.17.3"
-    },
-    "devDependencies": {
-        "husky": "^8.0.3"
-    }
+  "name": "sparkfabrik-playbook",
+  "version": "2.0.0",
+  "description": "SparkFabrik Company Playbook",
+  "author": "Paolo Pustorino <paolo.pustorino@sparkfabrik.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "markdown-link-validator -q -e -o -c 403 --ignorePatternsFrom ./content/.mlvignore ./content",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "cd .. && husky install custom/.husky"
+  },
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "dependencies": {
+    "markdown-link-validator": "github:jenkin/markdown-link-validator#feature/sparkfabrik-enhancements",
+    "raneto": "0.17.5"
+  },
+  "devDependencies": {
+    "glob-parent": "^6.0.2",
+    "gulp": "4.0.2",
+    "husky": "^8.0.3",
+    "semver": "^7.5.3"
+  },
+  "overrides": {
+    "glob-parent": "$glob-parent",
+    "semver": "$semver"
+  }
 }
