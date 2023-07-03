@@ -6,7 +6,7 @@ up:
 	docker-compose up -d
 
 cli:
-	docker-compose run --rm documentation bash
+	docker-compose run --rm documentation sh
 
 logs:
 	docker-compose logs -f
