@@ -34,7 +34,7 @@ Purpose: This policy aims to establish guidelines for using GitHub Copilot withi
 
 2. Privacy: The service is regulated by the following Privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-copilot-for-business-privacy-statement. GitHub Copilot will receive the code and comments you are working on as context during normal usage. According to the official Github Copilot for business privacy policy: "GitHub Copilot transmits snippets of your code from your IDE to GitHub to provide Suggestions to you. Code snippets data is only transmitted in real-time to return Suggestions, and is discarded once a Suggestion is returned. Copilot for Business does not retain any Code Snippets Data". It is employer responsability to make sure that the official privacy statement is acceptable for their specific use case, in case of doubts please ask to your direct responsible.
 
-3. Use of suggestions: Employees are encouraged to use the suggestions by GitHub Copilot but must use their judgment when applying them to their code. They should always review the suggested code and understand it before implementing it.
+3. Use of suggestions: Employees are encouraged to use the suggestions by GitHub Copilot but must use their own judgment when applying them to their code. They should always review the suggested code and understand it before implementing it. Remember: the name of the utility is Copilot and not Autopilot, so it is not intended to be used as a replacement for your own judgment and creativity.
 
 4. Compliance: Employees must comply with all company policies and guidelines when using GitHub Copilot.
    This is not an option, and the employee will be held responsible for any negative impacts in case of non-compliance.
