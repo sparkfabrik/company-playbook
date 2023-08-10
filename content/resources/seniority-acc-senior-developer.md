@@ -1,6 +1,6 @@
 /*
-Title: Impact Assessment Card - Senior Developer
-Description: Senior Developer role in SparkFabrik
+Title: Accountabilities - Senior Developer
+Description: Accountabilities of a Senior Developer in SparkFabrik
 Sort: 60
 */
 <span class='no-print'>
@@ -12,6 +12,8 @@ Sort: 60
       <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this IAC</button>
     </div>
   </div>
+
+`NOTE: THIS IS UNDER REVIEW`
 
 ## Mission
 

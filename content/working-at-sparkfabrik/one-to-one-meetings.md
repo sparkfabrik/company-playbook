@@ -14,7 +14,7 @@ The time is always right for a one-to-one, should the need arise. Anyone who wan
 As a rule of thumb, the company will make sure that every employee has at least two one-to-one meetings each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
 There are no prerequisites for one-to-ones, and an effective agenda for the meeting is detailed below, but each employee who wants to take the most out of the event must come prepared with topics to discuss.
 
-The one-to-one is a great opportunity to talk about your career, your performance and your professional goals. If you feel this is important, we strongly advise you [get ready for the meeting with a self-assessment](/working-at-sparkfabrik/impact-assessment).  
+The one-to-one is a great opportunity to talk about your career, your performance, and your professional goals. If you feel this is important, we strongly advise you [get ready for the meeting with a self-assessment](/working-at-sparkfabrik/impact-assessment).  
 Optionally you can ask for an assessment from your responsible or senior teammate - this is especially recommended for junior developers.
 
 ## Goal

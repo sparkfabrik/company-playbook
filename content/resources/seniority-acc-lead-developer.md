@@ -1,7 +1,7 @@
 /*
-Title: Impact Assessment Card - Professional
-Description: Professional role in SparkFabrik
-Sort: 80
+Title: Accountabilities - Lead Developer
+Description: Accountabilities of a Lead Developer in SparkFabrik
+Sort: 70
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
@@ -13,11 +13,13 @@ Sort: 80
     </div>
   </div>
 
+`NOTE: THIS IS UNDER REVIEW`
+
 ## Mission
 
-* To make your unique skills available to the whole company.
-* To help lead and senior developers achieve their mission.
-* To dominate complexity, chew difficulties and laugh in the face of pressure.
+* To understand customers' needs and help the customer state them in a clear, understandable form.
+* To design systems that satisfy customers' needs.
+* To enable your colleagues to implement those systems.
 * To promote our procedures and standards and to find new opportunities to improve them.
 * To teach by example and words, showing the value of excellence.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
@@ -27,28 +29,15 @@ Sort: 80
 ## Values
 
 * Passion
-* Availability
+* Discipline
 * Teamwork
-
 </span>
 
 ## Attitude
 
-#### Advocacy
-
-You are a professional model for your colleagues. You represent the company both inside and outside and are actively involved in the promotion of our culture. You are an antenna for the company, picking up information essential to validate and shape our overall strategy, of which you are an active and informed part.
-
-<span class='score only-print'>
-
-- [ ] **I still can't match the expectation** _(Why? Take notes!)_
-- [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take notes!)_
-
-</span>
-
 #### Leadership
 
-You are an organizational model for your colleagues. You live by best practices and require and help others to meet your high standards. You do your best to lead by consensus, listening to your team, but you always remember they look at you as a guide. You protect your team and remove obstacles but keep them committed and fit to create value.
+You are an organizational model for your colleagues. You live by best practices and require and help others to meet your high standards. You do your best to lead by consensus, listening to every voice, but you always remember they look at you as a guide. You identify and remove obstacles for others but keep them committed and fit to create value.
 
 <span class='score only-print'>
 
@@ -130,6 +119,16 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
+* You lead the creation of high-quality software, on time and on budget.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
 * You define the architecture of solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
@@ -140,17 +139,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You define implementation details of solutions that fulfill business goals, matching our high-quality standards.
-
-<span class='score only-print'>
-
-- [ ] **I still can't match the expectation** _(Why? Take notes!)_
-- [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take notes!)_
-
-</span>
-
-* You realize solutions that have business goals, matching our high-quality standards, as defined by your team.
+* You help your team define implementation details of solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
@@ -170,7 +159,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You own one or more internal projects making sure they are in good shape, documented and up to date.
+* You help your team substantially improve internal projects, leading the joint effort and/or directly contributing work as necessary.
 
 <span class='score only-print'>
 
@@ -190,19 +179,10 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You participate with CTO, COO and other relevant company staff in cross-project strategy and tactics meetings.
-
-<span class='score only-print'>
-
-- [ ] **I still can't match the expectation** _(Why? Take notes!)_
-- [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take notes!)_
-
-</span>
 
 ## Contributions
 
-* You actively and substantially contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generate content on our channels and this playbook.
+* You actively contribute and/or make sure your team members contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generate content on our channels and this playbook.
 
 <span class='score only-print'>
 
@@ -212,7 +192,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You own long-running or occasional internal initiatives to sustain our culture, be it by owning an internal project, fostering good communication, taking charge of internal training programs and the like.
+* You coordinate, when required by Sales and Communication, the production of a case study on the projects you lead.
 
 <span class='score only-print'>
 
@@ -222,7 +202,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You actively promote our brand, paying attention to your professional social media presence, participating as a speaker at relevant conferences or online events and creating good content on behalf of the company.
+* You help promote our brand, from paying attention to your professional social media presence to participating (better if as a speaker) in relevant conferences.
 
 <span class='score only-print'>
 
@@ -232,7 +212,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You deliver substantial contributions (new features, bug fixes, documentation, translations) to community projects, leading joint efforts and/or directly contributing work as necessary.
+* You deliver and/or make sure your team members deliver contributions (bug fixes, documentation, translations) to community projects, leading the joint effort and/or directly contributing work as necessary.
 
 <span class='score only-print'>
 
@@ -241,4 +221,3 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
-

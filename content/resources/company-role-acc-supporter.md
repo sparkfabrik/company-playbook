@@ -1,6 +1,6 @@
 /*
-Title: Impact Assessment Card - Supporter
-Description: Role that owns administrative and support processes in SparkFabrik
+Title: Accountabilities - Supporter
+Description: Role that owns corporate and/or support processes in SparkFabrik
 Sort: 90
 */
 <span class='no-print'>

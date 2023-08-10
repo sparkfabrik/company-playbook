@@ -1,7 +1,7 @@
 /*
-Title: Impact Assessment Card - Junior Developer
-Description: Junior Developer role in SparkFabrik
-Sort: 50
+Title: Accountabilities - Developer
+Description: Accountabilities of a Developer in SparkFabrik
+Sort: 60
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
@@ -13,21 +13,24 @@ Sort: 50
     </div>
   </div>
 
+`NOTE: THIS IS UNDER REVIEW`
+
 ## Mission
 
-* To realize technical solutions that satisfy customers' needs.
+* To define and realize technical solutions that satisfy customers' needs.
 * To follow the direction of your team lead in doing so.
-* To work following our agreed procedures and matching our quality standards.
+* To help your junior mates grow, challenge them and give them fishing cans, not fish.
+* To work following agreed procedures and matching our quality standards.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
-* To seek assistance every time you are in the need, not trying to shine by self-love or obstinacy.
+* To contribute to the company's technical culture, share your mastery with others.
 
 ## Values
 
 * Passion
-* Curiosity
+* Discipline
 * Communication
-  
+
 </span>
 
 ## Attitude
@@ -68,18 +71,6 @@ You have clear what's expected from you and what you have to do to match the exp
 
 </span>
 
-#### Awareness
-
-You perceive the overall impacts of your day-to-day choices and know when to ask for validation. You face challenges proactively, don't wait for others to solve problems for you, but know when to stop and ask for help to avoid wasting time or losing your mind on things bigger than you.
-
-<span class='score only-print'>
-
-- [ ] **I still can't match the expectation** _(Why? Take notes!)_
-- [ ] **I deliver what's expected**
-- [ ] **I exceed this expectation** _(Why? Take notes!)_
-
-</span>
-
 #### Strong opinions, lightly held
 
 You speak your mind and sustain your ideas with words and facts, but you are open to criticism and listen with open ears.
@@ -94,7 +85,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
-* You define implementative details of solutions that fulfill business goals, matching our high quality standards.
+* You define implementation details of solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
@@ -104,7 +95,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You realize solutions that fulfill business goals, matching our high quality standards, as defined with your team.
+* You realize solutions that have business goals, matching our high-quality standards, as defined by your team.
 
 <span class='score only-print'>
 
@@ -114,7 +105,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You learn new, useful skills, taking advantage of any opportunity, balancing possible negative impacts on your duties.
+* You sustain the growth of your younger colleagues, promoting the values of delivery quality and human relations both inside and outside the company.
 
 <span class='score only-print'>
 
@@ -124,7 +115,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You help improve internal projects (even if just with bug fixes or documentation) based on your skills, aspirations and training goals.
+* You substantially improve internal projects (new features, bug fixes, documentation) based on your skills, aspirations and training goals.
 
 <span class='score only-print'>
 
@@ -133,10 +124,31 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
+
+* You shape new technologies, practices, tools and knowledge, even when you work on customer projects, in accordance with the direction set by the CTO.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
 
 ## Contributions
 
-* You seize all opportunities to contribute to SparkFabrik's internal projects or media, even with things as small as dependencies updates or typo corrections.
+* You actively contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date or generate content on our channels and this playbook.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
+* You help promote our brand, from paying attention to your professional social media presence to participating (better if as a speaker) at relevant conferences.
 
 <span class='score only-print'>
 
@@ -155,3 +167,4 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 - [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
+

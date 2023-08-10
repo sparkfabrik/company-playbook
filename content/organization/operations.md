@@ -1,35 +1,82 @@
 /*
 Description: Operational roles and functions in SparkFabrik
-Sort: 10
+Sort: 20
 */
 
-In SparkFabrik the term _developer_ is used generally to identify employees that deliver solutions to the customer.  
-It doesn't matter if your job is to write code, design a new interface or take care of the operations on a cloud appliance. Your job is still to _develop_ things: be it from scratch or to improve them.
+## Company structure at the operational level
 
-## Careers
+The operational level is separated into three distinct areas:
 
-Operational career paths expand vertically (_Growth_) and horizontally (_Specialities_).
+### Platform
 
-### Growth
+The employees in this area are responsible for implementing, maintaining, and evolving cloud infrastructures and development platforms, for both the company and external customers.
+They also also work as an internal service team, and deliver expert consulting services to those customers who want to implement in-house DevOps and cloud-native practices.
 
-We recognize four levels of professional skills, depending on seniority and level of proficiency. Each level has its salary bracket, mission and clear expectations. Developers [progress over this career path](/working-at-sparkfabrik/career-advancement.md) by their length of service, their results and by nurturing their technical and non-technical skills.
+The Platform area also works to bring innovation at all operational levels, suggesting the creation and adoption of new technologies, creating new business lines, and enhancing the efficiency of the existing ones.
 
-* **Junior developer**: this is the level where duly graduated people or developers already experienced in other technologies start. We expect people to quickly step up to the next level, ideally in 12 to 36 months of employment.
-* **Senior developer**: this is the level that makes up the bulk of our company and that we heavily rely upon. People at this level are skilled at and proficient with both our technology and our methodology. They can mentor juniors and are autonomous in their work.
-* **Lead developer**: these are the people that lead teams and projects in SparkFabrik. They have a senior-level background on top of which they developed the soft skills required to handle the social, technical and organizational complexity of our work.
-* **Professional**: this is the highest operational role in SparkFabrik. Professionals embody a speciality, can work with one or multiple teams at once, represent SparkFabrik at important tables, provide training and mentorships, etc. Professionals may occasionally lead a team, but they are supposed to work cross-teams as reference/key people.
+### Digital Strategy
 
-Learn more about each [role accountabilities](/organization/roles-accountabilities).
+The employees in this area deliver discovery, analysis, strategic ideas, and plans, aimed at the cooperative assessment of the customers’ needs, as well as the co-creation of viable solutions measurable with precise KPIs.
 
-### Specialities
+They work primarily during the pre-sales phases, cooperating with different professional figures as creative directors and tech leaders, to help shape great early propositions. The output of their delivery activities is often input to UX experts, UI designers, and development teams.
 
-We explained that SparkFabrik only employs _developers_. Sure, there are differences and each person has their own natural or acquired inclination. We broadly recognize four _Specialities_ that qualify you as a developer and do our best to make you shine in accordance with your nature. During your career, you will probably cover more than a single speciality, even at the same time.
+### Development
 
-* **Analyst**: Analysts are great when it comes to mapping a domain, fathoming complexity and expressing it in a clear, rational, understandable form. Analysts may not always have a solution at hand but they certainly know when a need is fulfilled or a problem is solved. Analysts' skills make for great Product Owners.
-* **Architect**: Architects describe the best possible solution to a framed problem. They are great decision makers, understand the long-term implications of technical choices, know how to quickly probe, understand and adapt and are always able to grasp the big picture.
-* **Specialist**: Specialists are vertical experts in a certain discipline or area: be it writing software, cloud operations, Agile or UX design. They are the keenest to work in pair with project teams in the long run when there are critical challenges they can help overcome.
-* **Manager**: Managers make things work. They coach, measure, plan, steer and ultimately support people to give their best, remove obstacles and improve their processes and procedures. In SparkFabrik people are never managed -- work is. So managers govern but never rule.
+The employees in this area are responsible for implementing, maintaining, and evolving solid cloud-native web and mobile solutions, following different agile organizational patterns and DevOps practices.
 
-## How to advance
+They work in self-organizing, cohesive teams, with different technology stacks and with a strong accent on quality.
 
-We track and rule [people career advancement](/working-at-sparkfabrik/career-advancement.md) to make it fair and clear to everybody.
+The Development area is broadly organized into three branches, based on expertise:
+
+* **PHP and Drupal**
+* **Frontend Technologies**
+* **Full-Stack Cloud-Native**
+
+Each of these branches contains one or more teams focused on specific projects or tasks related to evolutionary maintenance. These teams tend to remain consistent, with occasional shifts of team members among them.
+
+## Roles and seniority at the operational level
+
+SparkFabrik has an almost flat organization, arranged around clear roles, each with its ownership and responsibilities.  
+Also, people grow in seniority and this grants them more authority on specific issues or in specific situations.
+
+Every [operational area](/organization/operations) has its seniority levels, while project roles are common to every area, even if some may not be relevant or applicable.
+
+### Seniority Levels
+
+#### Development Area
+
+We recognize four levels of professional skills, each with its salary bracket, mission, and clear expectations.
+
+* **Junior Developer**: this is the level where duly graduated people or developers already experienced in other technologies start. We expect people to quickly step up to the next level, ideally in 12 to 18 months of employment.
+* **Developer**: this is the level that makes up the bulk of our company and that we heavily rely upon. People at this level are skilled at and proficient with both our technology and our methodology. They can mentor juniors and are autonomous in their work.
+* **Senior Developer**: seasoned professionals with a demonstrated track record of excellence and around 5 years of comprehensive experience in software development. They play a vital role in SparkFabrik, moving with ease across different technologies and projects.
+* **Lead Developer**: these are the most skilled developers in SparkFabrik. They have a solid senior-level background on top of which they developed the soft skills required to handle the social, technical, and organizational complexity of our work.
+
+Learn more about [each level's accountabilities](/organization/accountabilities) and how we evaluate people's seniority level.
+
+#### Platform Area
+
+We recognize three levels of professional skills, each with its salary bracket, mission, and clear expectations.
+
+* **Practitioner Cloud-Native Engineer**: novices to the field of cloud-infrastructure management, usually with previous experiences in development or traditional operations. We expect practitioners to quickly step up to the next level, ideally in 12 to 18 months of employment.
+* **Practitioner Cloud-Native Engineer**: people at this level are skilled at and proficient with a bunch of different cloud technologies and have absorbed our methodology. They can mentor newcomers as well as developers and are autonomous in their work.
+* **Architect Cloud-Native Engineer**: experienced professionals with diverse exposure across various cloud platforms and technologies. They can take on complex projects independently, engaging with the client and coordinating the work of their colleagues.
+
+Learn more about [each level's accountabilities](/organization/accountabilities) and how we evaluate people's seniority level.
+
+#### Digital Strategy Area
+
+`TO BE DONE`
+
+### Project Roles
+
+Depending on seniority, attitude, achievement, and personal inclinations, SparkFabrik may propose people take over one or more of the following roles on a project. Not all roles are accessible at all seniority levels and more junior employees should not expect to be assigned one.  
+Being appointed a project role means **you earned the company's and teammates' trust**, you proved your **reliability** and you display a strong **customer orientation**.
+
+These roles are not mutually exclusive, even if covering all at the same time is usually unfeasible, and not all projects need all of these roles to be clearly appointed.  
+To better understand the relation between seniority level and project roles in terms of professional growth, visit the section on [career advancement](/working-at-sparkfabrik/career-advancement).
+
+* **Analyst**: Analysts are great when it comes to mapping a domain, fathoming complexity, and expressing it in a clear, rational, understandable form. Analysts may not always have a solution at hand but for sure they know when a need is fulfilled or a problem is solved. If need be, analysts' skills make for great product owners.
+* **Architect**: Architects describe the best possible solution to a framed problem. They are great decision-makers, understand the long-term implications of technical choices, know how to quickly probe, understand and adapt and always grasp the big picture.
+* **Team Leader**: Team Leaders excel at enabling teams, coordinating efforts, and ensuring project milestones are met. Focused on the outcomes, they drive, motivate, and keep the team committed to the project's success. They ask hard questions, suggests alternative paths, and apply a good deal of common sense to risk management.
+* **Project Manager**: Project Managers make things work. They coach, measure, look ahead, warn, and ultimately support people to give their best, removing obstacles, and improving their processes and procedures. In SparkFabrik people are never managed - work is. So Project Managers govern but never rule.
