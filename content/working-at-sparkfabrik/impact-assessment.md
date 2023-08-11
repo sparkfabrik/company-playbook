@@ -27,7 +27,7 @@ Each employee has [accountabilities](/organization/accountabilities#per-role-acc
 
 For each point in the impact assessment card, you can mark out one of three possible values:
 
-* **I still can't match the expectation**: You feel you still can't jump the bar. Take a short note of how you think you can do better and discuss about it in 1-on-1 meeting with your responsible, your senior colleagues or HR.
+* **I still can't match the expectation**: You feel you still can't jump the bar. Take a short note of how you think you can do better and discuss about it in one-on-one meeting with your responsible, your senior colleagues or HR.
 * **I deliver what's expected**: You think you're a perfect fit - or can be a perfect fit if you're assessing your match for a new seniority level or for a project role.
 * **I exceed this expectation**: You think you are doing (or you can do) more than expected. Take a short note so we can discuss this and, if we all agree, reward your merits.
 
@@ -41,7 +41,7 @@ Of course, there are moments when this is most valuable:
 * When you feel lost about your [role and duties](/organization/accountabilities) and want to check in on them to focus on what's important
 * When you think you are ready for a [step up in your career](/working-at-sparkfabrik/career-advancement), you can take your assessment to the table to talk about your perceived strengths and weaknesses
 * When you ask for a raise, you can sustain your request with a list of your positive impacts
-* Right before one of the [1-on-1 meetings](/working-at-sparkfabrik/one-to-one-meetings) scheduled by the company
+* Right before one of the [one-on-one meetings](/working-at-sparkfabrik/one-on-one-meetings) scheduled by the company
 
 ## Self-assessment vs external feedback
 

@@ -96,8 +96,8 @@ The Team Leader will also make sure that:
 
 * The buddy reviews the core-skills list with the colleague and a training plan is laid out on the topics that need upskilling
 * HR and the employee will schedule a 30 mins self-introduction to the whole company
-* HR will schedule a 1-on-1 meeting with the employee at the end of the second week, to check in on the [onboarding goals](/guides/an-effective-onboarding-structure)
-* The Team Leader will schedule a 1-on-1 meeting with the employee at the end of the first month, to exchange feedback and set the goals for the next couple months
+* HR will schedule a one-on-one meeting with the employee at the end of the second week, to check in on the [onboarding goals](/guides/an-effective-onboarding-structure)
+* The Team Leader will schedule a one-on-one meeting with the employee at the end of the first month, to exchange feedback and set the goals for the next couple months
 * Marketing will contact the employee to choose a face wall shot (this can be used as a profile picture as well)
 
 ## Things to do one month after the onboarding
