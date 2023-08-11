@@ -1,6 +1,6 @@
 /*
-Title: Impact Assessment Card - Supporter
-Description: Role that owns administrative and support processes in SparkFabrik
+Title: Accountabilities - Supporter
+Description: Role that owns corporate and/or support processes in SparkFabrik
 Sort: 90
 */
 <span class='no-print'>
@@ -9,7 +9,7 @@ Sort: 90
       <p class="quote font-italic">Print this page! The printed version of this page will be formatted to allow you to compile the IAC.</p>
     </div>
     <div class="col-lg-auto">
-      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this IAC</button>
+      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Print">Print IAC</button>
     </div>
   </div>
 
@@ -20,7 +20,7 @@ Sort: 90
 * To promote our procedures and standards and to find new opportunities to improve them.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To value continuous improvement, seek out opportunities to learn and live by the principles of Lean Thinking.
-* To contribute to the company's organizational culture, share your mastery with others.
+* To contribute to the company's organizational culture, sharing your mastery with others.
 
 ## Values
 
