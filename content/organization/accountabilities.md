@@ -41,16 +41,16 @@ As you gain [seniority](/organization/operations#seniority-levels) and possibly 
 
 ### Development area
 
-* [Junior Developer](/resources/seniority-acc-junior-developer)
-* [Developer](/resources/seniority-acc-developer)
-* [Senior Developer](/resources/seniority-acc-senior-developer)
-* [Lead Developer](/resources/seniority-acc-lead-developer)
+* [Junior Developer](/resources/seniority-acc-dev-junior)
+* [Developer](/resources/seniority-acc-dev-mid)
+* [Senior Developer](/resources/seniority-acc-dev-senior)
+* [Lead Developer](/resources/seniority-acc-dev-lead)
 
 ### Platform area
 
-* [Practitioner Cloud-Native Engineer](/resources/seniority-acc-practitioner-cne)
-* [Professional Cloud-Native Engineer](/resources/seniority-acc-professional-cne)
-* [Architect Cloud-Native Engineer](/resources/seniority-acc-architect-cne)
+* [Practitioner Cloud Engineer](/resources/seniority-acc-cne-practitioner)
+* [Professional Cloud Engineer](/resources/seniority-acc-cne-professional)
+* [Architect Cloud Engineer](/resources/seniority-acc-cne-architect)
 
 ### Digital Strategy area
 

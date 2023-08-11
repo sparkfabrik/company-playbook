@@ -1,6 +1,6 @@
 /*
-Title: Accountabilities - Architect Cloud-Native Engineer
-Description: Accountabilities of a Architect Cloud-Native Engineer in SparkFabrik
+Title: Accountabilities - Architect Cloud Engineer
+Description: Accountabilities of a Architect Cloud Engineer in SparkFabrik
 Sort: 130
 */
 <span class='no-print'>

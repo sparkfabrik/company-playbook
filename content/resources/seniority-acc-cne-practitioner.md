@@ -1,6 +1,6 @@
 /*
-Title: Accountabilities - Practitioner Cloud-Native Engineer
-Description: Accountabilities of a Practitioner Cloud-Native Engineer in SparkFabrik
+Title: Accountabilities - Practitioner Cloud Engineer
+Description: Accountabilities of a Practitioner Cloud Engineer in SparkFabrik
 Sort: 110
 */
 <span class='no-print'>
