@@ -1,7 +1,7 @@
 /*
-Title: Accountabilities - Developer
-Description: Accountabilities of a Developer in SparkFabrik
-Sort: 60
+Title: Accountabilities - Senior Developer
+Description: Accountabilities of a Senior Developer in SparkFabrik
+Sort: 70
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
@@ -9,25 +9,26 @@ Sort: 60
       <p class="quote font-italic">Print this page! The printed version of this page will be formatted to allow you to compile the IAC.</p>
     </div>
     <div class="col-lg-auto">
-      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this IAC</button>
+      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Print">Print IAC</button>
     </div>
   </div>
 
 ## Mission
 
-* To define and realize software solutions that satisfy customers' needs.
-* To follow the directions of your team leader, trusting them to know what's the best course of action.
-* To listen to your elder colleagues, whenever they provide you with feedback.
+* To conceive and realize technical solutions that satisfy customers' needs.
+* To follow the directions of your team leader and software architects, trusting them to know what's the best course of action.
+* To cooperate with them every time they need your help to make the right choice.
+* To help your junior mates grow, challenge them and give them fishing cans, not fish.
 * To work following agreed procedures and matching our quality standards.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
-* To value continuous improvement, seek out opportunities to learn and live by the principles of the Agile manifesto.
-* To contribute to the company's technical culture sharing what you learn with others.
+* To adopt and promote DevOps practices and an agile mindset across your team and the whole company.
+* To contribute to the company's technical culture, sharing your mastery with others.
 
 ## Values
 
 * Passion
+* Discipline
 * Drive
-* Communication
 
 </span>
 
@@ -59,7 +60,7 @@ Your schedule and workload balance is your responsibility. You have clear what's
 
 ### Lucidity
 
-You have a clear understanding of what's expected from you and what you have to do to match the expectation. When you feel like you lost your goals, you speak up and do your best to have them clear.
+You have a clear understanding of what's expected from you and what you have to do to match the expectation. When you feel like you lost your goals, you speak up and do your best to have them clear. You understand when your junior colleagues are stuck because of this issue and, with patience, you help them get out of the _impasse_.
 
 <span class='score only-print'>
 
@@ -68,6 +69,10 @@ You have a clear understanding of what's expected from you and what you have to 
 - [ ] **I exceed this expectation** _(Why? Take notes!)_
 
 </span>
+
+### Customer-orientation
+
+You are genuinely involved in the success of the project and always speak with transparency, honesty, and a friendly but professional tone - because we want to deserve customers' trust. You always have a clear understanding of the customers' needs and, when something doesn't sound right, you speak up, asking honest questions, to make sure you're working towards the right goal.
 
 ### Strong opinions, lightly held
 
@@ -113,7 +118,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You collaborate on the improvement of internal tools and projects, based on your skills, aspirations, and training goals.
+* You substantially improve internal projects and tools, with new features, bug fixes, and documentation, based on your skills, aspirations, and training goals.
 
 <span class='score only-print'>
 
@@ -123,7 +128,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You don't shy away from the adoption of new technologies and practices, under the direction set by your elder team mates.
+* You shape new technologies, practices, tools, and knowledge, even when you work on customer projects if possible, according to the direction set by the CTO.
 
 <span class='score only-print'>
 
@@ -135,6 +140,16 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 
 ## Contributions
+
+* You actively contribute to SparkFabrik's internal projects or media, spending effort to backport innovations, keep them up to date, or generate content on our channels and this playbook.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
 
 * You help promote our brand, from paying attention to your professional social media presence to participating (better if as a speaker) at relevant conferences.
 

@@ -1,7 +1,7 @@
 /*
-Title: Accountabilities - Lead Developer
-Description: Accountabilities of a Lead Developer in SparkFabrik
-Sort: 70
+Title: Accountabilities - Architect Cloud-Native Engineer
+Description: Accountabilities of a Architect Cloud-Native Engineer in SparkFabrik
+Sort: 80
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
@@ -9,19 +9,19 @@ Sort: 70
       <p class="quote font-italic">Print this page! The printed version of this page will be formatted to allow you to compile the IAC.</p>
     </div>
     <div class="col-lg-auto">
-      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this IAC</button>
+      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Print">Print IAC</button>
     </div>
   </div>
 
 ## Mission
 
-* To design systems that satisfy customers' needs and enable your colleagues to implement them.
+* To design advanced cloud solutions that satisfy the company's and customer's needs and enable your colleagues to implement them.
 * To promote our procedures and standards, and seize all opportunities to improve them.
 * To teach by example and words, showing the value of excellence.
 * To dominate complexity, chew difficulties, and laugh in the face of pressure.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
 * To adopt and promote DevOps practices and an agile mindset across your team and the whole company.
-* To contribute to the company's technical culture, share your mastery with others.
+* To contribute to the company's technical culture sharing your mastery with others.
 
 ## Values
 
@@ -110,7 +110,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
-You identify the value behind a requirement and orient your work towards the delivery of that value, matching our technical and human standards.
+* You analyze the state of the art and blaze the trail to novel, advanced solutions, taking into account contextual and technical constraints.
 
 <span class='score only-print'>
 
@@ -120,7 +120,7 @@ You identify the value behind a requirement and orient your work towards the del
 
 </span>
 
-* You lead the creation of high-quality software, on time and budget.
+* You lead the creation of advanced cloud solutions, on time and within budget.
 
 <span class='score only-print'>
 
@@ -130,7 +130,7 @@ You identify the value behind a requirement and orient your work towards the del
 
 </span>
 
-* You define the architecture of solutions that fulfill business goals, matching our high-quality standards.
+* You define the architecture of cloud solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
@@ -140,7 +140,7 @@ You identify the value behind a requirement and orient your work towards the del
 
 </span>
 
-* You implement - and help your team implement - solutions that fulfill business goals, matching our high-quality standards.
+* You implement - and help your team implement - cloud solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
@@ -160,7 +160,7 @@ You identify the value behind a requirement and orient your work towards the del
 
 </span>
 
-* You help your team substantially improve internal projects, leading the joint effort and/or directly contributing work as necessary.
+* You help your team substantially improve and optimize tools and infrastructures, leading joint efforts and/or directly contributing work as necessary.
 
 <span class='score only-print'>
 

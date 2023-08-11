@@ -1,7 +1,7 @@
 /*
-Title: Accountabilities - Senior Developer
-Description: Accountabilities of a Senior Developer in SparkFabrik
-Sort: 60
+Title: Accountabilities - Professional Cloud-Native Engineer
+Description: Accountabilities of a Professional Cloud-Native Engineer in SparkFabrik
+Sort: 70
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
@@ -9,20 +9,20 @@ Sort: 60
       <p class="quote font-italic">Print this page! The printed version of this page will be formatted to allow you to compile the IAC.</p>
     </div>
     <div class="col-lg-auto">
-      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Pint">Print this IAC</button>
+      <button class='btn btn--print' type="button" onclick="window.print();"><img class="icon-print" src="/images/icon_print.svg" alt="Print">Print IAC</button>
     </div>
   </div>
 
 ## Mission
 
-* To conceive and realize technical solutions that satisfy customers' needs.
-* To follow the directions of your team leader and software architects, trusting them to know what's the best course of action.
+* To conceive and realize cloud solutions that satisfy the company's and customer's needs.
+* To follow the directions of cloud architects and team leaders, trusting them to know what's the best course of action.
 * To cooperate with them every time they need your help to make the right choice.
 * To help your junior mates grow, challenge them and give them fishing cans, not fish.
 * To work following agreed procedures and matching our quality standards.
 * To value collaboration and critiques as the building blocks for trust with colleagues and customers.
-* To adopt and promote DevOps practices and an agile mindset across your team and the whole company.
-* To contribute to the company's technical culture, share your mastery with others.
+* To promote DevOps practices, a Cloud-Native approach, and an agile mindset across your team and the whole company.
+* To contribute to the company's technical culture sharing your mastery with others.
 
 ## Values
 
@@ -72,7 +72,7 @@ You have a clear understanding of what's expected from you and what you have to 
 
 ### Customer-orientation
 
-You are genuinely involved in the success of the project and always speak with transparency, honesty, and a friendly but professional tone - because we want to deserve customers' trust. You always have a clear understanding of the customers' needs and, when something doesn't sound right, you speak up, asking honest questions, to make sure you're working towards the right goal.
+You are genuinely involved in the success of each initiative and always speak with transparency, honesty, and a friendly but professional tone - because we want to deserve customers' trust. You always have a clear understanding of the customers' needs and, when something doesn't sound right, you speak up, asking honest questions, to make sure you're working towards the right goal.
 
 ### Strong opinions, lightly held
 
@@ -88,7 +88,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 ## Business impacts
 
-* You define implementation details of solutions that fulfill business goals, matching our high-quality standards.
+* You define solutions that fulfill business goals, matching our high-quality standards.
 
 <span class='score only-print'>
 
@@ -118,7 +118,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You substantially improve internal projects and tools, with new features, bug fixes, and documentation, based on your skills, aspirations, and training goals.
+* You substantially improve and optimize tools and infrastructures, based on your skills, aspirations, and training goals.
 
 <span class='score only-print'>
 
@@ -128,7 +128,7 @@ You speak your mind and sustain your ideas with words and facts, but you are ope
 
 </span>
 
-* You shape new technologies, practices, tools, and knowledge, even when you work on customer projects if possible, according to the direction set by the CTO.
+* You shape new technologies, practices, tools, and knowledge, even when you work on customer projects, according to the direction set by elder colleagues and the CTO.
 
 <span class='score only-print'>
 
