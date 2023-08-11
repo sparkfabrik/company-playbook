@@ -1,7 +1,7 @@
 /*
 Title: Accountabilities - Professional Cloud-Native Engineer
 Description: Accountabilities of a Professional Cloud-Native Engineer in SparkFabrik
-Sort: 70
+Sort: 120
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">

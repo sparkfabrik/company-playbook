@@ -1,7 +1,7 @@
 /*
 Title: Accountabilities - Architect Cloud-Native Engineer
 Description: Accountabilities of a Architect Cloud-Native Engineer in SparkFabrik
-Sort: 80
+Sort: 130
 */
 <span class='no-print'>
   <div class="row justify-content align-items-center">
