@@ -23,7 +23,7 @@ That's why we evaluate our employees based on the impact they have on the compan
 
 These outcomes are seen as important to business, context, and company culture by the [company governance](/organization/governance) and each of us is called to put his creativity, wit, and experience to good use so that we can reach our goals together.
 
-Each employee has [accountabilities](/organization/accountabilities#per-role-accountabilities) that come from their seniority level and role on a project. Each descriptive page for a level or role can be printed out generating an **Impact Scoring Card** (IAC), which lists all expected impacts and qualities that the role is expected to have.
+Each employee has [accountabilities](/organization/accountabilities#seniority-related-accountabilities) that come from their seniority level and role on a project. Each descriptive page for a level or role can be printed out generating an **Impact Scoring Card** (IAC), which lists all expected impacts and qualities that the role is expected to have.
 
 For each point in the impact assessment card, you can mark out one of three possible values:
 

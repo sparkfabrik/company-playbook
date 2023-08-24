@@ -18,11 +18,9 @@
   "devDependencies": {
     "glob-parent": "^6.0.2",
     "gulp": "4.0.2",
-    "husky": "^8.0.3",
-    "semver": "^7.5.3"
+    "husky": "^8.0.3"
   },
   "overrides": {
-    "glob-parent": "$glob-parent",
-    "semver": "$semver"
+    "glob-parent": "$glob-parent"
   }
 }
