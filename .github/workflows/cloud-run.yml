@@ -60,5 +60,5 @@ jobs:
             --region "$RUN_REGION" \
             --image "eu.gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
             --platform "managed" \
-            --service-account="$SERVICE_ACCOUNT"
+            --service-account="$SERVICE_ACCOUNT" \
             --allow-unauthenticated
