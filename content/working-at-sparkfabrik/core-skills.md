@@ -5,178 +5,142 @@ Sort: 30
 
 **Core skills** are those shared across all teams, whether Platform or Development teams, and they form the foundation we expect all professionals at SparkFabrik to have.
 
-The purpose of this document is to list the training resources to consolidate the key competencies we recognize in every professional. 
+The purpose of this document is to list the training resources to consolidate the key competencies we recognize in every professional.
 
-The training resources will be useful during the onboarding period at the company to self-train and update knowledge, with the support of a "buddy" who will be available throughout the process. 
+The training resources will be useful during the [onboarding period](/procedures/employee-onboarding.md) to self-train and update knowledge, with the support of a buddy who will be available throughout the process.
 
-The ideal approach is to have an interactive, guided path already designed with a "Getting Started" perspective that provides insights for further exploration without going “too deep”.
+The ideal approach is to have an interactive, guided and pre-designed path, based on a "Getting Started" approach, that provides insights for further exploration without going too deep.
 
-This page lists all core skills, split into modules, each of which concludes with a simple self-assessment to be completed individually or with the support of the buddy, who could help to understand if the key-concepts are well understood. 
+That's what this page is: it lists all core skills, split into modules, each of which provides one or more links to educational materials and hands-on tutorials <sup><a href="#fn1">1</a></sup>.
 
-For each identified core skill, we provide one or more links to educational materials and hands-on tutorials.
+> **NOTE**: See [Assessing Core Skills]() section to learn how to access core skills, then head back to this page to create a personalized training plan based on the results.
 
-## General Resources
+## Command line / Shell
 
-In our Playbook, you can find a list of educational materials in the form of online courses available on the most popular training platforms. The [dedicated page](https://playbook.sparkfabrik.com/resources/training-resources) also contains information on how to access this material.
+**Estimated Time**: 24h  
+**Assessment**: `TBD`
 
+### Basics
 
-## Core modules
+The command line is one of the tools we use extensively to standardize the developer experience and automatically share secrets and settings across all projects.
 
----
+| Resources | |
+|---|---|
+| **Documentation** | [Makefile Tutorial](https://makefiletutorial.com/) |
+| **Hands-on** | [The Shell (LinuxJourney)](https://linuxjourney.com/lesson/the-shell) |
+| | [Output redirection (LinuxJourney)](https://linuxjourney.com/lesson/stdout-standard-out-redirect) |
+| | [Bash Crawl (SlackerMedia)](https://gitlab.com/slackermedia/bashcrawl#try-it-online-with-mybinder) |
 
-### Command-line / Shell
-
-#### Basics
-
-The command-line is one of the tools we use extensively to standardize the developer experience and automatically share secrets and settings across all projects.
-
-##### Documentation
-
-* Makefile: [https://makefiletutorial.com/](https://makefiletutorial.com/)
-
-##### Hands-on
-
-* [https://linuxjourney.com/lesson/the-shell](https://linuxjourney.com/lesson/the-shell)
-* [https://linuxjourney.com/lesson/stdout-standard-out-redirect](https://linuxjourney.com/lesson/stdout-standard-out-redirect)
-* [https://gitlab.com/slackermedia/bashcrawl#try-it-online-with-my binder](https://gitlab.com/slackermedia/bashcrawl#try-it-online-with-mybinder)
-
-
-#### Security
+### Security
 
 Any credentials (API keys, passwords, etc.) should not be committed to the project and should not be present on the local disk, especially if it is not encrypted. Credentials should only be saved within secure tools provided by our platforms, such as GitLab/GitHub.
 
-##### Documentation
+| Resources | |
+|---|---|
+| **Documentation** | [Concise Guide for Developing More Secure Software (OpenSSF)](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Developing-More-Secure-Software.md#readme) |
+| | [Concise Guide for Evaluating Open Source Software (OpenSSF)](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Evaluating-Open-Source-Software.md#readme) |
+| | [The Secure Software Factory (CNCF Tag Security Whitepaper)](https://github.com/cncf/tag-security/blob/main/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) |
+| **Hands-on** | [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) <sup><a href="#fn2">2</a></sup> |
 
-* OpenSSF: [Concise Guide for Developing More Secure Software](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Developing-More-Secure-Software.md#readme)
-* OpenSSF: [Concise Guide for Evaluating Open Source Software](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Evaluating-Open-Source-Software.md#readme)
-* CNCF Tag Security: [The Secure Software Factory](https://github.com/cncf/tag-security/blob/main/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) (whitepaper)
-
-##### Hands-on
-
-* [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) (14-18h)
-
-_Note:_ The "Developing Secure Software" course (LFD121) is considered a long-term goal to be completed within the first 12 months after the probationary period.
-
-#### Git
+### Git
 
 Git is the fundamental tool we use to work on any development project, both internal and external.
 
-##### Documentation
-
-* Git workflow: [https://playbook.sparkfabrik.com/procedures/git-workflow](https://playbook.sparkfabrik.com/procedures/git-workflow)
-* [https://docs.gitlab.com/ee/topics/gitlab_flow.html](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
-
-##### Hands-on
-
-* [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
+| Resources | |
+|---|---|
+| **Documentation** | [Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
+| | [Gitlab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
+| **Hands-on** | [Learn Git Branching](https://learngitbranching.js.org/) |
 
 
-#### Timing and Assessment
+## DevOps
 
-_Estimated Time:_ 24h
+**Estimated Time**: 18h  
+**Assessment**: TBD
 
-Assessment: SparkFabrik will provide a private repository to clone, containing an application with some errors in build and startup scripts, and security practices. The candidate should correct these errors to make the application run.
-
----
-
-### DevOps
-
-
-#### Docker e Docker Compose
+### Docker e Docker Compose
 
 Our local stack always includes one or more containers with the services that compose the application, typically reflecting the production architecture.
 
-##### Documentation
+| Resources | |
+|---|---|
+| **Documentation** | [Docker - Zero to Hero (TechWorld with Nana - YouTube)](https://youtu.be/3c-iBn73dDE) |
+| | [Docker-Compose Tutorial (TechWorld with Nana - YouTube)](https://youtu.be/MVIcrmeV_6c) |
+| **Hands-on** | [Docker 101 Tutorial](https://www.docker.com/101-tutorial/) |
 
-* [https://youtu.be/3c-iBn73dDE](https://youtu.be/3c-iBn73dDE)
-* [https://youtu.be/MVIcrmeV_6c](https://youtu.be/MVIcrmeV_6c) 
-
-##### Hands-on
-
-* [https://www.docker.com/101-tutorial/](https://www.docker.com/101-tutorial/)
-
-#### Kubernetes
+### Kubernetes
 
 Our preferred infrastructure to manage multi-service applications.
 
-##### Documentation
+| Resources | |
+|---|---|
+| **Documentation** | [The Illustrated Childrens Guide to Kubernetes (Italian)](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf) |
+| **Hands-on** | [Kubernetes (KillerCoda)](https://killercoda.com/kubernetes) <sup><a href="#fn3">3</a></sup> |
 
-* [https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf)
-
-##### Hands-on
-
-* [https://killercoda.com/kubernetes](https://killercoda.com/kubernetes) - “Pod Intro”, “Deployment Basics” and “A Playground”
-
-
-#### YAML
+### YAML
 
 The format is used to describe almost all cloud-native services, such as Docker Compose and Kubernetes.
 
-##### Documentation
-
-* [https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
-
-##### Hands-on
-
-* [https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started)
+| Resources | |
+|---|---|
+| **Documentation** | [YAML Syntax (Ansible Documentation)](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) |
+| **Hands-on** | [YAML Tutorial - Everything you need get started (CloudBees)](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) |
 
 
-#### Timing and Assessment
+## Continuous Integration (CI/CD)
 
-_Estimated Time:_  18h
+**Estimated Time**: 8h  
+**Assessment**: TBD
 
-_Assessment:_ SparkFabrik will provide a private repository to create a mini-project with Docker and Kubernetes (kind), hypothetically a web app with an nginx server.
-
-
-### Continuous Integration (CI/CD)
-
-
-#### GitLab & GitHub
+### GitLab & GitHub
 
 These are our reference tools to manage repositories, projects (agile boards), and continuous integration with automated pipelines.
 
-##### Documentation
+| Resources | |
+|---|---|
+| **Documentation** | [Introduction to CI (GitLab Documentation)](https://docs.gitlab.com/ee/ci/introduction/) |
+| | [Create and run your first GitLab CI/CD pipeline (GitLab Tutorial)](https://docs.gitlab.com/ee/ci/quick_start/) |
+| | [GitLab CI/CD in one hour (TechWorld with Nana - YouTube)](https://youtu.be/qP8kir2GUgo) |
+| | [Understanding GitHub Actions (GitHub Docs)](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) |
+| **Hands-on** | [Become a GitHub Actions Hero](https://github-actions-hero.vercel.app/) |
 
-* [https://docs.gitlab.com/ee/ci/introduction/](https://docs.gitlab.com/ee/ci/introduction/)
-* [https://docs.gitlab.com/ee/ci/quick_start/](https://docs.gitlab.com/ee/ci/quick_start/)
-* [https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
-* [https://youtu.be/qP8kir2GUgo](https://youtu.be/qP8kir2GUgo)
+## Bonus track - GitHub Copilot
 
-##### Hands-on
+**Estimated Time**:  1h to activate and test it out.
 
-* [https://github-actions-hero.vercel.app/](https://github-actions-hero.vercel.app/)
+A context-aware, AI-based tool that helps writing code faster. When used correctly, it allows to optimize repetitive tasks and quickly create prototypes and blueprints.
 
-#### Timing and Assessment
+See [GitHub Copilot](https://playbook.sparkfabrik.com/tools-and-policies/github-copilot) page in the _Tools and Policies_ section.
 
-_Estimated Time:_ 8h
+---
 
-Assessment: SparkFabrik will provide a private repository with CI and job templates, and tasks such as adding a new job, retrieving logs, or fixing non-functioning jobs.
+## How to plan the training on core skills
 
-### Bonus: GitHub Copilot
+During the very first days in SparkFabrik, the confidence degree with the basic concepts of the necessary core skills will be [assessed by a buddy](). Depending on the findings, **a maximum of 40 working hours** will be allocated **within the first two two months** for the new employee to learn the key-concepts.
 
-A tool that utilizes AI to auto-complete code more intelligently. When used correctly, it allows us to optimize repetitive tasks and quickly create prototypes and blueprints.
+There are several variables that can influence the schedule for study hours, like expertise, background, or learning speed of the new entry, project deadlines, needs, and organization, customer-related constraints, etc.  
+Therefore, each team-leader is free to decide how to plan the training with the new employee, as long as it's done within the first two months.
 
-Documentation
+For example, imagining that the training path takes up all 40 hours, they can decide to spend 10 consecutive afternoons for the first 10 working days. Or they may want to seize some slack the project may grant for the first week to go all-in and spend it all learning the basics.  
+Again, they may decide di spend a couple days on the most relevant knowledge gaps, and postpone after a couple weeks the refresh of concepts that are already there.
 
-[https://playbook.sparkfabrik.com/tools-and-policies/github-copilot](https://playbook.sparkfabrik.com/tools-and-policies/github-copilot)
+| When                             | What                                                    | Who              |
+|----------------------------------|---------------------------------------------------------|------------------|
+| **From 2nd day of onboarding**   |                                                         |                  |
+|                                  | Assess required core skills and training needs          | TL and new entry |
+|                                  | Create a proposal to allocate training hours            | TL               |
+|                                  | Planning review and approval                            | Ops and/or CTO   |
+| **During first month**           |                                                         |                  |
+|                                  | Implement the training plan                             | New entry        |
+| **During second month**          |                                                         |                  |
+|                                  | During planned 1-on-1, gets feedback about the progress | HR               |
+|                                  | Continuous evaluation and process updates               | HR, TL, newentry |
+| **End of second month**          |                                                         |                  |
+|                                  | Review and evaluate training results                    | HR, TL, newentry |
 
-_Estimated Time: _1h
+To help prioritizing and planning the necessary training, we hereby provide the list of modules, ordered by priority, for each company area.
 
-
-### Summary
-
-| Module                             | Suggested Time (hours)     |
-|------------------------------------|----------------------------|
-| Command-line / Shell               | 50% on total hours         |
-| DevOps                             | 35% on total hours         |
-| Continuous Integration (CI/CD)     | 15% on total hours         |
-| Total hours                        | 40                         |
-
-
-#### Team Tracks 
-
-
-##### Developers
+### Web Development
 
 | Module               | Topic                    |
 |----------------------|--------------------------|
@@ -188,9 +152,7 @@ _Estimated Time: _1h
 | CI/CD                | GitLab & GitHub (basics) |
 | DevOps               | Kubernetes (basics)      |
 
-
-
-##### Mobile
+### Mobile Development
 
 | Module               | Topic                    |
 |----------------------|--------------------------|
@@ -202,8 +164,7 @@ _Estimated Time: _1h
 | DevOps               | Docker & Docker compose  |
 | DevOps               | Kubernetes (basics)      |
 
-
-##### Platform
+### Platform
 
 | Module               | Topic                   |
 |----------------------|-------------------------|
@@ -218,39 +179,6 @@ _Estimated Time: _1h
 
 ---
 
-##### How to allocate study hours
-
-| When                                          | What                                                                   | Who              |
-|-----------------------------------------------|------------------------------------------------------------------------|------------------|
-|                                               | Assess required core skills and training needs (checklist)             | TL and new entry |
-| From the 2nd day of onboarding                | Create a proposal to allocate study hours (*)                          | TL               |
-|                                               | Revisione e approvazione del piano                                     | Ops and/or CTO   |
-| During first month                            | Implement the study plan                                               | New entry        |
-| Second month                                  | Individual meetings (1:1) to collect feedback on the training progress | HR               |
-|                                               | Continuous evaluation and process updates                              | HR, TL, newentry |
-
-
-(*) There are several variables that can influence the allocation of study hours:
-
-
-* Expertise and background of the new entry 
-* Project (deadlines, needs, organization, contact with the client) 
-* Learning speed 
-* … what else? TODO
-
-**Total hours Available: **40 hours
-
-**Examples of study hour allocation:** 
-
-_Example 1_
-
-_40 hours to allocate _
-
-_10 half-days consecutively for the first 10 working days_
-
-_Example 2_
-
-_40 hours to allocate _
-
-
-## _2 half-days per week for 5 weeks_
+<small><a name="fn1">1</a>: In addition, <a href="/resources/training-resources">this page</a> explains how to access educational video courses that may be of interest to strengthen hard skills on specific technologies and tools.</small><br>
+<small><a name="fn2">2</a>: The "Developing Secure Software" course (LFD121) is considered a long-term goal to be completed within the first 12 months after the probationary period.</small><br>
+<small><a name="fn3">3</a>: Limit hands-on exercices to “Pod Intro”, “Deployment Basics” and “A Playground” sections.</small>
