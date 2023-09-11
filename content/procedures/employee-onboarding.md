@@ -42,10 +42,11 @@ An HR representative will perform the following actions:
 * Add the newly created account to all relevant `*-team@sparkfabrik.com` project/team mail groups
 * Add the account to Slack and give a quick overview of the main channels
 * Open the Gitlab account and add it to the `SparkFabrik` group, plus all relevant projects if necessary
-* Open the Toggl account and make sure it can access all relevant projects
+* Add the GitHub account of the employee (or open it if not available) to the SparkFabrik organization
+* Open the Float account and make sure it can access all relevant projects
 * Invite the employee to PeopleForce, give a quick overview of the important sections, and make sure they review their profile information
 * Invite the employee to Dipendenti in Cloud and give a quick overview of the important sections
-* Add the GitHub account of the employee (or open it if not available) to the SparkFabrik organization
+* Make sure the employee can access all relevant calendars
 
 ### General setup
 
@@ -55,7 +56,6 @@ The employee must, with the help of an HR representative:
 * If they are a developer, log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
-* Access all relevant calendars
 * Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate close-up
 * Set their e-mail signature in [the official format](#standard-mail-signature-format) (respect bolds)
 * Set the [SparkFabrik branded LinkedIn banner](#branded-linkedin-banner) on the Linkedin profile
