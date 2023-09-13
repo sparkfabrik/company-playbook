@@ -1,33 +1,41 @@
-$(document).on('ready', function() {
-    // to close all item of the menu (desktop version)
-    $('#menu__general-toggle').change(function () {
-      $('input[id^="menu__toggle-"]').prop('checked',this.checked);
-    });
+const BREAKPOINT_MOBILE = 767;
 
-    $('input[id^="menu__toggle-"]').change(function () {
-    if ($('input[id^="menu__toggle-"]:checked').length == $('input[id^="menu__toggle-"]').length){
-      $('#menu__general-toggle').prop('checked',true);
-    }
-    else {
-      $('#menu__general-toggle').prop('checked',false);
-    }
-    });
+function isMobile() {
+  return window.matchMedia(`(max-width: ${BREAKPOINT_MOBILE}px)`).matches;
+}
 
-    // add overflow:hidden to body on mobile version
-    $('#menu__general-toggle').change(function () {
-      if ( ($( window ).width()) <= 767) {
-        if ($('#menu__general-toggle').is(':checked')) {
-          $("body").css({"overflow":"visible"});
-        } else {
-          $("body").css({"overflow":"hidden"});
-        }
-      }
-    });
-    $(window).on('resize', function(){
-      var win = $(this); //this = window
-      if (win.height() >= 768) { 
-        $("body").removeAttr("style") 
-      }
-    });
+$(() => {
+  // Desktop menu section toggles
+  const mainToggle = $("#menu__general-toggle");
+  const sectionSelector = 'input[id^="menu__toggle-"]';
+  const sectionToggles = $(sectionSelector);
+
+  mainToggle.change(() => {
+    const isChecked = mainToggle.prop("checked");
+
+    // Open/close all sections toggles when main toggle changes
+    sectionToggles.prop("checked", isChecked);
+
+    // Prevent body overflow when the menu is open (mobile only)
+    if (isMobile()) {
+      document.body.style.overflow = isChecked ? "visible" : "hidden";
+    }
+  });
+
+  // Update main toggle state when all sections are open or closed
+  sectionToggles.change(() => {
+    const openMenuSections = $(`${menuSectionSelector}:checked`);
+
+    mainToggle.prop(
+      "checked",
+      openMenuSections.length === sectionToggles.length
+    );
+  });
+
+  // Reset body overflow when window is resized to desktop sizes
+  $(window).on("resize", () => {
+    if (!isMobile()) {
+      document.body.style.overflow = "";
+    }
+  });
 });
-
