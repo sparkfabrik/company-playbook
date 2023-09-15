@@ -18,7 +18,6 @@ That's what this page is: it lists all core skills, split into modules, each of 
 ## Command line / Shell
 
 **Estimated Time**: 24h  
-**Assessment**: `TBD`
 
 ### Basics
 
@@ -56,7 +55,6 @@ Git is the fundamental tool we use to work on any development project, both inte
 ## DevOps
 
 **Estimated Time**: 18h  
-**Assessment**: TBD
 
 ### Docker e Docker Compose
 
@@ -90,7 +88,6 @@ The format is used to describe almost all cloud-native services, such as Docker 
 ## Continuous Integration (CI/CD)
 
 **Estimated Time**: 8h  
-**Assessment**: TBD
 
 ### GitLab & GitHub
 

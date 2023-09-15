@@ -1,5 +1,3 @@
-
-
 ## Prerequisites and definitions
 
 * `develop` is the *integration branch*
