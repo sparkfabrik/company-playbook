@@ -62,3 +62,10 @@ jobs:
             --platform "managed" \
             --service-account="$SERVICE_ACCOUNT" \
             --allow-unauthenticated
+
+      # Update traffic routing to send all traffic to the latest revision
+      - name: Update traffic
+        run: |-
+          gcloud run services update-traffic "$SERVICE_NAME" \
+            --region "$RUN_REGION" \
+            --to-latest
