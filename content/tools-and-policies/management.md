@@ -9,7 +9,7 @@ Sort: 40
 
 - [Table of Content](#table-of-content)
 - [Redmine](#redmine)
-- [Toggl](#toggl)
+- [Float](#float)
 - [Slack](#slack)
 - [Gmail](#gmail)
 - [Hangout](#hangout)
@@ -21,7 +21,7 @@ Sort: 40
 
     @todo summarize what we use Redmine for and link specific articles and recipes to help people get the info they need
 
-## Toggl
+## Float
 
     @todo same as for Redmine
 

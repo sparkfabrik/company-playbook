@@ -56,7 +56,7 @@ The employee must, with the help of an HR representative:
 * If they are a developer, log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
-* Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Toggl, etc) with an appropriate close-up
+* Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Float, etc) with an appropriate close-up
 * Set their e-mail signature in [the official format](#standard-mail-signature-format) (respect bolds)
 * Set the [SparkFabrik branded LinkedIn banner](#branded-linkedin-banner) on the Linkedin profile
 
@@ -86,7 +86,7 @@ The Team Leader will also make sure that:
 
 * A call with the customer is planned to introduce the new colleague
 * The colleague can:
-  * See all relevant projects on Toggl and Float (if it applies)
+  * See all relevant projects on Float
   * Access all relevant projects on Gitlab, GitHub, or any other platform that may be relevant
   * Access all relevant slack channels (or other communication platforms) pertaining to relevant projects
   * Receive emails via relevant `-team@sparkfabrik.com` groups

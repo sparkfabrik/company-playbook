@@ -34,7 +34,7 @@ Credentials are needed to log into our tracker and work on projects.
 
 ### Tracking time
 
-We track time on [Toggl](https://toggl.com). Each member of SparkFabrik will be provided with a Toggl business account and will be able to track time on company projects and tasks.
+We track time on [Float](https://float.com). Each member of SparkFabrik will be provided with a Float business account and will be able to track time on company projects and tasks.
 
 There are rules to keep things consistent between the tools so that we can make something out of all these data.
 
@@ -61,9 +61,9 @@ As a general rule, all time entries must contain links to specific issue codes w
 > **Forenote**: Despite we try to group tiny activities to form a _3+ working days whole_, it happens that we must deliver very small tasks to our customers, such as one-shot security upgrades or very small changes to a living product.  
 > Such small, isolated activities, must be tracked under the [Support](#support) rolling task (see below).
 
-Each task approved by a customer/for a project is tracked on Toggl as a `Task` (heh!), with the format `[Task ID] Task Name`, where `Task ID` is an internal reference code, in the format `YYYYMM[DDII]` (where `DDII` is an optional part composed by two-digits day (`DD`) and a discriminant incremental), and `Task Name` is a mnemonic description such as `Website development`, `New media gallery`, `Q3 Maintenance` etc.
+Each task approved by a customer/for a project is tracked on Float as a `Task` (heh!), with the format `[Task ID] Task Name`, where `Task ID` is an internal reference code, in the format `YYYYMM[DDII]` (where `DDII` is an optional part composed by two-digits day (`DD`) and a discriminant incremental), and `Task Name` is a mnemonic description such as `Website development`, `New media gallery`, `Q3 Maintenance` etc.
 
-Approved tasks have a time budget on Toggl and the tracked time is counted against that time budget. Should a customer extend the budget, the task will be updated/extended or a new task will be created, depending on what makes more sense in the context.
+Approved tasks have a time budget on Float and the tracked time is counted against that time budget. Should a customer extend the budget, the task will be updated/extended or a new task will be created, depending on what makes more sense in the context.
 
 Project/Customer leads should take care of keeping things consistent in terms of issue tracking, using [Gitlab's Milestones](https://docs.gitlab.com/ee/user/project/milestones/). Create a milestone with the same name as the related task (`[Agreement Code] Task Name`) and add all issues related to this task there.
 

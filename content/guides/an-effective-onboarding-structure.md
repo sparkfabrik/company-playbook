@@ -21,7 +21,7 @@ Once they are fulfilled, the next step is to set the goals and schedule check-up
 
 * Clarify the workflow of our projects for the new employee
 * Present and clarify any doubts about the tools that allow access to this workflow (git, GitLab, our branching model, etc)
-* Clarify how we track time on Toggl and how we communicate on Slack
+* Clarify how we track time on Float and how we communicate on Slack
 * Test the employee declared skills and proficiency level
 
 **For the employee:**
