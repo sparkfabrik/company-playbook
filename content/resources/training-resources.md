@@ -2,22 +2,140 @@ SparkFabrik offers access to a set of training resources.
 
 Some of them are _self-service_ and can be accessed by every employee as they see fit. Some others are licensed on a per-seat basis and require the creation of a personal account and relative license.
 
-This page lists all the available resources, providing a link to them and a mean to obtain access when required.
+This page lists all the available resources, providing a link to them and a mean to obtain access when required.  
+
+A [specific section](#core-skills-training-resources) in this page lists the educational material to be used for the acquisition of the core skills, during the onboarding period.
 
 At the bottom of this page, in the [Filing training requests](#filing-training-requests) section, we explain how to submit requests for specific training courses/resources and keep an eye on new training resources that SparkFabrik may make available to everyone.
 
-## Training resources
+## Table of contents
 
 Please find here a TOC of the available training resources.
 
+**Core skills training resources**
+
+| Area | Topic |
+|---|---|
+| [Basics](#basics) | [Command line / Shell](#command-line--shell) |
+|        | [Security](#security) |
+|        | [Networking](#networking) |
+| [Tools](#tools) | [YAML](#yaml) |
+|        | [Git](#git) |
+|        | [GitHub Copilot](#github-copilot) (bonus track) |
+| [DevOps](#devops) | [Docker and Docker Compose](#docker-and-docker-compose) |
+|        | [Kubernetes](#kubernetes) |
+|        | [CI/CD](#cicd) (on Gitlab and GitHub) |
+
+**Other training resources**
+
 | Name | Area | Topics | Access type |
 |---|---|---|---|
-| [Udemy](#udemy)| Development | Angular, React, React Native, Hasura | Credentials |
+| [Udemy](#udemy) | Development | Angular, React, React Native, Hasura | Credentials |
 | [Ultimate Courses](#ultimate-courses) | Development | Angular, React, Typescript | Credentials |
 | [Drupalize.me](#drupalizeme) | Development | Drupal | Credentials |
 | [AWS Skill Builder](#aws-skill-builder) | Cloud | Amazon Web Services | Corporate account |
 | [Google SkillBoost](#google-skillboost) | Cloud | Google Cloud Platform | Corporate account |
 | [Cloud Academy](#cloud-academy) | Cloud | Vendor-specific services (AWS, GCP, Azure, Alibaba), Kubernetes, complete Cloud training offering | Reserved seats |
+
+## Core Skills training resources
+
+All the training material in this section is public and can be freely accessed.
+
+<style>
+    #table-styler-code-skills table th:first-of-type { width: 25%;}
+    #table-styler-code-skills table th:nth-of-type(2) { width: 75%; }
+</style>
+<div id="table-styler-code-skills">
+## Basics
+
+### Command line / Shell
+
+| Resources | |
+|---|---|
+| **Documentation** | [Makefile Tutorial](https://makefiletutorial.com/) |
+| **Hands-on** | [The Shell (LinuxJourney)](https://linuxjourney.com/lesson/the-shell) |
+| | [Output redirection (LinuxJourney)](https://linuxjourney.com/lesson/stdout-standard-out-redirect) |
+| | [Bash Crawl (SlackerMedia)](https://gitlab.com/slackermedia/bashcrawl#try-it-online-with-mybinder) |
+
+### Security
+
+| Resources | |
+|---|---|
+| **Documentation** | [Concise Guide for Developing More Secure Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Developing-More-Secure-Software.html) |
+| | [Concise Guide for Evaluating Open Source Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Evaluating-Open-Source-Software.html) |
+| | [Source Code Management Best Practices Guide (OpenSSF)](https://best.openssf.org/SCM-BestPractices/) |
+| | [The Secure Software Factory (CNCF Tag Security Whitepaper)](https://github.com/cncf/tag-security/blob/main/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) |
+| **Hands-on** | [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) <sup><a href="#fn1">1</a></sup> |
+
+### Networking
+
+| Resources | |
+|---|---|
+| **Documentation** | [How DNS works](https://howdns.works/ep1/) |
+| | [How HTTPS works](https://howhttps.works/) |
+
+## Tools
+
+### YAML
+
+| Resources | |
+|---|---|
+| **Documentation** | [YAML Syntax (Ansible Documentation)](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) |
+| **Hands-on** | [YAML Tutorial - Everything you need get started (CloudBees)](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) |
+
+### Git
+
+| Resources | |
+|---|---|
+| **Documentation** | [Git Tutorial (NuLab)](https://nulab.com/learn/software-development/git-tutorial/) |
+| | [Understanding Git Conceptually](https://www.cduan.com/technical/git/) |
+| | [Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
+| | [Gitlab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
+| **Hands-on** | [Learning Git Branching](https://learngitbranching.js.org/) |
+| | [Oh my Git](https://ohmygit.org/) |
+| | [Visualizing Git](https://git-school.github.io/visualizing-git/) |
+
+
+### GitHub Copilot
+
+| Resources | |
+|---|---|
+| **Documentation** | [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart) |
+| | [SparkFabrik's policy on Copilot](/tools-and-policies/github-copilot) |
+
+## DevOps
+
+### Docker and Docker Compose
+
+Our local stack always includes one or more containers with the services that compose the application, typically reflecting the production architecture.
+
+| Resources | |
+|---|---|
+| **Documentation** | [Docker - Zero to Hero (TechWorld with Nana - YouTube)](https://youtu.be/3c-iBn73dDE) |
+| | [Docker-Compose Tutorial (TechWorld with Nana - YouTube)](https://youtu.be/MVIcrmeV_6c) |
+| **Hands-on** | [Docker 101 Tutorial](https://www.docker.com/101-tutorial/) |
+
+### Kubernetes
+
+Our preferred infrastructure to manage multi-service applications.
+
+| Resources | |
+|---|---|
+| **Documentation** | [The Illustrated Childrens Guide to Kubernetes (Italian)](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf) |
+| **Hands-on** | [Kubernetes (KillerCoda)](https://killercoda.com/kubernetes) <sup><a href="#fn2">2</a></sup> |
+
+
+### CI/CD
+
+| Resources | |
+|---|---|
+| **Documentation** | [Introduction to CI (GitLab Documentation)](https://docs.gitlab.com/ee/ci/introduction/) |
+| | [Create and run your first GitLab CI/CD pipeline (GitLab Tutorial)](https://docs.gitlab.com/ee/ci/quick_start/) |
+| | [GitLab CI/CD in one hour (TechWorld with Nana - YouTube)](https://youtu.be/qP8kir2GUgo) |
+| | [Understanding GitHub Actions (GitHub Docs)](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) |
+| **Hands-on** | [Become a GitHub Actions Hero](https://github-actions-hero.vercel.app/) |
+
+## Other training resources
 
 ### Development
 
@@ -108,3 +226,9 @@ The requests will be evaluated by the management taking into account many factor
 * Your training track record (if any)
 
 To speed up the evaluation process, please make sure to provide detailed information, following each field's suggestion.
+
+---
+
+<small><a name="fn1">1</a>: The "Developing Secure Software" course (LFD121) is considered a long-term goal to be completed within the first 12 months after the probationary period.</small><br>
+<small><a name="fn2">2</a>: Limit hands-on exercices to “Pod Intro”, “Deployment Basics” and “A Playground” sections.</small>
+</div>
