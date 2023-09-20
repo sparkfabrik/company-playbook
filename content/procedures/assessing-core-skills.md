@@ -134,7 +134,7 @@ If the emerging plan adds up to more than 40 hours, consider the following prior
 
 ### Schedule the effort
 
-There are several variables that can influence the schedule for study hours, like expertise, background, or learning speed of the new entry, project deadlines, needs, and organization, customer-related constraints, etc.  
+There are several variables that can influence the schedule for study hours, like expertise, background, or learning speed of the new entry, project deadlines, needs, organization, customer-related constraints, etc.  
 Therefore, each team-leader is free to decide how to plan the training with the new employee, as long as it's done within the first two months.
 
 For example, imagining that the training path takes up all 40 hours, they can decide to spend 10 consecutive afternoons for the first ten working days. Or they may want to seize some slack the project may grant for the first week to go all-in and spend it all learning the basics.  
