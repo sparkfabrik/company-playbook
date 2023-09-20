@@ -26,7 +26,7 @@ Software Developers should have a basic understanding of:
   * **Search**: `find`, `which`
   * **File management**: `cat`, `less`/`more`, `head`/`tail`, `touch`
   * **Permissions**: `chmod` and `chown`, permissions sets, file attributes
-* **Shell configuration**: `.profile`/`.zprofile`, ``.bashrc`/`.zshrc`, environment variables, path and command scope, etc
+* **Shell configuration**: `.profile`/`.zprofile`, `.bashrc`/`.zshrc`, environment variables, path and command scope, etc
 * **Redirection**: `stdout`, `stderr`, reading, writing, overwriting, appending to streams
 * **Make/Makefile**: targets, dependencies, recipes, rules
 
