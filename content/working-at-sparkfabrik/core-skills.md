@@ -3,15 +3,22 @@ Description: Basic technical skills by department
 Sort: 30
 */
 
-**Core skills** are shared across all teams, whether Platform or Development ones, and they form the foundation we expect all professionals at SparkFabrik to have.
+When we name **Core Skills** we are talking about a set of fundamental technical competencies shared across all teams, whether they are Development teams or Platform teams. It is essential that every professional in the company has at least a foundational understanding and a high-level comprehension of these topics, as they are frequently encountered in daily work.
 
-During the [onboarding period](/procedures/employee-onboarding.md) the level ofto self-train and update knowledge, with the support of a buddy who will be available throughout the process.
+We have identified a set of [training resources](/resources/training-resources#core-skills-training-resources) which offer an interactive, guided and pre-designed path, based on a _getting started_ approach, that provides insights for further exploration without going too deep.
 
-The ideal approach is to have an interactive, guided and pre-designed path, based on a "Getting Started" approach, that provides insights for further exploration without going too deep.
+Acquiring the necessary set of information should take approximately 40 hours, and we strongly suggest anyone (old or new), as well as who want to apply for a technical position to invest a bit in learning them.
 
-That's what this page is: it lists all core skills, split into modules, each of which provides one or more links to educational materials and hands-on tutorials <sup><a href="#fn1">1</a></sup>.
+Anyway, during the [very first days of onboarding](/procedures/employee-onboarding.md), the team leader or buddy [will quickly assess the new colleague's confidence level with these topics](/procedures/assessing-core-skills). They will then jot down a self-training program to be undertaken within the end of the probation period.
 
-> **NOTE**: See [Assessing Core Skills](/procedures/assessing-core-skills) section to learn how to access core skills, then head back to this page to create a personalized training plan based on the results.
+> **For the Team Leader or buddy**:
+>
+> The following sections offer a guided procedure to conduct accessments and create learning plans.
+>
+> * [Assessing Core Skills](/procedures/assessing-core-skills)
+> * [Plan training on Core Skills](/procedures/assessing-core-skills#plan-the-training-on-core-skills)
+
+## Technical Core Skills
 
 <style>
     #table-styler-code-skills table th:first-of-type { width: 25%;}
@@ -21,52 +28,23 @@ That's what this page is: it lists all core skills, split into modules, each of 
 
 | Basics | |
 |---|---|
-| Command line / Shell | The command line is one of the tools we use extensively to standardize the developer experience and automatically share secrets and settings across all projects. |
-| Security | Security starts from our tools and habits. Credentials management, encryption, secure authentication, and other foundamental topics must be clear to everyone, so they can click in place with our practices. |
-| Networking| We develop online software and services. Having a clear understanding of the foundational protocols we use every day enables informed decisions and quicker problem-solving. |
+| **Command line / Shell** | The command line is one of the tools we use extensively to standardize the developer experience and automatically share secrets and settings across all projects. |
+| **Security** | Security starts from our tools and habits. Credentials management, encryption, secure authentication, and other foundamental topics must be clear to everyone, so they can click in place with our practices. |
+| **Networking** | We develop online software and services. Having a clear understanding of the foundational protocols we use every day enables informed decisions and quicker problem-solving. |
 
 | Tools | |
 |---|---|
-| YAML | _Yet Another Markup Language_, this declarative, structured JSON alternative is easy to read and write for humans and easy to parse and abstract for a machine. These qualities made it almost ubiquitous. It's syntax is very simple but powerful. |
-| Git | Git is the industry standard CVS and it's at the base of every project we develop. Git is highly intertwined with our automation, so it's vital to understand how it works, and how the various aspects of the workflow impact our delivery. |
-| GitHub Copilot | A context-aware, AI-based tool that helps writing code faster. When used correctly, it allows to optimize repetitive tasks and quickly create prototypes and blueprints. |
+| **YAML** | _Yet Another Markup Language_, this declarative, structured JSON alternative is easy to read and write for humans and easy to parse and abstract for a machine. These qualities made it almost ubiquitous. It's syntax is very simple but powerful. |
+| **Git** | Git is the industry standard CVS and it's at the base of every project we develop. Git is highly intertwined with our automation, so it's vital to understand how it works, and how the various aspects of the workflow impact our delivery. |
+| **GitHub Copilot** | A context-aware, AI-based tool that helps writing code faster. When used correctly, it allows to optimize repetitive tasks and quickly create prototypes and blueprints. |
 
 | DevOps | |
 |---|---|
-| Docker and Docker Compose | Our local stack always includes one or more containers with the services that compose the application, typically reflecting the production architecture. We use Docker alongside the snack-sized orchestrator Docker Compose to automate the management of different local development environments for our projects. |
-| Kubernetes | The most famous FOSS container orchestrator, Kubernetes is our preferred infrastructure to manage multi-service applications. You may not be among those who use it daily but grasping the basic concepts is important because - if nothing else - our internal infrastructure is based on it. |
-| CI/CD | We work in a regime of Continuous Integration and our delivery is always automated (Continuous whenever possible, depending on the project. We mainly use Gitlab and GitHub automation tools, like Pipelines and Actions, both to be understood in their basics. |
+| **Docker and Docker Compose** | Our local stack always includes one or more containers with the services that compose the application, typically reflecting the production architecture. We use Docker alongside the snack-sized orchestrator Docker Compose to automate the management of different local development environments for our projects. |
+| **Kubernetes** | The most famous FOSS container orchestrator, Kubernetes is our preferred infrastructure to manage multi-service applications. You may not be among those who use it daily but grasping the basic concepts is important because - if nothing else - our internal infrastructure is based on it. |
+| **CI/CD** | We work in a regime of Continuous Integration and our delivery is always automated (Continuous whenever possible, depending on the project. We mainly use Gitlab and GitHub automation tools, like Pipelines and Actions, both to be understood in their basics. |
+
 </div>
 
-> TODO: From here!
-
-
----
-
-## How to plan the training on core skills
-
-During the very first days in SparkFabrik, the confidence degree with the basic concepts of the necessary core skills will be [assessed by a buddy](). Depending on the findings, **a maximum of 40 working hours** will be allocated **within the first two two months** for the new employee to learn the key-concepts.
-
-There are several variables that can influence the schedule for study hours, like expertise, background, or learning speed of the new entry, project deadlines, needs, and organization, customer-related constraints, etc.  
-Therefore, each team-leader is free to decide how to plan the training with the new employee, as long as it's done within the first two months.
-
-For example, imagining that the training path takes up all 40 hours, they can decide to spend 10 consecutive afternoons for the first 10 working days. Or they may want to seize some slack the project may grant for the first week to go all-in and spend it all learning the basics.  
-Again, they may decide to spend a couple days on the most relevant knowledge gaps, and postpone after a couple weeks the refresh of concepts that are already there.
-
-| When                             | What                                                    | Who              |
-|----------------------------------|---------------------------------------------------------|------------------|
-| **From 2nd day of onboarding**   |                                                         |                  |
-|                                  | Assess required core skills and training needs          | TL and new entry |
-|                                  | Create a proposal to allocate training hours            | TL               |
-|                                  | Planning review and approval                            | Ops and/or CTO   |
-| **During first month**           |                                                         |                  |
-|                                  | Implement the training plan                             | New entry        |
-| **During second month**          |                                                         |                  |
-|                                  | During planned 1-on-1, gets feedback about the progress | HR               |
-|                                  | Continuous evaluation and process updates               | HR, TL, newentry |
-| **End of second month**          |                                                         |                  |
-|                                  | Review and evaluate training results                    | HR, TL, newentry |
-
----
-
-<small><a name="fn1">1</a>: In addition, <a href="/resources/training-resources#other-training-resources">this page</a> explains how to access educational video courses that may be of interest to strengthen hard skills on specific technologies and tools.</small><br>
+* [Click here to learn how to access your proficiency in the Core Skills.](/procedures/assessing-core-skills)
+* [Click here for a list of all the training material related to the Core Skills.](/resources/training-resources#core-skills-training-resources)

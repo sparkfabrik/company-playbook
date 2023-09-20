@@ -46,9 +46,12 @@ All the training material in this section is public and can be freely accessed.
     #table-styler-code-skills table th:nth-of-type(2) { width: 75%; }
 </style>
 <div id="table-styler-code-skills">
+
 ## Basics
 
 ### Command line / Shell
+
+> **Time to completion**: 24 hours.
 
 | Resources | |
 |---|---|
@@ -58,6 +61,8 @@ All the training material in this section is public and can be freely accessed.
 | | [Bash Crawl (SlackerMedia)](https://gitlab.com/slackermedia/bashcrawl#try-it-online-with-mybinder) |
 
 ### Security
+
+> **Time to completion**: 4 hours for the documentation; hands-on are considered a long-term goal, check the note.
 
 | Resources | |
 |---|---|
@@ -69,6 +74,8 @@ All the training material in this section is public and can be freely accessed.
 
 ### Networking
 
+> **Time to completion**: 1 hour.
+
 | Resources | |
 |---|---|
 | **Documentation** | [How DNS works](https://howdns.works/ep1/) |
@@ -78,6 +85,7 @@ All the training material in this section is public and can be freely accessed.
 
 ### YAML
 
+> **Time to completion**: 1 hour.
 | Resources | |
 |---|---|
 | **Documentation** | [YAML Syntax (Ansible Documentation)](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) |
@@ -85,18 +93,21 @@ All the training material in this section is public and can be freely accessed.
 
 ### Git
 
+> **Time to completion**: 12 hours for the documentation; 18 hours for the hands-on.
+
 | Resources | |
 |---|---|
 | **Documentation** | [Git Tutorial (NuLab)](https://nulab.com/learn/software-development/git-tutorial/) |
 | | [Understanding Git Conceptually](https://www.cduan.com/technical/git/) |
-| | [Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
+| | [SparkFabrik Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
 | | [Gitlab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
 | **Hands-on** | [Learning Git Branching](https://learngitbranching.js.org/) |
 | | [Oh my Git](https://ohmygit.org/) |
 | | [Visualizing Git](https://git-school.github.io/visualizing-git/) |
 
-
 ### GitHub Copilot
+
+> **Time to completion**: 1 hours for the documentation and installation.
 
 | Resources | |
 |---|---|
@@ -107,7 +118,7 @@ All the training material in this section is public and can be freely accessed.
 
 ### Docker and Docker Compose
 
-Our local stack always includes one or more containers with the services that compose the application, typically reflecting the production architecture.
+> **Time to completion**: 3 hours for the documentation; 3 hours for the hands-on.
 
 | Resources | |
 |---|---|
@@ -117,15 +128,16 @@ Our local stack always includes one or more containers with the services that co
 
 ### Kubernetes
 
-Our preferred infrastructure to manage multi-service applications.
+> **Time to completion**: 1 hour for the documentation; 12 hours for the hands-on.
 
 | Resources | |
 |---|---|
 | **Documentation** | [The Illustrated Childrens Guide to Kubernetes (Italian)](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf) |
 | **Hands-on** | [Kubernetes (KillerCoda)](https://killercoda.com/kubernetes) <sup><a href="#fn2">2</a></sup> |
 
+### CI/CD1
 
-### CI/CD
+> **Time to completion**: 4 hour for the documentation; 4 hours for the hands-on.
 
 | Resources | |
 |---|---|
