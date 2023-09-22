@@ -1,5 +1,5 @@
-import * as CopyButtonPlugin from 'highlightjs-copy';
 import hljs from 'highlight.js';
+import copy from 'copy-to-clipboard';
 
 const BREAKPOINT_MOBILE = 767;
 
@@ -43,9 +43,15 @@ $(() => {
   });
 
   // Syntax highlighting
-  hljs.addPlugin(new CopyButtonPlugin());
   const code = $("pre code").each((i, el) => {
     hljs.highlightElement(el);
+    var button = document.createElement('div');
+    button.classList.add('hljs-copy-button');
+    el.parentElement.appendChild(button);
+    el.parentElement.classList.add('relative');
+    button.addEventListener('click', (e) => {
+      copy(el.textContent)
+    })
   });
 
   // Enable Highlighting and other
