@@ -1,3 +1,6 @@
+import * as CopyButtonPlugin from 'highlightjs-copy';
+import hljs from 'highlight.js';
+
 const BREAKPOINT_MOBILE = 767;
 
 function isMobile() {
@@ -38,4 +41,19 @@ $(() => {
       document.body.style.overflow = "";
     }
   });
+
+  // Syntax highlighting
+  hljs.addPlugin(new CopyButtonPlugin());
+  const code = $("pre code").each((i, el) => {
+    hljs.highlightElement(el);
+  });
+
+  // Enable Highlighting and other
+  // things when there is content
+  if ($(".content").length) {
+    // Add Bootstrap styling to tables
+    $(".content table").addClass("table");
+    // FitVids
+    fitvids(".content");
+  }
 });

@@ -22,7 +22,6 @@
   <meta name="twitter:url" content="{{current_url}}" />
   <link rel="shortcut icon" href="{{config.base_url}}/favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700&display=swap">
-  <link rel="stylesheet" href="{{config.base_url}}/lib/highlightjs/styles/solarized_light.css">
   <link rel="stylesheet" href="{{config.base_url}}/styles/spark.css">
   <link rel="stylesheet" href="{{config.base_url}}/styles/ghostdown.css">
   <link rel="stylesheet" href="{{config.base_url}}/styles/custom.css">
@@ -33,12 +32,13 @@
     <link rel="stylesheet" href="{{config.base_url}}/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
   {{/config.rtl_layout}}
   {{{config.analytics}}}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlightjs-themes@1.0.0/obsidian.min.css" />
 </head>
 <body class="{{body_class}}">
 
   <!--contents--->
   {{{yield}}}
-  
+
   <!-- Footer -->
   <footer class="footer">
     <div class="footer__separation d-print-none"></div>
@@ -100,11 +100,9 @@
   <!-- JavaScript -->
   <script src="{{config.base_url}}/lib/jquery/dist/jquery.min.js"></script>
   <script src="{{config.base_url}}/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="{{config.base_url}}/lib/highlightjs/highlight.pack.min.js"></script>
   <script src="{{config.base_url}}/lib/fitvids/fitvids.min.js"></script>
   <script src="{{config.base_url}}/lib/masonry-layout/dist/masonry.pkgd.min.js"></script>
   <script src="{{config.base_url}}/js/ghostdown.js"></script>
-  <script src="{{config.base_url}}/js/spark.js"></script>
-  <script src="{{config.base_url}}/dist/main.js"></script>
+  <script src="{{config.base_url}}/dist/app.js"></script>
 </body>
 </html>

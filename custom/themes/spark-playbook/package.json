@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.2",
+    "highlight.js": "^11.8.0",
+    "highlightjs-copy": "^1.0.5",
     "jquery": "^3.7.0",
     "popper.js": "^1.16.1"
   },

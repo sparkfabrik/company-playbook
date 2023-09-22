@@ -11,7 +11,7 @@ module.exports = env => {
       new StylelintPlugin({
         // fix: inProduction, // Enable if you want to autofix SCSS files when building production dist files.
         lintDirtyModulesOnly: true,
-      }), 
+      }),
     ],
 
     entry: [
@@ -20,7 +20,7 @@ module.exports = env => {
     ],
 
     output: {
-      filename: 'dist/main.js',
+      filename: 'dist/app.js',
       // public path is the 'assets' folder in the project root
       path: path.resolve(__dirname, 'public'),
       // publicPath: '../',
