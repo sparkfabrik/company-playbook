@@ -42,7 +42,7 @@ Anyway, during the [very first days of onboarding](/procedures/employee-onboardi
 |---|---|
 | **Docker and Docker Compose** | Our local stack always includes one or more containers with the services that compose the application, typically reflecting the production architecture. We use Docker alongside the snack-sized orchestrator Docker Compose to automate the management of different local development environments for our projects. |
 | **Kubernetes** | The most famous FOSS container orchestrator, Kubernetes is our preferred infrastructure to manage multi-service applications. You may not be among those who use it daily but grasping the basic concepts is important because - if nothing else - our internal infrastructure is based on it. |
-| **CI/CD** | We work in a regime of Continuous Integration and our delivery is always automated (Continuous whenever possible, depending on the project. We mainly use Gitlab and GitHub automation tools, like Pipelines and Actions, both to be understood in their basics. |
+| **CI/CD** | We work in a regime of Continuous Integration and our delivery is always automated (Continuous whenever possible, depending on the project). We mainly use GitLab and GitHub automation tools, like GitLab CI/CD and Actions, both to be understood in their basics. |
 
 </div>
 

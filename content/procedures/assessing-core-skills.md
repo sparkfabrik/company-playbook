@@ -73,7 +73,7 @@ Everyone should have a basic understanding of:
 
 * **Basic usage**: status, staging, commit, tag, reset, history / log, branch, remotes, merge, rebase, cherry picking, push, pull
 * **Concepts**: what's a repository, the working tree, the `.gitignore` file, how to diff and move along the commit history
-* **Workflow**: different branching models (git-flow, GitHub or Gitlab flow), pull/merge request, peer review, squashing commits, rebase and merge, merge commits, linear history
+* **Workflow**: different branching models (git-flow, GitHub or GitLab flow), pull/merge request, peer review, squashing commits, rebase and merge, merge commits, linear history
 * **Conventions**: understand the relation between workflow-related conventions (commit granularity, versioning, commit messages format, branching model, etc) and the working context (social contracts, environments, cadences, etc)
 
 #### GitHub Copilot
@@ -95,7 +95,7 @@ Software Developers should have a basic understanding of:
 
 Senior Software Developers and Cloud Native Engineers should be confident with the above, plus having a more specific understanding of:
 
-* **Dockerfiles**: levels, caching, basic commands (FROM, COPY, ADD, RUN, ENTRYPOINT, CMD, ENV, ARG), multi stage builds
+* **Dockerfiles**: levels, caching, basic commands (FROM, COPY, ADD, RUN, ENTRYPOINT, CMD, ENV, ARG), multi stage and multi arch builds
 * **Docker-Compose**: 
   * How networking and hostname resolution works between docker-composed containers
 

@@ -24,7 +24,7 @@ Please find here a TOC of the available training resources.
 |        | [GitHub Copilot](#github-copilot) (bonus track) |
 | [DevOps](#devops) | [Docker and Docker Compose](#docker-and-docker-compose) |
 |        | [Kubernetes](#kubernetes) |
-|        | [CI/CD](#cicd) (on Gitlab and GitHub) |
+|        | [CI/CD](#cicd) (on GitLab and GitHub) |
 
 **Other training resources**
 
@@ -100,7 +100,7 @@ All the training material in this section is public and can be freely accessed.
 | **Documentation** | [Git Tutorial (NuLab)](https://nulab.com/learn/software-development/git-tutorial/) |
 | | [Understanding Git Conceptually](https://www.cduan.com/technical/git/) |
 | | [SparkFabrik Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
-| | [Gitlab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
+| | [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
 | **Hands-on** | [Learning Git Branching](https://learngitbranching.js.org/) |
 | | [Oh my Git](https://ohmygit.org/) |
 | | [Visualizing Git](https://git-school.github.io/visualizing-git/) |
@@ -135,7 +135,7 @@ All the training material in this section is public and can be freely accessed.
 | **Documentation** | [The Illustrated Childrens Guide to Kubernetes (Italian)](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf) |
 | **Hands-on** | [Kubernetes (KillerCoda)](https://killercoda.com/kubernetes) <sup><a href="#fn2">2</a></sup> |
 
-### CI/CD1
+### CI/CD
 
 > **Time to completion**: 4 hour for the documentation; 4 hours for the hands-on.
 
