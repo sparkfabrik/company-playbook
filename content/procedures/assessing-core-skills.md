@@ -90,7 +90,7 @@ Software Developers should have a basic understanding of:
 * **Basic commands**: pull, push, run, stop, ls, rm, ps, prune
 * **Docker-Compose**: 
   * Understanding declarative approach
-  * Anatomy of the `docker-compose.yml` file (services, build, volumes, ports, etc)
+  * Anatomy of the `docker-compose.yml` file (services, build, volumes, ports, environment variables interpolation, etc)
   * Basic commands (up, down, logs) and detachment
 
 Senior Software Developers and Cloud Native Engineers should be confident with the above, plus having a more specific understanding of:
