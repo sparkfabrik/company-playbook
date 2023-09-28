@@ -8,7 +8,8 @@
     "start": "node server.js",
     "check": "markdown-link-validator -q -e -o -c 403 --ignorePatternsFrom ./content/.mlvignore ./content",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "cd .. && husky install custom/.husky"
+    "prepare": "cd .. && husky install custom/.husky",
+    "postinstall": "patch-package"
   },
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "dependencies": {
@@ -18,7 +19,8 @@
   "devDependencies": {
     "glob-parent": "^6.0.2",
     "gulp": "4.0.2",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "patch-package": "^8.0.0"
   },
   "overrides": {
     "glob-parent": "$glob-parent"

@@ -13,10 +13,11 @@ COPY ./custom/config.js $INSTALL_DIR/config.js
 COPY ./custom/themes $INSTALL_DIR/themes
 COPY ./content $INSTALL_DIR/content
 COPY ./assets $INSTALL_DIR/assets
+COPY ./custom/patches $INSTALL_DIR/patches
 
 # Install raneto and deps
 WORKDIR $INSTALL_DIR
-RUN npm ci
+RUN npm ci && npm run postinstall
 
 WORKDIR $INSTALL_DIR/themes/spark-playbook
 
