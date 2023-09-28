@@ -30,6 +30,7 @@ h6 {
 h1 {
   margin-bottom: 1.5rem;
   line-height: 1.142857143;
+  text-wrap: balance;
 }
 
 h2 { line-height: 1.166666667; }
@@ -41,7 +42,10 @@ h4 { line-height: 1.5; }
   margin: 30px 0;
 
   &__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    @include media-breakpoint-up(lg) {
+      font-size: 2.5rem;
+    }
   }
 
   p + h2 {
@@ -87,19 +91,6 @@ h4 { line-height: 1.5; }
     }
   }
 
-  code:not([class]) {
-    background-color: #272935;
-    color: #f8f8f2;
-    font-size: 16px;
-    margin: 0 5px;
-    padding: 4px 10px;
-    vertical-align: bottom;
-  }
-
-  code {
-    border-radius: 3px;
-  }
-
   & .page-meta {
     margin-top: 50px;
     font-size: 85%;
@@ -113,6 +104,14 @@ h4 { line-height: 1.5; }
         color: #428BCA;
         text-decoration: none;
       }
+    }
+  }
+
+  a {
+    border-bottom: 1px solid theme-color("secondary_variant_01");
+
+    &:active {
+      text-decoration: none;
     }
   }
 

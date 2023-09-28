@@ -42,17 +42,47 @@ $(() => {
     }
   });
 
+  function shoutCopied(el) {
+    var copyShout = document.createElement('div');
+    copyShout.classList.add('code-copy-shout');
+    copyShout.innerHTML = 'Copied!';
+    el.parentElement.appendChild(copyShout);
+    copyShout.classList.add('code-copy-shout--show');
+    setTimeout(() => {
+      copyShout.classList.remove('code-copy-shout--show');
+    }, 1000)
+    setTimeout(() => {
+      copyShout.remove();
+    }, 2000)
+  }
+
   // Syntax highlighting
-  const code = $("pre code").each((i, el) => {
-    hljs.highlightElement(el);
-    var button = document.createElement('div');
-    button.classList.add('hljs-copy-button');
-    el.parentElement.appendChild(button);
-    el.parentElement.classList.add('relative');
-    button.addEventListener('click', (e) => {
-      copy(el.textContent)
+  const pre = $("pre")
+  if (pre) {
+    pre.each((i, el) => {
+      el.classList.add('hljs-show')
+      const h = $(el).height();
+      if (h < 40) {
+        el.classList.add('hljs-oneline')
+      }
     })
-  });
+  }
+
+  const code = $("pre code")
+  if (code) {
+    code.each((i, el) => {
+      hljs.highlightElement(el);
+      var button = document.createElement('div');
+      button.classList.add('code-copy-button');
+      el.parentElement.appendChild(button);
+      el.parentElement.classList.add('relative');
+      button.addEventListener('click', (e) => {
+        copy(el.textContent);
+        shoutCopied(el);
+      });
+    });
+  }
+
 
   // Enable Highlighting and other
   // things when there is content
