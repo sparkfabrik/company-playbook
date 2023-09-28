@@ -83,7 +83,6 @@ $(() => {
     });
   }
 
-
   // Enable Highlighting and other
   // things when there is content
   if ($(".content").length) {
