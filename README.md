@@ -16,6 +16,14 @@ To contribute provide pull-requests towards `master` branch. The naming conventi
 A broad list of still-to-be-stubbed contents can be found on this Trello board (restricted access to the management board, so far): https://trello.com/b/uJMBxjZZ/sparkfabrik-playbook-and-documentation.  
 A new board will likely be spawned to act as a "parking lot" for changes to this playbook and to track the contents proposals and issues.
 
+### Hide pages from home and menu
+
+Using the metadata of the page, you have the option to hide it from the home menu or/and from the sidebar menu.
+
+You can do so using the following options:
+- `ShowOnMenu: false` will hide the page from the site menu
+- `ShowOnHome: false` will hide the page from the home menu
+
 ## Theme
 
 You can edit the `spark-playbook` theme in the `custom/themes/` to match the styles and settings of your new project, you won't need to change the machine name of the theme.
