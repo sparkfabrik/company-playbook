@@ -46,5 +46,5 @@ Anyway, during the [very first days of onboarding](/procedures/employee-onboardi
 
 </div>
 
-* [Click here to learn how to access your proficiency in the Core Skills.](/procedures/assessing-core-skills)
+* [Click here to learn how to assess your proficiency in the Core Skills.](/procedures/assessing-core-skills)
 * [Click here for a list of all the training material related to the Core Skills.](/resources/training-resources#core-skills-training-resources)
