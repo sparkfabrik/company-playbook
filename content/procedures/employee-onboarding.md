@@ -94,7 +94,7 @@ The Team Leader will also make sure that:
 
 ## Things to do within the first week
 
-* The buddy reviews the core-skills list with the colleague and a training plan is laid out on the topics that need upskilling
+* The buddy [assesses the core skills with the colleague](/procedures/assessing-core-skills) and a [training plan is laid out](/procedures/assessing-core-skills#plan-the-training-on-core-skills) on the topics that need upskilling
 * HR and the employee will schedule a 30 mins self-introduction to the whole company
 * HR will schedule a one-on-one meeting with the employee at the end of the second week, to check in on the [onboarding goals](/guides/an-effective-onboarding-structure)
 * The Team Leader will schedule a one-on-one meeting with the employee at the end of the first month, to exchange feedback and set the goals for the next couple months
