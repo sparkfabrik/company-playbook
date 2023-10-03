@@ -1,0 +1,76 @@
+diff --git a/node_modules/raneto/app/core/contents.js b/node_modules/raneto/app/core/contents.js
+index 52673cf..8bff5b4 100644
+--- a/node_modules/raneto/app/core/contents.js
++++ b/node_modules/raneto/app/core/contents.js
+@@ -19,6 +19,7 @@ async function handler(activePageSlug, config) {
+     slug: '.',
+     title: '',
+     show_on_home: true,
++    show_on_menu: true,
+     is_index: true,
+     active: baseSlug === '',
+     class: 'category-index',
+@@ -115,6 +116,9 @@ async function processFile(config, activePageSlug, contentDir, filePath) {
+         : config.show_on_home_default,
+       is_index: false,
+       is_directory: true,
++      show_on_menu: dirMetadata.show_on_menu
++        ? dirMetadata.show_on_menu === 'true'
++        : config.show_on_menu_default,
+       active: activePageSlug.startsWith(`/${fileSlug}`),
+       class: `category-${contentProcessors.cleanString(fileSlug)}`,
+       sort: dirMetadata.sort || sort,
+@@ -148,6 +152,9 @@ async function processFile(config, activePageSlug, contentDir, filePath) {
+           ? meta.show_on_home === 'true'
+           : config.show_on_home_default,
+         is_directory: false,
++        show_on_menu: meta.show_on_menu
++          ? meta.show_on_menu === 'true'
++          : config.show_on_menu_default,
+         active: activePageSlug.trim() === `/${slug}`,
+         sort: pageSort,
+       };
+diff --git a/node_modules/raneto/app/routes/wildcard.route.js b/node_modules/raneto/app/routes/wildcard.route.js
+index b876048..1998cd1 100644
+--- a/node_modules/raneto/app/routes/wildcard.route.js
++++ b/node_modules/raneto/app/routes/wildcard.route.js
+@@ -1,5 +1,6 @@
+ // Modules
+ var path = require('path');
++var _ = require('underscore');
+ var fs = require('fs-extra');
+ const { marked } = require('marked');
+ var toc = require('markdown-toc');
+@@ -98,7 +99,16 @@ function route_wildcard(config) {
+ 
+       var pageList = remove_image_content_directory(
+         config,
+-        await contentsHandler(slug, config)
++        _.chain(await contentsHandler(slug, config))
++          .filter((page) => page.show_on_menu)
++          .map((page) => {
++            page.files = _.filter(page.files, (file) => {
++              return file.show_on_menu
++            });
++            return page;
++          })
++          .value()
++
+       );
+ 
+       var loggedIn =
+diff --git a/node_modules/raneto/config/config.js b/node_modules/raneto/config/config.js
+index 8784ee6..63f7d8a 100644
+--- a/node_modules/raneto/config/config.js
++++ b/node_modules/raneto/config/config.js
+@@ -59,6 +59,10 @@ var config = {
+   // all categories or files that do not specify ShowOnHome meta property will be shown
+   show_on_home_default: true,
+ 
++  // Controls behavior of the menu if meta ShowOnMenu is not present. If set to true
++  // all categories or files that do not specify ShowOnMenu meta property will be shown
++  show_on_menu_default: true,
++
+   // Theme (see top of file)
+   theme_dir,
+   theme_name,
