@@ -4,7 +4,7 @@ This repository contains our [company playbook](https://playbook.sparkfabrik.com
 
 ## Contributions
 
-So far the project is meant to be internal, all company members can clone the project and set up a local environment issuing `make`.
+So far the project is meant to be internal, all company members can clone the project and set up a local environment issuing `make`.  
 After that, a local instance of the playbook will be available at `http://playbook.sparkfabrik.loc`.
 
 To contribute provide pull-requests towards `master` branch. The naming convention for the branches is:
@@ -13,7 +13,7 @@ To contribute provide pull-requests towards `master` branch. The naming conventi
 * `content/description-of-the-content` for content contributions of various nature, like typo corrections, adding a new procedure or policy, etc
 * `recipe/recipe-slug-title` for new recipes
 
-A broad list of still-to-be-stubbed contents can be found on this Trello board (restricted access to the management board, so far): https://trello.com/b/uJMBxjZZ/sparkfabrik-playbook-and-documentation.
+A broad list of still-to-be-stubbed contents can be found on this Trello board (restricted access to the management board, so far): https://trello.com/b/uJMBxjZZ/sparkfabrik-playbook-and-documentation.  
 A new board will likely be spawned to act as a "parking lot" for changes to this playbook and to track the contents proposals and issues.
 
 ### Hide pages from home and menu
@@ -51,7 +51,7 @@ To keep things simple, we'll use gitlab issues to keep track of all improvements
 
 ## What's inside
 
-Basically this is the "SparkFabrik handbook". It is meant to be made public and contains all the information and recipes (hey) an employee has to know either before apply or during their everyday work.
+Basically this is the "SparkFabrik handbook". It is meant to be made public and contains all the information and recipes (hey) an employee has to know either before apply or during their everyday work.  
 You will get the major benefit if you are either:
 
 * A newcomer, recent hire or in you onboarding phase, to learn a lot of information on how we do what we do, how we communicate and which principles drive our decisions
@@ -60,13 +60,13 @@ You will get the major benefit if you are either:
 
 ## What's NOT inside (and should never be)
 
-SparkFabrik playbook is a public document. Since the recipes and articles show how we actually do things internally and provide transparent information to the world, the content should be **triple-checked not to contain credentials, secrets, customer-related information (screenshots of real issues for example), etc**.
+SparkFabrik playbook is a public document. Since the recipes and articles show how we actually do things internally and provide transparent information to the world, the content should be **triple-checked not to contain credentials, secrets, customer-related information (screenshots of real issues for example), etc**.  
 
 It may surely contain links to internal resources as long as they are not publicly available.
 
 ## Why
 
-SparkFabrik grew a lot in its first year and it's now time to have a claer reference to either do stuff and take decisions.
+SparkFabrik grew a lot in its first year and it's now time to have a claer reference to either do stuff and take decisions.  
 This is a living document, not a carved-in-stone divine law. It will evolve as we evolve and try to represent our way of being.
 
 ## Ownership
