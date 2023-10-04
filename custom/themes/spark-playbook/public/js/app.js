@@ -46,7 +46,11 @@ $(() => {
     var copyShout = document.createElement('div');
     copyShout.classList.add('code-copy-shout');
     copyShout.innerHTML = 'Copied!';
-    el.parentElement.appendChild(copyShout);
+    const containers = el.parentElement.getElementsByClassName('code-copy-button-container')
+    if (containers.length < 0) {
+      return;
+    }
+    containers[0].appendChild(copyShout);
     copyShout.classList.add('code-copy-shout--show');
     setTimeout(() => {
       copyShout.classList.remove('code-copy-shout--show');
@@ -65,6 +69,9 @@ $(() => {
       if (h < 40) {
         el.classList.add('hljs-oneline')
       }
+      if (h < 40 && h > 30) {
+        el.classList.add('hljs-oneline__scrolling')
+      }
     })
   }
 
@@ -74,7 +81,10 @@ $(() => {
       hljs.highlightElement(el);
       var button = document.createElement('div');
       button.classList.add('code-copy-button');
-      el.parentElement.appendChild(button);
+      var buttonContainer = document.createElement('div');
+      buttonContainer.classList.add('code-copy-button-container');
+      buttonContainer.append(button);
+      el.parentElement.appendChild(buttonContainer);
       el.parentElement.classList.add('relative');
       button.addEventListener('click', (e) => {
         copy(el.textContent);

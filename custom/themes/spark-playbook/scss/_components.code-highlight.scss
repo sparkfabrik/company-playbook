@@ -2,14 +2,27 @@
 // The base code styling is provided by
 // the obsidian theme of highlightjs.
 
-@use 'sass:math';
+@use "sass:math";
 
-$spacing: 0.5rem;
+$spacing: .5rem;
 $uiCopyButtonSize: 26px;
 
 pre {
   font-size: 75%;
   opacity: 0;
+
+  // This will make the copy button fade out
+  // to allow the readed to see all the code in the box.
+  // The button will appear again
+  // if the user hovers the button to copy.
+  &:hover {
+    .code-copy-button-container {
+      opacity: .25;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
 
 code {
@@ -17,65 +30,83 @@ code {
 
   // Inline code blocks.
   &:not(:where(h2 *, h3 *, h4 *)):not([class]) {
-    background-color: #272935;
-    color: #f8f8f2;
-    font-size: 16px;
-    margin: 0;
     padding: 4px 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #f8f8f2;
     vertical-align: bottom;
+    background-color: #272935;
   }
 
   &:where(h2 *, h3 *, h4 *) {
-    font-size: 100%;
     font-family: inherit;
+    font-size: 100%;
     color: inherit;
   }
+
 }
 
 // Additional styles applied
 // when the code-block is only one line.
 .hljs-oneline {
-  height: 40px;
+  min-height: 40px;
+
   code {
     height: 100%;
   }
-  .code-copy-button,
-  .code-copy-shout {
-    top: calc((100% - $uiCopyButtonSize) / 2);
+  .code-copy-button-container:not(.hljs-oneline__scrolling *) {
+    padding-top: calc((38px - $uiCopyButtonSize) / 2);
+  }
+
+  &__scrolling {
+    min-height: 60px;
+
+    code {
+      height: 60px;
+    }
   }
 }
 
 // Ensure a smoother transition while the
 // highlight has not been applied yet.
 .hljs-show {
-  transition: opacity 0.5s linear;
-  opacity: 1;
   display: block;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+
+.code-copy-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  padding: $spacing $spacing 0 0;
+  transition: .25s linear opacity;
 }
 
 .code-copy-button,
 .code-copy-shout {
-  position: absolute;
-  top: $spacing;
+  height: $uiCopyButtonSize;
+  font-size: .5rem;
+  line-height: $uiCopyButtonSize;
   color: #fff;
-  border-radius: 0.25rem;
+  background-color: #89a69e;
   border: 0;
   border: 1px solid #ffffff25;
-  background-color: #9c9c9c;
-  height: $uiCopyButtonSize;
-  line-height: $uiCopyButtonSize;
-  font-size: 0.5rem;
+  border-radius: .25rem;
+  box-shadow: 0 0 7px 1px #282b2e;
 }
 
 .code-copy-button {
-  right: $spacing;
   width: $uiCopyButtonSize;
   color: #fff;
-  border-radius: 0.25rem;
+  cursor: pointer;
   background-image: url('data:image/svg+xml;utf-8,<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 5C5.73478 5 5.48043 5.10536 5.29289 5.29289C5.10536 5.48043 5 5.73478 5 6V20C5 20.2652 5.10536 20.5196 5.29289 20.7071C5.48043 20.8946 5.73478 21 6 21H18C18.2652 21 18.5196 20.8946 18.7071 20.7071C18.8946 20.5196 19 20.2652 19 20V6C19 5.73478 18.8946 5.48043 18.7071 5.29289C18.5196 5.10536 18.2652 5 18 5H16C15.4477 5 15 4.55228 15 4C15 3.44772 15.4477 3 16 3H18C18.7956 3 19.5587 3.31607 20.1213 3.87868C20.6839 4.44129 21 5.20435 21 6V20C21 20.7957 20.6839 21.5587 20.1213 22.1213C19.5587 22.6839 18.7957 23 18 23H6C5.20435 23 4.44129 22.6839 3.87868 22.1213C3.31607 21.5587 3 20.7957 3 20V6C3 5.20435 3.31607 4.44129 3.87868 3.87868C4.44129 3.31607 5.20435 3 6 3H8C8.55228 3 9 3.44772 9 4C9 4.55228 8.55228 5 8 5H6Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 3C7 1.89543 7.89543 1 9 1H15C16.1046 1 17 1.89543 17 3V5C17 6.10457 16.1046 7 15 7H9C7.89543 7 7 6.10457 7 5V3ZM15 3H9V5H15V3Z" fill="white"/></svg>');
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
+  border-radius: .25rem;
 
   &:hover {
     border-color: #ffffff54;
@@ -87,10 +118,10 @@ code {
 }
 
 .code-copy-shout {
+  right: $uiCopyButtonSize * 2;
   padding: 0 1rem;
   opacity: 0;
-  transition: opacity 0.5s;
-  right: $uiCopyButtonSize * 2;
+  transition: opacity .5s;
 
   &--show {
     opacity: 1;
