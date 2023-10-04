@@ -1,0 +1,18 @@
+.score ul {
+  margin-bottom: 2rem !important;
+  list-style: none;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.score li {
+  width: 100%;
+  font-size: .8rem;
+}
+
+.score input[type="checkbox"] {
+  margin-right: .5rem;
+  position: relative;
+  width: .8rem;
+  height: .8rem;
+}

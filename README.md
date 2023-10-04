@@ -4,7 +4,7 @@ This repository contains our [company playbook](https://playbook.sparkfabrik.com
 
 ## Contributions
 
-So far the project is meant to be internal, all company members can clone the project and set up a local environment issuing `make`. 
+So far the project is meant to be internal, all company members can clone the project and set up a local environment issuing `make`.  
 After that, a local instance of the playbook will be available at `http://playbook.sparkfabrik.loc`.
 
 To contribute provide pull-requests towards `master` branch. The naming convention for the branches is:
@@ -25,15 +25,25 @@ You can do so using the following options:
 - `ShowOnHome: false` will hide the page from the home menu
 
 ## Theme
+### Public assets placement
 
-You can edit the `spark-playbook` theme in the `custom/themes/` to match the styles and settings of your new project, you won't need to change the machine name of the theme.
+**Raneto** will search for public files to be included in the pages starting from the active theme `public` folder, and then proceding to the folder configured as `public_dir` in the `config.js` file, currently the `/assets` folder of the project.
 
-* `make theme-install-dep` will install all the dependencies in the theme folder for you.
+For this reason, this is how you should place anything you need to link inside the pages:
+- **content related assets**  should be placed in `/assets`. Images, documents, attachments referenced in the markdown files should go here.
+- **frontend related assets** should be placed in `public` inside the `spark-playbook` theme folder. Fonts, compiled css and js, any external libraries, favicon, etc should be placed here, as long as the images that are referenced in the css files.
+
+## Theme development
+
+You can edit the `spark-playbook` theme in the `custom/themes/` folder.
+
+Run `make theme-install-dep` to install all the dependencies needed to work on the theme.
+
+* `make theme-watch` will trigger the watcher to allow you to work on the SCSS and JS files in the theme. At the end of watch lint task will be triggered.
 * `make theme-build` will build the CSS & JS compiled in the theme folder for you.
-* `make theme-watch` will trigger the watcher to allow you to work on the SCSS files in the theme. At the end of watch lint task will be triggered.
 * `make theme-lint` / `make theme-lint-fix` will trigger the lint to allow you to check if SCSS are correctly written and auto fix them.
 
-The PHP docker image will take care of the CSS & JS compiling for CI, Stage and Production, so you don't need to commit the compiled files.
+> Please note that the docker image build will take care of the CSS & JS compiling for CI, Stage and Production, so you don't need to commit the compiled files. Check the `DockerFile` of the project for more details on this.
 
 ## Signaling issues or improvement
 

@@ -1,7 +1,2 @@
 **/*.min.css
-/fonts/**
-/dist/**
-/vendor/**
-/_gh_pages/
-/js/coverage/
-/scss/*.typography.scss
+**/scss/*.typography.scss

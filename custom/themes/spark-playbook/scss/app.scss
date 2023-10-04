@@ -31,11 +31,18 @@
 @import "layout.navigation";
 @import "layout.search";
 @import "layout.home";
+@import "layout.content";
+@import "layout.score";
+
+// PRINT
+@import "layout.print";
 
 // SCSS CUSTOM - Components
 @import "components.buttons";
+@import "components.code-highlight";
 @import "components.icons";
 @import "components.search-bar";
 
 // SCSS CUSTOM - Utilities
 @import "utilities.position";
+

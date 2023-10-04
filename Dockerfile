@@ -19,8 +19,11 @@ COPY ./custom/patches $INSTALL_DIR/patches
 WORKDIR $INSTALL_DIR
 RUN npm ci && npm run postinstall
 
+# Move to the theme folder
+# to build the public/dist folder.
+# Raneto will search for public assets
+# here first.
 WORKDIR $INSTALL_DIR/themes/spark-playbook
-
 RUN \
   npm ci && \
   npm run build

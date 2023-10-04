@@ -30,6 +30,7 @@ h6 {
 h1 {
   margin-bottom: 1.5rem;
   line-height: 1.142857143;
+  text-wrap: balance;
 }
 
 h2 { line-height: 1.166666667; }
@@ -40,8 +41,23 @@ h4 { line-height: 1.5; }
 .content  {
   margin: 30px 0;
 
-  & h2 {
-    margin-top: 3rem;
+  &__title {
+    font-size: 2rem;
+    @include media-breakpoint-up(lg) {
+      font-size: 2.5rem;
+    }
+  }
+
+  p + h2 {
+    margin-top: $content-element-spacing * 2;
+  }
+
+  p + h3 {
+    margin-top: $content-element-spacing * 1.5;
+  }
+
+  p + h4 {
+    margin-top: $content-element-spacing * 1.25;
   }
 
   & img {
@@ -69,24 +85,10 @@ h4 { line-height: 1.5; }
         position: absolute;
       }
     }
-  }
 
-  & code {
-    color: #555;
-    background-color: #FFFDDC;
-  }
-
-  & pre {
-    background: #FFFDDC;
-    border: 0;
-
-    & code {
-      color: #657B83;
+    ul {
+      padding-left: 1rem;
     }
-  }
-
-  & .hljs {
-    background: none;
   }
 
   & .page-meta {
@@ -105,12 +107,24 @@ h4 { line-height: 1.5; }
     }
   }
 
-}
+  a {
+    border-bottom: 1px solid theme-color("secondary_variant_01");
 
-.quote {
-  margin: auto;
-  border-left: 0.25rem solid theme-color("secondary");
-  padding: 0.5rem 1.5rem;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
+    &:active {
+      text-decoration: none;
+    }
+  }
+
+  blockquote,
+  .quote {
+    margin: auto 0 $content-element-spacing;
+    border-left: 0.5rem solid theme-color("secondary");
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
