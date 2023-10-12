@@ -55,6 +55,10 @@ var config = {
   // all categories or files that do not specify ShowOnMenu meta property will be shown
   show_on_menu_default: true,
 
+  // When set to true, an ID is generated for all the H level elements
+  // to be used as anchors.
+  headers_id: true,
+
   // Theme (see top of file)
   theme_dir,
   theme_name,

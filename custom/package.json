@@ -9,7 +9,8 @@
     "check": "markdown-link-validator -q -e -o -c 403 --ignorePatternsFrom ./content/.mlvignore ./content",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "cd .. && husky install custom/.husky",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "generate-patch": "patch-package raneto"
   },
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "dependencies": {
