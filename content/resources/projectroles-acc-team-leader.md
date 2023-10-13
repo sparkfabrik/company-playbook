@@ -37,3 +37,7 @@ They ensure that the technical project documentation is kept complete and releva
 * Technical documentation
 * Reporting of team and business events operational decisions, including calls with customers and minutes of agreed actions
 * Clear, updated and representative project board of the status of the activities
+
+## Interactions
+
+Please, visit the [Interactions between project roles](/organization/operations#interactions-between-project-roles) section.
