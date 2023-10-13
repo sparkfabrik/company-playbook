@@ -36,3 +36,7 @@ The Project Manager is responsible for managing progress, budgets, and other key
 * Monthly reporting (internally and externally)
 * Service Level Agreement (SLA) documentation
 * Formalization of substantial deliveries
+
+## Interactions
+
+Please, visit the [Interactions between project roles](/organization/operations#interactions-between-project-roles) section.
