@@ -30,8 +30,21 @@ index 52673cf..8bff5b4 100644
          active: activePageSlug.trim() === `/${slug}`,
          sort: pageSort,
        };
+diff --git a/node_modules/raneto/app/core/page.js b/node_modules/raneto/app/core/page.js
+index 6bcc421..ca00553 100644
+--- a/node_modules/raneto/app/core/page.js
++++ b/node_modules/raneto/app/core/page.js
+@@ -26,7 +26,7 @@ async function handler(filePath, config) {
+     // Render Markdown
+     marked.use({
+       mangle: false,
+-      headerIds: false,
++      headerIds: config.headers_id ?? true,
+     });
+     const body = marked(content);
+     const title = meta.title ? meta.title : contentProcessors.slugToTitle(slug);
 diff --git a/node_modules/raneto/app/routes/wildcard.route.js b/node_modules/raneto/app/routes/wildcard.route.js
-index b876048..1998cd1 100644
+index b876048..256463d 100644
 --- a/node_modules/raneto/app/routes/wildcard.route.js
 +++ b/node_modules/raneto/app/routes/wildcard.route.js
 @@ -1,5 +1,6 @@
@@ -41,7 +54,15 @@ index b876048..1998cd1 100644
  var fs = require('fs-extra');
  const { marked } = require('marked');
  var toc = require('markdown-toc');
-@@ -98,7 +99,16 @@ function route_wildcard(config) {
+@@ -91,14 +92,23 @@ function route_wildcard(config) {
+         // Render Markdown
+         marked.use({
+           mangle: false,
+-          headerIds: false,
++          headerIds: config.headers_id ?? true,
+         });
+         content = marked(content);
+       }
  
        var pageList = remove_image_content_directory(
          config,
