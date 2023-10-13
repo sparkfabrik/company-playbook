@@ -62,7 +62,7 @@ We recognize three levels of professional skills, each with its salary bracket, 
 * **Practitioner Cloud Engineer**: people at this level are skilled at and proficient with a bunch of different cloud technologies and have absorbed our methodology. They can mentor newcomers as well as developers and are autonomous in their work.
 * **Architect Cloud Engineer**: experienced professionals with diverse exposure across various cloud platforms and technologies. They can take on complex projects independently, engaging with the client and coordinating the work of their colleagues.
 
-Learn more about [each level's accountabilities](/organization/accountabilities) and how we evaluate people's seniority level.
+Learn more about [each level's accountabilities](/organization/accountabilities#seniority-related-accountabilities) and how we evaluate people's seniority level.
 
 #### Digital Strategy Area
 
@@ -80,3 +80,36 @@ To better understand the relation between seniority level and project roles in t
 * **Architect**: Architects describe the best possible solution to a framed problem. They are great decision-makers, understand the long-term implications of technical choices, know how to quickly probe, understand and adapt and always grasp the big picture.
 * **Team Leader**: Team Leaders excel at enabling teams, coordinating efforts, and ensuring project milestones are met. Focused on the outcomes, they drive, motivate, and keep the team committed to the project's success. They ask hard questions, suggests alternative paths, and apply a good deal of common sense to risk management.
 * **Project Manager**: Project Managers make things work. They coach, measure, look ahead, warn, and ultimately support people to give their best, removing obstacles, and improving their processes and procedures. In SparkFabrik people are never managed - work is. So Project Managers govern but never rule.
+
+Learn more about [each role's accountabilities](/organization/accountabilities#project-roles-accountabilities) and how we evaluate their outcome.
+
+#### Interactions between project roles
+
+To prevent overlap in problem-solving and avoid the bystander syndrome (stuff that can wreck projects and interpersonal relationships alike) we've provided a RACI <sup><a href="#fn1">1</a></sup> table below that clarifies roles and responsibilities throughout the project's various phases.
+
+In applying this clear information to your daily work, always keep in mind that effective teamwork and communication are essential for the success of our initiatives.
+
+
+| Activity / Role                                     | Team Leader | PM | Solution Architect | Analyst | CTO | COO |
+|-----------------------------------------------------|:-----------:|:--:|:------------------:|:-------:|:---:|:---:|
+| Pre-sales estimates                                 |      C      |  A |          R         |    R    |  C  |  I  |
+| Initial analysis                                    |      C      |  I |          C         |   AR    |  I  |     |
+| Epic/Milestone Mapping and Project plan             |      R      |  A |          C         |    R    |     |  C  |
+| Functional requirements and backlog population      |      R      |  C |          C         |    A    |     |     |
+| Definition of the work team                         |      I      |  R |          C         |    I    |  C  |  A  |
+| Week/sprint planning                                |      A      |  C |          R         |    C    |     |     |
+| Coordination of team activities                     |      A      |  C |          R         |    C    |     |     |
+| Drafting technical documentation                    |      A      |    |          R         |    C    |  I  |     |
+| Retrospectives and corrective actions               |      A      |  C |          R         |    R    |  I  |  I  |
+| Iteration events (plan, review, etc)                |      A      |  C |          R         |    R    |     |     |
+| Customer communications                             |      R      |  A |          C         |    R    |  I  |  I  |
+| Monitoring and evaluating progress                  |      R      |  A |          C         |    C    |     |  I  |
+| Coordination of external dependencies (other teams) |      C      |  R |          I         |    I    |  C  |  A  |
+| Definition of the solution                          |      C      |  I |        AR          |    C    |  C  |     |
+| Compliance with best practices                      |      R      |    |          A         |         |  C  |     |
+| Smoke-Testing e QA                                  |      R      |  I |          R         |    A    |     |     |
+| Technical rebuilding                                |      I      |  R |          A         |         |     |     |
+
+---
+
+<small><a name="fn1">1</a>: For sake of clarity, read the table as follows: **Responsible**: who's practically performing the task or decision. **Accountable**: the _single_ person held responsible for the outcome (you can call them "owner"). **Consulted**: People that MUST be consulted for information or validation before completing the task or decision. **Informed**: People that should be kept in the loop about that task or decision.</small>
