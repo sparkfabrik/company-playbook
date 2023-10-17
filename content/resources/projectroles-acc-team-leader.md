@@ -40,4 +40,4 @@ They ensure that the technical project documentation is kept complete and releva
 
 ## Interactions
 
-Please, visit the [Interactions between project roles](/organization/operations#interactions-between-project-roles) section.
+Please, visit the [Interactions between project roles](/organization/operations#interactions-between-development-project-roles) section.

@@ -76,6 +76,10 @@ Being appointed a project role means **you earned the company's and teammates' t
 These roles are not mutually exclusive, even if covering all at the same time is usually unfeasible, and not all projects need all of these roles to be clearly appointed.  
 To better understand the relation between seniority level and project roles in terms of professional growth, visit the section on [career advancement](/working-at-sparkfabrik/career-advancement).
 
+#### Development area
+
+In development projects, we recognize the following project roles.
+
 * **Analyst**: Analysts are great when it comes to mapping a domain, fathoming complexity, and expressing it in a clear, rational, understandable form. Analysts may not always have a solution at hand but for sure they know when a need is fulfilled or a problem is solved. If need be, analysts' skills make for great product owners.
 * **Architect**: Architects describe the best possible solution to a framed problem. They are great decision-makers, understand the long-term implications of technical choices, know how to quickly probe, understand and adapt and always grasp the big picture.
 * **Team Leader**: Team Leaders excel at enabling teams, coordinating efforts, and ensuring project milestones are met. Focused on the outcomes, they drive, motivate, and keep the team committed to the project's success. They ask hard questions, suggests alternative paths, and apply a good deal of common sense to risk management.
@@ -83,7 +87,7 @@ To better understand the relation between seniority level and project roles in t
 
 Learn more about [each role's accountabilities](/organization/accountabilities#project-roles-accountabilities) and how we evaluate their outcome.
 
-#### Interactions between project roles
+#### Interactions between development project roles
 
 To prevent overlap in problem-solving and avoid the bystander syndrome (stuff that can wreck projects and interpersonal relationships alike) we've provided a RACI <sup><a href="#fn1">1</a></sup> table below that clarifies roles and responsibilities throughout the project's various phases.
 

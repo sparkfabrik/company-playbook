@@ -41,5 +41,5 @@ They must comprehensively analyze and manage client requests throughout the proj
 
 ## Interactions
 
-Please, visit the [Interactions between project roles](/organization/operations#interactions-between-project-roles) section.
+Please, visit the [Interactions between project roles](/organization/operations#interactions-between-development-project-roles) section.
 

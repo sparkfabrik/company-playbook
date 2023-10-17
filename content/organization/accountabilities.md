@@ -62,9 +62,21 @@ Project-related accountabilities are described in terms of their ownership, prac
 
 The accent is on practices because these roles are ofter taken up by developers, engineers, designers and in general by colleagues with a technical expertise. Also, this model does not conflict with the shared and seniority-related accountabilites listed above.
 
+Different models are available based on the delivery area.
+
+### Development area
+
 * [Analyst](/resources/projectroles-acc-analyst)
 * [Architect](/resources/projectroles-acc-architect)
 * [Team Leader](/resources/projectroles-acc-team-leader)
 * [Project Manager](/resources/projectroles-acc-project-manager)
 
 Learn [how these roles collaborate and interact](/organization/operations#interactions-between-project-roles).
+
+### Platform area
+
+`TO BE DONE`
+
+### Digital Strategy area
+
+`TO BE DONE`

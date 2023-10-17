@@ -34,14 +34,12 @@ Small projects with limited technical complexity may not require a dedicated Sol
 * Conducts (delegating at their discretion) technical reviews of work (code-reviews, etc)
 * Ensures the establishment of DevOps practices
 
-## Interactions
-
-Please, visit the [Interactions between project roles](/organization/operations#interactions-between-project-roles) section.
-
-
-
 ## Concrete outputs
 
 * Technical documentation for project architecture and ADRs (Architecture Decision Records)
 * Initial solution stub with the team
 * Technical implementation
+
+## Interactions
+
+Please, visit the [Interactions between project roles](/organization/operations#interactions-between-development-project-roles) section.
