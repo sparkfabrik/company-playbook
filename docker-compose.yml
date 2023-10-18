@@ -9,5 +9,6 @@ services:
       - ./content:/opt/raneto/content
       - ./custom/config.js:/opt/raneto/config.js
       - ./custom/themes:/opt/raneto/themes
+      - ./custom/node_modules:/opt/raneto/node_modules
     labels:
       com.dnsdock.alias: playbook.sparkfabrik.loc

@@ -44,7 +44,7 @@ index 6bcc421..ca00553 100644
      const body = marked(content);
      const title = meta.title ? meta.title : contentProcessors.slugToTitle(slug);
 diff --git a/node_modules/raneto/app/routes/wildcard.route.js b/node_modules/raneto/app/routes/wildcard.route.js
-index b876048..256463d 100644
+index b876048..76b69a1 100644
 --- a/node_modules/raneto/app/routes/wildcard.route.js
 +++ b/node_modules/raneto/app/routes/wildcard.route.js
 @@ -1,5 +1,6 @@
@@ -54,7 +54,24 @@ index b876048..256463d 100644
  var fs = require('fs-extra');
  const { marked } = require('marked');
  var toc = require('markdown-toc');
-@@ -91,14 +92,23 @@ function route_wildcard(config) {
+@@ -87,18 +88,39 @@ function route_wildcard(config) {
+             content = `#### Table of Contents\n${tableOfContents.content}\n\n${content}`;
+           }
+         }
+-
++        // Add simple support for mermaid
++        // For this to work you will need to add mermaid
++        // to your pages.
++        const renderer = new marked.Renderer();
++        renderer.code = function (code, language) {
++          console.log(language);
++          if (language === 'mermaid') {
++            return '<pre class="mermaid">' + code + '</pre><pre class="mermaid-source hide"><code>' + code + '</code></pre>';
++          } else {
++            return '<pre><code>' + code + '</code></pre>';
++          }
++        };
++        marked.use({renderer});
          // Render Markdown
          marked.use({
            mangle: false,
