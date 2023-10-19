@@ -60,7 +60,7 @@ As you gain [seniority](/organization/operations#seniority-levels) and possibly 
 
 Project-related accountabilities are described in terms of their ownership, practical tasks and expected observable outputs.
 
-The accent is on practices because these roles are ofter taken up by developers, engineers, designers and in general by colleagues with a technical expertise. Also, this model does not conflict with the shared and seniority-related accountabilites listed above.
+The accent is on practices because these roles are often taken up by developers, engineers, designers and in general by colleagues with a technical expertise. Also, this model does not conflict with the shared and seniority-related accountabilites listed above.
 
 Different models are available based on the delivery area.
 
@@ -71,7 +71,9 @@ Different models are available based on the delivery area.
 * [Team Leader](/resources/projectroles-acc-team-leader)
 * [Project Manager](/resources/projectroles-acc-project-manager)
 
-Learn [how these roles collaborate and interact](/organization/operations#interactions-between-project-roles).
+Whomever works on a project without being explicitely appointed any such roles, has the [Team Member](/resources/projectroles-acc-team-member) accountabilities.
+
+Learn [how these roles collaborate and interact](/organization/operations#interactions-between-development-project-roles).
 
 ### Platform area
 

@@ -39,7 +39,7 @@ Each of these branches contains one or more teams focused on specific projects o
 SparkFabrik has an almost flat organization, arranged around clear roles, each with its ownership and responsibilities.  
 Also, people grow in seniority and this grants them more authority on specific issues or in specific situations.
 
-Every [operational area](/organization/operations) has its seniority levels, while project roles are common to every area, even if some may not be relevant or applicable.
+Every [operational area](/organization/operations) has its seniority levels and project roles.
 
 ### Seniority Levels
 
@@ -70,10 +70,10 @@ Learn more about [each level's accountabilities](/organization/accountabilities#
 
 ### Project Roles
 
-Depending on seniority, attitude, achievement, and personal inclinations, SparkFabrik may propose people take over one or more of the following roles on a project. Not all roles are accessible at all seniority levels and more junior employees should not expect to be assigned one.  
+Depending on seniority, attitude, achievements, and personal inclinations, SparkFabrik may propose people take over one or more of the following roles on a project. Not all roles are accessible at all seniority levels and more junior employees should not expect to be assigned one.  
 Being appointed a project role means **you earned the company's and teammates' trust**, you proved your **reliability** and you display a strong **customer orientation**.
 
-These roles are not mutually exclusive, even if covering all at the same time is usually unfeasible, and not all projects need all of these roles to be clearly appointed.  
+These roles are not mutually exclusive - even if covering all at the same time is usually unfeasible - and not all projects need all of these roles to be clearly appointed.  
 To better understand the relation between seniority level and project roles in terms of professional growth, visit the section on [career advancement](/working-at-sparkfabrik/career-advancement).
 
 #### Development area
@@ -114,6 +114,14 @@ In applying this clear information to your daily work, always keep in mind that 
 | Smoke-Testing e QA                                  |      R      |  I |          R         |    A    |     |     |
 | Technical rebuilding                                |      I      |  R |          A         |         |     |     |
 
+#### Platform area
+
+`TO BE DONE`
+
+#### Digital Strategy area
+
+`TO BE DONE`
+
 ---
 
-<small><a name="fn1">1</a>: For sake of clarity, read the table as follows: **Responsible**: who's practically performing the task or decision. **Accountable**: the _single_ person held responsible for the outcome (you can call them "owner"). **Consulted**: People that MUST be consulted for information or validation before completing the task or decision. **Informed**: People that should be kept in the loop about that task or decision.</small>
+<small><a name="fn1">1</a>: For sake of clarity, read the table as follows: **Responsible**: who's practically performing the task or decision. **Accountable**: the _single_ person held responsible for the outcome (you can call them "owner"). **Consulted**: People that MUST be consulted for information or validation before completing the task or decision. **Informed**: People that must be kept in the loop about that task or decision.</small>

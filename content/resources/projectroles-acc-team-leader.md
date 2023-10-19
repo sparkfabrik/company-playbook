@@ -1,5 +1,5 @@
 /*
-Title: Ownsership - Team Leader
+Title: Ownership - Team Leader
 Description: Ownerships of a Team Leader on SparkFabrik's projects
 Sort: 220
 */
@@ -8,7 +8,7 @@ Team Leaders excel at enabling teams, coordinating efforts, and ensuring project
 
 They are responsible for the overall coordination of the teams, for directing the planning of single iterations so that they meet project milestones, for adhering to estimates, as well as for team motivation and morale, especially when they tend toward isolation.
 
-They define the recurring events in the production flow (planning, review, retrospectives) in agreement with the [Project Managers](/resources/projectroles-acc-project-manager) and are accountable for implementing corrective actions identified during the retrospective phase.
+They define the recurring events in the production flow (planning, review, retrospectives) in agreement with the [Project Managers](/resources/projectroles-acc-project-manager) and the Clients, when relevant, and are accountable for implementing corrective actions identified during the retrospectives.
 
 They ensure that the technical project documentation is kept complete and relevant, even taking direct action in its preparation when required.
 
@@ -23,12 +23,12 @@ They ensure that the technical project documentation is kept complete and releva
 
 ## Practical tasks
 
-* Makes themselves available to Solution Architects and the Team during estimation processes.
-* Collaborates with the Project Manager in drafting the project plan (epics and milestones).
+* Makes themselves available to [Solution Architects](/resources/projectroles-acc-architect) and the Team during estimation processes.
+* Collaborates with the [Project Manager](/resources/projectroles-acc-project-manager) in drafting the project plan (epics and milestones).
 * Leads detailed planning during iterations.
-* Supports the Project Manager in meeting deadlines and delivering the content defined during the planning phase.
+* Supports the [Project Manager](/resources/projectroles-acc-project-manager) in meeting deadlines and delivering the content defined during the planning phase.
 * Supports presale estimates.
-* Collaborates with the Analyst in drafting functional requirements and refining the project backlog.
+* Collaborates with the [Analysts](/resources/projectroles-acc-analyst) in drafting functional requirements and refining the project backlog.
 * Oversees those customer communications that are necessary for operations.
 
 ## Concrete outputs
