@@ -44,16 +44,16 @@ $(() => {
 
   function shoutCopied(el) {
     var copyShout = document.createElement('div');
-    copyShout.classList.add('code-copy-shout', 'code-ui');
+    copyShout.classList.add('code-ui--shout', 'code-ui');
     copyShout.innerHTML = 'Copied!';
     const containers = el.parentElement.getElementsByClassName('code-copy-button-container')
     if (containers.length < 0) {
       return;
     }
     containers[0].appendChild(copyShout);
-    copyShout.classList.add('code-copy-shout--show');
+    copyShout.classList.add('code-ui--shout__show');
     setTimeout(() => {
-      copyShout.classList.remove('code-copy-shout--show');
+      copyShout.classList.remove('code-ui--shout__show');
     }, 1000)
     setTimeout(() => {
       copyShout.remove();
@@ -70,6 +70,12 @@ $(() => {
       diagram.classList.toggle('hide');
       source.classList.toggle('hide');
     }
+  }
+
+  function createButton(classes) {
+    const button = document.createElement('div');
+    button.classList.add(...classes);
+    return button;
   }
 
   // Syntax highlighting
@@ -91,8 +97,7 @@ $(() => {
   if (code) {
     code.each((i, el) => {
       hljs.highlightElement(el);
-      var button = document.createElement('div');
-      button.classList.add('code-copy-button', 'code-ui');
+      var button = createButton(['code-ui', 'code-ui--button', 'code-ui--button--copy']);
       var buttonContainer = document.createElement('div');
       buttonContainer.classList.add('code-copy-button-container');
       buttonContainer.append(button);
@@ -107,9 +112,7 @@ $(() => {
     const mermaid = $("pre.mermaid");
     if (mermaid) {
       mermaid.each((i, diagram) => {
-        var button = document.createElement('div');
-        button.setAttribute('title', 'View source');
-        button.classList.add('mermaid-switch-button', 'code-ui');
+        var button = createButton(['code-ui', 'code-ui--button', 'code-ui--button--switch']);
         var buttonContainer = document.createElement('div');
         buttonContainer.classList.add('mermaid-switch-button-container');
         buttonContainer.append(button);
