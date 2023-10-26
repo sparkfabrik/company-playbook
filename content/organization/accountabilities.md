@@ -55,3 +55,30 @@ As you gain [seniority](/organization/operations#seniority-levels) and possibly 
 ### Digital Strategy area
 
 `TO BE DONE`
+
+## Project-roles accountabilities
+
+Project-related accountabilities are described in terms of their ownership, practical tasks and expected observable outputs.
+
+The accent is on practices because these roles are often taken up by developers, engineers, designers and in general by colleagues with a technical expertise. Also, this model does not conflict with the shared and seniority-related accountabilites listed above.
+
+Different models are available based on the delivery area.
+
+### Development area
+
+* [Analyst](/resources/projectroles-acc-analyst)
+* [Architect](/resources/projectroles-acc-architect)
+* [Team Leader](/resources/projectroles-acc-team-leader)
+* [Project Manager](/resources/projectroles-acc-project-manager)
+
+Whomever works on a project without being explicitely appointed any such roles, has the [Team Member](/resources/projectroles-acc-team-member) accountabilities.
+
+Learn [how these roles collaborate and interact](/organization/operations#interactions-between-development-project-roles).
+
+### Platform area
+
+`TO BE DONE`
+
+### Digital Strategy area
+
+`TO BE DONE`
