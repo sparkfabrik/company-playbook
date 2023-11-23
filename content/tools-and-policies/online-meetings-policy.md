@@ -12,10 +12,11 @@ For this reason, our employees and team members **must** adopt these recommendat
 
 The list of approved online meeting tools is in order of preference:
 
-* Google Meet 
-* Zoom
+* Slack Huddles
 
-**Google Meet** is, at the time of writing, our standard solution fully integrated with the other Gsuite products we use, and it is the right solution for small-sized meetings (up to 10 participants), like standups, quick meetings with the customers, one to one and so on, but it comes also with some limitations compared to other more advanced platforms like **Zoom**, which offers better quality and it's well suited for running medium/big sized events, like webinars, remote hackathons, company meetings and such.
+**Google Meet** is, at the time of writing, our standard solution fully integrated with the other Gsuite products we use, and it is the right solution for small-sized meetings (up to 10 participants), like standups, quick meetings with the customers, one on one and so on, but it comes also with some limitations compared to other more advanced platforms like **Zoom**, which offers better quality and it's well suited for running medium/big sized events, like webinars, remote hackathons, company meetings and such.
+
+**Huddles** are the Slack audio/video meetings that we can use *only internally* for quick calls with other employees and team members, given that they already have a configured Slack account.
 
 ## General recommendations for security and privacy
 
