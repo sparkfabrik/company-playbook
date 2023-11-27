@@ -5,6 +5,22 @@ Sort: 20
 
 SparkFabrik encourages team members to attend relevant conferences for personal development and to promote us around the industry.
 
+## What is a relevant conference?
+
+A relevant conference is one that is related to your role at SparkFabrik. For example, if you are a developer, a tech conference about development or cloud may be relevant. If you are a project manager, a UI/UX designer or a business developer, a conference about project management, design or business may be relevant.
+
+If you are unsure if a conference is relevant, please ask your team / lead.
+
+SparkFabrik sometimes organizes conferences and events, online or in person: for those events, please fill out the form as for any other conference.
+
+## Who must file an attendance request?
+
+Everyone who wants to attend **or speak at** a conference must file an attendance request.
+
+Speakers are encouraged to file an attendance request as soon as they are accepted as speakers, even if the conference is far in the future. This will help us to plan ahead and to avoid last minute requests.
+
+Usually speakers have special benefits from the conference organizers, like free tickets, free accommodation, etc. If you are a speaker, please let us know in the request form.
+
 ## How to file an attendance request
 
 If you wish to attend a conference, you must file your case using [this form](https://docs.google.com/a/sparkfabrik.com/forms/d/e/1FAIpQLSeuDeQWDNWY6NEuznUBGfx6EtZTUCwwjpzH3qip-dfZvDXxSw/viewform).
@@ -15,6 +31,8 @@ To praise your contribution and good citizenship, we will give you *extra credit
 * Blog posts published on [Tech @ SparkFabrik](http://tech.sparkfabrik.com)
 * Organization of and presence at internal workshops/training sessions/hackathons
 * Your disposition towards attending the conference as a speaker for SparkFabrik
+
+Before filling out the form, you must with your team / lead if your participation does not negatively impact the teamwork. Also, please check with the Mktg/DevRel people if there are already plans to attend the conference.
 
 ## What happens then?
 
