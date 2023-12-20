@@ -10,7 +10,7 @@ The operational level is separated into three distinct areas:
 ### Platform
 
 The employees in this area are responsible for implementing, maintaining, and evolving cloud infrastructures and development platforms, for both the company and external customers.
-They also also work as an internal service team, and deliver expert consulting services to those customers who want to implement in-house DevOps and cloud-native practices.
+They also work as an internal service team, and deliver expert consulting services to those customers who want to implement in-house DevOps and cloud-native practices.
 
 The Platform area also works to bring innovation at all operational levels, suggesting the creation and adoption of new technologies, creating new business lines, and enhancing the efficiency of the existing ones.
 
@@ -59,7 +59,7 @@ Learn more about [each level's accountabilities](/organization/accountabilities)
 We recognize three levels of professional skills, each with its salary bracket, mission, and clear expectations.
 
 * **Practitioner Cloud Engineer**: novices to the field of cloud-infrastructure management, usually with previous experiences in development or traditional operations. We expect practitioners to quickly step up to the next level, ideally in 12 to 18 months of employment.
-* **Practitioner Cloud Engineer**: people at this level are skilled at and proficient with a bunch of different cloud technologies and have absorbed our methodology. They can mentor newcomers as well as developers and are autonomous in their work.
+* **Professional Cloud Engineer**: people at this level are skilled at and proficient with a bunch of different cloud technologies and have absorbed our methodology. They can mentor newcomers as well as developers and are autonomous in their work.
 * **Architect Cloud Engineer**: experienced professionals with diverse exposure across various cloud platforms and technologies. They can take on complex projects independently, engaging with the client and coordinating the work of their colleagues.
 
 Learn more about [each level's accountabilities](/organization/accountabilities#seniority-related-accountabilities) and how we evaluate people's seniority level.
