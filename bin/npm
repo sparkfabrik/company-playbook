@@ -9,4 +9,4 @@ if [ -z "$CMD" ]
 then
   CMD="version"
 fi
-docker-compose run -w "/opt/raneto/themes/spark-playbook" --rm documentation npm ${CMD}
+docker compose run -w "/opt/raneto/themes/spark-playbook" --rm documentation npm ${CMD}
