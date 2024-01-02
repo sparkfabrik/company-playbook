@@ -37,9 +37,11 @@ Sort: 50
 You share your goals with your mates and work with them, never playing the hero or being a team of one. You speak your voice clearly, even when it's difficult, without holding relevant information for fear or stubbornness. When being frank makes you uncomfortable, you still strive to be polite and cheerful so you can make your point.
 
 <span class='score only-print'>
+
 - [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
 - [ ] **I exceed this expectation** _(Why? Take notes!)_
+
 </span>
 
 ### Self-organization
@@ -47,9 +49,11 @@ You share your goals with your mates and work with them, never playing the hero 
 Your task-level schedule and workload balance are your responsibility. You have clear what's expected of you each iteration (week, sprint, milestone) and step up to discuss conflicting priorities and possible bottlenecks with the management.
 
 <span class='score only-print'>
+
 - [ ] **I still can't match the expectation** _(Why? Take notes!)_
 - [ ] **I deliver what's expected**
 - [ ] **I exceed this expectation** _(Why? Take notes!)_
+
 </span>
 
 ### Lucidity
