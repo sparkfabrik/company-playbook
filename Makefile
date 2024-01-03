@@ -1,5 +1,4 @@
-
-all: theme-install-dep theme-build up
+all: up
 
 up:
 	docker compose pull
