@@ -4,6 +4,7 @@ services:
     build: .
     environment:
       - VIRTUAL_HOST=playbook.sparkfabrik.loc
+    command: npm run start
     volumes:
       - ./assets:/opt/raneto/assets
       - ./content:/opt/raneto/content
