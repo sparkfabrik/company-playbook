@@ -5,7 +5,7 @@ Sort: 60
 
 Our one-on-one meeting is heavily inspired in spirit and practice by the [24 questions to ask in your next 1:1 meeting](https://www.small-improvements.com/blog/24-questions-ask-next-11-meeting/) post by Jason Lauritsen on the _Small improvements_ blog.
 
-HR representatives and team leads engaging in one-to-ones with developers are required to read the whole post and take inspiration.
+HR representatives and team leads engaging in one-on-ones with employees and team mates are required to read the whole post and take inspiration.
 
 ## Cadence
 
