@@ -70,6 +70,18 @@ You have a clear understanding of what's expected from you and what you have to 
 
 </span>
 
+### Ownership
+
+You don't just sit there awaiting instructions. You proactively work for the success of your activities, with the goal to make a positive impact. You approach chellenges with a problem-solving mindset, and seek solutions rather than dwelling on obstacles.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
 ### Customer-orientation
 
 You are genuinely involved in the success of the project and always speak with transparency, honesty, and a friendly but professional tone - because we want to deserve customers' trust. You always have a clear understanding of the customers' needs and, when something doesn't sound right, you speak up, asking honest questions, to make sure you're working towards the right goal.
