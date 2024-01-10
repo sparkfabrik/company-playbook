@@ -23,7 +23,7 @@ Usually speakers have special benefits from the conference organizers, like free
 
 ## How to file an attendance request
 
-If you wish to attend a conference, you must file your case using [this form](https://docs.google.com/a/sparkfabrik.com/forms/d/e/1FAIpQLSeuDeQWDNWY6NEuznUBGfx6EtZTUCwwjpzH3qip-dfZvDXxSw/viewform).
+If you wish to attend a conference, you must file your case using [this form](https://docs.google.com/forms/d/e/1FAIpQLSfN31dXCi4ddCAjZ5aMbZbWDCsWOJIDrDfB-MSzh7PTJGkf0w/viewform?usp=sf_link).
 
 To praise your contribution and good citizenship, we will give you *extra credits* in the evaluation of your case based on:
 
