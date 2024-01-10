@@ -68,6 +68,18 @@ You share your goals with your mates and work with them, never playing the hero 
 
 </span>
 
+### Ownership
+
+You don't just sit there awaiting instructions. You proactively work for the success of your activities, with the goal to make a positive impact. You approach chellenges with a problem-solving mindset, and seek solutions rather than dwelling on obstacles.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
 ### Customer-orientation
 
 You always have a clear understanding of the customer's needs and, when they seem confused, you help them state their needs in a clear, understandable way. You are genuinely involved in the success of the project and always speak with transparency, honesty, and a friendly but professional tone - because we want to deserve customers' trust. You keep your eyes open for unspoken needs that we can address for our customers and proactively bring them to light.

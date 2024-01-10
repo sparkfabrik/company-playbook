@@ -69,6 +69,18 @@ You have a clear understanding of what's expected from you and what you have to 
 
 </span>
 
+### Ownership
+
+You go beyond completing assigned work, proactively seeking ways to improve your outcomes. You identify areas where you can contribute and make a positive impact, approach chellenges with a problem-solving mindset, and seek solutions rather than dwelling on obstacles.
+
+<span class='score only-print'>
+
+- [ ] **I still can't match the expectation** _(Why? Take notes!)_
+- [ ] **I deliver what's expected**
+- [ ] **I exceed this expectation** _(Why? Take notes!)_
+
+</span>
+
 ### Strong opinions, lightly held
 
 You speak your mind and sustain your ideas with words and facts, but you are open to criticism and listen with open ears.
