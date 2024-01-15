@@ -3,8 +3,8 @@
 set -eo pipefail
 BASE=${PWD}
 
-if [ "${1}" = 'npm' ]; then
-echo "Installing and building theme..."
+if [ "${1}" = 'npm' ] && [ "$NODE_ENV" != 'production' ]; then
+  echo "Installing and building theme..."
   cd /opt/raneto/themes/spark-playbook
   npm install
   npm run build
