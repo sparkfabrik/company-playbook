@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:18-alpine as dev
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
 # Variables
@@ -10,8 +10,7 @@ WORKDIR $INSTALL_DIR
 
 # Copy content and configuration
 COPY ./custom/server.js ./
-COPY ./custom/package.json ./
-COPY ./custom/package-lock.json ./
+COPY ./custom/package* ./
 COPY ./custom/config.js ./config.js
 COPY ./custom/themes ./themes
 COPY ./content ./content
@@ -24,4 +23,8 @@ EXPOSE $PORT
 # Configure the entrypoint script
 COPY build/node/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
+CMD ["npm run start"]
 ENTRYPOINT ["/entrypoint.sh"]
+
+FROM dev as prod
+RUN cd custom && npm install

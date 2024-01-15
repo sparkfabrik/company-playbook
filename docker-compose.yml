@@ -1,10 +1,11 @@
 version: "3"
 services:
   documentation:
-    build: .
+    build:
+      context: .
+      target: dev
     environment:
       - VIRTUAL_HOST=playbook.sparkfabrik.loc
-    command: npm run start
     volumes:
       - ./assets:/opt/raneto/assets
       - ./content:/opt/raneto/content
