@@ -27,4 +27,5 @@ CMD ["npm run start"]
 ENTRYPOINT ["/entrypoint.sh"]
 
 FROM dev as prod
+WORKDIR /opt/raneto
 RUN cd custom && npm install
