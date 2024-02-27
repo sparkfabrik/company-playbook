@@ -101,6 +101,7 @@ All the training material in this section is public and can be freely accessed.
 | | [Understanding Git Conceptually](https://www.cduan.com/technical/git/) |
 | | [SparkFabrik Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
 | | [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
+| | [Semantic Versioning](https://semver.org/) |
 | **Hands-on** | [Learning Git Branching](https://learngitbranching.js.org/) |
 | | [Oh my Git](https://ohmygit.org/) |
 | | [Visualizing Git](https://git-school.github.io/visualizing-git/) |
