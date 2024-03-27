@@ -52,3 +52,12 @@ As the subscription will be made through our Github Organization, your already e
 ## Refunding of a previously purchased subscription
 
 If you have already purchased the personal Github Copilot subscription, when the new Organization subscription will be attached to your Github account, Github will refund you for the unused portion of the subscription. You can request a refund for the partial paid subscription using the dedicated platform for employees refunds, only if it was previously approved as a company expense.
+
+## GitHub Copilot in the CLI
+
+As described in the official documentation:
+
+> _GitHub Copilot in the CLI_ provides a chat-like interface in the terminal that allows you to ask questions about the command line. You can ask GitHub Copilot to provide either command suggestions or explanations of given commands.
+
+To install _GH Copilot in the CLI_, please [follow the official documentation](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli#installing-copilot-in-the-cli).  
+Mind that [_GitHub CLI_ should be installed](https://github.com/cli/cli#installation).

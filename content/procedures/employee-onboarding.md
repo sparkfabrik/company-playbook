@@ -56,6 +56,7 @@ The employee must, with the help of an HR representative:
 * If they are a developer, log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
+* If applicable, [install GH Copilot in the CLI](/tools-and-policies/github-copilot#github-copilot-in-the-cli) and [review how to require company access to Copilot](/tools-and-policies/github-copilot)
 * Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Float, etc) with an appropriate close-up
 * Set their e-mail signature in [the official format](#standard-mail-signature-format) (respect bolds)
 * Set the [SparkFabrik branded LinkedIn banner](#branded-linkedin-banner) on the Linkedin profile
