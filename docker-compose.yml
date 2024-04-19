@@ -1,6 +1,8 @@
 version: "3"
 services:
   documentation:
+    ports:
+      - "127.0.0.1:80:80"
     build:
       context: .
       target: dev
