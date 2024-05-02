@@ -33,7 +33,7 @@ We just want to give you a way to show off your achievements and be proud of you
 
 SparkFabrik issues the following Credly badges:
 
-* **[Continuous Delivery Gues](https://www.credly.com/org/sparkfabrik/badge/continuous-delivery-guest)t**: Given to our special guests who participate in the Continuous Delivery Tech Podcast.
+* **[Continuous Delivery Guest](https://www.credly.com/org/sparkfabrik/badge/continuous-delivery-guest)**: Given to our special guests who participate in the Continuous Delivery Tech Podcast.
 * **[Blogger](https://www.credly.com/org/sparkfabrik/badge/blogger)**: Awarded to SparkFabrik employees who write engaging and informative blog articles on the company website or other platforms.
 * **[Inner Source Contributor](https://www.credly.com/org/sparkfabrik/badge/inner-source-contributor)**: Awarded to SparkFabrik employees who contribute to an internal project (such as this company playbook, or a software library) or demonstrate their availability to support peers, with pair programming or mentoring.
 * **[Tech Talker](https://www.credly.com/org/sparkfabrik/badge/tech-talker)**: Awarded to SparkFabrik employees who give an internal talk on a topic to share their knowledge with colleagues or inform about something the company has developed, or a best practice, a tool, a methodology.
