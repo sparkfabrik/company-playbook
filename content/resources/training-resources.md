@@ -2,7 +2,7 @@ SparkFabrik offers access to a set of training resources.
 
 Some of them are _self-service_ and can be accessed by every employee as they see fit. Some others are licensed on a per-seat basis and require the creation of a personal account and relative license.
 
-This page lists all the available resources, providing a link to them and a mean to obtain access when required.  
+This page lists all the available resources, providing a link to them and a mean to obtain access when required.
 
 A [specific section](#core-skills-training-resources) in this page lists the educational material to be used for the acquisition of the core skills, during the onboarding period.
 
@@ -154,14 +154,14 @@ All the training material in this section is public and can be freely accessed.
 
 #### Udemy
 
-We have a Udemy account we use to buy development courses that may be necessary to improve our skills or build them from zero.  
+We have a Udemy account we use to buy development courses that may be necessary to improve our skills or build them from zero.
 Mainly you can find training on frameworks and technologies (also Cloud technologies) of common use in SparkFabrik (Angular, React, AWS and others), but also on more specific tools.
 
 Given the wide offering of topics on Udemy, more courses can be added in the future, even in non-technical topics.
 
-> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.
 > 2. Head to [Udemy](https://www.udemy.com/) login page, then obtain access credentials issuing this command into a terminal:
-> 
+>
 > ```bash
 > gcloud secrets versions access "latest" --secret credentials-udemy --project sf-public-ring
 > ```
@@ -170,11 +170,22 @@ Given the wide offering of topics on Udemy, more courses can be added in the fut
 
 On Ultimate Courses, you can access a set of very thorough and deep courses on Angular by Todd Motto. Those courses are very good for those who want to deepen their understanding of Angular, get the hang of its internals and learn how to use NgRx (a reactive state management library).
 
-> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.
 > 2. Head to [Ultimate Courses](https://app.ultimatecourses.com), then obtain access credentials issuing this command into a terminal:
-> 
+>
 > ```bash
 > gcloud secrets versions access "latest" --secret credentials-ultimate-courses --project sf-public-ring
+> ```
+
+#### Frontend masters
+
+Frontend Masters offers a wide range of courses on various topics including Node.js, API Design, SQL, Docker, and DevOps. They also have courses on backend languages such as Python, Go, and Rust, as well as UX design, management, and technical leadership. You can find more information [here](https://frontendmasters.com/blog/convince-your-boss/#is-it-only-front-end-content).
+
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.
+> 2. Head to [Frontend Masters](https://www.frontendmasters.com), then obtain access credentials issuing this command into a terminal:
+>
+> ```bash
+> gcloud secrets versions access "latest" --secret credentials-frontend-masters --project sf-public-ring
 > ```
 
 #### Drupalize.me
@@ -183,9 +194,9 @@ On Drupalize.me you can build up a strong understanding of Drupal CMS, following
 
 Those resources are available to PHP developers who need to understand how Drupal works as well as to Drupal developers who need to dig deeper into specific parts of the framework.
 
-> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.  
+> 1. Make sure you are [logged into GCloud](/guides/local-development-environment-configuration#log-into-gcloud) with your SparkFabrik account.
 > 2. Head to [Drupalize.me](https://drupalize.me), then obtain access credentials issuing this command into a terminal:
-> 
+>
 > ```bash
 > gcloud secrets versions access "latest" --secret credentials-drupalize-me --project sf-public-ring
 > ```
