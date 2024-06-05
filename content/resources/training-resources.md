@@ -33,6 +33,7 @@ Please find here a TOC of the available training resources.
 | [Udemy](#udemy) | Development | Angular, React, React Native, Hasura | Credentials |
 | [Ultimate Courses](#ultimate-courses) | Development | Angular, React, Typescript | Credentials |
 | [Drupalize.me](#drupalizeme) | Development | Drupal | Credentials |
+| [Frontend Masters](#frontend-masters) | Development | Angular, React, Python, Go, Rust, UX design, management | Credentials |
 | [AWS Skill Builder](#aws-skill-builder) | Cloud | Amazon Web Services | Corporate account |
 | [Google SkillBoost](#google-skillboost) | Cloud | Google Cloud Platform | Corporate account |
 | [Cloud Academy](#cloud-academy) | Cloud | Vendor-specific services (AWS, GCP, Azure, Alibaba), Kubernetes, complete Cloud training offering | Reserved seats |
