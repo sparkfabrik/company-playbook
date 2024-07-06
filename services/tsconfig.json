@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Set the JavaScript language version for emitted JavaScript
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist", // Specify the output directory for compiled files
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Emit additional JavaScript for importing CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in imports
+    "resolveJsonModule": true, // Enable importing .json files
+    "declaration": true, // Generate .d.ts declaration files
+    "sourceMap": true, // Generate source map files
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "checkJs": true
+  },
+  "typeRoots": ["node_modules"],
+  "include": ["src/**/*", "examples/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}

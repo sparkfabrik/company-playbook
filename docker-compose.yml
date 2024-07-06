@@ -14,3 +14,38 @@ services:
       - ./custom/node_modules:/opt/raneto/node_modules
     labels:
       com.dnsdock.alias: playbook.sparkfabrik.loc
+      
+  chromadb:
+    image: chromadb/chroma:latest
+    volumes:
+      - chromadb:/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma
+      - ANONYMIZED_TELEMETRY=FALSE
+      - CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"]
+    ports:
+      - ${CHROMADB_PORT:-8000}:8000
+
+  cli:
+    hostname: sparkathon
+    build:
+      context: .
+      dockerfile: services/node/Dockerfile
+      target: cli
+    profiles: ["cli"]
+    environment:
+      - HISTFILE=/home/node/.local/.bash_history
+      - NPM_CONFIG_CACHE=/home/node/.local/.npm-cache
+      - CHROMADB_PORT=${CHROMADB_PORT:-8000}
+    volumes:
+      - $PWD:$PWD
+      - ./.local:/home/node/.local
+    user: node
+    working_dir: $PWD
+    network_mode: host
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
+
+volumes:
+  chromadb:

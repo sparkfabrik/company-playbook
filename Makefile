@@ -33,3 +33,8 @@ theme-scss-lint-fix:
 theme-install-dep:
 	chmod +x bin/npm
 	bin/npm install
+
+open-chroma-ui:
+	@$(OPEN) http://cromadb.sparkfabrik.loc:8000
+	@echo "Opening Chrome UI..."
+	@echo "If the browser does not open, please visit http://cromadb.sparkfabrik.loc:8000"
