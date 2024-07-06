@@ -27,6 +27,21 @@ services:
     ports:
       - ${CHROMADB_PORT:-8000}:8000
 
+  api:
+    hostname: api
+    build:
+      context: ./services
+      dockerfile: api/Dockerfile
+    profiles: ["api"]
+    volumes:
+      - ./services/api:$PWD
+      - ./.local:/home/node/.local
+    user: node
+    working_dir: $PWD
+    network_mode: host
+    ports:
+      - 3000:3000
+
   cli:
     hostname: sparkathon
     build:
