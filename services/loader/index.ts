@@ -16,8 +16,8 @@ export const getDocs = async () => {
 
   // Split it chunks.
   const splitter = RecursiveCharacterTextSplitter.fromLanguage("markdown", {
-    chunkSize: 5000,
-    chunkOverlap: 100,
+    chunkSize: 1500,
+    chunkOverlap: 0,
   });
   const split = await splitter.splitDocuments(docs);
   return split;
