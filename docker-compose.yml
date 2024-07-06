@@ -27,20 +27,37 @@ services:
     ports:
       - ${CHROMADB_PORT:-8000}:8000
 
+  # api:
+  #   hostname: api
+  #   build:
+  #     context: ./services
+  #     dockerfile: api/Dockerfile
+  #   environment:
+  #     - VIRTUAL_HOST=api.playbook.sparkfabrik.loc
+  #   profiles: ["api"]
+  #   volumes:
+  #     - ./services/api:$PWD
+  #     - ./.local:/home/node/.local
+  #   user: node
+  #   working_dir: $PWD
+  #   labels:
+  #     com.dnsdock.alias: api.playbook.sparkfabrik.loc
   api:
     hostname: api
     build:
       context: ./services
-      dockerfile: api/Dockerfile
-    profiles: ["api"]
+      dockerfile: Dockerfile
     volumes:
-      - ./services/api:$PWD
-      - ./.local:/home/node/.local
-    user: node
-    working_dir: $PWD
-    network_mode: host
-    ports:
-      - 3000:3000
+      - ./services:/usr/src/app
+      # - ./.local:/home/node/.local
+    # user: node
+    working_dir: /usr/src/app
+    entrypoint: /usr/src/app/entrypoint.sh
+    environment:
+      - VIRTUAL_HOST=api.sparkfabrik.loc
+    labels:
+      com.dnsdock.alias: api.sparkfabrik.loc      
+    command: "npx tsx api.ts"
 
   cli:
     hostname: sparkathon
