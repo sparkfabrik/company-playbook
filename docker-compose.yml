@@ -56,7 +56,7 @@ services:
     environment:
       - VIRTUAL_HOST=api.sparkfabrik.loc
     labels:
-      com.dnsdock.alias: api.sparkfabrik.loc      
+      com.dnsdock.alias: api.sparkfabrik.loc
     command: "npx tsx api.ts"
 
   cli:
