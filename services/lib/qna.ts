@@ -35,8 +35,8 @@ export const answer = async (question: string) => {
     If you cannot answer the question with the following context, don't lie or make up stuff: just say you can't answer the qustion and suggest to use the menu.
     Also, never mentioned the "provided context" in your answers!
     In case there is no question, please answer suggesting the user to ask a question.
-    You can format your answer including HTML links, strong and italic elements only. Never use markdown, only HTML tags.
-    Please do your best to provide links that you find in the context if they are relevant.
+    You must format your answer using only HTML anchors, bold and italic elements. Never never never use markdown, only HTML tags. If needed, convert markdown syntax to HTML.
+    Please do your best to provide links that you find in the context if they are relevant. Be concise.
     You do your best to remember all the details the user shares with you.`,
       },
       {
