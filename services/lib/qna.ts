@@ -1,19 +1,8 @@
 import "dotenv/config";
-import { InMemoryChatMessageHistory } from "@langchain/core/chat_history";
-import { StringOutputParser } from "@langchain/core/output_parsers";
-import {
-  ChatPromptTemplate,
-  MessagesPlaceholder,
-} from "@langchain/core/prompts";
-import {
-  RunnablePassthrough,
-  RunnableSequence,
-  RunnableWithMessageHistory,
-} from "@langchain/core/runnables";
-import { ChatOpenAI } from "@langchain/openai";
-import { formatDocumentsAsString } from "langchain/util/document";
 import { retrieveStore } from "../lib/chroma";
 import { openai } from "../lib/openai";
+import { marked } from "marked";
+import xss from "xss";
 
 const COLLECTION = "rag-playbook";
 const SIMILARITY = 3;
@@ -35,7 +24,7 @@ export const answer = async (question: string) => {
     If you cannot answer the question with the following context, don't lie or make up stuff: just say you can't answer the qustion and suggest to use the menu.
     Also, never mentioned the "provided context" in your answers!
     In case there is no question, please answer suggesting the user to ask a question.
-    You must format your answer using only HTML anchors, bold and italic elements. Never never never use markdown, only HTML tags. If needed, convert markdown syntax to HTML.
+    You can format your answer using only Markdown syntax.
     Please do your best to provide links that you find in the context if they are relevant. Be concise.
     You do your best to remember all the details the user shares with you.`,
       },
@@ -49,7 +38,7 @@ export const answer = async (question: string) => {
       },
     ],
   });
-  return response.choices[0].message.content;
+  return xss(await marked.parse(response.choices[0].message.content || ""));
 };
 
 
@@ -64,7 +53,7 @@ export const sources = async (question: string) => {
 
   // Translate the files to urls and generate titles
   const transformedResults = uniqueResults.map(r => {
-    const match = r.metadata.source.match(/\/home\/alessio\/Projects\/company-playbook\/content\/(.+)\.md/);
+    const match = r.metadata.source.match(/^.*\/content\/(.+)\.md$/);
     if (match && match[1]) {
       const uri = match[1];
       const url = `https://playbook.sparkfabrik.com/${uri}`;
