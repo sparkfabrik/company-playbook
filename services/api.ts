@@ -1,5 +1,6 @@
 import fastify from "fastify";
 import cors from '@fastify/cors';
+
 import { answer, sources } from "./lib/qna";
 // import { loadDocuments } from "./lib/loader";
 
@@ -20,11 +21,11 @@ const getSchema = {
 // GET round for user query
 server.get<{ Querystring: { question: string } }>('/ask', { schema: getSchema }, async (request, reply) => {
   const { question } = request.query;
-  const response = {
-    'answer': await answer(question),
-    'sources': await sources(question),
-  }
-  reply.send(response);
+
+  reply.send({
+    "answer": await answer(question),
+    "sources": await sources(question),
+  });
 });
 
 // // PUT webhook to trigger documents reloading
@@ -44,6 +45,7 @@ const start = async () => {
   await server.register(cors, { 
     origin: '*'
   });
+
   try {
     await server.listen({ port: 3000 });
     console.log('Server listening on http://localhost:3000');
@@ -52,6 +54,5 @@ const start = async () => {
     process.exit(1);
   }
 };
-
 
 start();
