@@ -1,5 +1,4 @@
 ;(function ($) {
-
     'use strict';
   
     $(document).ready(async function () {
@@ -24,11 +23,8 @@
         $container.empty();
 
         $container.append('<h3 class="search__title">Your quick answer</h3>');
-        $container.append(`<p>${data.answer}</p>`);
+        $container.append(data.answer);
         $container.append('<h4 class="search__page-title--category">Learn more</h4>');
         $container.append(`<ol>${data.sources.map(({title, url}) => `<li><a href="${url}">${title}</a></li>`).join('')}</ol>`);
-
     });
-  
-  
   })(jQuery);

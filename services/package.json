@@ -4,7 +4,8 @@
   "description": "The SparkBook loader",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node api/index.ts"
+    "load": "tsx loader.ts",
+    "start": "tsx api.ts"
   },
   "keywords": [
     "sparkathon",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/marked": "^6.0.0",
-    "@types/node": "^20.14.9",
+    "@types/node": "^20.14.10",
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
     "eslint": "^8.57.0",
@@ -34,6 +35,7 @@
     "@langchain/openai": "^0.2.1",
     "chromadb": "^1.8.1",
     "dotenv": "^16.4.5",
+    "es-toolkit": "^1.10.1",
     "fastify": "^4.15.0",
     "langchain": "^0.2.8",
     "marked": "^13.0.2",

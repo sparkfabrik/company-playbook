@@ -1,13 +1,16 @@
 import "dotenv/config";
-import { retrieveStore } from "../lib/chroma";
-import { openai } from "../lib/openai";
+
 import { marked } from "marked";
 import xss from "xss";
+import { capitalize, uniqBy } from "es-toolkit";
+
+import { retrieveStore } from "../lib/chroma";
+import { openai } from "../lib/openai";
 
 const COLLECTION = "rag-playbook";
 const SIMILARITY = 3;
+const PLAYBOOK_URL = "https://playbook.sparkfabrik.com";
 
-// Remember to a GITHUB_ACCESS_TOKEN in your .env file - https://github.com/settings/tokens?type=beta.
 export const answer = async (question: string) => {
   const store = await retrieveStore(COLLECTION);
   const results = await store.similaritySearch(question, SIMILARITY);
@@ -17,16 +20,19 @@ export const answer = async (question: string) => {
     messages: [
       {
         role: "assistant",
-        content: `You are a helpful AI assistant.
+        content: `
+          You are a helpful AI assistant.
+          Your mission is to help users finding relevant information about the company playbook.
 
-    Your mission is to help users finding relevant information about the company playbook.
-    You are always kind and helpful, and you should always provide an answer that is meaningful and relevant.
-    If you cannot answer the question with the following context, don't lie or make up stuff: just say you can't answer the qustion and suggest to use the menu.
-    Also, never mentioned the "provided context" in your answers!
-    In case there is no question, please answer suggesting the user to ask a question.
-    You can format your answer using only Markdown syntax.
-    Please do your best to provide links that you find in the context if they are relevant. Be concise.
-    You do your best to remember all the details the user shares with you.`,
+          You are always kind and helpful, and you should always provide an answer that is meaningful and relevant.
+          If you cannot answer the question with the following context, don't lie or make up stuff: just say you can't answer the qustion and suggest to use the menu.
+          Also, never mentioned the "provided context" in your answers!
+          
+          In case there is no question, please answer suggesting the user to ask a question.
+          You can format your answer using only Markdown syntax.
+          
+          Please do your best to provide links that you find in the context if they are relevant. Be concise.
+          You do your best to remember all the details the user shares with you.`,
       },
       {
         role: "user",
@@ -38,6 +44,7 @@ export const answer = async (question: string) => {
       },
     ],
   });
+
   return xss(await marked.parse(response.choices[0].message.content || ""));
 };
 
@@ -45,38 +52,25 @@ export const answer = async (question: string) => {
 // Function to retrieve metadata from Chroma store and transform source_file paths
 export const sources = async (question: string) => {
   const store = await retrieveStore(COLLECTION);
-  const results = await store.similaritySearch(question, SIMILARITY);
-
-  // Rimuove duplicati basati sul campo source_file
-  const uniqueResults = Array.from(new Set(results.map(r => r.metadata.source)))
-    .map(source => results.find(r => r.metadata.source === source)!);
+  const results = uniqBy(await store.similaritySearch(question, SIMILARITY), r => r.metadata.source);
 
   // Translate the files to urls and generate titles
-  const transformedResults = uniqueResults.map(r => {
+  return results.map(r => {
     const match = r.metadata.source.match(/^.*\/content\/(.+)\.md$/);
+
     if (match && match[1]) {
       const uri = match[1];
-      const url = `https://playbook.sparkfabrik.com/${uri}`;
+      const url = `${PLAYBOOK_URL}/${uri}`;
+
       const slug = uri.match(/.+\/(.+)/);
-      let title = "Homepage";
-      if (slug && slug[1]) {
-        title = slugToTitle(slug[1])
-      }
+      const title = slug && slug[1] ? slugToTitle(slug[1]) : "Homepage";
       
       return { url, title };
     }
+
     return null;
   }).filter(Boolean); // Remove nulls from results
-
-  return transformedResults;
 };
-
-
 
 // Helper function to convert slug to human-readable title
-const slugToTitle = (slug: string): string => {
-  return slug
-    .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
-};
+const slugToTitle = (slug: string): string => slug.split('-').map(capitalize).join(' ');

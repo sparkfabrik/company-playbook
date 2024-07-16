@@ -1,4 +1,5 @@
 import { ChromaClient } from "chromadb";
+
 import { Chroma } from "@langchain/community/vectorstores/chroma";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { Document } from "langchain/document";
@@ -7,7 +8,9 @@ export const chromaHost = () => {
   const host = process.env.REMOTE_CONTAINERS
     ? "host.docker.internal"
     : "127.0.0.1";
-  const port = process.env.CHROMADB_PORT ? process.env.CHROMADB_PORT : 8000;
+
+  const port = process.env.CHROMADB_PORT ?? 8000;
+
   return `http://${host}:${port}`;
 };
 
@@ -65,5 +68,6 @@ export const createStoreOrRetrieve = async (
   if (await collectionIsNotEmpty(collection)) {
     return await retrieveStore(collection);
   }
+
   return await createStore(collection, fn);
 };

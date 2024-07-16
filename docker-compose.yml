@@ -27,21 +27,6 @@ services:
     ports:
       - ${CHROMADB_PORT:-8000}:8000
 
-  # api:
-  #   hostname: api
-  #   build:
-  #     context: ./services
-  #     dockerfile: api/Dockerfile
-  #   environment:
-  #     - VIRTUAL_HOST=api.playbook.sparkfabrik.loc
-  #   profiles: ["api"]
-  #   volumes:
-  #     - ./services/api:$PWD
-  #     - ./.local:/home/node/.local
-  #   user: node
-  #   working_dir: $PWD
-  #   labels:
-  #     com.dnsdock.alias: api.playbook.sparkfabrik.loc
   api:
     hostname: api
     build:
@@ -58,26 +43,6 @@ services:
     labels:
       com.dnsdock.alias: api.sparkfabrik.loc
     command: "npx tsx api.ts"
-
-  cli:
-    hostname: sparkathon
-    build:
-      context: .
-      dockerfile: services/node/Dockerfile
-      target: cli
-    profiles: ["cli"]
-    environment:
-      - HISTFILE=/home/node/.local/.bash_history
-      - NPM_CONFIG_CACHE=/home/node/.local/.npm-cache
-      - CHROMADB_PORT=${CHROMADB_PORT:-8000}
-    volumes:
-      - $PWD:$PWD
-      - ./.local:/home/node/.local
-    user: node
-    working_dir: $PWD
-    network_mode: host
-    command: /bin/sh -c "while sleep 1000; do :; done"
-
 
 volumes:
   chromadb:
