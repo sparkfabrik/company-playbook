@@ -140,6 +140,7 @@ Run the following commands in the order:
 gcloud auth login
 gcloud auth application-default login
 gcloud auth configure-docker
+gcloud auth configure-docker europe-west1-docker.pkg.dev
 gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services
 ```
 
