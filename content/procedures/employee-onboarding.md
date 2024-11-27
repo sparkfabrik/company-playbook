@@ -54,6 +54,8 @@ The employee must, with the help of an HR representative:
 
 * Duly sign in and check their ability to access every service
 * If they are a developer, log into GCP using [this procedure](/guides/local-development-environment-configuration#log-into-gcloud)
+* If they are a Drupal developer, make sure [they can build FireStarter-based projects](/guides/local-development-environment-configuration#configure-firestarter-builds)
+* If they are a developer, add the user to the `Copilot members` team on GitHub and ask them to activate relevant IDE's plugins
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
 * If applicable, [install GH Copilot in the CLI](/tools-and-policies/github-copilot#github-copilot-in-the-cli) and [review how to require company access to Copilot](/tools-and-policies/github-copilot)

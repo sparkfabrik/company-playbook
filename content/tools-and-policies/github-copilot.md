@@ -45,7 +45,7 @@ Purpose: This policy aims to establish guidelines for using GitHub Copilot withi
 
 ## How to request a subscription
 
-Github Copilot subscriptions must be requested through the internal slack account `#copilot-program-2023`, you will be requested to confirm to have read and understood the usage policy.
+You should have been granted a GitHub Copilot subscription during your onboarding. If that's not the case, you can ask an HR representative for a subscriptions. You will be requested to confirm to have read and understood this usage policy.
 
 As the subscription will be made through our Github Organization, your already existing Copilot subscriptions (if any on the same account) will be automatically cancelled and reimbursed from Github, you’ll be informed in any case of the new activated subscription.
 
