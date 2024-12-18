@@ -192,7 +192,7 @@ gcloud container clusters get-credentials spark-op-services --zone europe-west1-
 To build FireStarter-based Drupal projects, a user must access specific properties and modules. To such extent, this procedure must be put in place:
 
 * The user must be added to the `Service Group - DTU members` GitLab group (ask HR or Platform team)
-* The user must generate a personal access token on GitLab
+* The user must generate a personal access token on GitLab with `read_api` and `read_repository` scopes (`Settings > Access Tokens`)
 * The user must [authenticate as described in the team's documentation](https://docs.firestarter.sparkfabrik.cloud/packages/firestarter-cli/docs/install_and_update/#shell-setup)
 
 Information on how to build the project is out of the scope of this guide, but these steps are a requirement for Drupal properties.
