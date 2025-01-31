@@ -45,7 +45,10 @@ Purpose: This policy aims to establish guidelines for using GitHub Copilot withi
 
 ## How to request a subscription
 
-You should have been granted a GitHub Copilot subscription during your onboarding. If that's not the case, you can ask an HR representative for a subscription. You will be requested to confirm that you have read and understood this usage policy
+You should have been granted a GitHub Copilot subscription during your onboarding. If that's not the case, you can apply by doing as follows:
+- on the [Github Copilot page](https://github.com/features/copilot), locate the section **Get Copilot from an organization**
+- use the action **Ask admin for access** on the **SparkFabrik** organization
+- ask an HR representative for a confirmation using the channel `#support-hr`
 
 As the subscription will be made through our Github Organization, your already existing Copilot subscriptions (if any on the same account) will be automatically cancelled and reimbursed from Github, you’ll be informed in any case of the new activated subscription.
 
