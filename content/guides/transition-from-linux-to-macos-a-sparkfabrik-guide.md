@@ -1,5 +1,3 @@
-# Transitioning from Linux to macOS: A SparkFabrik Guide
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Understanding macOS: More Unix Than You Might Think](#understanding-macos-more-unix-than-you-might-think)
