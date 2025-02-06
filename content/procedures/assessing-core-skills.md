@@ -42,6 +42,7 @@ Software Developers should have a basic understanding of:
 * Asymmetric cryptography, SSH, authentication, signatures
 * Best practices for secrets management in software repo (environment variables and `.env` files, `.gitignore`, `.dockerignore`)
 * Security monitoring tools: CVE, GitHub advisory database, Dependabot / Renovate
+* OWASP Top 10
 
 Senior Software Developers and Cloud Native Engineers should have a clear understanding about:
 
