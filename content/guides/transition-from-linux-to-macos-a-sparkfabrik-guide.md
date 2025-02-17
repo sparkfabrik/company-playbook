@@ -1,4 +1,5 @@
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Understanding macOS: More Unix Than You Might Think](#understanding-macos-more-unix-than-you-might-think)
 - [Why macOS?](#why-macos)
@@ -54,6 +55,7 @@ For developers coming from Linux, it's important to understand that macOS is bui
 ## Essential Tools for Linux Users
 
 ### Container Development
+
 Currently, we use Docker Desktop for container development. However, we plan to migrate to Lima (an open-source solution) during 2025. This decision is based on several factors:
 
 - Performance improvements in filesystem operations
@@ -109,6 +111,7 @@ Our development environment comes pre-configured with many familiar tools throug
    - **pinentry-mac**: Secure passphrase entry dialog
 
 ### GUI Applications
+
 Pre-configured applications that enhance the development experience:
 
 1. **Development Environment**
@@ -161,6 +164,7 @@ SparkDock includes custom keyboard configurations to improve the development exp
    - Better compatibility with Linux keyboard habits
 
 ### Custom Tools and Scripts
+
 SparkDock also provides several custom utilities:
 
 1. **Proxy Management**
@@ -181,7 +185,9 @@ The tools are carefully selected to provide a complete development environment w
 4. **Minimize dock clutter**: Remove unused applications
 
 ### System Management
+
 1. **Caffeinate**: Prevent sleep mode when needed:
+
    ```bash
    caffeinate -d  # Prevent display sleep
    caffeinate -i  # Prevent system idle sleep
@@ -189,67 +195,72 @@ The tools are carefully selected to provide a complete development environment w
 
 2. **Package Management with Homebrew**
 
-Homebrew è l'equivalente di apt/apt-get in macOS. Ecco le principali differenze e similarità:
+   Homebrew is the equivalent of apt/apt-get on macOS. Here are the main differences and similarities:
 
    ```bash
    # apt update                    -> brew update
    # apt upgrade                   -> brew upgrade
-   # apt install <package>         -> brew install <package>
+   # apt install <package>         > brew install <package>
    # apt remove <package>          -> brew uninstall <package>
-   # apt autoremove               -> brew autoremove
-   # apt search <term>            -> brew search <term>
-   # dpkg -L <package>            -> brew list <package>
-   # apt show <package>           -> brew info <package>
+   # apt autoremove                -> brew autoremove
+   # apt search <term>             -> brew search <term>
+   # dpkg -L <package>             -> brew list <package>
+   # apt show <package>            -> brew info <package>
    ```
 
-Caratteristiche principali di Homebrew:
-- Installazione in userspace (/opt/homebrew su Apple Silicon, /usr/local su Intel)
-- Non richiede sudo per le operazioni standard
-- Gestisce sia CLI tools che applicazioni GUI (tramite Cask)
-- Supporto per tap (repository aggiuntivi) simili ai PPA
-- Formula (pacchetti) scritte in Ruby
-- Sistema di bottling (pacchetti pre-compilati) per installazioni più veloci
+   Key features of Homebrew:
 
-Esempi pratici:
-```bash
-# Aggiornamento del sistema
-brew update             # Aggiorna lista pacchetti (come apt update)
-brew upgrade            # Aggiorna tutti i pacchetti (come apt upgrade)
-brew upgrade <package>  # Aggiorna un pacchetto specifico
+   - Installation in userspace (`/opt/homebrew` on Apple Silicon, `/usr/local` on Intel)
+   - Does not require `sudo` for standard operations
+   - Manages both CLI tools and GUI applications (via Cask)
+   - Support for taps (additional repositories) similar to PPAs
+   - Formulas (packages) written in Ruby
+   - Bottling system (pre-compiled packages) for faster installations
 
-# Gestione pacchetti
-brew search php         # Cerca pacchetti con "php" nel nome
-brew info php@8.2       # Mostra informazioni sul pacchetto
-brew install php@8.2    # Installa una versione specifica
-brew uninstall php@8.2  # Rimuove il pacchetto
+   Practical examples:
 
-# Applicazioni GUI con Cask
-brew search --cask chrome    # Cerca solo tra le applicazioni GUI
-brew install --cask chrome   # Installa Google Chrome
-brew upgrade --cask         # Aggiorna tutte le applicazioni GUI
+   ```bash
+   # System update
+   brew update             # Updates package list (like apt update)
+   brew upgrade            # Upgrades all packages (like apt upgrade)
+   brew upgrade <package>  # Upgrades a specific package
 
-# Repository aggiuntivi (tap)
-brew tap homebrew/cask-fonts                    # Aggiunge repository per i fonts
-brew install --cask font-fira-code-nerd-font    # Installa un font
+   # Package management
+   brew search php         # Searches for packages with "php" in the name
+   brew info php@8.2       # Shows information about the package
+   brew install php@8.2    # Installs a specific version
+   brew uninstall php@8.2  # Removes the package
 
-# Diagnostica
-brew doctor              # Verifica problemi di configurazione
-brew cleanup            # Rimuove vecchie versioni (come apt clean)
-```
+   # GUI applications with Cask
+   brew search --cask chrome    # Searches only among GUI applications
+   brew install --cask chrome   # Installs Google Chrome
+   brew upgrade --cask          # Upgrades all GUI applications
 
-Dove trovare i pacchetti:
-1. **Ricerca ufficiale**: [formulae.brew.sh](https://formulae.brew.sh)
-2. **GitHub**: [github.com/Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) per CLI
-3. **Cask**: [github.com/Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) per GUI
-4. **API**: `curl -s "https://formulae.brew.sh/api/formula.json"`
+   # Additional repositories (taps)
+   brew tap homebrew/cask-fonts                    # Adds repository for fonts
+   brew install --cask font-fira-code-nerd-font    # Installs a font
 
-Best practices:
-- Usa `brew bundle dump` per creare un Brewfile (simile a requirements.txt)
-- Preferisci sempre la versione Homebrew dei pacchetti rispetto a installer manuali
-- Usa `brew leaves` per vedere i pacchetti installati manualmente
-- Controlla `brew deps --tree <package>` per vedere le dipendenze
+   # Diagnostics
+   brew doctor              # Checks for configuration issues
+   brew cleanup             # Removes old versions (like apt clean)
+   ```
+
+   Where to find packages:
+
+      1. **Official search**: [formulae.brew.sh](https://formulae.brew.sh)
+      2. **GitHub**: [github.com/Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) for CLI
+      3. **Cask**: [github.com/Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) for GUI
+      4. **API**: `curl -s "https://formulae.brew.sh/api/formula.json"`
+
+   Best practices:
+
+      - Use `brew bundle dump` to create a Brewfile (similar to requirements.txt)
+      - Always prefer the Homebrew version of packages over manual installers
+      - Use `brew leaves` to see manually installed packages
+      - Check `brew deps --tree <package>` to see dependencies
 
 ### Tiling Window Management
+
 While not included in sparkdock, these options might interest users coming from tiling window managers:
 
 1. **Amethyst**
@@ -312,4 +323,4 @@ While not included in sparkdock, these options might interest users coming from 
 
 The transition to macOS represents a strategic choice that balances development efficiency, system management, and compliance requirements. While change can be challenging, macOS provides a robust Unix-based environment that should feel familiar to Linux users while offering additional benefits for both individual developers and the organization as a whole.
 
-For additional support or questions, please refer to our internal documentation or reach out to the IT team.
+For additional support or questions, please refer to our internal documentation or reach out on `#tech-support`.
