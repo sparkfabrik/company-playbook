@@ -39,6 +39,6 @@ RUN cd themes/spark-playbook && \
     npm install && \
     npm run postinstall
 
-# This should be moved before instaoll, but for some reasons it breaks the build.
+# This should be moved before install, but for some reasons it breaks the build.
 # We just use it now for the entrypoint.
 ENV NODE_ENV=production
