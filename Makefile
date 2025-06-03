@@ -4,6 +4,9 @@ up:
 	docker compose pull
 	docker compose up -d
 
+down:
+	docker compose down
+
 cli:
 	docker compose run --rm documentation sh
 
