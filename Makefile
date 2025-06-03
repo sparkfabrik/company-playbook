@@ -10,6 +10,7 @@ down:
 cli:
 	docker compose run --rm documentation sh
 
+
 logs:
 	docker compose logs -f
 
