@@ -12,6 +12,7 @@ They proactively monitor and enhance technical quality, oversee training and kno
 
 ## Ownership
 
+* Ensure new projects start on solid, well architected fundations
 * Key architectural decisions spanning multiple teams or an area
 * Monitoring and reporting on technological innovation
 * Technical quality control and adherence to best practices
@@ -20,6 +21,7 @@ They proactively monitor and enhance technical quality, oversee training and kno
 
 ## Practical tasks
 
+* Oversees the first iterations of a project, actively working on fundational tasks and defining the overall architecture
 * Defines and oversees architectural guidelines to maintain consistency and technical excellence
 * Propose and coordinates technical strategies to ensure long-term sustainability and scalability
 * Ensures that best practices in development, security, and performance optimization are followed across teams
