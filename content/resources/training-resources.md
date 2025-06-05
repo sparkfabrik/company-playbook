@@ -102,7 +102,7 @@ All the training material in this section is public and can be freely accessed.
 | **Documentation** | [Git Tutorial (NuLab)](https://nulab.com/learn/software-development/git-tutorial/)   |
 |                   | [Understanding Git Conceptually](https://www.cduan.com/technical/git/)               |
 |                   | [SparkFabrik Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
-|                   | [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)                    |
+|                   | [GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)             |
 |                   | [Semantic Versioning](https://semver.org/)                                           |
 | **Hands-on**      | [Learning Git Branching](https://learngitbranching.js.org/)                          |
 |                   | [Oh my Git](https://ohmygit.org/)                                                    |
