@@ -1,6 +1,6 @@
 /*
 Description: How to take the most out of GitLab boards
-Sort: 110
+Sort: 120
 */
 
 ## Table of Content

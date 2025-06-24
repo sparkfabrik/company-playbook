@@ -1,6 +1,6 @@
 /*
 Description: A set of issue templates for GitLab projects
-Sort: 120
+Sort: 130
 */
 
 ## Table of Content
