@@ -7,6 +7,11 @@ sort: 1
 
 The **Sparkfabrik Sprint Framework** is a work management model developed and tested by Sparkfabrik's Platform Team over several years. Built on **Scrum foundations** and adapted for our specific context, it's designed for development teams operating in multi-client contexts that need to balance planned work, on-demand requests, and internal innovation activities.
 
+We believe that **Scrum** is a great framework, but it needs to be adapted to meet our specific needs and context. Therefore, we have created a *simplified, flexible* version that retains the core principles while allowing for more adaptability.
+It is very easy to understand and accessible to teams of all sizes and experience levels.
+
+On this page, we describe the core **principles of the framework, the ceremonies, roles, and tools that make it effective**. We do not cover detailed practices such as how to write a good story, estimate effectively, or conduct a retrospective. Most of these practices can already be found in this playbook or in the literature, or you can simply ask your colleagues for help.
+
 ### Framework Objectives
 
 - **Predictability**: Guarantee deliveries within established timeframes
