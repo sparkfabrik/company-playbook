@@ -26,7 +26,7 @@ On this page, we describe the core **principles of the framework, the ceremonies
 
 The Sprint Framework adapts traditional Scrum roles to fit our organizational context:
 
-| Traditional Scrum | Sparkfabrik Sprint Framework | Key Responsibilities |
+| Traditional Scrum | Sprint Framework | Key Responsibilities |
 |-------------------|------------------------------|---------------------|
 | **Scrum Master** | **Delivery Manager (DM)** | Facilitates processes, removes impediments, manages client priorities |
 | **Product Owner** | **Staff Engineer** | Ensures technical quality, owns grooming, validates technical decisions |
