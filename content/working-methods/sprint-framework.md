@@ -27,6 +27,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 **New to the Sprint Framework?** Follow this checklist to get your team up and running in one week:
 
 ### Before Your First Sprint (1 week prep)
+
 - [ ] **Setup tools**: Configure GitLab board and Float accounts (see [Tools and Setup](#tools-and-setup))
 - [ ] **Define roles**: Assign Delivery Manager and Staff Engineer (see [Roles and Responsibilities](#roles-and-responsibilities))
 - [ ] **Choose sprint length**: Start with 2 weeks for new teams (see [Choosing Sprint Duration](#choosing-sprint-duration))
@@ -34,6 +35,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 - [ ] **Schedule ceremonies**: Block calendar time for planning, standup, and retrospectives
 
 ### Week 1: Your First Sprint
+
 - [ ] **Sprint Planning**: 2-hour session with entire team to select and estimate issues (see [Sprint Planning](#1-sprint-planning-15-2-hours-monday-of-sprint-start))
 - [ ] **Daily Standups**: Start with 3 sync + 2 async format (see [Daily Standup](#2-daily-standup))
 - [ ] **Time tracking**: Everyone tracks time on GitLab issues
@@ -41,6 +43,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 - [ ] **Mid-sprint check**: Informal team check-in after 1 week
 
 ### After Your First Sprint
+
 - [ ] **Sprint planning for sprint 2**: Review completed work from sprint 1 and plan sprint 2
 - [ ] **Start grooming**: Schedule weekly 2-hour grooming sessions (see [Weekly Grooming](#3-weekly-grooming-2-hours))
 - [ ] **Apply lessons learned**: Use insights from sprint 1 in your planning
@@ -153,6 +156,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 ```
 
 **Key Flow Points:**
+
 - **Grooming** prepares issues for upcoming sprints (see [Weekly Grooming](#3-weekly-grooming-2-hours))
 - **Planning** reviews previous sprint and selects new work based on capacity (see [Sprint Planning](#1-sprint-planning-15-2-hours-monday-of-sprint-start))
 - **Daily rhythm** keeps team aligned and surfaces blockers
@@ -323,7 +327,7 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 #### Pre-Sprint Planning Checklist
 
-- [ ] Team capacity calculated using Float (subtract holidays/training/conferences)
+- [ ] Team capacity calculated using Float
 - [ ] Issues prioritized and groomed
 - [ ] Dependencies identified
 - [ ] Buffer allocated
