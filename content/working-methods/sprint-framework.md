@@ -83,7 +83,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 - **Buffer**: 25-30% of available time
 - **Cadence**: Sprint planning every 2-3 weeks, retrospectives every 3-4 sprints
 - **Tracking**: Dual tracking - GitLab + Float
-- **Capacity Planning**: Float to track available working time (- holidays, conferences, training and other non-work activities)
+- **Capacity Planning**: Float automatically calculates available working time considering holidays, conferences, training and other non-work activities
 
 ### Core Principles
 
@@ -220,8 +220,9 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 ### Float (Capacity Planning)
 
 - **Capacity planning**: Track holidays, conferences, training, and other non-work activities
-- **Available time calculation**: Subtract non-work time to get actual working capacity
-- **Sprint planning input**: Use Float data to calculate team capacity for upcoming sprint
+- **Available time calculation**: Float automatically calculates actual working capacity by subtracting non-work time when viewing reports
+- **Team reporting**: Select team (department) and date range to view capacity reports with time-offs already considered
+- **Sprint planning input**: Use Float's calculated capacity data for upcoming sprint planning
 - **Hours → days conversion**: 1 day = 8 hours for planning purposes
 - **Time fractions management**: Half day = 4h for partial availability
 
