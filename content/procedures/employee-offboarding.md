@@ -12,7 +12,8 @@ It outlines the tasks required to complete the offboarding process, alongside th
 ### Within one week before the last day
 
 * The Admin team should coordinate the retrieval of all company-owned devices and any hardware provided by the client, if applicable.
-* The employee must return all company and client-assigned hardware, followinf Admin's instructions.
+* The employee must return all company and client-assigned hardware, following Admin's instructions.
+* The employee must also perform a secure wipe on any devices with storage (including laptop) prior to returning them.
 
 ### A few days before the last day
 
