@@ -40,6 +40,7 @@ It outlines the tasks required to complete the offboarding process, alongside th
 * HR informs the clients to deactivate any accounts associated with their systems, if applicable.
 * HR and Admin must revoke any other account (if any) on SparkFabrik-controlled services such as Miro, Trello, Retrium, etc.
 * Tech and Admin must revoke licenses for JetBrains software and other softwares, if applicable.
+* Operations must remove the resigned employee from all the projects and teams-related mail groups (`*-team@sparkfabrik.com`)
 
 
 ### Three months after the last day
