@@ -1,4 +1,4 @@
-This is a checklist and flight plan for new employees offboarding.
+This is a checklist and flight plan for the offboarding of an employee.
 
 It outlines the tasks required to complete the offboarding process, alongside their owners. Tasks are grouped by due time, relative to the employee's last day.
 
