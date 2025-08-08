@@ -22,7 +22,7 @@ We recommend configuring the following triggers and settings at the Group level 
 - **Branches for which notifications are to be sent**: `All branches`
 - **Integration**:
   - **Public Slack channels**: The Slack app has permission to write to all public channels.
-  - **Private Slack Chaannels**: [See section below](#private-channels)
+  - **Private Slack Channels**: [See section below](#private-channels)
   - **GitLab group**: Setting the integration to the group level applies the setting to all projects in the group and sub-groups. You can then customize an individual project if needed.
 
 ## Steps
@@ -62,7 +62,7 @@ We recommend configuring the following triggers and settings at the Group level 
 
 > ⚠️ WARNING **Private Slack channels**: If you do not do this, the application will not have the necessary permissions to post messages in the private channel.
 
-For private channels, **you need to add the `GitLab (\***)` integration to the channel\*\*.
+For private channels, **you need to add the `GitLab (***)` integration to the channel\*\*.
 
 1. Open the channel `settings` and click the tab `Integrazioni`
 
