@@ -61,7 +61,7 @@ We recommend configuring the following triggers and settings at the Group level 
 
 > ⚠️ WARNING **Private Slack channels**: If you do not do this, the application will not have the necessary permissions to post messages in the private channel.
 
-For private channels, **you need to add the `GitLab (\***)` integration to the channel\*\*.
+For private channels, **you need to add the `GitLab (***)` integration to the channel**.
 
 1. Open the channel `settings` and click the tab `Integrazioni`
 
