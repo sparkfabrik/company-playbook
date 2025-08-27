@@ -36,7 +36,6 @@ Please find here a TOC of the available training resources.
 | [Frontend Masters](#frontend-masters)   | Development | Angular, React, Python, Go, Rust, UX design, management                                           | Credentials       |
 | [AWS Skill Builder](#aws-skill-builder) | Cloud       | Amazon Web Services                                                                               | Corporate account |
 | [Google SkillBoost](#google-skillboost) | Cloud       | Google Cloud Platform                                                                             | Corporate account |
-| [Cloud Academy](#cloud-academy)         | Cloud       | Vendor-specific services (AWS, GCP, Azure, Alibaba), Kubernetes, complete Cloud training offering | Reserved seats    |
 
 ## Core Skills training resources
 
@@ -226,19 +225,6 @@ With Google SkillBoost comes **Qwiklabs**, a service providing real cloud enviro
 
 > To access **QwikLabs** you just have to fill in [a registration form](https://partner.cloudskillsboost.google/course_sessions/1257385/video/187468
 ) using your `sparkfabrik.com' account.
-
-
-#### Cloud Academy
-
-Cloud Academy offers a complete environment to train for many Certifications Exams, from vendor-specific ones to CNCF certifications programs like KCA/CKAD.
-
-The platform offers video courses, training sandboxes, guided labs and exam simulations.
-
-There is no self-service access to Cloud Academy platform: SparkFabrik has a specific number of seats that can be assigned depending on the Certified Training Program we put in place twice a year.
-
-If you want to discuss a Certified Training on Cloud topics, please let us know by filing a request as described below.
-
-> Head to [Cloud Academy](https://cloudacademy.com/), then access using your `sparkfabrik.com` account. **You need to have a valid, active seat to access the training material**.
 
 ## Filing training requests
 
