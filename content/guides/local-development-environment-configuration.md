@@ -141,7 +141,7 @@ gcloud auth login
 gcloud auth application-default login
 gcloud auth configure-docker
 gcloud auth configure-docker europe-west1-docker.pkg.dev
-gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services
+gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services --dns-endpoint
 ```
 
 Running the first couple commands, your browser will open, asking for authorization to access your account. If you have more than one Google/Gmail account configured you'll have to explicitly choose the `sparkfabrik.com` one.
