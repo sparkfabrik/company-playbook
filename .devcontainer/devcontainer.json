@@ -1,0 +1,35 @@
+{
+    "name": "Sparkfabrik - Company playbook",
+    "workspaceFolder": "${localWorkspaceFolder}",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind",
+    "mounts": [
+        "source=projectname-bashhistory,target=/commandhistory,type=volume"
+    ],
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-from-docker:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "yzhang.markdown-all-in-one",
+                "DavidAnson.vscode-markdownlint",
+                "znck.grammarly",
+                "bungcip.better-toml",
+                "zaaack.markdown-editor",
+                "esbenp.prettier-vscode",
+                "ms-vscode.makefile-tools"
+            ],
+            "settings": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "editor.formatOnSave": true,
+                "typescript.preferences.includePackageJsonAutoImports": "on",
+                "typescript.suggest.autoImports": true,
+                "javascript.suggest.autoImports": true
+            }
+        }
+    }
+}
