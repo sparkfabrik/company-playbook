@@ -8,7 +8,7 @@ The goals defined during Performance Reviews are among the most effective tools 
 
 Helping someone formulate relevant and meaningful goals is part of the review process, turning it into a moment of development rather than just feedback.
 
-Formulating goals, whether for oneself or for others, always requires awareness and attention, and it is one of the most challenging tasks in a professional’s life. It is something one learns over time and, like doughnuts, it doesn’t always come out perfectly.
+Formulating goals, whether for oneself or for others, always requires awareness and attention, and it is one of the most challenging tasks in a professional’s life. It is something one learns over time and - like pancakes - the first one is never quite right.
 
 This guide provides a few basic tools to avoid the most common mistakes and to improve the quality of the goals we set—both for each other and for ourselves.
 
