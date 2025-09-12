@@ -199,6 +199,14 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 - Technical mentoring and pairing
 - Manages technical debt
 
+#### Team Leader
+
+- Owns grooming, planning, standups and review
+- Oversees the assignation of activitied, tasks and issues
+- Coaches the team on the working methodology, enforcing it with the team
+- Makes sure retrospective actions / policies are addressed
+- Removes impediments
+
 #### Team Members
 
 - Actively participate in planning
