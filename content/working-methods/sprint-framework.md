@@ -32,13 +32,13 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 - [ ] **Define roles**: Assign Delivery Manager and Staff Engineer (see [Roles and Responsibilities](#roles-and-responsibilities))
 - [ ] **Choose sprint length**: Start with 2 weeks for new teams (see [Choosing Sprint Duration](#choosing-sprint-duration))
 - [ ] **Create initial backlog**: Gather 15-20 issues with basic descriptions
-- [ ] **Schedule ceremonies**: Block calendar time for planning, standup, and retrospectives
+- [ ] **Schedule ceremonies**: Block calendar time for planning, stand-ups, and retrospectives
 
 ### Week 1: Your First Sprint
 
 - [ ] **Sprint Planning**: 2-hour session with entire team to select and estimate issues (see [Sprint Planning](#1-sprint-planning-15-2-hours-monday-of-sprint-start))
 - [ ] **Daily Standups**: Start with 3 sync + 2 async format (see [Daily Standup](#2-daily-standup))
-- [ ] **Time tracking**: Everyone tracks time on GitLab issues
+- [ ] **Time tracking**: Everyone tracks time on Float (and GitLab issues if defined for your team)
 - [ ] **Buffer monitoring**: Track urgent requests and buffer usage
 - [ ] **Mid-sprint check**: Informal team check-in after 1 week
 
@@ -82,7 +82,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 
 ## Model Overview
 
-- **Sprint Duration**: 2-3 weeks (see "Choosing Sprint Duration" section)
+- **Sprint Duration**: 1-3 weeks (see "Choosing Sprint Duration" section)
 - **Buffer**: 25-30% of available time
 - **Cadence**: Sprint planning every 2-3 weeks, retrospectives every 3-4 sprints
 - **Tracking**: Dual tracking - GitLab + Float
@@ -99,6 +99,18 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 
 ### Choosing Sprint Duration
 
+#### 1-Week Sprints
+
+**When to use**:
+
+- Small teams of people deeply experienced with the framework (maximum adaptability)
+- Emergent contexts with small protected buffer (< 20%)
+- Small teams (< 5 people) with solid expertise
+- Situations with significant more pipelines than team members, small maintenance tasks and short visibility
+
+**Advantages**: Maximum reactivity, quicker planning, easier negotiation with stakeholder
+**Disadvantages**: Short-term visibility, hard to fit medium-to-high complexity tasks
+
 #### 2-Week Sprints
 
 **When to use**:
@@ -108,7 +120,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 - Small teams (< 5 people) that prefer agility
 - Clients requiring very frequent deliveries
 
-**Advantages**: More reactivity, faster corrections, less risk of problem accumulation
+**Advantages**: High reactivity, faster corrections, low risk of problem accumulation
 **Disadvantages**: Higher planning overhead, less time for complex tasks
 
 #### 3-Week Sprints
@@ -220,7 +232,7 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ## Tools and Setup
 
-### GitLab Setup
+### GitLab Setup (**EXPERIMENTAL**)
 
 - **Single board** to track all work
 - **Client labels** to filter and organize
@@ -296,21 +308,21 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 - Prepare issues for upcoming sprints
 - Define scope and acceptance criteria
 - Identify dependencies and risks
-- Estimate complexity using `/estimate` command (e.g., `/estimate 1d`, `/estimate 4h`)
+- Estimate complexity/effort using `/estimate` command (e.g., `/estimate 1d`, `/estimate 4h`) (use [Thunderdome.dev](http://thunderdome.dev/) for collaborative sessions)
 
 > **Note**: We use time-based estimates (hours/days) rather than story points for more concrete planning. Grooming is voluntary but highly encouraged to maintain issue quality. Be careful about the time spent on grooming to avoid it becoming a bottleneck.
 
 #### 4. Retrospectives (2 hours, every 3-4 sprints)
 
-**Facilitator**: Delivery Manager or senior figure
-**Format**: Freely chosen by the team (we use [Retrium.com](https://retrium.com) for online facilitation)
+**Facilitator**: Delivery Manager, Senior colleague or HR coach if necessary
+**Format**: The team selects the most suitable format for the purpose of each retrospective (we use [Retrium.com](https://retrium.com) for online facilitation)
 **Output**: Issue with trackable action items
 
 ### Team-Specific Configurations
 
 #### Maintenance/Support Teams
 
-- **Short sprints**: 2 weeks for greater reactivity (see [Choosing Sprint Duration](#choosing-sprint-duration))
+- **Short sprints**: 1 or 2 weeks for greater reactivity (see [Choosing Sprint Duration](#choosing-sprint-duration))
 - **Larger buffer**: 35-40% to handle emergencies (vs standard 25-30%)
 - **Project rotation**: Avoid competence silos
 - **Proactive communication**: Alert clients about response times
@@ -347,11 +359,11 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 
 #### Retrospective Checklist
 
-- [ ] What went well?
-- [ ] What went poorly?
-- [ ] What can we improve?
-- [ ] Action items with owner and deadline
-- [ ] Issue created for follow-up tracking
+- [ ] *No later than the day before:* Facilitator must query the team about - or take a look at - the most prominent topics that need discussion
+- [ ] *Within 1 hour before the retro:* Facilitator must decide the format and prepare the room on Retrium
+- [ ] *During the retrospective:* Don't play finger-pointing, focus on improvement, generate practical action items
+- [ ] *Within 1 hour after the retro:* Facilitator summarizes the outcome and actions decided upon to the team in a place that stays visible up to the next retro
+- [ ] *Withing the next planning / grooming* (whatever comes first): All actions that need to be tracked are created as issues by the facilitator (can delegate someone in the team)
 
 ---
 
@@ -389,7 +401,7 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 
 **Solutions**:
 
-- Temporarily increase buffer (see [Team-Specific Configurations](#team-specific-configurations) for guidance)
+- **Either** temporarily increase buffer (see [Team-Specific Configurations](#team-specific-configurations) for guidance) **or** reduce the sprint duration, so non-vital stuff is at most one week ahead and the plan can be preserved.
 - Track types of urgent requests for better planning
 - Stakeholder education on response times
 - Review [Delivery Manager responsibilities](#delivery-manager-dm) for priority management

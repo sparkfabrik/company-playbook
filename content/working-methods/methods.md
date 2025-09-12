@@ -20,6 +20,13 @@ Books we recommend for further reading on working methods include:
 - **"The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win"** by Gene Kim, Kevin Berger, and George Spafford
 - **"Team Topologies: Organizing Business and Technology Teams for Fast Flow"** by Matthew Skelton, Manuel Pais, and Ruth Malan
 
+For those in the need to learn and understand the basics that shaped our working methods, we strongly encourage the reading of the following quick primers, both freely accessible:
+
+* [The Official Scrum Guide](https://scrumguides.org/scrum-guide.html)
+* [Essential Kanban Condensed](https://kanbanbooks.com/essential-kanban-condensed/)
+
+These are written to give you all the basics and fundamental concepts so you don't get lost during team discussions.
+
 ## Available Working Methods
 
 - **[Sprint Framework](sprint-framework.md)** - Work organization model for development teams
