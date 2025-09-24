@@ -30,3 +30,32 @@ These are written to give you all the basics and fundamental concepts so you don
 ## Available Working Methods
 
 - **[Sprint Framework](sprint-framework.md)** - Work organization model for development teams
+
+## When this method does not apply
+
+This method is intended for projects where Sparkfabrik has the authority to propose and operate the team organisation, toolchain and delivery practices. It does not apply when the project is managed and represented outside of Sparkfabrik; for example, when the customer or another third party has contractual authority to impose their own organisation, tools, ceremonies or knowledge base. In those situations our role is to deliver value within the constraints of the external setup while protecting product quality and the wellbeing of the team.
+
+### What still applies
+
+**Quality expectations and procedural safeguards**. Regardless of who runs the project, we continue to adhere to our quality provisions: clear acceptance criteria, rigorous testing (automated and manual where required), security and accessibility considerations, traceable decisions, and the use of defined review and release procedures where technically possible. These are non-negotiable aspects of our delivery and should be maintained or integrated with the customer's practices.
+
+Take our [Universal Definition of Done](/tools-and-policies/universal-dod)
+
+### What typically does not apply
+
+Specific internal procedures, prescribed tools, labeling conventions, cadence and run-books, and mandatory ceremonies or iteration duration that are controlled by the third party. When a client platform enforces different tooling or a different rhythm, we must adapt operationally while keeping quality commitments.
+
+### How to approach when our methods do not apply
+
+The team leader must verify how much of the external toolchain and organisation is coherent with our way of working by asking:
+
+- Can we use our preferred tools, or does the client provide equivalent tools with comparable capabilities?
+- Is the platform, services and integrations provided by the client fit for purpose and able to meet our quality and delivery requirements?
+- Are there constraints that could hinder technical quality, team productivity, or the team’s quality of life? Examples: restricted CI, missing code‑review hooks, no feature‑flagging, or poor issue‑tracking semantics.
+- What mitigation strategies can we apply if problems arise? Examples: additional automated tests, temporary scripts or automation, documented workarounds, or defined escalation paths.
+- Can we create opportunities to introduce our practices gradually (small, timeboxed experiments or pilots — for example via a retrospective or a spike) to demonstrate value and win buy‑in?
+
+The last point is particularly important, being where SparkFabrik usually makes the difference.  
+If the third party lacks organisation or a proper methodology, propose our solutions respectfully: suggest small experiments, demonstrate value on a short timebox, nudge the introduction of best practices, and recommend improvements to the proper decision-makers. Introducing changes via evidence-based pilots (for example in a retrospective or as a spike) is the best path to create a strong bond, contribute constructive value, and spread practices that improve quality. It can also open opportunities to upsell our expertise.
+
+This is intended as guidance, not a strict policy. When in doubt, raise the situation early with your Delivery Manager or a board representative engaged with the client so we can align risk, expectations and any contractual implications.
