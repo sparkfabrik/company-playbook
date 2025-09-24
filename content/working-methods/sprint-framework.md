@@ -1,5 +1,5 @@
 /*
-title: Sprint Framework (scrummish)
+title: Sprint Framework
 sort: 1
 */
 
@@ -234,12 +234,14 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ### GitLab Setup (**EXPERIMENTAL**)
 
+_**Note**: This GitLab arrangement is experimental and intended only for teams that serve many different clients, handle frequent emergent issues, and face continuously shifting priorities (for example maintenance teams). Those who are focused on a single, long‑running project should not adopt this model. Use it cautiously and evaluate its fit for your context before rolling it out._
+
 - **Single board** to track all work
 - **Client labels** to filter and organize
-- **Milestone = Sprint** to group work
-- **Active time tracking** on all issues
+- **Per-sprint milestones** to collect the sprint scope
 - **Issue templates** for work standardization (see [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies/gitlab-issue-templates))
 - **Time-based estimates** using `/estimate` command on issues (e.g., `/estimate 2d` for 2 days, `/estimate 4h` for 4 hours)
+- **Active time tracking** on all issues
 
 ### Float (Capacity Planning)
 
