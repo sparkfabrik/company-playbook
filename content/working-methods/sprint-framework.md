@@ -234,7 +234,7 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ### GitLab Setup (**EXPERIMENTAL**)
 
-_**Note**: This GitLab arrangement is experimental and intended only for teams that serve many different clients, handle frequent emergent issues, and face continuously shifting priorities (for example maintenance teams). Those who are focused on a single, long‑running project should not adopt this model. Use it cautiously and evaluate its fit for your context before rolling it out._
+> **Note**: This GitLab arrangement is experimental and intended only for teams that serve many different clients, handle frequent emergent issues, and face continuously shifting priorities (for example maintenance teams). Those who are focused on a single, long‑running project should not adopt this model. Use it cautiously and evaluate its fit for your context before rolling it out.
 
 - **Single board** to track all work
 - **Client labels** to filter and organize
