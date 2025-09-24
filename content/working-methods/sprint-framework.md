@@ -402,8 +402,8 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 **Solutions**:
 
 - **Either** temporarily increase buffer (see [Team-Specific Configurations](#team-specific-configurations) for guidance) **or** reduce the sprint duration, so non-vital stuff is at most one week ahead and the plan can be preserved.
-- Track types of urgent requests for better planning
-- Stakeholder education on response times
+- Track types of urgent requests for better planning (check contracts)
+- Surface and enforce response times contract provisions with stakeholders (negotiate whenever possible)
 - Review [Delivery Manager responsibilities](#delivery-manager-dm) for priority management
 
 #### "Estimates are always wrong"
@@ -412,9 +412,9 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 
 **Solutions**:
 
-- More accurate grooming with detailed time breakdown
-- Involve those who will do the work in time estimates (see [Weekly Grooming](#3-weekly-grooming-2-hours))
-- Template for estimation checklist
+- More accurate grooming with detailed tasks breakdown
+- Involve actual assegnees in estimation process (see [Weekly Grooming](#3-weekly-grooming-2-hours))
+- Create a template checklist for estimation
 - Break down tasks to maximum 1 day estimates for better accuracy
 - Use [Thunderdome.dev](http://thunderdome.dev/) for collaborative estimation during planning
 
@@ -427,7 +427,7 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 - Forced rotation during planning (see [Sprint Planning](#1-sprint-planning-15-2-hours-monday-of-sprint-start))
 - Mandatory pairing on complex tasks
 - Retrospectives focused on team building (see [Retrospectives](#4-retrospectives-2-hours-every-3-4-sprints))
-- Better knowledge sharing during [Daily Standups](#2-daily-standup)
+- Organize immediate knowledge sharing right after [Daily Standups](#2-daily-standup), whenever necessary
 
 ### Success Metrics
 
@@ -442,7 +442,7 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 #### Red Flags
 
 - Constant buffer consumption > 50%
-- Issues sliding 2+ sprints
+- Issues rolling over for 2 or more sprints
 - Frequent overtime
 - Reactive instead of proactive client communication
 
