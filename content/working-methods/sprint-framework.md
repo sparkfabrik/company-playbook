@@ -28,6 +28,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 
 ### Before Your First Sprint (1 week prep)
 
+- [ ] **Understand our quality standards**: Make sure the team reads and understand our [Universal Definition of Done](/tools-and-policies/universal-dod)
 - [ ] **Setup tools**: Configure GitLab board and Float accounts (see [Tools and Setup](#tools-and-setup))
 - [ ] **Define roles**: Assign Delivery Manager and Staff Engineer (see [Roles and Responsibilities](#roles-and-responsibilities))
 - [ ] **Choose sprint length**: Start with 2 weeks for new teams (see [Choosing Sprint Duration](#choosing-sprint-duration))
@@ -230,7 +231,7 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ---
 
-## Tools and Setup
+## Tools Setup
 
 ### GitLab Setup (**EXPERIMENTAL**)
 
@@ -252,17 +253,25 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 - **Hours → days conversion**: 1 day = 8 hours for planning purposes
 - **Time fractions management**: Half day = 4h for partial availability
 
-### Basic Metrics
+### Basic Metrics (keep them tracked )
 
-- Velocity (hours/days completed per sprint)
-- Estimate vs Actual Time
-- Percentage of issues completed per sprint
-- Buffer usage by type
+- Velocity (completed estimated items per sprint)
+- Estimate vs Actual Completion Time
+- Percentage of sprint backlog actually completed
+- Buffer usage by type / reason
 
-### Additional Tools
+## Additional Tools and practical tips
+
+### Useful tools
 
 - **[Retrium.com](https://retrium.com)**: Online retrospective facilitation platform (used in [Retrospectives](#4-retrospectives-2-hours-every-3-4-sprints))
 - **[Thunderdome.dev](http://thunderdome.dev/)**: Poker planning tool for collaborative estimation during [Sprint Planning](#1-sprint-planning-15-2-hours-monday-of-sprint-start)
+
+### Practical tips
+
+- Use **Google Meet AI Notetaking** to take summaries of [standups](#2-daily-standup) or other discussions.
+- Query **SparkFabrik Intelligence**, our AI-powered Slack participant, about our policies, tools, and every [books mentioned in the opening chapter](/working-methods/methods).
+- Focus on the **quality of requirement and specs**, both as a starting point for estimation, and as an input for GenAI coding and planning tools.
 
 ---
 
