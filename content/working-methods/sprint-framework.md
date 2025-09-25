@@ -396,6 +396,7 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 - Post-mortem on issues that exceed estimates by 150%+
 - Better buffer protection (see [Core Principles](#core-principles) for buffer guidelines)
 - Review capacity calculation accuracy (see [Float (Capacity Planning)](#float-capacity-planning))
+- Limit work in progress (focus on clearing queues at bottlenecks)
 
 #### "Buffer is never enough"
 
@@ -491,3 +492,4 @@ For teams wanting to adopt the Sprint Framework progressively, we recommend a ph
 - **Measure**: Track basic metrics from day one
 - **Adapt**: Use retrospectives to adjust the framework to your context
 - **Be patient**: Allow 2-3 sprints for the team to get comfortable with each phase
+- **Stop starting, start finishing**: Bring tasks to actual delivery before taking up more work
