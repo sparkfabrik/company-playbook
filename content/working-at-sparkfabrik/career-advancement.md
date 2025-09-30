@@ -17,7 +17,7 @@ It's not all about knowing a framework's ins and outs, being able to code in man
 
 Being around here, working on many different projects, and engaging with the company's community will make you climb the ladder.
 
-Each developer can assess their overall level of proficiency by performing an [impact assessment](/working-at-sparkfabrik/impact-assessment).  
+Each developer can assess their overall level of proficiency by [reviewing their performance](/working-at-sparkfabrik/performance-review).  
 This model allows focusing on quality, lowering the impact of personal perception on your merits.
 
 To understand if you match a certain level or if you can cover a specific role, learn about the [accountabilities of your target position](/organization/accountabilities) and self-assess how well you are fulfilling the expectations, printing the relevant accountabilities page in the form of an _Impact Assessment Card_.  

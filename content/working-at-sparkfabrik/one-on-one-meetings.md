@@ -23,7 +23,7 @@ HR representatives and team leads engaging in one-on-ones with employees and tea
 The company will make sure that every employee has at least two one-on-one meetings each year. All employees with a role in operations will attend the meeting with a designated HR representative.  
 There are no prerequisites for one-to-ones, and an effective agenda for the meeting is detailed below, but each employee who wants to take the most out of the event must come prepared with topics to discuss.
 
-One-on-ones with your Team Leader, responsible or direct report are great opportunities to talk about your career, your performance, and your professional goals. If you feel this is important, we strongly advise you [get ready for the meeting with a self-assessment](/working-at-sparkfabrik/impact-assessment).  
+One-on-ones with your Team Leader, responsible or direct report are great opportunities to talk about your career, your performance, and your professional goals. If you feel this is important, we strongly advise you [get ready for the meeting with a performance self-assessment](/working-at-sparkfabrik/performance-review).  
 Optionally you can ask for an assessment from your responsible or senior teammate - this is especially recommended for junior developers.
 
 ## Goal
