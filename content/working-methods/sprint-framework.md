@@ -162,10 +162,10 @@ It is very easy to understand and accessible to teams of all sizes and experienc
             │                        │                        │
             │                        ▼                        │
             └──────────────► ┌─────────────────┐ ◄────────────┘
-                            │  Retrospective  │
-                            │  (every 3-4     │
-                            │   sprints)      │
-                            └─────────────────┘
+                             │  Retrospective  │
+                             │  (every 3-4     │
+                             │   sprints)      │
+                             └─────────────────┘
 ```
 
 **Key Flow Points:**
