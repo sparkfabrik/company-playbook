@@ -129,11 +129,15 @@ The Team Leader will also make sure that:
 
 Role or function can be:
 
-* Software Developer
-* Lead developer
-* C-Level or other management/board function
+* Software Developer (for everyone in any software developer team)
+* Cloud Engineer (for everyone in the Platform Team)
+* UX/UI Designer (for everyone in the Design Team)
+* Delivery Manager (for everyone in the Operations Team)
+* C-Level, Head of, or other management/board functions
 
 When in doubt, ask your HR representative.
+
+The phone number is optional but recommended for high-level roles who have frequent contacts with clients or providers.
 
 ### Branded LinkedIn banner
 
