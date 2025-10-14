@@ -1,5 +1,3 @@
 .DS_Store
 **/public/dist/
 node_modules/
-custom/content
-custom/assets
