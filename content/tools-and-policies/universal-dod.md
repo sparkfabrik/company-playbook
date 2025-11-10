@@ -23,7 +23,7 @@ According to the [_Scrum Alliance_ definition]((https://resources.scrumalliance.
 
 In simple words a _Definition of Done_ is **a checklist of non-functional requirements** to ensure to be on the right path and understand **if a task is actually done** or if it needs more work.
 
-Definitions of done **are living documents**, significantly depending on the context in which they are applied, such as technologies, team composition, contracts, policies, etc.  
+Definitions of done **are living documents**, significantly depending on the context in which they are applied, such as technologies, team composition, contracts, policies, etc.
 Still, there are some universal principles we apply to all and every projects, and they define what we call the _**Universal Definition of Done**_ (_UDoD_)
 
 ### Universal Definition of Done
@@ -49,6 +49,11 @@ When working on a SparkFabrik project, a task is considered done when:
   - Architectural overviews, schemas, flow-diagrams and decisions log.
   - Domain glossary.
   - Technical and business key contacts and roles.
+- **AI tooling prompts and instructions** are created and maintained as reusable project assets when using AI tools like GitHub Copilot, including:
+  - GitHub Copilot Custom Instructions tailored to the project's codebase and conventions.
+  - Reusable chat prompts/chat modes for common tasks (debugging, refactoring, documentation).
+  - Defined AI agents that team members can use for specific roles (e.g., "senior QA engineer", "security reviewer").
+  - An `AGENTS.md` file or similar documentation that formalizes and shares these prompts and personas with the team.
 
 #### Project-Level checks
 
