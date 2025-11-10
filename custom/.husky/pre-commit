@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# Temporarily skip make check due to Docker build issues
-# make check
-echo "Skipping pre-commit check due to Docker connectivity issues"
+make check
