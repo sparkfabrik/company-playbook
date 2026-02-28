@@ -130,11 +130,13 @@ All the training material in this section is public and can be freely accessed.
 
 ### Kubernetes
 
-> **Time to completion**: 1 hour for the documentation; 12 hours for the hands-on.
+> **Time to completion**: 2 hours for the documentation; 16 hours for the hands-on.
 
 | Resources         |                                                                                                                                                                           |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Documentation** | [The Illustrated Childrens Guide to Kubernetes (Italian)](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf) |
+|                   | [Kubernetes Tutorial for Beginners (TechWorld with Nana - YouTube)](https://youtu.be/s_o8dwzRlu4) - _Mandatory_                                                           |
+|                   | [Kubernetes Course - Full Beginners Tutorial (FreeCodeCamp - YouTube)](https://youtu.be/X48VuDVv0do) - _Optional_                                                         |
 | **Hands-on**      | [Kubernetes (KillerCoda)](https://killercoda.com/kubernetes) <sup><a href="#fn2">2</a></sup>                                                                              |
 
 ### CI/CD
