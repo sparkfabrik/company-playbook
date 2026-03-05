@@ -70,7 +70,7 @@ All the training material in this section is public and can be freely accessed.
 |                   | [OWASP Top 10 (The OWASP® Foundation)](https://owasp.org/Top10/)                                                                                                                                  |
 |                   | [Concise Guide for Evaluating Open Source Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Evaluating-Open-Source-Software.html)                                                    |
 |                   | [Source Code Management Best Practices Guide (OpenSSF)](https://best.openssf.org/SCM-BestPractices/)                                                                                              |
-|                   | [The Secure Software Factory (CNCF Tag Security Whitepaper)](https://github.com/cncf/tag-security/blob/main/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) |
+|                   | [The Secure Software Factory (CNCF Tag Security Whitepaper)](https://github.com/cncf/tag-security/blob/main/community/working-groups/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) |
 | **Hands-on**      | [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) <sup><a href="#fn1">1</a></sup>                                           |
 
 ### Networking
