@@ -13,6 +13,7 @@ Sort: 20
 - [OpenSpec](#openspec)
 - [Other CLI tools](#other-cli-tools)
 - [Installation and updates](#installation-and-updates)
+- [Authentication](#authentication)
 - [GitHub Copilot subscription policy](#github-copilot-subscription-policy)
 
 ## TL;DR
@@ -31,12 +32,17 @@ sjust sparkdock-upgrade    # install all tools
 | Sustained interactive session | `ico` |
 | OpenCode session (experimental) | `c` |
 
-**Authenticate the CLI tools (one-time):**
+**Authenticate (one-time):**
 
-```bash
-sjust gitlab-configure-glab    # GitLab (glab)
-gh auth login                  # GitHub (gh)
-```
+| Tool | Command |
+|------|---------|
+| GitHub Copilot CLI | `copilot login` (or `/login` inside a session) |
+| OpenCode (experimental) | `/connect` in OpenCode, select "GitHub Copilot" |
+| VS Code / JetBrains | Sign in via the Copilot extension sidebar |
+| glab (GitLab CLI) | `sjust gitlab-configure-glab` |
+| gh (GitHub CLI) | `gh auth login` |
+
+All GitHub-based tools authenticate against **github.com** using your SparkFabrik organization account.
 
 The rest of this page covers how each tool works, when to use which, and the subscription policy.
 
@@ -167,6 +173,58 @@ If a tool is missing or outdated, `sjust sparkdock-upgrade` is always the safe d
 | OpenSpec | npm (`@fission-ai/openspec`) | `npm_packages` |
 
 Sparkdock also configures shell aliases, zsh completions, and OpenCode permissions.
+
+## Authentication
+
+All GitHub-based tools authenticate against **github.com** using your SparkFabrik organization account via OAuth. This is safe and expected. No API keys to manage manually, no third-party services. Your credentials are stored locally (in your OS keychain for Copilot CLI, in OpenCode's auth store for OpenCode).
+
+### GitHub Copilot CLI
+
+Copilot CLI has its own authentication, separate from the `gh` CLI. Run `copilot login` from your terminal (or `/login` inside an active session):
+
+```bash
+copilot login
+```
+
+This opens your browser at `github.com/login/device` where you enter the one-time code displayed in the terminal. Select **GitHub.com**, authorize, and you're set. The token is stored in your OS keychain under the service name `copilot-cli`.
+
+> If you've already authenticated with `gh auth login`, Copilot CLI can use that token as a **fallback**. But we recommend running `copilot login` explicitly so Copilot CLI has its own stored credential.
+
+For the full reference, see the official docs: [Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli).
+
+### GitHub Copilot in VS Code / JetBrains
+
+Sign in through the Copilot extension sidebar. It opens the same GitHub OAuth flow in your browser. Once authorized, the extension stays authenticated.
+
+### OpenCode (experimental)
+
+Open an OpenCode session (`c`), then run the `/connect` command:
+
+```
+/connect
+```
+
+Select **GitHub Copilot** from the provider list. OpenCode gives you a device code and a link to `github.com/login/device`. Enter the code, authorize, done.
+
+For the full reference, see the OpenCode docs: [GitHub Copilot provider](https://opencode.ai/docs/providers/#github-copilot).
+
+### glab (GitLab CLI)
+
+glab authenticates against **GitLab**, not GitHub. Run:
+
+```bash
+sjust gitlab-configure-glab
+```
+
+This is a one-time setup handled by sparkdock.
+
+### gh (GitHub CLI)
+
+```bash
+gh auth login
+```
+
+Select **GitHub.com**, authenticate via browser. This is also the fallback credential for Copilot CLI if `copilot login` hasn't been run.
 
 ## GitHub Copilot subscription policy
 
