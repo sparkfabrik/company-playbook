@@ -15,6 +15,7 @@ Sort: 20
 - [Installation and updates](#installation-and-updates)
 - [Authentication](#authentication)
 - [GitHub Copilot subscription policy](#github-copilot-subscription-policy)
+  - [Personal use](#personal-use)
 
 ## TL;DR
 
@@ -234,13 +235,33 @@ All employees with access to GitHub can use GitHub Copilot. You should receive a
 
 ### Usage policy
 
-1. Employees are encouraged to use AI suggestions but **must use their own judgment** when applying them. Always review suggested code and understand it before implementing it. The name is Co*pilot*, not Auto*pilot*.
+1. Employees are encouraged to use AI suggestions but **must use their own judgment** when applying them. Always review suggested code and understand it before implementing it. The name is *Co*pilot, not *Auto*pilot.
 
 2. Employees must comply with all company policies when using GitHub Copilot. Non-compliance is the employee's responsibility.
 
-3. The service is regulated by the [GitHub Copilot for Business Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-copilot-for-business-privacy-statement). Code snippets are transmitted in real-time for suggestions but are not retained. It is the employer's responsibility to verify the privacy statement is acceptable for their specific use case; if in doubt, ask your team lead or manager.
+3. The service is regulated by the [GitHub Terms for Additional Products and Features](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot) and the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Code snippets are transmitted in real-time for suggestions but are not retained by default. For details on data handling, see the [GitHub Copilot Trust Center](https://copilot.github.trust.page/). It is the employer's responsibility to verify that these terms are acceptable for their specific use case; if in doubt, ask your team lead or manager.
 
 4. This policy is reviewed periodically and updated as needed.
+
+### Personal use
+
+GitHub attaches the Copilot subscription to your personal GitHub account. When the organization seat is assigned, any existing personal subscription is automatically cancelled. We recognize this means the tools you use for work are the same tools available on your personal projects.
+
+Here is what is and isn't covered:
+
+- **Open source and community contributions: encouraged.** Contributing to open source projects, building community tools, and participating in hackathons all build skills that benefit you and the company.
+- **Personal non-commercial projects: allowed.** Learning new technologies, hobby projects, and personal tools are fine, within the guidelines below.
+- **Personal commercial projects: not covered.** Freelance work, side businesses, SaaS products, and paid consulting deliverables should not use the company-provided subscription.
+- **Projects that compete with the company: not allowed.** Personal projects must not compete with SparkFabrik's products, services, or business areas.
+
+A few guidelines:
+
+1. **Work takes priority.** Premium requests are metered and have a cost. If your usage is unusually high, we may ask about it.
+2. **Keep company and personal work separate.** Personal projects must not include, reuse, or be derived from company code, proprietary logic, or confidential information.
+3. **Your personal projects are yours.** The company makes no intellectual property claim on code you write for personal or open source projects, provided it is developed outside working hours and is not related to the company's business.
+4. **This is trust-based.** We'd rather give clear boundaries than build surveillance. If costs become unsustainable, we'll revisit the policy with transparency.
+
+If you're unsure whether a specific use case qualifies, ask your manager.
 
 ### Requesting a subscription
 

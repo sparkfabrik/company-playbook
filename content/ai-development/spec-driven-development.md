@@ -23,6 +23,8 @@ Spec-Driven Development (SDD) is an emerging approach where you **agree on what 
 
 This is not waterfall. There are no rigid phase gates or months of upfront planning. The idea is to spend a small amount of time thinking things through, then start building. When things change (and they will), you update the specs and keep going. The specs evolve with the code.
 
+This is nothing different from what we already do on every project in SparkFabrik. We set clear goals and direction, we work in iterations and we detail the reasonable amount of steps to move towards the next objective. Then, rinse and repeat.
+
 A spec is a **behavior contract**: it describes what the system should do, not how it should do it internally. Compare these two ways of describing the same feature:
 
 - **Vague prompt**: *"Add session timeout so users get logged out after being idle."*
