@@ -38,6 +38,15 @@ code {
     background-color: #272935;
   }
 
+  // Lighter inline code inside tables — avoids heavy dark blocks
+  // that break the visual flow of table cells.
+  table &:not([class]) {
+    padding: 2px 6px;
+    font-size: 14px;
+    color: #1a1a2e;
+    background-color: #e8eaef;
+  }
+
   &:where(h2 *, h3 *, h4 *) {
     font-family: inherit;
     font-size: 100%;
