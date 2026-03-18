@@ -114,7 +114,7 @@ All the training material in this section is public and can be freely accessed.
 | Resources         |                                                                                |
 |-------------------|--------------------------------------------------------------------------------|
 | **Documentation** | [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart) |
-|                   | [SparkFabrik's policy on Copilot](/tools-and-policies/github-copilot)          |
+|                   | [SparkFabrik's AI development tools and setup](/ai-development/tools-and-setup) |
 
 ## DevOps
 
