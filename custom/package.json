@@ -15,7 +15,7 @@
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "dependencies": {
     "markdown-link-validator": "github:jenkin/markdown-link-validator#feature/sparkfabrik-enhancements",
-    "raneto": "0.17.5"
+    "raneto": "0.18.0"
   },
   "devDependencies": {
     "glob-parent": "^6.0.2",
