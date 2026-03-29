@@ -5,14 +5,7 @@ Sort: 40
 
 ## TL;DR
 
-Write specs before code. Use OpenSpec to track changes as structured artifacts.
-
-| Step | Command | What happens |
-|------|---------|-------------|
-| Explore | `/opsx:explore` | Investigate the problem, no code written |
-| Create | `/opsx:ff <name>` | Generate proposal, specs, design, tasks |
-| Implement | `/opsx:apply` | Work through tasks one by one |
-| Finalize | `/opsx:archive` | Merge delta specs into source of truth |
+Write specs before code: capture intent, requirements, and design decisions in your repository before generating any code. This page explains the methodology. For commands, concepts, and file structure, see the **[OpenSpec Reference](/ai-development/openspec-reference)**.
 
 New to this? Start with `/opsx:onboard` in a chat session.
 

@@ -13,6 +13,7 @@ Sort: 45
 | Validate before archive | `openspec validate <name>` |
 | Specs source of truth | `openspec/specs/` |
 | Active changes | `openspec/changes/` |
+| New to OpenSpec? | Start with `/opsx:onboard` in a chat session |
 
 ## Table of Contents
 
