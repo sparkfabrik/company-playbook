@@ -24,6 +24,7 @@
     "patch-package": "^8.0.0"
   },
   "overrides": {
-    "glob-parent": "$glob-parent"
+    "glob-parent": "$glob-parent",
+    "path-to-regexp": "0.1.13"
   }
 }

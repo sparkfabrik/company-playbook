@@ -9,6 +9,7 @@ Sort: 10
   - [IDE](#ide)
   - [CLI tools](#cli-tools)
 - [How the pieces fit together](#how-the-pieces-fit-together)
+- [Beyond development](#beyond-development)
 - [Principles](#principles)
 - [Getting started](#getting-started)
 
@@ -50,6 +51,14 @@ The tools above are general-purpose out of the box. We extend them in two ways:
 **Skills and agent profiles** customize how the coding agents behave, adding domain knowledge, safety protocols, and role-specific configurations. SparkFabrik maintains a shared catalog in [sf-awesome-copilot](https://github.com/sparkfabrik/sf-awesome-copilot), synced to your machine automatically by sparkdock. You can also create your own, and each project can define its own alongside the code. See [Skills and Agents](/ai-development/skills-and-agents) for how they work and where they live.
 
 **Spec-Driven Development** adds structure to how we use AI on non-trivial work. Instead of jumping straight to code, we capture intent and requirements as artifacts that the AI can reference and reviewers can verify against. See [Spec-Driven Development](/ai-development/spec-driven-development) for the methodology.
+
+## Beyond development
+
+The pages in this section focus on **development workflows**: coding agents, terminal tools, and spec-driven methodologies. If you're a developer or cloud engineer, this is your starting point.
+
+For **non-development roles** — project managers, analysts, marketing, administrative roles, and similar — **[Claude.ai](https://claude.ai)** is the AI tool we've adopted for work. It's well suited for writing, research, analysis, brainstorming, and structured thinking. Claude is provided through a company subscription; if you don't have access yet, ask your manager or reach out on `#support-hr`. Dedicated guidance for using Claude in these roles is coming.
+
+For **UI/UX designers**, we are evaluating specialized tools — specifically [Google Stitch](https://stitch.withgoogle.com) and Figma AI/Make — but we haven't converged on an approach yet. If you're a designer using AI in your workflow, we'd love to hear what's working for you; your input will shape what we recommend here.
 
 ## Principles
 

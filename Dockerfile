@@ -1,4 +1,4 @@
-FROM node:18-alpine as dev
+FROM node:22-alpine as dev
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
 RUN apk add --no-cache tini
