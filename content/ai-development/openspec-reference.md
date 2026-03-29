@@ -3,8 +3,20 @@ Description: OpenSpec framework reference: concepts, commands, and project file 
 Sort: 45
 */
 
+## TL;DR
+
+| What you need | Where to look |
+|---------------|---------------|
+| Workflow commands | `/opsx:explore`, `/opsx:ff`, `/opsx:apply`, `/opsx:archive` |
+| Step-by-step alternative | `/opsx:new` + `/opsx:continue` |
+| Check progress | `openspec status --change <name>` |
+| Validate before archive | `openspec validate <name>` |
+| Specs source of truth | `openspec/specs/` |
+| Active changes | `openspec/changes/` |
+
 ## Table of Contents
 
+- [TL;DR](#tldr)
 - [Overview](#overview)
 - [The core flow](#the-core-flow)
 - [Key concepts](#key-concepts)

@@ -3,8 +3,22 @@ Description: Spec-Driven Development with OpenSpec for AI coding assistants
 Sort: 40
 */
 
+## TL;DR
+
+Write specs before code. Use OpenSpec to track changes as structured artifacts.
+
+| Step | Command | What happens |
+|------|---------|-------------|
+| Explore | `/opsx:explore` | Investigate the problem, no code written |
+| Create | `/opsx:ff <name>` | Generate proposal, specs, design, tasks |
+| Implement | `/opsx:apply` | Work through tasks one by one |
+| Finalize | `/opsx:archive` | Merge delta specs into source of truth |
+
+New to this? Start with `/opsx:onboard` in a chat session.
+
 ## Table of Contents
 
+- [TL;DR](#tldr)
 - [What is Spec-Driven Development](#what-is-spec-driven-development)
 - [Get started](#get-started)
   - [Your first feature](#your-first-feature)

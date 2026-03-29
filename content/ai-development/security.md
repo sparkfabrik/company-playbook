@@ -3,8 +3,17 @@ Description: Security practices for AI-assisted development: prompt hygiene, con
 Sort: 25
 */
 
+## TL;DR
+
+- **Never put credentials, PII, or client secrets in prompts** — treat prompts like emails
+- **Copilot content exclusion does NOT work for CLI agents** — human review is the primary safeguard
+- **Both tools are configured with safe defaults at the org level**: GitHub Copilot has content exclusion for `.env` and sensitive paths (IDE only); OpenCode blocks `.env` files and [sparkdock](https://github.com/sparkfabrik/sparkdock/blob/master/config/macos/opencode.json) adds 150+ permission rules for destructive commands
+- **Your data is not used for training** on commercial plans (Copilot, Claude for Work)
+- **If a secret is committed**: revoke first, clean history second, notify the team
+
 ## Table of Contents
 
+- [TL;DR](#tldr)
 - [Prompt hygiene](#prompt-hygiene)
 - [Content exclusion](#content-exclusion)
 - [Agent permissions](#agent-permissions)
@@ -44,7 +53,7 @@ For agentic tools, the safeguards are:
 - **sparkdock configures safe defaults.** Destructive operations (force-push, file deletion outside the project, etc.) require confirmation. See [Agent permissions](#agent-permissions) below.
 - **`.gitignore` is your last line of defense.** Ensure secrets, key files, and environment configs are gitignored. If a file isn't tracked, an agent can still read it, but it won't end up in a commit unless you explicitly add it.
 
-Content exclusion is still worth configuring for IDE usage. To set it up for a repository, go to the repository's **Settings > Copilot > Content exclusion** on GitHub and add the paths you want to exclude. For organization-wide rules, an admin can configure them in the organization's Copilot settings.
+Content exclusion is already configured at the SparkFabrik organization level for GitHub Copilot, covering `.env` files and other sensitive paths in IDE completions and chat. For additional repository-specific rules, go to the repository's **Settings > Copilot > Content exclusion** on GitHub.
 
 ## Agent permissions
 
