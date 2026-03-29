@@ -5,9 +5,11 @@ Sort: 40
 
 ## TL;DR
 
-Write specs before code: capture intent, requirements, and design decisions in your repository before generating any code. This page explains the methodology. For commands, concepts, and file structure, see the **[OpenSpec Reference](/ai-development/openspec-reference)**.
+Write specs before code: capture intent, requirements, and design decisions in your repository before generating any code. This page explains the methodology and the reasoning behind it.
 
-New to this? Start with `/opsx:onboard` in a chat session.
+Ready to get started? Pick a framework:
+
+- **[OpenSpec](/ai-development/openspec-reference)** — our current choice, lightweight and brownfield-first
 
 ## Table of Contents
 
