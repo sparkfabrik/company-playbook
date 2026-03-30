@@ -58,7 +58,7 @@ The pages in this section focus on **development workflows**: coding agents, ter
 
 For **non-development roles** — project managers, analysts, marketing, administrative roles, and similar — **[Claude.ai](https://claude.ai)** is the AI tool we've adopted for work. It's well suited for writing, research, analysis, brainstorming, and structured thinking. Claude is provided through a company subscription; if you don't have access yet, ask your manager or reach out on `#support-hr`. Dedicated guidance for using Claude in these roles is coming.
 
-For **UI/UX designers**, we are evaluating specialized tools — specifically [Google Stitch](https://stitch.withgoogle.com) and Figma AI/Make — but we haven't converged on an approach yet. If you're a designer using AI in your workflow, we'd love to hear what's working for you; your input will shape what we recommend here.
+For **UI/UX designers**, we are evaluating specialized tools — specifically [Google Stitch](https://stitch.withgoogle.com) and [Figma AI](https://www.figma.com/ai/)/[Make](https://www.figma.com/make/) — but we haven't converged on an approach yet. If you're a designer using AI in your workflow, we'd love to hear what's working for you; your input will shape what we recommend here.
 
 ## Principles
 
