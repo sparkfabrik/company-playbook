@@ -47,14 +47,14 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0
 
 * **type** – what kind of change: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `ci`, `perf`, `revert`
 * **scope** – the area of the codebase affected (optional but encouraged): e.g. `billing`, `auth`, `api`
-* **subject** – short imperative description, no capital first letter, no trailing period
+* **subject** – short imperative description, lowercase first letter, no trailing period
 * **body** – motivation and context (wrap at ~72 chars)
 * **footer** – breaking changes (`BREAKING CHANGE: …`) or issue references (`Closes #12345`)
 
 ### Examples
 
 ```
-feat(billing): add store billing-id endpoint for admin users
+feat(billing): add billing-id storage endpoint for admin users
 ```
 
 ```
