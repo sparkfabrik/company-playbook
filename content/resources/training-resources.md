@@ -153,6 +153,8 @@ All the training material in this section is public and can be freely accessed.
 
 ### Development
 
+> **Note**: Instructions on how to access the services in this section are available in the internal knowledge base.
+
 #### Udemy
 
 We have a Udemy account we use to buy development courses that may be necessary to improve our skills or build them from zero.
@@ -160,47 +162,19 @@ Mainly you can find training on frameworks and technologies (also Cloud technolo
 
 Given the wide offering of topics on Udemy, more courses can be added in the future, even in non-technical topics.
 
-> Internal GCP authentication required — you must be authenticated with your SparkFabrik account.
-> 2. Head to [Udemy](https://www.udemy.com/) login page, then obtain access credentials issuing this command into a terminal:
->
-> ```bash
-> gcloud secrets versions access "latest" --secret credentials-udemy --project sf-public-ring
-> ```
-
 #### Ultimate Courses
 
 On Ultimate Courses, you can access a set of very thorough and deep courses on Angular by Todd Motto. Those courses are very good for those who want to deepen their understanding of Angular, get the hang of its internals and learn how to use NgRx (a reactive state management library).
 
-> Internal GCP authentication required — you must be authenticated with your SparkFabrik account.
-> 2. Head to [Ultimate Courses](https://app.ultimatecourses.com), then obtain access credentials issuing this command into a terminal:
->
-> ```bash
-> gcloud secrets versions access "latest" --secret credentials-ultimate-courses --project sf-public-ring
-> ```
-
 #### Frontend masters
 
 Frontend Masters offers a wide range of courses on various topics including Node.js, API Design, SQL, Docker, and DevOps. They also have courses on backend languages such as Python, Go, and Rust, as well as UX design, management, and technical leadership. You can find more information [here](https://frontendmasters.com/blog/convince-your-boss/#is-it-only-front-end-content).
-
-> Internal GCP authentication required — you must be authenticated with your SparkFabrik account.
-> 2. Head to [Frontend Masters](https://www.frontendmasters.com), then obtain access credentials issuing this command into a terminal:
->
-> ```bash
-> gcloud secrets versions access "latest" --secret credentials-frontend-masters --project sf-public-ring
-> ```
 
 #### Drupalize.me
 
 On Drupalize.me you can build up a strong understanding of Drupal CMS, following extensive training paths that will guide you from the basics to the more advanced topics.
 
 Those resources are available to PHP developers who need to understand how Drupal works as well as to Drupal developers who need to dig deeper into specific parts of the framework.
-
-> Internal GCP authentication required — you must be authenticated with your SparkFabrik account.
-> 2. Head to [Drupalize.me](https://drupalize.me), then obtain access credentials issuing this command into a terminal:
->
-> ```bash
-> gcloud secrets versions access "latest" --secret credentials-drupalize-me --project sf-public-ring
-> ```
 
 ### Cloud
 
