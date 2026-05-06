@@ -74,7 +74,7 @@ ncp-ciphers AES-128-CBC
 
 ## VPN Server Location
 
-The company VPN server is currently running on Google Cloud Platform (GCP) in the europe-west-3 region, which is located in the Netherlands.
+The company VPN server is currently running on Google Cloud Platform (GCP) (Europe).
 
 ## Troubleshooting
 

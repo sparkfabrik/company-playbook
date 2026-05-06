@@ -45,12 +45,12 @@ stages:
 develop-deploy:
   stage: deploy
   variables:
-    KUBE_NAMESPACE: test-spark-k8s-deployer
-    SPARK_PRJ_VENDOR: test-spark-k8s-deployer
-    CI_DOMAIN: ci.sparkfabrik.cloud
+    KUBE_NAMESPACE: <specify-namespace>
+    SPARK_PRJ_VENDOR: <specify-vendor>
+    CI_DOMAIN: <specify-ci-domain>
     CI_ENVIRONMENT_BASE_URL: ${CI_COMMIT_REF_SLUG}.site.${SPARK_PRJ_VENDOR}.${CI_DOMAIN}
   environment:
-    name: ${CI_COMMIT_REF_SLUG}/test-spark-k8s-deployer
+    name: ${CI_COMMIT_REF_SLUG}/<specify-environment>
     url: https://${CI_ENVIRONMENT_BASE_URL}
   script:
     # Init
@@ -65,4 +65,4 @@ develop-deploy:
     - develop
 ```
 
-This example should work out-of-the-box if you use an NGINX image suitable for use with our Helm chart.
+This example, once populated with the appropriate values, should work out-of-the-box if you use an NGINX image suitable for use with our Helm chart.
