@@ -130,62 +130,7 @@ curl -slo /usr/local/bin/run-dinghy-proxy https://raw.githubusercontent.com/spar
 chmod +x /usr/local/bin/run-dinghy-proxy
 ```
 
-### Log into GCloud
-
-To build our projects you'll need access to GCP image registry to start with, so you need to log in with your SparkFabrik account.
-
-Run the following commands in the order:
-
-```bash
-gcloud auth login
-gcloud auth application-default login
-gcloud auth configure-docker
-gcloud auth configure-docker europe-west1-docker.pkg.dev
-gcloud container clusters get-credentials sparkfabrik-platform-20260119 --zone europe-west1 --project spark-int-cloud-services --dns-endpoint
-```
-
-Running the first couple commands, your browser will open, asking for authorization to access your account. If you have more than one Google/Gmail account configured you'll have to explicitly choose the `sparkfabrik.com` one.
-
-Once you run all three commands above, you're done.
-
-#### Upgrading from the old Google Cloud SDK
-
-If you are running the old Google Cloud SDK, you need to first update it to the new Google Cloud CLI.
-
-**Ubuntu**
-
-Remove the old SDK:
-```bash
-sudo apt-get remove google-cloud-sdk
-```
-
-Install the dependencies for the new CLI (see [here](https://cloud.google.com/sdk/docs/install?hl=it#deb) for details):
-```bash
-sudo apt-get install apt-transport-https ca-certificates gnupg
-echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list`
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-```
-
-Install the CLI (see [here](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke) for details):
-```bash
-sudo apt-get update && sudo apt-get install google-cloud-cli
-```
-
-Install the Google Auth plugin:
-```bash
-sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
-```
-
-Add `export USE_GKE_GCLOUD_AUTH_PLUGIN=True` to your `.(ba|z)shrc` file:
-```bash
-sudo nano .bashrc
-source .bashrc
-```
-
-Get the credentials for the cluster:
-```bash
-gcloud container clusters get-credentials spark-op-services --zone europe-west1-b --project spark-int-cloud-services
-```
+> **NOTE:**: To build SparkFabrik projects locally, you must configure `gcloud` CLI and SDK, and make sure they are authenticated with your SparkFabrik account.
 
 ### Configure FireStarter Builds
 
