@@ -48,28 +48,34 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0
 * **type** – what kind of change: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `ci`, `perf`, `revert`
 * **scope** – the area of the codebase affected (optional but encouraged): e.g. `billing`, `auth`, `api`
 * **subject** – short imperative description, lowercase first letter, no trailing period
-* **body** – motivation and context (wrap at ~72 chars)
+* **body** – motivation and context (wrap at ~72 chars); must include the full issue reference, e.g. `Refs: sparkfabrik/company-playbook#299`
 * **footer** – breaking changes (`BREAKING CHANGE: …`) or issue references (`Closes #12345`)
 
 ### Examples
 
 ```
 feat(billing): add billing-id storage endpoint for admin users
+
+Refs: sparkfabrik/company-playbook#12345
 ```
 
 ```
 fix(auth): prevent session token reuse after logout
+
+Refs: sparkfabrik/company-playbook#12345
 ```
 
 ```
 docs(git-workflow): document conventional commits standard
+
+Refs: sparkfabrik/company-playbook#12345
 ```
 
 ```
 feat(api)!: rename /users endpoint to /accounts
 
 BREAKING CHANGE: all clients must update their base URL.
-Closes #9876
+Refs: sparkfabrik/company-playbook#9876
 ```
 
 > **Tip:** Use the [SparkFabrik Copilot skill for Conventional Commits](https://github.com/sparkfabrik/sf-awesome-copilot/issues/58) to get AI-assisted commit messages locally with copilot-cli or opencode.
@@ -81,7 +87,7 @@ The old format `[#issue-id]: Commit message` (e.g. `#12345: Admins can now store
 ## Pro-tips
 
 * When you open a branch to work out a user-story, and have to name it against the naming convention we exposed, consider that the title part is amendable at need, the issue-id *is not!*
-* When you create a new commit, try to keep your message short but significant! `fix: foo` means nothing! A good rule of thumb is: don't write what you did (others can see the code by themselves) but *why you did it*
+* When you create a new commit, try to keep your message short but significant! `#12345: More love` means nothing! A good rule of thumb is: don't write what you did (others can see the code by themselves) but *why you did it*
 * If your work spans over a long time (days) we advice you rebase it onto develop at least daily: `git fetch && git rebase origin/develop` (solve conflicts if they arise and push with `-f` options).
 * You can use an optional `-i` parameter when you rebase your branch onto develop, this way: `git rebase origin/develop`. In that case, you can pick only the commits you want to rebase, save and quit the interactive editor. Be warned: *there shall be dragons!*
 * If you are working on a branch and you need to switch to another one, you can use `git stash` to save your work and `git stash pop` to restore it later
