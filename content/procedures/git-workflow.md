@@ -78,7 +78,7 @@ BREAKING CHANGE: all clients must update their base URL.
 Refs: sparkfabrik/company-playbook#9876
 ```
 
-> **Tip:** Use the [SparkFabrik Copilot skill for Conventional Commits](https://github.com/sparkfabrik/sf-awesome-copilot/issues/58) to get AI-assisted commit messages locally with copilot-cli or opencode.
+> **Tip:** Use the [SparkFabrik skill for Conventional Commits](https://github.com/sparkfabrik/sf-awesome-copilot/issues/58) to get AI-assisted commit messages locally with Claude Code or other terminal agents.
 
 ### Legacy format (deprecated)
 
@@ -97,7 +97,7 @@ The old format `[#issue-id]: Commit message` (e.g. `#12345: Admins can now store
 ## Useful resources
 
 * Conventional Commits specification: https://www.conventionalcommits.org/en/v1.0.0/
-* SparkFabrik Copilot skill for Conventional Commits: https://github.com/sparkfabrik/sf-awesome-copilot/issues/58
+* SparkFabrik skill for Conventional Commits: https://github.com/sparkfabrik/sf-awesome-copilot/issues/58
 * Force history rewriting on push: https://www.atlassian.com/git/tutorials/rewriting-history
 * Interactive tutorials: https://ohmygit.org/ - https://learngitbranching.js.org/
 * Gitlab flow: https://docs.gitlab.com/ee/topics/gitlab_flow.html

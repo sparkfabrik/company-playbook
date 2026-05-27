@@ -21,7 +21,7 @@ Please find here a TOC of the available training resources.
 |                   | [Networking](#networking)                               |
 | [Tools](#tools)   | [YAML](#yaml)                                           |
 |                   | [Git](#git)                                             |
-|                   | [GitHub Copilot](#github-copilot) (bonus track)         |
+|                   | [AI Coding Tools](#ai-coding-tools)                     |
 | [DevOps](#devops) | [Docker and Docker Compose](#docker-and-docker-compose) |
 |                   | [Kubernetes](#kubernetes)                               |
 |                   | [CI/CD](#cicd) (on GitLab and GitHub)                   |
@@ -107,14 +107,15 @@ All the training material in this section is public and can be freely accessed.
 |                   | [Oh my Git](https://ohmygit.org/)                                                    |
 |                   | [Visualizing Git](https://git-school.github.io/visualizing-git/)                     |
 
-### GitHub Copilot
+### AI Coding Tools
 
-> **Time to completion**: 1 hours for the documentation and installation.
+> **Time to completion**: 2 hours for documentation and setup.
 
 | Resources         |                                                                                |
 |-------------------|--------------------------------------------------------------------------------|
-| **Documentation** | [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart) |
+| **Documentation** | [Claude Code overview](https://docs.anthropic.com/en/docs/claude-code/overview) |
 |                   | [SparkFabrik's AI development tools and setup](/ai-development/tools-and-setup) |
+|                   | [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart) (IDE autocomplete) |
 
 ## DevOps
 

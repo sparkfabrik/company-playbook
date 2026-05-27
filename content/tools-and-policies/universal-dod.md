@@ -49,11 +49,11 @@ When working on a SparkFabrik project, a task is considered done when:
   - Architectural overviews, schemas, flow-diagrams and decisions log.
   - Domain glossary.
   - Technical and business key contacts and roles.
-- **AI tooling prompts and instructions** are created and maintained as reusable project assets when using AI tools like GitHub Copilot, including:
-  - GitHub Copilot Custom Instructions tailored to the project's codebase and conventions.
-  - Reusable chat prompts/chat modes for common tasks (debugging, refactoring, documentation).
+- **AI tooling prompts and instructions** are created and maintained as reusable project assets when using AI tools like Claude Code, including:
+  - A `CLAUDE.md` file (or equivalent) tailored to the project's codebase and conventions.
+  - Reusable skills and slash commands for common tasks (debugging, refactoring, documentation).
   - Defined AI agents that team members can use for specific roles (e.g., "senior QA engineer", "security reviewer").
-  - An `AGENTS.md` file or similar documentation that formalizes and shares these prompts and personas with the team.
+  - An `AGENTS.md` file or similar documentation that formalizes and shares these instructions and personas with the team.
 
 #### Project-Level checks
 
