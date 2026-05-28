@@ -264,7 +264,7 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ### Useful tools
 
-- **[Retrium.com](https://retrium.com)**: Online retrospective facilitation platform (used in [Retrospectives](#4-retrospectives-2-hours-every-3-4-sprints))
+- **[Smart Retro](http://retro.apps.sparkfabrik.cloud/)**: Online retrospective facilitation platform (used in [Retrospectives](#4-retrospectives-2-hours-every-3-4-sprints))
 - **[Thunderdome.dev](http://thunderdome.dev/)**: Poker planning tool for collaborative estimation during [Sprint Planning](#1-sprint-planning-15-2-hours-monday-of-sprint-start)
 
 ### Practical tips
@@ -326,7 +326,7 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 #### 4. Retrospectives (2 hours, every 3-4 sprints)
 
 **Facilitator**: Delivery Manager, Senior colleague or HR coach if necessary
-**Format**: The team selects the most suitable format for the purpose of each retrospective (we use [Retrium.com](https://retrium.com) for online facilitation)
+**Format**: The team selects the most suitable format for the purpose of each retrospective (we use [Smart Retro](http://retro.apps.sparkfabrik.cloud/) for online facilitation)
 **Output**: Issue with trackable action items
 
 ### Team-Specific Configurations
@@ -371,7 +371,7 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 #### Retrospective Checklist
 
 - [ ] *No later than the day before:* Facilitator must query the team about - or take a look at - the most prominent topics that need discussion
-- [ ] *Within 1 hour before the retro:* Facilitator must decide the format and prepare the room on Retrium
+- [ ] *Within 1 hour before the retro:* Facilitator must decide the format and prepare the room on Smart Retro
 - [ ] *During the retrospective:* Don't play finger-pointing, focus on improvement, generate practical action items
 - [ ] *Within 1 hour after the retro:* Facilitator summarizes the outcome and actions decided upon to the team in a place that stays visible up to the next retro
 - [ ] *Withing the next planning / grooming* (whatever comes first): All actions that need to be tracked are created as issues by the facilitator (can delegate someone in the team)
