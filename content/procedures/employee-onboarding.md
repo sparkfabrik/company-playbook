@@ -55,7 +55,7 @@ The employee must, with the help of an HR representative:
 * Duly sign in and check their ability to access every service
 * If they are a developer, ensure they are authenticated on GCP with their SparkFabrik account
 * If they are a Drupal developer, make sure [they can build FireStarter-based projects](/guides/local-development-environment-configuration#configure-firestarter-builds)
-* If they are a developer, add the user to the `Copilot members` team on GitHub and ask them to activate relevant IDE's plugins
+* If they are a developer, add the user to the `Copilot members` team on GitHub (for IDE autocomplete) and help them [set up AI development tools](/ai-development/tools-and-setup) (Claude Code as primary)
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
 * If applicable, [set up AI development tools](/ai-development/tools-and-setup) and [review the AI development overview](/ai-development/overview)

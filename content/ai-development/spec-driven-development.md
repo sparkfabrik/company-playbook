@@ -66,18 +66,18 @@ There is also a collaboration angle. AI makes it trivially easy to generate larg
 
 ## Get started
 
-All required tools ([OpenSpec CLI](/ai-development/tools-and-setup#openspec), [GitHub Copilot CLI](/ai-development/tools-and-setup#github-copilot-cli), [OpenCode](/ai-development/tools-and-setup#opencode-experimental)) are installed automatically by [sparkdock](https://github.com/sparkfabrik/sparkdock). Run `openspec --version` to verify. If it's missing or outdated, run `sjust sparkdock-upgrade` (`sjust` is sparkdock's task runner; see [Tools and Setup](/ai-development/tools-and-setup)).
+All required tools ([OpenSpec CLI](/ai-development/tools-and-setup#openspec), [Claude Code](/ai-development/tools-and-setup#claude-code), [GitHub Copilot CLI](/ai-development/tools-and-setup#github-copilot-secondary)) are installed automatically by [sparkdock](https://github.com/sparkfabrik/sparkdock). Run `openspec --version` to verify. If it's missing or outdated, run `sjust sparkdock-upgrade` (`sjust` is sparkdock's task runner; see [Tools and Setup](/ai-development/tools-and-setup)).
 
 ### New project
 
 From the project root:
 
 ```bash
-openspec init --tools opencode,github-copilot
+openspec init --tools claude,opencode,github-copilot
 git add -A && git commit -m "chore: initialize openspec"
 ```
 
-Restart your IDE or start a new chat session. The `/opsx:*` commands work in both **GitHub Copilot** (VS Code, JetBrains) and **OpenCode** (terminal-based AI coding assistant). See [Your first feature](#your-first-feature) below for what to do next.
+Restart your IDE or start a new chat session. The `/opsx:*` commands work in **Claude Code** (primary), **GitHub Copilot** (VS Code, JetBrains), and **OpenCode** (backup). See [Your first feature](#your-first-feature) below for what to do next.
 
 ### Existing project (already has openspec/)
 
@@ -89,7 +89,7 @@ If slash commands aren't recognized, run `openspec update` to regenerate them, t
 
 OpenSpec works alongside the other tools in our AI stack. For details on installation, shell aliases, and shared skills, see:
 
-- **[Tools and Setup](/ai-development/tools-and-setup)**: GitHub Copilot CLI, OpenCode, shell aliases, sparkdock provisioning
+- **[Tools and Setup](/ai-development/tools-and-setup)**: Claude Code, GitHub Copilot, shell aliases, sparkdock provisioning
 - **[Skills and Agents](/ai-development/skills-and-agents)**: shared skills synced by sparkdock, including the glab skill used in the workflow below
 
 ### Your first feature

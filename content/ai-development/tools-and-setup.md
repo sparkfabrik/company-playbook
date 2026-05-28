@@ -1,5 +1,5 @@
 /*
-Description: GitHub Copilot CLI, OpenCode, shell aliases, sparkdock provisioning, and subscription policy
+Description: Claude Code, GitHub Copilot, shell aliases, sparkdock provisioning, and subscription policy
 Sort: 20
 */
 
@@ -8,12 +8,15 @@ Sort: 20
 - [TL;DR](#tldr)
 - [Overview](#overview)
   - [When to use what](#when-to-use-what)
-- [GitHub Copilot CLI](#github-copilot-cli)
-- [OpenCode (experimental)](#opencode-experimental)
+- [Claude Code](#claude-code)
+  - [IDE integration](#ide-integration)
+- [GitHub Copilot (secondary)](#github-copilot-secondary)
+- [OpenCode (backup)](#opencode-backup)
 - [OpenSpec](#openspec)
 - [Other CLI tools](#other-cli-tools)
 - [Installation and updates](#installation-and-updates)
 - [Authentication](#authentication)
+- [Claude Code subscription](#claude-code-subscription)
 - [GitHub Copilot subscription policy](#github-copilot-subscription-policy)
   - [Personal use](#personal-use)
 
@@ -29,17 +32,18 @@ sjust sparkdock-upgrade    # install all tools
 
 | What you want to do | Command |
 |---------------------|---------|
-| Quick one-shot question or task | `co "your prompt"` |
-| Sustained interactive session | `ico` |
-| OpenCode session (experimental) | `c` |
+| Start a Claude Code session (primary) | `claude` |
+| Quick one-shot task with Claude Code | `claude -p "your prompt"` |
+| Copilot one-shot (backup) | `co "your prompt"` |
+| Copilot interactive session (backup) | `ico` |
 
 **Authenticate (one-time):**
 
 | Tool | Command |
 |------|---------|
-| GitHub Copilot CLI | `copilot login` (or `/login` inside a session) |
-| OpenCode (experimental) | `/connect` in OpenCode, select "GitHub Copilot" |
-| VS Code / JetBrains | Sign in via the Copilot extension sidebar |
+| Claude Code | `claude login` |
+| GitHub Copilot CLI (backup) | `copilot login` (or `/login` inside a session) |
+| VS Code / JetBrains (Copilot autocomplete) | Sign in via the Copilot extension sidebar |
 | glab (GitLab CLI) | `sjust gitlab-configure-glab` |
 | gh (GitHub CLI) | `gh auth login` |
 
@@ -54,6 +58,7 @@ All AI development tools are installed and configured by [sparkdock](https://git
 To install or update a specific tool, use tags:
 
 ```bash
+sjust sparkdock-install-tags claude-code  # just Claude Code
 sjust sparkdock-install-tags copilot-cli  # just Copilot CLI
 sjust sparkdock-install-tags opencode     # just OpenCode
 sjust sparkdock-install-tags skills       # just shared skills
@@ -62,55 +67,98 @@ sjust sparkdock-install-tags npm_packages # just npm packages (OpenSpec, etc.)
 
 ### When to use what
 
-AI coding tools operate in two modes: **reactive** (suggest code, wait for you to apply it) and **agentic** (plan, act, observe, adjust in a loop). Both are useful. The agentic mode (where the AI reads your codebase, forms a plan, executes it, runs tests, and course-corrects) is where the biggest productivity shift is happening, and it lives primarily in the terminal.
+AI coding tools operate in two modes: **reactive** (suggest code, wait for you to apply it) and **agentic** (plan, act, observe, adjust in a loop). Both are useful. The agentic mode (where the AI reads your codebase, forms a plan, executes it, runs tests, and course-corrects) is where the biggest productivity shift is happening.
 
 | Environment | How it works | Start with |
 |-------------|-------------|------------|
-| **Copilot CLI** (terminal) | Agentic: explores your codebase, plans, executes, tests, adjusts. One-shot (`co`) for quick prompts, interactive (`ico`) for sustained work sessions. | `co "your prompt"` or `ico` for interactive |
-| **OpenCode** (terminal, experimental) | Agentic: same plan-act-observe loop, with structured workflows (OpenSpec) and full tool use. | `c` to start a session |
-| **IDE** (VS Code / JetBrains + Copilot extension) | Mixed: inline completions and chat (reactive), plus agent mode (agentic, scoped to the IDE). | Install the GitHub Copilot extension and sign in |
+| **Claude Code** (terminal, primary) | Agentic: explores your codebase, plans, executes, tests, adjusts. Full tool use, skills, subagents, and MCP integrations. | `claude` to start a session |
+| **Claude Code** (VS Code / JetBrains extension) | Agentic: same capabilities as the terminal, with native IDE integration — inline diffs, plan review, @-mentions, multiple conversation tabs. | Install the Claude Code extension |
+| **Copilot CLI** (terminal, backup) | Agentic: same plan-act-observe loop. Available for teams that prefer it or need Copilot-specific features. | `co "your prompt"` or `ico` for interactive |
+| **Copilot** (VS Code / JetBrains, autocomplete) | Reactive: inline code completions as you type. Complements Claude Code — use both together. | Install the GitHub Copilot extension and sign in |
 
-CLI agents have full terminal access, so they can run tests, check git status, install dependencies, call APIs. IDE agent mode is agentic too but sandboxed within the editor. Use the IDE for inline edits and code review; reach for a CLI agent when the task involves implementation, debugging, or anything that benefits from an autonomous work loop.
+Use Claude Code (terminal or IDE extension) as your primary agent for implementation, debugging, and any task that benefits from an autonomous work loop. Copilot's inline autocomplete complements it with real-time code suggestions as you type.
 
-## GitHub Copilot CLI
+## Claude Code
 
-[GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli) is our primary AI coding assistant in the terminal. Sparkdock installs it and configures shell aliases for quick access to different models.
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) is our primary AI coding assistant in the terminal. It is Anthropic's agentic coding tool that runs the full autonomous loop: reading your codebase, planning changes, executing them, running tests, and adjusting when things fail.
 
-### One-shot mode (`co`)
-
-Send a prompt and get a single response, good for quick questions, code generation, and explanations.
-
-```bash
-co "explain what this function does" < src/auth/session.ts
-co "write unit tests for the rate limiter" < src/middleware/rate-limit.ts
-```
-
-You can pipe files into `co` via stdin or let it read your codebase from the current directory. The default model is configured by sparkdock; you can override it per-invocation with `--model`:
+**Start a session:**
 
 ```bash
-co --model claude-sonnet-4.5 "review this for security issues" < src/auth/token.ts
+claude                         # start in the current directory
+claude --agent the-architect   # start with a specific agent profile
+claude -p "your prompt"        # one-shot mode (non-interactive)
 ```
 
-### Interactive mode (`ico`)
+Claude Code uses the current directory as project context. Type `/` for slash commands (including `/opsx:*` for OpenSpec workflows).
 
-Starts a persistent chat session, good for iterative work, debugging, and multi-step tasks where you want to build on previous context.
+**What sets it apart:**
 
-```bash
-ico                    # start an interactive session
-ico --model gemini-3-pro  # start with a specific model
-```
+- **Plan mode**: press `Shift+Tab` twice to enter plan mode. Claude explores and plans without making changes. Use this for anything touching multiple files.
+- **Full tool use**: reads, edits, creates files; runs shell commands; manages git
+- **Skills and agent profiles**: loads skills from `~/.agents/skills/` (system) and `.claude/skills/` (project); agent profiles from `.claude/agents/` (project) and `~/.claude/agents/` (user)
+- **Subagents**: delegate tasks to specialized agents that run in their own context window
+- **MCP integrations**: connect to external tools (GitLab, databases, design tools) via Model Context Protocol
+- **CLAUDE.md**: project-level instructions that compound over time — every mistake becomes a rule
+- **Permission controls**: sparkdock configures rules that require confirmation before destructive operations
 
-Inside an interactive session you can use slash commands (`/help` to list them), switch models during the conversation, and reference previous responses.
+**Configuration:** Claude Code reads project instructions from `CLAUDE.md` at the repository root and from `.claude/` directory. Global configuration lives in `~/.claude/`. See the [official documentation](https://docs.anthropic.com/en/docs/claude-code/overview) for details.
 
 ### IDE integration
 
-GitHub Copilot also runs as an extension in VS Code and JetBrains IDEs, providing inline completions and a chat panel. Install it from your IDE's extension marketplace and sign in with your GitHub account.
+Claude Code also runs natively inside your IDE, providing the same agentic capabilities with a graphical interface. This is **separate from** Copilot's inline autocomplete — they complement each other:
 
-Skills and slash commands work in both the terminal CLI and the IDE extension. A skill is a set of instructions that teaches the AI how to perform a specific task (e.g., how to use glab, how to follow project conventions); a slash command triggers a specific workflow. Project-level skills go in `.github/skills/` and prompts in `.github/prompts/`.
+- **Claude Code extension** = agentic coding (plan, execute, review diffs, multi-step tasks)
+- **Copilot extension** = reactive inline completions (code suggestions as you type)
 
-## OpenCode (experimental)
+You can use both simultaneously.
 
-[OpenCode](https://opencode.ai) is an open-source, model-agnostic terminal coding agent. Like Copilot CLI, it runs the full agentic loop: reading your codebase, planning changes, executing them, running tests, and adjusting when things fail. It is currently **experimental** at SparkFabrik; we are evaluating it alongside Copilot CLI.
+#### VS Code
+
+Install the [Claude Code extension for VS Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) (requires VS Code 1.98.0+).
+
+Key features:
+
+- **Inline diffs**: Claude shows side-by-side comparisons of proposed changes; accept, reject, or edit before applying
+- **Plan review**: in Plan mode, Claude opens the plan as a full markdown document where you can add inline comments before execution
+- **@-mentions**: reference files, folders, or line ranges (`@src/auth.ts#5-10`) for precise context
+- **Multiple conversations**: open sessions in separate tabs or windows for parallel work
+- **Session history**: resume past conversations, including remote sessions from claude.ai
+- **Keyboard shortcuts**: `Cmd+Esc` / `Ctrl+Esc` to toggle focus, `Option+K` / `Alt+K` to insert @-mention references
+
+Open Claude via the Spark icon in the editor toolbar, the Activity Bar, or the Command Palette (`Cmd+Shift+P` → "Claude Code").
+
+For the full reference, see the [Claude Code VS Code docs](https://code.claude.com/docs/en/vs-code).
+
+#### JetBrains (beta)
+
+Install the [Claude Code plugin for JetBrains](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) (IntelliJ IDEA, WebStorm, PyCharm, GoLand, and other IntelliJ-based IDEs).
+
+The plugin is currently in **beta**. It provides the same agentic workflow within the JetBrains IDE family.
+
+## GitHub Copilot (secondary)
+
+GitHub Copilot remains available as a secondary tool. Its primary value is **IDE inline autocomplete** — the real-time code suggestions that appear as you type in VS Code or JetBrains. The Copilot CLI is available as a backup terminal agent for teams that prefer it.
+
+### IDE autocomplete
+
+GitHub Copilot runs as an extension in VS Code and JetBrains IDEs, providing inline completions and a chat panel. Install it from your IDE's extension marketplace and sign in with your GitHub account. This continues to work alongside Claude Code — use Claude Code for agentic tasks in the terminal, and Copilot's inline suggestions as you type in your editor.
+
+### Copilot CLI (backup)
+
+[GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli) is available for teams that still need it. Sparkdock installs it and configures shell aliases.
+
+```bash
+co "your prompt"        # one-shot mode
+ico                     # interactive mode
+ico --model gemini-3-pro  # start with a specific model
+```
+
+Skills and slash commands work in both the terminal CLI and the IDE extension.
+
+## OpenCode (backup)
+
+[OpenCode](https://opencode.ai) is an open-source, model-agnostic terminal coding agent. It is available as a backup option for teams that need model-agnostic flexibility or are still transitioning to Claude Code.
 
 **Start a session:**
 
@@ -126,7 +174,7 @@ OpenCode uses the current directory as project context. Press `Tab` to switch ag
 - **Model-agnostic**: works with Claude, GPT, Gemini, and others; no vendor lock-in
 - **Full tool use**: reads, edits, creates files; runs shell commands; manages git
 - **Skills and agent profiles**: loads from `~/.agents/skills/` (system), `.opencode/skills/` (project), and `~/.config/opencode/agents/` (agent profiles)
-- **Permission controls**: sparkdock configures rules that require confirmation before destructive operations (force-push, file deletion outside project, etc.)
+- **Permission controls**: sparkdock configures rules that require confirmation before destructive operations
 
 **Configuration:** sparkdock installs the config at `~/.config/opencode/opencode.json`. You generally don't need to edit it.
 
@@ -149,7 +197,7 @@ Sparkdock also installs CLI tools that aren't AI-specific but that the coding ag
 | **[glab](https://gitlab.com/gitlab-org/cli)** | GitLab CLI: issues, merge requests, CI/CD pipelines | `sjust gitlab-configure-glab` (one-time auth) |
 | **[gh](https://cli.github.com)** | GitHub CLI: issues, pull requests, actions, releases | `gh auth login` (one-time auth) |
 
-Both tools work standalone in your terminal and are also used by Copilot and OpenCode through skills (e.g., the [glab skill](https://github.com/sparkfabrik/sf-awesome-copilot/tree/main/skills/system/glab) lets the AI fetch issue details, read MR discussions, and check pipelines on your behalf).
+Both tools work standalone in your terminal and are also used by Claude Code and other agents through skills (e.g., the [glab skill](https://github.com/sparkfabrik/sf-awesome-copilot/tree/main/skills/system/glab) lets the AI fetch issue details, read MR discussions, and check pipelines on your behalf).
 
 ## Installation and updates
 
@@ -159,8 +207,8 @@ Everything is managed by sparkdock. Here are the commands you'll use most:
 |---------|-------------|
 | `sjust sparkdock-upgrade` | Full provisioning: installs/updates all tools |
 | `sjust sparkdock-install-tags <tag>` | Install/update specific tools by tag |
-| `sjust sf-agents-refresh` | Sync shared skills and agent profiles from upstream |
-| `sjust sf-agents-status` | Show installed skills, agent profiles, and their status |
+| `sjust sf-harness-sync` | Sync shared skills and agent profiles from upstream |
+| `sjust sf-harness-status` | Show installed skills, agent profiles, and their status |
 
 If a tool is missing or outdated, `sjust sparkdock-upgrade` is always the safe default.
 
@@ -168,16 +216,27 @@ If a tool is missing or outdated, `sjust sparkdock-upgrade` is always the safe d
 
 | Package | Source | Tag |
 |---------|--------|-----|
+| Claude Code | npm (`@anthropic-ai/claude-code`) | `claude-code` |
 | GitHub Copilot CLI | Homebrew Cask (`copilot-cli`) | `copilot-cli` |
 | OpenCode | Homebrew (`anomalyco/tap/opencode`) | `opencode` |
 | glab | Homebrew | `glab` |
 | OpenSpec | npm (`@fission-ai/openspec`) | `npm_packages` |
 
-Sparkdock also configures shell aliases, zsh completions, and OpenCode permissions.
+Sparkdock also configures shell aliases, zsh completions, and permission rules for all agents.
 
 ## Authentication
 
-All GitHub-based tools authenticate against **github.com** using your SparkFabrik organization account via OAuth. This is safe and expected. No API keys to manage manually, no third-party services. Your credentials are stored locally (in your OS keychain for Copilot CLI, in OpenCode's auth store for OpenCode).
+### Claude Code
+
+Run `claude login` from your terminal:
+
+```bash
+claude login
+```
+
+This opens your browser for authentication. Claude Code uses your Anthropic account linked to the SparkFabrik organization. The token is stored locally.
+
+For the full reference, see the official docs: [Claude Code authentication](https://docs.anthropic.com/en/docs/claude-code/overview).
 
 ### GitHub Copilot CLI
 
@@ -197,7 +256,7 @@ For the full reference, see the official docs: [Authenticating GitHub Copilot CL
 
 Sign in through the Copilot extension sidebar. It opens the same GitHub OAuth flow in your browser. Once authorized, the extension stays authenticated.
 
-### OpenCode (experimental)
+### OpenCode (backup)
 
 Open an OpenCode session (`c`), then run the `/connect` command:
 
@@ -227,7 +286,29 @@ gh auth login
 
 Select **GitHub.com**, authenticate via browser. This is also the fallback credential for Copilot CLI if `copilot login` hasn't been run.
 
+## Claude Code subscription
+
+Claude Code is provided through the SparkFabrik organization's Anthropic plan. Interactive usage (Claude Code sessions, Claude Cowork, Claude chat) consumes your plan's usage limits.
+
+### Agent SDK and headless usage
+
+Starting **June 15, 2026**, `claude -p` (headless/one-shot) and Agent SDK usage no longer count toward interactive usage limits. These get a **separate monthly credit** that refreshes with the billing cycle:
+
+| Plan | Monthly credit |
+|------|---------------|
+| Pro | $20 |
+| Max 5x | $100 |
+| Max 20x | $200 |
+| Team (Standard seats) | $20 |
+| Team (Premium seats) | $100 |
+| Enterprise (usage-based) | $20 |
+| Enterprise (seat-based Premium seats) | $200 |
+
+This means your interactive Claude Code sessions and your CI/automation (`claude -p`) pipelines have independent budgets.
+
 ## GitHub Copilot subscription policy
+
+The GitHub Copilot subscription is maintained primarily for **IDE inline autocomplete** and as a backup terminal agent. Claude Code is our primary agentic coding tool.
 
 ### Eligibility
 

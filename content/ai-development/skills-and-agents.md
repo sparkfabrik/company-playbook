@@ -3,6 +3,8 @@ Description: Shared agent skills, agent profiles, and project-level resources ma
 Sort: 30
 */
 
+> **Note:** Claude Code is our primary AI coding agent. Skills and agent profiles work across Claude Code, GitHub Copilot, and OpenCode. This page covers how they are organized and shared regardless of which tool you use.
+
 ## Table of Contents
 
 - [TL;DR](#tldr)
@@ -20,11 +22,11 @@ Sort: 30
 
 ```bash
 sjust sparkdock-upgrade        # install everything
-sjust sf-agents-refresh        # sync skills and agent profiles
-sjust sf-agents-status         # verify it all landed correctly
+sjust sf-harness-sync          # sync skills and agent profiles
+sjust sf-harness-status        # verify it all landed correctly
 ```
 
-Skills and agent profiles are now available in GitHub Copilot and OpenCode. If you use VS Code, add one setting to make system agent profiles visible in the Chat view:
+Skills and agent profiles are available in Claude Code, GitHub Copilot, and OpenCode. If you use VS Code with Copilot, add one setting to make system agent profiles visible in the Chat view:
 
 ```json
 "chat.agentFilesLocations": { "~/.copilot/agents": true }
@@ -32,14 +34,17 @@ Skills and agent profiles are now available in GitHub Copilot and OpenCode. If y
 
 That's it. The rest of this page explains what skills and agent profiles are, how they're organized, and how to contribute your own.
 
+> **Note on command names:** The commands `sf-agents-refresh` and `sf-agents-status` have been renamed to `sf-harness-sync` and `sf-harness-status`. The old names may still work as aliases but new documentation uses the current names.
+
 ## What are skills and agent profiles
 
-GitHub Copilot and OpenCode are **coding agents**: AI assistants that read your code, execute multi-step tasks, and make changes. Both tools let you customize their behavior through two kinds of resources: skills and agent profiles.
+Claude Code, GitHub Copilot, and OpenCode are **coding agents**: AI assistants that read your code, execute multi-step tasks, and make changes. All three tools let you customize their behavior through two kinds of resources: skills and agent profiles.
 
-**Skills** are instruction files that teach a coding agent how to perform specific tasks: domain knowledge, tool usage patterns, safety protocols, step-by-step workflows. They follow the open [Agent Skills](https://agentskills.io) standard, supported by GitHub Copilot, OpenCode, and other tools. Each skill is a folder with a `SKILL.md` file that the agent discovers and loads on demand. See the [Agent Skills specification](https://agentskills.io/specification) for the format details.
+**Skills** are instruction files that teach a coding agent how to perform specific tasks: domain knowledge, tool usage patterns, safety protocols, step-by-step workflows. They follow the open [Agent Skills](https://agentskills.io) standard, supported by Claude Code, GitHub Copilot, OpenCode, and other tools. Each skill is a folder with a `SKILL.md` file that the agent discovers and loads on demand. See the [Agent Skills specification](https://agentskills.io/specification) for the format details.
 
-**Agent profiles** are custom agent configurations that shape how a coding agent behaves in a specific role. They can set a model preference, a system prompt, tool access rules, and a curated set of skills. For example, "the-architect" is a profile that makes the agent think like a senior software architect, focusing on design trade-offs and maintainable solutions. Both tools support this concept natively, though they use different file formats:
+**Agent profiles** are custom agent configurations that shape how a coding agent behaves in a specific role. They can set a model preference, a system prompt, tool access rules, and a curated set of skills. For example, "the-architect" is a profile that makes the agent think like a senior software architect, focusing on design trade-offs and maintainable solutions. All tools support this concept natively, though they use different file formats:
 
+- **Claude Code** calls them [agents](https://docs.anthropic.com/en/docs/claude-code/sub-agents), defined as `.md` files inside `.claude/agents/`
 - **GitHub Copilot** calls them [custom agents](https://code.visualstudio.com/docs/copilot/agents/overview), defined as `*.agent.md` files inside `.github/agents/`
 - **OpenCode** calls them [agents](https://opencode.ai/docs/agents/), configured via Markdown or JSON
 
@@ -60,16 +65,16 @@ CI/CD pipelines, and repositories.
 ...
 ```
 
-An agent profile for Copilot is an `.agent.md` file with YAML frontmatter:
+An agent profile for Claude Code is a `.md` file with YAML frontmatter:
 
 ```markdown
 ---
 name: the-architect
 description: Senior software architect focused on design trade-offs
-model: claude-sonnet-4-5
 tools:
-  - read_file
-  - search_files
+  - Read
+  - Grep
+  - Glob
 ---
 
 You are a senior software architect. Focus on system design,
@@ -82,6 +87,7 @@ maintainability, and trade-offs rather than implementation details.
 | Resource | Format docs |
 |----------|------------|
 | Skills (`SKILL.md`) | [Agent Skills specification](https://agentskills.io/specification) |
+| Claude Code agent profiles (`.md`) | [Claude Code subagents docs](https://docs.anthropic.com/en/docs/claude-code/sub-agents) |
 | Copilot agent profiles (`.agent.md`) | [VS Code custom agents docs](https://code.visualstudio.com/docs/copilot/customization/custom-agents) |
 | OpenCode agent profiles (`.md` / JSON) | [OpenCode agents docs](https://opencode.ai/docs/agents/) |
 
@@ -89,13 +95,13 @@ Note that **skills are interoperable** across tools thanks to the Agent Skills s
 
 | Scope | Resource | Location | Synced by |
 |-------|----------|----------|-----------|
-| **System** (all projects) | Skills | `~/.agents/skills/` | sparkdock (`sjust sf-agents-refresh`) |
-| **System** (all projects) | Agent profiles (Copilot) | `~/.copilot/agents/` | sparkdock (`sjust sf-agents-refresh`) |
-| **System** (all projects) | Agent profiles (OpenCode) | `~/.config/opencode/agents/` | sparkdock (`sjust sf-agents-refresh`) |
-| **Project** (one repo) | Skills | `.github/skills/` or `.opencode/skills/` | Committed in the repository |
-| **Project** (one repo) | Agent profiles | `.github/agents/` or `.claude/agents/` | Committed in the repository |
+| **System** (all projects) | Skills | `~/.agents/skills/` | sparkdock (`sjust sf-harness-sync`) |
+| **System** (all projects) | Agent profiles (Copilot) | `~/.copilot/agents/` | sparkdock (`sjust sf-harness-sync`) |
+| **System** (all projects) | Agent profiles (OpenCode) | `~/.config/opencode/agents/` | sparkdock (`sjust sf-harness-sync`) |
+| **Project** (one repo) | Skills | `.github/skills/`, `.claude/skills/`, or `.opencode/skills/` | Committed in the repository |
+| **Project** (one repo) | Agent profiles | `.claude/agents/` or `.github/agents/` | Committed in the repository |
 
-> **Why `.claude/agents/`?** VS Code reads both `.github/agents/` and `.claude/agents/` for custom agents. OpenCode uses a Markdown agent format compatible with Claude's convention, so `.claude/agents/` works as a shared path that both VS Code and OpenCode discover automatically, with no extra configuration needed. Use `.github/agents/` if you only need Copilot, or `.claude/agents/` if you want both tools to find the same files.
+> **Why `.claude/agents/`?** VS Code reads both `.github/agents/` and `.claude/agents/` for custom agents. Claude Code natively discovers agents from `.claude/agents/`. This makes `.claude/agents/` the shared path that both VS Code (via Copilot) and Claude Code discover automatically, with no extra configuration needed. Use `.github/agents/` if you only need Copilot, or `.claude/agents/` if you want both tools to find the same files.
 
 > **VS Code configuration required:** VS Code does not read `~/.copilot/agents/` by default. It discovers custom agents from `.github/agents/` (workspace), `.claude/agents/` (workspace), and the VS Code user profile folder. To make sparkdock-managed agent profiles visible in VS Code, add this to your VS Code user `settings.json`:
 >
@@ -105,9 +111,9 @@ Note that **skills are interoperable** across tools thanks to the Agent Skills s
 > }
 > ```
 >
-> This tells VS Code to also search `~/.copilot/agents/` for `.agent.md` files. Without this setting, system agent profiles will only work in Copilot CLI and OpenCode, not in VS Code chat. See the [VS Code custom agents documentation](https://code.visualstudio.com/docs/copilot/customization/custom-agents) for details.
+> This tells VS Code to also search `~/.copilot/agents/` for `.agent.md` files. Without this setting, system agent profiles will only work in Claude Code, Copilot CLI, and OpenCode, not in VS Code chat. See the [VS Code custom agents documentation](https://code.visualstudio.com/docs/copilot/customization/custom-agents) for details.
 
-> **Copilot CLI skill discovery:** Copilot CLI discovers skills from `~/.copilot/skills/`, not from the shared `~/.agents/skills/` path. Sparkdock bridges this automatically by creating per-skill symlinks in `~/.copilot/skills/` pointing to `~/.agents/skills/`. You don't need to do anything; `sjust sf-agents-refresh` takes care of it. Run `sjust sf-agents-status` to verify that managed skills show `ok` in the AVAILABLE column.
+> **Copilot CLI skill discovery:** Copilot CLI discovers skills from `~/.copilot/skills/`, not from the shared `~/.agents/skills/` path. Sparkdock bridges this automatically by creating per-skill symlinks in `~/.copilot/skills/` pointing to `~/.agents/skills/`. You don't need to do anything; `sjust sf-harness-sync` takes care of it. Run `sjust sf-harness-status` to verify that managed skills show `ok` in the AVAILABLE column.
 
 ## System skills
 
@@ -127,6 +133,7 @@ Agent profiles are synced alongside skills from sf-awesome-copilot. Each profile
 
 To use a system agent profile:
 
+- **Claude Code:** Claude Code discovers agents from `.claude/agents/` (project-level) and `~/.claude/agents/` (user-level, not sparkdock-managed). System agent profiles from sf-awesome-copilot are not auto-synced to Claude Code yet — use them via Copilot CLI or OpenCode, or manually copy them to `~/.claude/agents/`.
 - **GitHub Copilot in VS Code:** select the agent from the **agents dropdown** in the Chat view. (Type `/agents` to configure which agents appear.)
 - **GitHub Copilot CLI:** enter `/agent` in interactive mode and select from the list, or use `copilot --agent <profile-name>` in one-shot mode. The agent can also be triggered by inference from your prompt if the description matches.
 - **OpenCode:** press `Tab` to cycle through available agents in the TUI, or start a session with a specific profile: `opencode --agent <profile-name>` (or `c --agent <profile-name>`). Run `opencode agent list` to see all discovered agents.
@@ -138,7 +145,7 @@ Check the [sf-awesome-copilot repository](https://github.com/sparkfabrik/sf-awes
 ### Check status
 
 ```bash
-sjust sf-agents-status
+sjust sf-harness-status
 ```
 
 Example output:
@@ -176,16 +183,16 @@ Manifest: ~/.cache/sparkdock/sf-skills-manifest.json
 ### Sync from upstream
 
 ```bash
-sjust sf-agents-refresh
+sjust sf-harness-sync
 ```
 
 This clones (or pulls) the latest sf-awesome-copilot and syncs system resources to their local paths: skills to `~/.agents/skills/`, agent profiles to tool-specific directories (see the scope table above), and Copilot CLI symlinks to `~/.copilot/skills/`. It uses SHA256 checksums to detect changes:
 
 - If the upstream resource changed and your local copy is unmodified → **updated automatically**
 - If you modified the local copy → **skipped** (your changes are preserved)
-- To overwrite local modifications: `sjust sf-agents-refresh force`
+- To overwrite local modifications: `sjust sf-harness-sync force`
 
-> **Note:** These commands were recently renamed from `sf-skills-refresh` / `sf-skills-status`. The old names still work.
+> **Note:** These commands were recently renamed from `sf-agents-refresh` / `sf-agents-status`. The old names still work as aliases.
 
 ## Project-level skills
 
@@ -193,12 +200,13 @@ Project-level skills live in your repository and are only active when working on
 
 | Tool | Skills directory | Slash commands directory |
 |------|-----------------|------------------------|
+| Claude Code | `.claude/skills/` | `.claude/commands/` |
 | GitHub Copilot | `.github/skills/` | `.github/prompts/` |
 | OpenCode | `.opencode/skills/` | `.opencode/command/` |
 
 You don't usually create these from scratch. They come from:
 
-1. **OpenSpec:** `openspec init --tools opencode,github-copilot` generates project skills for the `/opsx:*` commands
+1. **OpenSpec:** `openspec init --tools claude,opencode,github-copilot` generates project skills for the `/opsx:*` commands
 2. **sf-awesome-copilot:** domain-specific skills that you copy into your project
 
 ## The sf-awesome-copilot repository
@@ -236,4 +244,4 @@ To add a new skill, agent profile, or project-level agent to sf-awesome-copilot:
    - `agents/<domain>/`: project-level agent definitions (manually copied)
 3. Open a pull request on the repository
 
-System skills and agent profiles (under `skills/system/` and `agents/system/`) will be automatically distributed to all developers on their next `sjust sf-agents-refresh`.
+System skills and agent profiles (under `skills/system/` and `agents/system/`) will be automatically distributed to all developers on their next `sjust sf-harness-sync`.

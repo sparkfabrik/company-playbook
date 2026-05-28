@@ -77,9 +77,9 @@ Everyone should have a basic understanding of:
 * **Workflow**: different branching models (git-flow, GitHub or GitLab flow), pull/merge request, peer review, squashing commits, rebase and merge, merge commits, linear history
 * **Conventions**: understand the relation between workflow-related conventions (commit granularity, versioning, commit messages format, branching model, etc.) and the working context (social contracts, environments, cadences, etc.)
 
-#### GitHub Copilot
+#### AI Coding Tools
 
-That's a "bonus track". Developers are the most impacted by the usage of Copilot, so just ask if they know what it is and if they ever tried it.
+That's a "bonus track". Developers are the most impacted by the usage of AI coding tools, so ask if they know what Claude Code (our primary agent) and GitHub Copilot (IDE autocomplete) are and if they have experience with agentic coding workflows.
 
 ### DevOps
 
