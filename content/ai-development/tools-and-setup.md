@@ -1,7 +1,7 @@
-/*
+/_
 Description: Claude Code, GitHub Copilot, shell aliases, sparkdock provisioning, and subscription policy
 Sort: 20
-*/
+_/
 
 ## Table of Contents
 
@@ -30,22 +30,22 @@ sjust sparkdock-upgrade    # install all tools
 
 **Start coding with AI:**
 
-| What you want to do | Command |
-|---------------------|---------|
-| Start a Claude Code session (primary) | `claude` |
-| Quick one-shot task with Claude Code | `claude -p "your prompt"` |
-| Copilot one-shot (backup) | `co "your prompt"` |
-| Copilot interactive session (backup) | `ico` |
+| What you want to do                   | Command                   |
+| ------------------------------------- | ------------------------- |
+| Start a Claude Code session (primary) | `claude`                  |
+| Quick one-shot task with Claude Code  | `claude -p "your prompt"` |
+| Copilot one-shot (backup)             | `co "your prompt"`        |
+| Copilot interactive session (backup)  | `ico`                     |
 
 **Authenticate (one-time):**
 
-| Tool | Command |
-|------|---------|
-| Claude Code | `claude login` |
-| GitHub Copilot CLI (backup) | `copilot login` (or `/login` inside a session) |
-| VS Code / JetBrains (Copilot autocomplete) | Sign in via the Copilot extension sidebar |
-| glab (GitLab CLI) | `sjust gitlab-configure-glab` |
-| gh (GitHub CLI) | `gh auth login` |
+| Tool                                       | Command                                        |
+| ------------------------------------------ | ---------------------------------------------- |
+| Claude Code                                | `claude auth login`                            |
+| GitHub Copilot CLI (backup)                | `copilot login` (or `/login` inside a session) |
+| VS Code / JetBrains (Copilot autocomplete) | Sign in via the Copilot extension sidebar      |
+| glab (GitLab CLI)                          | `sjust gitlab-configure-glab`                  |
+| gh (GitHub CLI)                            | `gh auth login`                                |
 
 All GitHub-based tools authenticate against **github.com** using your SparkFabrik organization account.
 
@@ -69,12 +69,12 @@ sjust sparkdock-install-tags npm_packages # just npm packages (OpenSpec, etc.)
 
 AI coding tools operate in two modes: **reactive** (suggest code, wait for you to apply it) and **agentic** (plan, act, observe, adjust in a loop). Both are useful. The agentic mode (where the AI reads your codebase, forms a plan, executes it, runs tests, and course-corrects) is where the biggest productivity shift is happening.
 
-| Environment | How it works | Start with |
-|-------------|-------------|------------|
-| **Claude Code** (terminal, primary) | Agentic: explores your codebase, plans, executes, tests, adjusts. Full tool use, skills, subagents, and MCP integrations. | `claude` to start a session |
-| **Claude Code** (VS Code / JetBrains extension) | Agentic: same capabilities as the terminal, with native IDE integration — inline diffs, plan review, @-mentions, multiple conversation tabs. | Install the Claude Code extension |
-| **Copilot CLI** (terminal, backup) | Agentic: same plan-act-observe loop. Available for teams that prefer it or need Copilot-specific features. | `co "your prompt"` or `ico` for interactive |
-| **Copilot** (VS Code / JetBrains, autocomplete) | Reactive: inline code completions as you type. Complements Claude Code — use both together. | Install the GitHub Copilot extension and sign in |
+| Environment                                     | How it works                                                                                                                                 | Start with                                       |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Claude Code** (terminal, primary)             | Agentic: explores your codebase, plans, executes, tests, adjusts. Full tool use, skills, subagents, and MCP integrations.                    | `claude` to start a session                      |
+| **Claude Code** (VS Code / JetBrains extension) | Agentic: same capabilities as the terminal, with native IDE integration — inline diffs, plan review, @-mentions, multiple conversation tabs. | Install the Claude Code extension                |
+| **Copilot CLI** (terminal, backup)              | Agentic: same plan-act-observe loop. Available for teams that prefer it or need Copilot-specific features.                                   | `co "your prompt"` or `ico` for interactive      |
+| **Copilot** (VS Code / JetBrains, autocomplete) | Reactive: inline code completions as you type. Complements Claude Code — use both together.                                                  | Install the GitHub Copilot extension and sign in |
 
 Use Claude Code (terminal or IDE extension) as your primary agent for implementation, debugging, and any task that benefits from an autonomous work loop. Copilot's inline autocomplete complements it with real-time code suggestions as you type.
 
@@ -86,9 +86,10 @@ Use Claude Code (terminal or IDE extension) as your primary agent for implementa
 
 ```bash
 claude                         # start in the current directory
-claude --agent the-architect   # start with a specific agent profile
-claude -p "your prompt"        # one-shot mode (non-interactive)
+claude -p "your prompt"        # one-shot mode (non-interactive, see warning below)
 ```
+
+> **Cost warning:** `claude -p` draws from a separate Agent SDK monthly credit, not your interactive usage limits. Once the credit is exhausted, usage is billed at API rates. See [Agent SDK and headless usage](#agent-sdk-and-headless-usage) below for details.
 
 Claude Code uses the current directory as project context. Type `/` for slash commands (including `/opsx:*` for OpenSpec workflows).
 
@@ -192,10 +193,10 @@ OpenSpec is covered in detail on its own page: **[Spec-Driven Development](/ai-d
 
 Sparkdock also installs CLI tools that aren't AI-specific but that the coding agents use via [skills](/ai-development/skills-and-agents):
 
-| Tool | What it is | Setup |
-|------|-----------|-------|
-| **[glab](https://gitlab.com/gitlab-org/cli)** | GitLab CLI: issues, merge requests, CI/CD pipelines | `sjust gitlab-configure-glab` (one-time auth) |
-| **[gh](https://cli.github.com)** | GitHub CLI: issues, pull requests, actions, releases | `gh auth login` (one-time auth) |
+| Tool                                          | What it is                                           | Setup                                         |
+| --------------------------------------------- | ---------------------------------------------------- | --------------------------------------------- |
+| **[glab](https://gitlab.com/gitlab-org/cli)** | GitLab CLI: issues, merge requests, CI/CD pipelines  | `sjust gitlab-configure-glab` (one-time auth) |
+| **[gh](https://cli.github.com)**              | GitHub CLI: issues, pull requests, actions, releases | `gh auth login` (one-time auth)               |
 
 Both tools work standalone in your terminal and are also used by Claude Code and other agents through skills (e.g., the [glab skill](https://github.com/sparkfabrik/sf-awesome-copilot/tree/main/skills/system/glab) lets the AI fetch issue details, read MR discussions, and check pipelines on your behalf).
 
@@ -203,24 +204,24 @@ Both tools work standalone in your terminal and are also used by Claude Code and
 
 Everything is managed by sparkdock. Here are the commands you'll use most:
 
-| Command | What it does |
-|---------|-------------|
-| `sjust sparkdock-upgrade` | Full provisioning: installs/updates all tools |
-| `sjust sparkdock-install-tags <tag>` | Install/update specific tools by tag |
-| `sjust sf-harness-sync` | Sync shared skills and agent profiles from upstream |
-| `sjust sf-harness-status` | Show installed skills, agent profiles, and their status |
+| Command                              | What it does                                            |
+| ------------------------------------ | ------------------------------------------------------- |
+| `sjust sparkdock-upgrade`            | Full provisioning: installs/updates all tools           |
+| `sjust sparkdock-install-tags <tag>` | Install/update specific tools by tag                    |
+| `sjust sf-harness-sync`              | Sync shared skills and agent profiles from upstream     |
+| `sjust sf-harness-status`            | Show installed skills, agent profiles, and their status |
 
 If a tool is missing or outdated, `sjust sparkdock-upgrade` is always the safe default.
 
 ### What sparkdock installs
 
-| Package | Source | Tag |
-|---------|--------|-----|
-| Claude Code | npm (`@anthropic-ai/claude-code`) | `claude-code` |
-| GitHub Copilot CLI | Homebrew Cask (`copilot-cli`) | `copilot-cli` |
-| OpenCode | Homebrew (`anomalyco/tap/opencode`) | `opencode` |
-| glab | Homebrew | `glab` |
-| OpenSpec | npm (`@fission-ai/openspec`) | `npm_packages` |
+| Package            | Source                              | Tag            |
+| ------------------ | ----------------------------------- | -------------- |
+| Claude Code        | npm (`@anthropic-ai/claude-code`)   | `claude-code`  |
+| GitHub Copilot CLI | Homebrew Cask (`copilot-cli`)       | `copilot-cli`  |
+| OpenCode           | Homebrew (`anomalyco/tap/opencode`) | `opencode`     |
+| glab               | Homebrew                            | `glab`         |
+| OpenSpec           | npm (`@fission-ai/openspec`)        | `npm_packages` |
 
 Sparkdock also configures shell aliases, zsh completions, and permission rules for all agents.
 
@@ -228,10 +229,10 @@ Sparkdock also configures shell aliases, zsh completions, and permission rules f
 
 ### Claude Code
 
-Run `claude login` from your terminal:
+Run `claude auth login` from your terminal:
 
 ```bash
-claude login
+claude auth login
 ```
 
 This opens your browser for authentication. Claude Code uses your Anthropic account linked to the SparkFabrik organization. The token is stored locally.
@@ -294,17 +295,23 @@ Claude Code is provided through the SparkFabrik organization's Anthropic plan. I
 
 Starting **June 15, 2026**, `claude -p` (headless/one-shot) and Agent SDK usage no longer count toward interactive usage limits. These get a **separate monthly credit** that refreshes with the billing cycle:
 
-| Plan | Monthly credit |
-|------|---------------|
-| Pro | $20 |
-| Max 5x | $100 |
-| Max 20x | $200 |
-| Team (Standard seats) | $20 |
-| Team (Premium seats) | $100 |
-| Enterprise (usage-based) | $20 |
-| Enterprise (seat-based Premium seats) | $200 |
+| Plan                                  | Monthly credit |
+| ------------------------------------- | -------------- |
+| Pro                                   | $20            |
+| Max 5x                                | $100           |
+| Max 20x                               | $200           |
+| Team (Standard seats)                 | $20            |
+| Team (Premium seats)                  | $100           |
+| Enterprise (usage-based)              | $20            |
+| Enterprise (seat-based Premium seats) | $200           |
 
-This means your interactive Claude Code sessions and your CI/automation (`claude -p`) pipelines have independent budgets.
+This means your interactive Claude Code sessions and your CI/automation (`claude -p`) pipelines have independent budgets. Once the Agent SDK credit is exhausted, additional usage is billed at standard API rates (if usage credits are enabled), otherwise requests stop until the next billing cycle.
+
+**References:**
+
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan) (official Anthropic support article)
+- [What Anthropic's New Claude Billing Means for Zed Users](https://zed.dev/blog/anthropic-subscription-changes) (Zed blog, practical impact analysis)
+- [Anthropic Claude pricing changes](https://www.axios.com/2026/05/14/anthropic-claude-price-openai-tokens) (Axios coverage)
 
 ## GitHub Copilot subscription policy
 
