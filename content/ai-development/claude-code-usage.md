@@ -42,7 +42,7 @@ There are two windows:
 
 As you approach a cap, Claude Code warns you about remaining capacity. When you hit it, the default option is to **wait for the window to reset**.
 
-We provide each user with an **extra usage allowance** on top of the base limits. **We do not support self-service plan upgrades for now.** If you exhaust your allowance, **contact the platform team** (`#support-claude-code`) — we adjust it case by case for specific, justified needs rather than blanket upgrades. Do not opt into pay-as-you-go API credits on the work account; route the request through us instead.
+We provide each user with an **extra usage allowance** on top of the base limits. **We do not support self-service plan upgrades for now.** If you exhaust your allowance, **contact the platform team** (`#support-hr`) — we adjust it case by case for specific, justified needs rather than blanket upgrades. Do not opt into pay-as-you-go API credits on the work account; route the request through us instead.
 
 > The exact thresholds vary by plan and change over time, so we intentionally do not list numbers here. See [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan) for current figures.
 
