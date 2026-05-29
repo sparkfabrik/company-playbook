@@ -14,6 +14,8 @@ Sort: 22
   - [What the organization can lock](#what-the-organization-can-lock)
   - [Support boundary](#support-boundary)
 - [Profiles and multiple accounts](#profiles-and-multiple-accounts)
+  - [Separate OS user account (strongest isolation)](#separate-os-user-account-strongest-isolation)
+  - [CLAUDE_CONFIG_DIR profiles (lighter, same OS account)](#claude_config_dir-profiles-lighter-same-os-account)
 - [References](#references)
 
 ## TL;DR
@@ -21,7 +23,7 @@ Sort: 22
 - Claude Code usage is **finite and shared**. Your Claude Code sessions, Claude.ai chat, and Cowork all draw from the **same** usage pool, with a rolling session window and a weekly limit.
 - For now, **personal projects are discouraged** on the work account unless your weekly headroom clearly covers your work needs first. This is provisional — we're learning the limits together and will adapt the policy.
 - Logging in with your SparkFabrik account applies **org-managed settings automatically**. They take precedence over your own settings and cannot be overridden.
-- There is **no official profile switcher**. If you also run a personal Claude Code, log out and use a **separate OS user account** for personal work.
+- Keep personal Claude Code **separate** from work: either a **separate OS user account** (strongest), or the `claude-personal` profile alias (`CLAUDE_CONFIG_DIR`) that sparkdock provides.
 
 This page covers policy and limits. For installation, authentication, and the Agent SDK credit, see **[Tools and setup](/ai-development/tools-and-setup)**.
 
@@ -94,11 +96,27 @@ We support **only the harness as configured by sparkdock**. Custom plugins, skil
 
 ## Profiles and multiple accounts
 
-There is **no official support for switching Claude Code profiles or accounts** today, and Anthropic provides no built-in mechanism for it.
+If you also use Claude Code for personal work, keep it **separate** from your work account — separate login, separate usage pool, no org policy on personal work. There are two supported ways to do this, strongest first.
 
-**The rule for now:** if you already use a personal Claude Code on the same OS user account, **log out and use a separate operating-system user account** for personal work, with your own harness and configuration there. This keeps the managed org policy and the shared work usage pool cleanly separated from anything personal.
+### Separate OS user account (strongest isolation)
 
-There is an open-source project — [claude-code-profiles](https://github.com/quinnjr/claude-code-profiles) — that manages multiple profiles by isolating each into its own config directory via the `CLAUDE_CONFIG_DIR` environment variable. It may become a viable option, but it is **untested and unsupported** by us at this time. Do not rely on it for separating work and personal use; use a separate OS account instead.
+Log out and use a **separate operating-system user account** for personal work, with its own harness and configuration. This is the cleanest separation: nothing — credentials, config, history, MCP servers, managed policy — crosses between work and personal. Recommended when you want strict separation.
+
+### `CLAUDE_CONFIG_DIR` profiles (lighter, same OS account)
+
+Claude Code's built-in `CLAUDE_CONFIG_DIR` environment variable points the CLI at a different config directory, which isolates settings, credentials, MCP servers, and history per directory. sparkdock provides a ready-made `claude-personal` alias for this — your default `claude` stays on the work/org account, and `claude-personal` runs against `~/.claude_personal`:
+
+```zsh
+# default — work/org account, org-managed policy applies
+claude
+
+# personal — separate config dir (~/.claude_personal), log in with your personal account
+claude-personal
+```
+
+**Org policy is keyed to the logged-in account, not the directory.** When you log in to the personal profile with a personal (non-SparkFabrik) account, no org-managed policy applies and usage draws on that account's own limits — not the work pool. Conversely, the work profile always gets the org policy.
+
+> The third-party [claude-code-profiles](https://github.com/quinnjr/claude-code-profiles) tool is just a wrapper around `CLAUDE_CONFIG_DIR`; the sparkdock `claude-personal` alias covers the same need, so you don't need it.
 
 ## References
 
