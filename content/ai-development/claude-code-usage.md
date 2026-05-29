@@ -46,7 +46,7 @@ As you approach a cap, Claude Code warns you about remaining capacity. When you 
 
 We provide each user with an **extra usage allowance** on top of the base limits. **We do not support self-service plan upgrades for now.** If you exhaust your allowance, **contact the platform team** (`#support-hr`) — we adjust it case by case for specific, justified needs rather than blanket upgrades. Do not opt into pay-as-you-go API credits on the work account; route the request through us instead.
 
-> The exact thresholds vary by plan and change over time, so we intentionally do not list numbers here. See [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan) for current figures.
+> The exact thresholds change over time, so we intentionally do not list numbers here. Check your own current usage and remaining capacity with the `/usage` command inside Claude Code (press `w` for the last 7 days).
 
 > **Headless usage is separate.** `claude -p` and Agent SDK usage draw from a distinct monthly credit and do **not** count toward these interactive limits. See [Agent SDK and headless usage](/ai-development/tools-and-setup#agent-sdk-and-headless-usage).
 
@@ -86,7 +86,7 @@ Guidance for now:
 
 1. **Work first.** Don't let personal use erode the budget you need to deliver.
 2. **Provisional, not permanent.** This stance is conservative on purpose. Once we understand how much headroom the limits leave, we'll relax or adjust it — together, with transparency.
-3. **No fallback tool.** GitHub Copilot is being phased out and we no longer issue licenses, so there is no second, unmetered AI coding tool to fall back on. Claude Code's limits are effectively your whole AI coding budget — which is exactly why personal use comes second.
+3. **No fallback tool.** GitHub Copilot has been phased out — seats are no longer issued by default and are granted only on demand, case by case, for a few specific needs (ask the platform team if you think you have one). So there's no second, unmetered AI coding tool to fall back on: Claude Code's limits are effectively your whole AI coding budget, which is exactly why personal use comes second.
 4. **When in doubt, ask.** If you have a personal-project use case in mind, raise it with your manager.
 
 ## Org-managed settings
@@ -144,7 +144,6 @@ claude-personal
 
 - [Claude Code settings](https://code.claude.com/docs/en/settings) — managed settings, precedence, lockable options
 - [Server-managed settings](https://code.claude.com/docs/en/server-managed-settings) — how org policy is delivered from the admin console on login (our mechanism)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan) — usage limits and what counts
 - [Manage costs effectively](https://code.claude.com/docs/en/costs) — model selection (Sonnet vs Opus), `/usage`, `/model`, reducing token use
 - [Claude Code best practices](https://code.claude.com/docs/en/best-practices) — plan mode, context management, verification, scaling
 - [claude-code-profiles](https://github.com/quinnjr/claude-code-profiles) — third-party, untested, unsupported
