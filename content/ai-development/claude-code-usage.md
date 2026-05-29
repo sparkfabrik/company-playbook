@@ -85,7 +85,7 @@ This is the inverse of the Copilot situation, where capacity was effectively fre
 Guidance for now:
 
 1. **Work first.** Don't let personal use erode the budget you need to deliver.
-2. **Provisional, not permanent.** This stance is conservative on purpose. Once we understand how much headroom the limits leave, we'll relax or adjust it — together, with transparency.
+2. **Provisional, not permanent.** This stance is conservative on purpose. Once we understand how much headroom the limits leave, we'll relax or adjust it together, with transparency.
 3. **No fallback tool.** GitHub Copilot has been phased out — seats are no longer issued by default and are granted only on demand, case by case, for a few specific needs (ask the platform team if you think you have one). So there's no second, unmetered AI coding tool to fall back on: Claude Code's limits are effectively your whole AI coding budget, which is exactly why personal use comes second.
 4. **When in doubt, ask.** If you have a personal-project use case in mind, raise it with your manager.
 
