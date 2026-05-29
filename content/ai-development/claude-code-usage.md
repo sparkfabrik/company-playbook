@@ -54,7 +54,7 @@ We provide each user with an **extra usage allowance** on top of the base limits
 
 With Copilot, the cost was a flat seat and capacity was a non-issue. With Claude Code, capacity is a shared, finite resource. The practical implications:
 
-- **Budget deliberately.** Reach for plan mode and scoped prompts on large tasks; avoid burning the weekly window on exploratory chat you could do elsewhere.
+- **Budget deliberately.** Reach for plan mode and scoped prompts on large tasks; avoid burning the weekly window on exploratory chat you could do elsewhere (remember we all have high-limits access to Gemini with our company accounts).
 - **Match the model to the task — your biggest lever.** Sonnet handles most coding well and costs far less of your budget; Opus burns through the weekly limit much faster. Default to Sonnet and reserve Opus for genuinely hard problems (architecture, gnarly multi-step reasoning). Switch mid-session with `/model`, or set a default in `/config`. Per the [official guidance](https://code.claude.com/docs/en/costs#choose-the-right-model): *"Sonnet handles most coding tasks well and costs less than Opus. Reserve Opus for complex architectural decisions or multi-step reasoning."*
 - **Work takes priority.** The budget exists to get work done. Personal use comes second (see below).
 - **This is a learning period.** We don't yet know how comfortably the limits accommodate a full week of work. We'll watch real consumption and revisit the guidance with transparency.
