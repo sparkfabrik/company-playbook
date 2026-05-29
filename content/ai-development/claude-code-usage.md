@@ -22,10 +22,10 @@ Sort: 22
 
 ## TL;DR
 
-- Claude Code usage is **finite and shared**. Your Claude Code sessions, Claude.ai chat, and Cowork all draw from the **same** usage pool, with a rolling session window and a weekly limit.
-- For now, **personal projects are discouraged** on the work account unless your weekly headroom clearly covers your work needs first. This is provisional — we're learning the limits together and will adapt the policy.
-- Logging in with your SparkFabrik account applies **org-managed settings automatically**. They take precedence over your own settings and cannot be overridden.
-- Keep personal Claude Code **separate** from work: either a **separate OS user account** (strongest), or the `claude-personal` profile alias (`CLAUDE_CONFIG_DIR`) that sparkdock provides.
+- **Personal projects? Not on the work account, for now.** For personal work, use a separate profile signed in with your *own* personal Anthropic account — the `claude-personal` alias or a separate OS user — so it draws on your limits, not the company pool. [Details](#personal-use-under-limits)
+- **Usage is finite and shared.** Claude Code, Claude.ai chat, and Cowork all draw from the **same** pool (a rolling session window plus a weekly limit). There's no Copilot fallback anymore, so budget deliberately.
+- **Hit your limit?** Wait for the window to reset, or ask the platform team (`#support-hr`) about your extra allowance. No self-service upgrades; don't enable pay-as-you-go API credits on the work account.
+- **Settings are managed.** Signing in with your SparkFabrik account applies **org-managed policy automatically** — it takes precedence over your own settings and can't be overridden.
 
 This page covers policy and limits. For installation, authentication, and the Agent SDK credit, see **[Tools and setup](/ai-development/tools-and-setup)**.
 
