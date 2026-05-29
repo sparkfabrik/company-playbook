@@ -291,6 +291,8 @@ Select **GitHub.com**, authenticate via browser. This is also the fallback crede
 
 Claude Code is provided through the SparkFabrik organization's Anthropic plan. Interactive usage (Claude Code sessions, Claude Cowork, Claude chat) consumes your plan's usage limits.
 
+> For interactive usage limits, the personal-use policy, org-managed settings, and multi-account guidance, see **[Claude Code usage & policy](/ai-development/claude-code-usage)**.
+
 ### Agent SDK and headless usage
 
 Starting **June 15, 2026**, `claude -p` (headless/one-shot) and Agent SDK usage no longer count toward interactive usage limits. These get a **separate monthly credit** that refreshes with the billing cycle:
