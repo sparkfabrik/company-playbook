@@ -10,6 +10,8 @@ Sort: 22
   - [How the limits work](#how-the-limits-work)
   - [What changed from Copilot](#what-changed-from-copilot)
 - [Personal use under limits](#personal-use-under-limits)
+  - [Quick answers](#quick-answers)
+  - [The policy](#the-policy)
 - [Org-managed settings](#org-managed-settings)
   - [What the organization can lock](#what-the-organization-can-lock)
   - [Support boundary](#support-boundary)
@@ -57,6 +59,23 @@ With Copilot, the cost was a flat seat and capacity was a non-issue. With Claude
 - **This is a learning period.** We don't yet know how comfortably the limits accommodate a full week of work. We'll watch real consumption and revisit the guidance with transparency.
 
 ## Personal use under limits
+
+### Quick answers
+
+**Can I use Claude Code for personal projects?**
+Not on the work account, for now. The work usage pool is finite and shared, and there's no Copilot fallback anymore — so don't spend it on side projects. If you want Claude Code for personal work, run it on a **separate profile signed in with your own personal Anthropic account**, so it draws on *your* personal plan and limits, not the company pool. See [Profiles and multiple accounts](#profiles-and-multiple-accounts).
+
+**What if I already have a personal Claude Code configured on this machine?**
+After sparkdock provisioning, the default `claude` command is the **work** profile: it forces login to the SparkFabrik organization, applies the managed policy, and uses `~/.claude`. If you had been signing `~/.claude` into a *personal* account, that slot is now work — re-authenticate it with your work account. Keep your personal setup on the `claude-personal` profile instead (config dir `~/.claude_personal`, your own login). To carry over your existing personal history/config, copy it across **before** re-authenticating:
+
+```zsh
+cp -r ~/.claude ~/.claude_personal   # only if ~/.claude held your personal setup
+# then: `claude` = work, `claude-personal` = personal (run /login with your personal account)
+```
+
+Don't run personal projects under the work login — that bills the company pool and runs under org policy.
+
+### The policy
 
 Because the work budget is finite and shared, **using Claude Code on the work account for personal or side projects is, for now, discouraged** — unless your weekly headroom clearly covers your actual work needs first.
 
