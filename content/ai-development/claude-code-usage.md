@@ -40,7 +40,7 @@ Usage is **shared across all interactive surfaces**: your Claude Code sessions (
 There are two windows:
 
 - A **rolling session limit** (a usage window that opens with your first message and lasts a few hours).
-- A **weekly limit** that resets on a fixed cadence.
+- A **weekly limit** on a **rolling 7-day window** — *not* a fixed calendar reset. The window is tied to your own usage (it starts from your first activity in the cycle), so the reset moment differs per person and shifts over time. There's no "fresh quota every Monday morning" to plan around; check yours with `/usage` (press `w`).
 
 As you approach a cap, Claude Code warns you about remaining capacity. When you hit it, the default option is to **wait for the window to reset**.
 
@@ -55,6 +55,7 @@ We provide each user with an **extra usage allowance** on top of the base limits
 With Copilot, the cost was a flat seat and capacity was a non-issue. With Claude Code, capacity is a shared, finite resource. The practical implications:
 
 - **Budget deliberately.** Reach for plan mode and scoped prompts on large tasks; avoid burning the weekly window on exploratory chat you could do elsewhere.
+- **Match the model to the task — your biggest lever.** Sonnet handles most coding well and costs far less of your budget; Opus burns through the weekly limit much faster. Default to Sonnet and reserve Opus for genuinely hard problems (architecture, gnarly multi-step reasoning). Switch mid-session with `/model`, or set a default in `/config`. Per the official guidance: *"Sonnet handles most coding tasks well and costs less than Opus. Reserve Opus for complex architectural decisions or multi-step reasoning."*
 - **Work takes priority.** The budget exists to get work done. Personal use comes second (see below).
 - **This is a learning period.** We don't yet know how comfortably the limits accommodate a full week of work. We'll watch real consumption and revisit the guidance with transparency.
 
@@ -144,5 +145,6 @@ claude-personal
 - [Claude Code settings](https://code.claude.com/docs/en/settings) — managed settings, precedence, lockable options
 - [Server-managed settings](https://code.claude.com/docs/en/server-managed-settings) — how org policy is delivered from the admin console on login (our mechanism)
 - [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan) — usage limits and what counts
+- [Manage costs effectively](https://code.claude.com/docs/en/costs) — model selection (Sonnet vs Opus), `/usage`, `/model`, reducing token use
 - [claude-code-profiles](https://github.com/quinnjr/claude-code-profiles) — third-party, untested, unsupported
 - [Tools and setup](/ai-development/tools-and-setup) — installation, authentication, Agent SDK credit
