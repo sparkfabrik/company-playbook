@@ -116,6 +116,12 @@ For the full reference, see the official [Claude Code settings documentation](ht
 
 We support **only the harness as configured by sparkdock**. Custom plugins, skills, agents, MCP servers, or settings beyond what sparkdock provisions are **not supported unless pre-approved** — discussed and shared with the team first. If you have something you'd like to add to the standard setup, propose it so we can evaluate and roll it out for everyone rather than maintaining one-off local configs.
 
+**Warning! OpenCode is no more an authorized harness.** Although OpenCode has been experimentally used by some team members in recent months, it is not supported by Anthropic and falls outside the approved setup. Do not use it as your primary Claude Code interface under the SparkFabrik organization account.
+
+> OpenCode can technically connect to Anthropic's models via a personal API key. However, this mode operates entirely outside the organization's managed plan: it consumes additional budget at per-token API cost, does not count against — or benefit from — the organization's usage limits and pooled allowance, and is not covered by any org-managed policy or support.
+
+OpenCode may be considered for users who, for contextual or workflow reasons, are granted a GitHub Copilot seat. In that scenario, OpenCode can be used as a Copilot-backed harness rather than an Anthropic-backed one, which sidesteps the API cost and policy concerns above.
+
 ## Profiles and multiple accounts
 
 If you also use Claude Code for personal work, keep it **separate** from your work account — separate login, separate usage pool, no org policy on personal work. There are two supported ways to do this, strongest first.
