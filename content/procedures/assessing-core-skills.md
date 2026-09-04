@@ -79,7 +79,7 @@ Everyone should have a basic understanding of:
 
 #### AI Coding Tools
 
-That's a "bonus track". Developers are the most impacted by the usage of AI coding tools, so ask if they know what Claude Code (our primary agent) and GitHub Copilot (IDE autocomplete) are and if they have experience with agentic coding workflows.
+That's a "bonus track". Developers are the most impacted by the usage of AI coding tools, so ask if they know what Claude Code (the agent we use) is and if they have experience with agentic coding workflows.
 
 ### DevOps
 
