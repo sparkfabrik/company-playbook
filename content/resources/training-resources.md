@@ -115,7 +115,7 @@ All the training material in this section is public and can be freely accessed.
 |-------------------|--------------------------------------------------------------------------------|
 | **Documentation** | [Claude Code overview](https://docs.anthropic.com/en/docs/claude-code/overview) |
 |                   | [SparkFabrik's AI development tools and setup](/ai-development/tools-and-setup) |
-|                   | [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart) (IDE autocomplete) |
+|                   | [SparkFabrik's Claude Code usage limits and policy](/ai-development/claude-code-usage) |
 
 ## DevOps
 

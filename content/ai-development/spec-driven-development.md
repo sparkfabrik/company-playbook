@@ -31,8 +31,8 @@ This is nothing different from what we already do on every project in SparkFabri
 
 A spec is a **behavior contract**: it describes what the system should do, not how it should do it internally. Compare these two ways of describing the same feature:
 
-- **Vague prompt**: *"Add session timeout so users get logged out after being idle."*
-- **Spec requirement**: *"The system SHALL expire sessions after a configured duration of inactivity. GIVEN an authenticated session, WHEN 30 minutes pass without activity, THEN the session token is invalidated AND the user is redirected to the login page."*
+- **Vague prompt**: _"Add session timeout so users get logged out after being idle."_
+- **Spec requirement**: _"The system SHALL expire sessions after a configured duration of inactivity. GIVEN an authenticated session, WHEN 30 minutes pass without activity, THEN the session token is invalidated AND the user is redirected to the login page."_
 
 The first leaves most decisions to whoever (or whatever) implements it. The second is observable, testable, and unambiguous: it uses [GIVEN/WHEN/THEN](https://martinfowler.com/bliki/GivenWhenThen.html) scenarios to make expected behavior concrete. Good specs contain behaviors, inputs, outputs, error conditions, and concrete scenarios. Implementation details like class names, library choices, or step-by-step execution plans belong in design documents and task lists, not in the spec itself.
 
@@ -55,7 +55,7 @@ One alternative worth knowing about is the [BMad Method](https://docs.bmad-metho
 
 AI coding assistants have fundamentally changed the economics of writing software. Generating hundreds of lines of code takes seconds, not hours. But this shift creates a new problem: **the bottleneck is no longer typing code; it's figuring out what to build and verifying that it's correct**.
 
-> *"Writing code is cheap now — but delivering good code remains significantly more expensive. Good code works, we know it works, it solves the right problem, it's protected by tests, and it's documented."*
+> _"Writing code is cheap now — but delivering good code remains significantly more expensive. Good code works, we know it works, it solves the right problem, it's protected by tests, and it's documented."_
 > — Simon Willison, [Agentic Engineering Patterns](https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/)
 
 Without specs, requirements live only in chat history. Context evaporates between sessions. A new team member (or even you, two weeks later) has no record of what the system is supposed to do or why a decision was made. AI agents become unpredictable when the only input is a vague prompt and a codebase with no documented intent.
@@ -66,18 +66,18 @@ There is also a collaboration angle. AI makes it trivially easy to generate larg
 
 ## Get started
 
-All required tools ([OpenSpec CLI](/ai-development/tools-and-setup#openspec), [Claude Code](/ai-development/tools-and-setup#claude-code), [GitHub Copilot CLI](/ai-development/tools-and-setup#github-copilot-secondary)) are installed automatically by [sparkdock](https://github.com/sparkfabrik/sparkdock). Run `openspec --version` to verify. If it's missing or outdated, run `sjust sparkdock-upgrade` (`sjust` is sparkdock's task runner; see [Tools and Setup](/ai-development/tools-and-setup)).
+Both required tools, the [OpenSpec CLI](/ai-development/tools-and-setup#openspec) and [Claude Code](/ai-development/tools-and-setup#claude-code), are installed automatically by [sparkdock](https://github.com/sparkfabrik/sparkdock). Run `openspec --version` to verify. If it's missing or outdated, run `sjust sparkdock-upgrade` (`sjust` is sparkdock's task runner; see [Tools and Setup](/ai-development/tools-and-setup)).
 
 ### New project
 
 From the project root:
 
 ```bash
-openspec init --tools claude,opencode,github-copilot
+openspec init --tools claude
 git add -A && git commit -m "chore: initialize openspec"
 ```
 
-Restart your IDE or start a new chat session. The `/opsx:*` commands work in **Claude Code** (primary), **GitHub Copilot** (VS Code, JetBrains), and **OpenCode** (backup). See [Your first feature](#your-first-feature) below for what to do next.
+Start a new Claude Code session so it picks up the generated commands. See [Your first feature](#your-first-feature) below for what to do next.
 
 ### Existing project (already has openspec/)
 
@@ -89,7 +89,7 @@ If slash commands aren't recognized, run `openspec update` to regenerate them, t
 
 OpenSpec works alongside the other tools in our AI stack. For details on installation, shell aliases, and shared skills, see:
 
-- **[Tools and Setup](/ai-development/tools-and-setup)**: Claude Code, GitHub Copilot, shell aliases, sparkdock provisioning
+- **[Tools and Setup](/ai-development/tools-and-setup)**: Claude Code installation, authentication, and sparkdock provisioning
 - **[Skills and Agents](/ai-development/skills-and-agents)**: shared skills synced by sparkdock, including the glab skill used in the workflow below
 
 ### Your first feature
@@ -213,6 +213,7 @@ Everything under `openspec/` should be committed. There is nothing to `.gitignor
 When you open a merge request, reviewers can look at the spec delta **before** reading the code. This is especially valuable for AI-generated code: the spec explains what the change is supposed to do, so the reviewer can verify intent instead of reverse-engineering it from the diff.
 
 Link the change artifacts in your MR description. If you archive before merging, the paths will be under `openspec/changes/archive/`:
+
 ```
 ## OpenSpec change
 See `openspec/changes/archive/2026-03-09-add-session-timeout/proposal.md` for intent and scope.

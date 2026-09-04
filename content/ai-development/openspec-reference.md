@@ -1,19 +1,19 @@
 /*
-Description: OpenSpec framework reference: concepts, commands, and project file structure
+Description: OpenSpec concepts, commands, and project file structure
 Sort: 45
 */
 
 ## TL;DR
 
-| What you need | Where to look |
-|---------------|---------------|
-| Workflow commands | `/opsx:explore`, `/opsx:ff`, `/opsx:apply`, `/opsx:archive` |
-| Step-by-step alternative | `/opsx:new` + `/opsx:continue` |
-| Check progress | `openspec status --change <name>` |
-| Validate before archive | `openspec validate <name>` |
-| Specs source of truth | `openspec/specs/` |
-| Active changes | `openspec/changes/` |
-| New to OpenSpec? | Start with `/opsx:onboard` in a chat session |
+| What you need            | Where to look                                                                |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| Workflow commands        | `/opsx:explore`, `/opsx:propose`, `/opsx:ff`, `/opsx:apply`, `/opsx:archive` |
+| Step-by-step alternative | `/opsx:new` + `/opsx:continue`                                               |
+| Check progress           | `openspec status --change <name>`                                            |
+| Validate before archive  | `openspec validate <name>`                                                   |
+| Specs source of truth    | `openspec/specs/`                                                            |
+| Active changes           | `openspec/changes/`                                                          |
+| New to OpenSpec?         | Start with `/opsx:onboard` in a chat session                                 |
 
 ## Table of Contents
 
@@ -26,9 +26,9 @@ Sort: 45
 
 ## Overview
 
-[OpenSpec](https://github.com/Fission-AI/OpenSpec) is an open-source, tool-agnostic framework for Spec-Driven Development. It supports [multiple AI coding assistants](https://github.com/Fission-AI/OpenSpec#supported-tools): we use it with GitHub Copilot and OpenCode, but it also works with Cursor, Windsurf, Claude Code, and others.
+[OpenSpec](https://github.com/Fission-AI/OpenSpec) is an open-source, tool-agnostic framework for Spec-Driven Development. We use it with [Claude Code](/ai-development/tools-and-setup#claude-code). It also supports [other AI coding assistants](https://github.com/Fission-AI/OpenSpec#supported-tools), which matters when a project is shared with people outside the company.
 
-For the methodology behind OpenSpec — why we use specs, how they fit into our workflow, and a complete walkthrough of a feature implementation — see **[Spec-Driven Development](/ai-development/spec-driven-development)**.
+For the methodology behind OpenSpec (why we use specs, how they fit into our workflow, and a complete walkthrough of a feature implementation), see **[Spec-Driven Development](/ai-development/spec-driven-development)**.
 
 ## The core flow
 
@@ -64,14 +64,17 @@ A spec contains structured requirements with concrete scenarios:
 # Auth Session Specification
 
 ## Purpose
+
 Manage user session lifecycle including creation, validation, and authentication state.
 
 ## Requirements
 
 ### Requirement: Session Creation
+
 The system SHALL create a session token upon successful authentication.
 
 #### Scenario: Successful login
+
 - GIVEN a user with valid credentials
 - WHEN the user submits the login form
 - THEN a session token is issued
@@ -114,9 +117,11 @@ All artifacts complete!
 ## ADDED Requirements
 
 ### Requirement: Session Expiration
+
 The system SHALL expire sessions after a configured duration of inactivity.
 
 #### Scenario: Idle timeout
+
 - GIVEN an authenticated user session
 - WHEN 30 minutes pass without activity
 - THEN the session token is invalidated
@@ -151,44 +156,45 @@ The spec now describes the new behavior (4 requirements instead of 2), and the n
 
 ## Commands
 
-Both GitHub Copilot and OpenCode use the same slash commands. Type them in the chat interface of either tool. Each command maps to a prompt file in your repository (under `.opencode/command/` or `.github/prompts/`) that instructs the AI what to do. You can read or customize them like any other file.
+Type these slash commands in a Claude Code session. Each command maps to a file in your repository under `.claude/commands/opsx/` that instructs the agent what to do. You can read or customize them like any other file.
 
 **Workflow commands**, the full cycle from idea to archived specs:
 
-| Command | What it does |
-|---------|-------------|
-| `/opsx:explore` | Think through ideas, investigate the codebase, compare approaches; no code written |
-| `/opsx:ff <name>` | Create a change with all artifacts at once (proposal, specs, design, tasks) |
-| `/opsx:apply` | Implement tasks from the current change |
-| `/opsx:archive` | Archive a completed change, merging delta specs into the source of truth |
+| Command                  | What it does                                                                       |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| `/opsx:explore`          | Think through ideas, investigate the codebase, compare approaches; no code written |
+| `/opsx:propose "<idea>"` | Describe what you want and get a complete proposal with every artifact ready       |
+| `/opsx:ff <name>`        | Create a change with all artifacts at once (proposal, specs, design, tasks)        |
+| `/opsx:apply`            | Implement tasks from the current change                                            |
+| `/opsx:archive`          | Archive a completed change, merging delta specs into the source of truth           |
 
 **Step-by-step alternative**: use `/opsx:new` + `/opsx:continue` instead of `/opsx:ff` when you want to review and refine each artifact before moving to the next:
 
-| Command | What it does |
-|---------|-------------|
+| Command            | What it does                                                     |
+| ------------------ | ---------------------------------------------------------------- |
 | `/opsx:new <name>` | Scaffold a change directory and show the first artifact template |
-| `/opsx:continue` | Create the next artifact (one at a time) |
+| `/opsx:continue`   | Create the next artifact (one at a time)                         |
 
 **Additional commands:**
 
-| Command | What it does |
-|---------|-------------|
-| `/opsx:verify` | Check that implementation matches the specs before archiving |
-| `/opsx:sync` | Sync delta specs to main specs without archiving |
-| `/opsx:bulk-archive` | Archive multiple completed changes at once |
-| `/opsx:onboard` | Guided walkthrough of the full OpenSpec workflow; start here if you're new |
+| Command              | What it does                                                               |
+| -------------------- | -------------------------------------------------------------------------- |
+| `/opsx:verify`       | Check that implementation matches the specs before archiving               |
+| `/opsx:sync`         | Sync delta specs to main specs without archiving                           |
+| `/opsx:bulk-archive` | Archive multiple completed changes at once                                 |
+| `/opsx:onboard`      | Guided walkthrough of the full OpenSpec workflow; start here if you're new |
 
 **CLI commands**: the `openspec` CLI complements the slash commands with direct operations you run in your terminal:
 
-| Command | What it does |
-|---------|-------------|
-| `openspec list` | List active changes |
-| `openspec list --specs` | List specs in the source of truth |
-| `openspec status --change <name>` | Show artifact progress for a change |
-| `openspec validate <name>` | Check that a change is valid before archiving |
-| `openspec show <name>` | Display change details and artifacts |
-| `openspec archive <name>` | Archive a change, merging delta specs into the source of truth |
-| `openspec schemas` | List available workflow schemas. A schema defines which artifacts a change contains (e.g. `spec-driven` includes proposal, specs, design, tasks) |
+| Command                           | What it does                                                                                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `openspec list`                   | List active changes                                                                                                                              |
+| `openspec list --specs`           | List specs in the source of truth                                                                                                                |
+| `openspec status --change <name>` | Show artifact progress for a change                                                                                                              |
+| `openspec validate <name>`        | Check that a change is valid before archiving                                                                                                    |
+| `openspec show <name>`            | Display change details and artifacts                                                                                                             |
+| `openspec archive <name>`         | Archive a change, merging delta specs into the source of truth                                                                                   |
+| `openspec schemas`                | List available workflow schemas. A schema defines which artifacts a change contains (e.g. `spec-driven` includes proposal, specs, design, tasks) |
 
 These are especially useful in CI pipelines (e.g. `openspec validate` as a pre-merge check) and for quick inspections without opening an AI chat session.
 
@@ -196,48 +202,42 @@ Between creating and applying, review and refine the artifacts. They're just Mar
 
 ## Project files reference
 
-`openspec init --tools opencode,github-copilot` creates the following files. **Commit all of them**; there is nothing to `.gitignore`.
+`openspec init --tools claude` creates the following files. **Commit all of them**: there is nothing to `.gitignore`.
 
-```
+```text
 your-project/
 │
 ├── openspec/                          # Spec-driven development root
+│   ├── config.yaml                    # Workflow schema and optional project context
 │   ├── specs/                         # Source of truth (empty at init, grows as you archive)
 │   └── changes/                       # Active changes live here
+│       └── archive/                   # Archived changes, dated
 │
-├── .opencode/                         # OpenCode integration
-│   ├── command/                       # Slash commands
-│   │   ├── opsx-apply.md
-│   │   ├── opsx-archive.md
-│   │   ├── opsx-explore.md
-│   │   ├── opsx-new.md
-│   │   ├── opsx-ff.md
-│   │   ├── opsx-continue.md
-│   │   ├── opsx-verify.md
-│   │   ├── opsx-sync.md
-│   │   ├── opsx-bulk-archive.md
-│   │   └── opsx-onboard.md
-│   └── skills/                        # Skills (one folder each)
-│       ├── openspec-apply-change/
-│       ├── openspec-archive-change/
-│       ├── openspec-explore/
-│       ├── openspec-new-change/
-│       ├── openspec-ff-change/
-│       ├── openspec-continue-change/
-│       ├── openspec-verify-change/
-│       ├── openspec-sync-specs/
-│       ├── openspec-bulk-archive-change/
-│       └── openspec-onboard/
-│
-└── .github/                           # GitHub Copilot integration
-    ├── prompts/                       # Slash commands (same names, .prompt.md extension)
-    │   ├── opsx-apply.prompt.md
-    │   ├── opsx-archive.prompt.md
-    │   └── ...                        # (same set as .opencode/command/)
-    └── skills/                        # Skills (same structure as .opencode/skills/)
+└── .claude/                           # Claude Code integration
+    ├── commands/opsx/                 # Slash commands, one file per /opsx: command
+    │   ├── propose.md
+    │   ├── new.md
+    │   ├── continue.md
+    │   ├── ff.md
+    │   ├── explore.md
+    │   ├── apply.md
+    │   ├── verify.md
+    │   ├── sync.md
+    │   ├── archive.md
+    │   ├── bulk-archive.md
+    │   └── onboard.md
+    └── skills/                        # Skills (one folder each, with a SKILL.md)
+        ├── openspec-propose/
+        ├── openspec-new-change/
+        ├── openspec-continue-change/
+        ├── openspec-ff-change/
+        ├── openspec-explore/
         ├── openspec-apply-change/
+        ├── openspec-verify-change/
+        ├── openspec-sync-specs/
         ├── openspec-archive-change/
-        └── ...
+        ├── openspec-bulk-archive-change/
+        └── openspec-onboard/
 ```
 
-If you use a different AI tool (Cursor, Windsurf, Claude Code), run `openspec init --tools <tool-name>` instead; see the [supported tools list](https://github.com/Fission-AI/OpenSpec#supported-tools). You can initialize multiple tools at once.
+To generate the integration for another assistant as well, pass it to the same flag (`openspec init --tools claude,cursor`); see the [supported tools list](https://github.com/Fission-AI/OpenSpec#supported-tools). You can initialize multiple tools at once.

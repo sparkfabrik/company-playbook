@@ -1,6 +1,6 @@
 ### Production-related equipment, hardware, software
 
-Yes. We have budgets for Linux PCs, Apple machines, PHPStorm licenses and some more gizmos that you may need.
+Yes. We have budgets for Linux PCs, Apple machines and some more gizmos that you may need.
 
 Other than that, if you need a device or license to speed up your work, just ask your team leader and we'll evaluate case by case.
 On standard hardware and software, please read [this section](/tools-and-policies/approved-hardware-and-software) to learn more.

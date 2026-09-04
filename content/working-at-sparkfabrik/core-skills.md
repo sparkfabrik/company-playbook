@@ -36,7 +36,7 @@ Anyway, during the [very first days of onboarding](/procedures/employee-onboardi
 |---|---|
 | **YAML** | _Yet Another Markup Language_, this declarative, structured JSON alternative is easy to read and write for humans and easy to parse and abstract for a machine. These qualities made it almost ubiquitous. It's syntax is very simple but powerful. |
 | **Git** | Git is the industry standard CVS and it's at the base of every project we develop. Git is highly intertwined with our automation, so it's vital to understand how it works, and how the various aspects of the workflow impact our delivery. |
-| **GitHub Copilot** | A context-aware, AI-based tool that helps writing code faster. When used correctly, it allows to optimize repetitive tasks and quickly create prototypes and blueprints. |
+| **Claude Code** | The agentic AI coding assistant we use. It reads the codebase, plans a change, executes it and runs the tests, so knowing how to direct it, review what it produces and work within its usage limits is part of the job. |
 
 | DevOps | |
 |---|---|
