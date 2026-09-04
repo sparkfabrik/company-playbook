@@ -1,7 +1,7 @@
-/_
+/*
 Description: Claude Code, GitHub Copilot, shell aliases, sparkdock provisioning, and subscription policy
 Sort: 20
-_/
+*/
 
 ## Table of Contents
 
