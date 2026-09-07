@@ -1,5 +1,6 @@
 const path = require('path');
 const StylelintPlugin = require('stylelint-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = env => {
   const sourceMapEnabled = !!env.enableSourceMap;
@@ -11,6 +12,10 @@ module.exports = env => {
       new StylelintPlugin({
         // fix: inProduction, // Enable if you want to autofix SCSS files when building production dist files.
         lintDirtyModulesOnly: true,
+      }),
+      // Save the extracted CSS file (path is relative to output.path).
+      new MiniCssExtractPlugin({
+        filename: 'dist/style.css',
       }),
     ],
 
@@ -49,16 +54,9 @@ module.exports = env => {
           test: /\.scss$/,
           exclude: /(node_modules|vendor)/,
           use: [
-            // Save the output CSS file.
-            {
-              loader: 'file-loader',
-              options: {
-                name: 'dist/style.css',
-              }
-            },
             // Extract the CSS from the bundle.
             {
-              loader: "extract-loader",
+              loader: MiniCssExtractPlugin.loader,
             },
             // Translates CSS into CommonJS.
             {

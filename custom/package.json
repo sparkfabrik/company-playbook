@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "glob-parent": "^6.0.2",
-    "gulp": "4.0.2",
     "husky": "^8.0.3",
     "patch-package": "^8.0.0"
   },
