@@ -77,7 +77,7 @@
         <ul class="menu__category-list">
           {{#canEdit}}
             <li><input id="newCategory" type="text" class="form-control" placeholder="{{lang.page.addCategory}}"/></li>
-            <a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>
+            <a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span class="add-page__icon">&#43;</span></a>
           {{/canEdit}}
           {{#pages}}
             {{^is_index}}
@@ -86,7 +86,7 @@
                   <label class="menu__collapse-label" for="menu__toggle-{{title}}">
                     <h5 class="menu__category-title">
                       {{title}} 
-                      {{#canEdit}}<a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>{{/canEdit}}
+                      {{#canEdit}}<a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span class="add-page__icon">&#43;</span></a>{{/canEdit}}
                     </h5>
                     <div class="menu__category-plus d-none d-md-block"></div>
                   </label>

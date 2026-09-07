@@ -54,3 +54,15 @@
     margin-right: .5rem;
   }
 }
+
+// The editor controls carried these rules as style attributes, which the
+// Content Security Policy blocks.
+.add-page__icon {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.is-hidden {
+  display: none;
+}

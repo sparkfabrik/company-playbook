@@ -83,7 +83,7 @@
         <ul class="menu__category-list">
           {{#canEdit}}
             <li><input id="newCategory" type="text" class="form-control" placeholder="{{lang.page.addCategory}}"/></li>
-            <a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>
+            <a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span class="add-page__icon">&#43;</span></a>
           {{/canEdit}}
           {{#pages}}
             {{^is_index}}
@@ -92,7 +92,7 @@
                   <label class="menu__collapse-label" for="menu__toggle-{{title}}">
                     <h5 class="menu__category-title">
                       {{title}} 
-                      {{#canEdit}}<a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span style="font-weight: bold; font-size: 16px; cursor:pointer">&#43;</span></a>{{/canEdit}}
+                      {{#canEdit}}<a class="add-page" data-toggle="modal" data-target="#addModal" title="{{lang.page.addPage}}"><span class="add-page__icon">&#43;</span></a>{{/canEdit}}
                     </h5>
                     <div class="menu__category-plus d-none d-md-block"></div>
                   </label>
@@ -161,7 +161,7 @@
             </div>
             <h3 class="home__credits-title">License</h3>
             <div class="home__credits-text">
-              <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a></p>
+              <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a></p>
               <p><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SparkFabrik Playbook</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.sparkfabrik.com" property="cc:attributionName" rel="cc:attributionURL">SparkFabrik Srl</a> is distributed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution - Sharealike 4.0 International</a> license.</p>
             </div>
           </div>

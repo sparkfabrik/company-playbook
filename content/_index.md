@@ -13,13 +13,13 @@ Many useful information can be found here about how SparkFabrik works and we als
 
 This playbook is organized into the following sections:
 
-* **Organization**: how we are structured, which functional roles are recognized in the company, their responsibilities and company's expectations.
-* **Working at SparkFabrik**: how we hire, pay, evaluate, reward and listen to our workforce.
-* **Tools and policies**: pretty much as it sounds, learn here about our rules and what the company provides to follow them.
-* **Procedures**: best practices for specific tasks; our procedures evolve and adapt over time but at any moment, you can find them here.
-* **Guides**: how to do things the best way; guides differ from procedures in that they are descriptive, not prescriptive.
-* **Resources**: find here those important things you may need every now and then.
-* **FAQ**: very helpful to newcomers, but also to veterans that want to refresh their minds.
+- **Organization**: how we are structured, which functional roles are recognized in the company, their responsibilities and company's expectations.
+- **Working at SparkFabrik**: how we hire, pay, evaluate, reward and listen to our workforce.
+- **Tools and policies**: pretty much as it sounds, learn here about our rules and what the company provides to follow them.
+- **Procedures**: best practices for specific tasks; our procedures evolve and adapt over time but at any moment, you can find them here.
+- **Guides**: how to do things the best way; guides differ from procedures in that they are descriptive, not prescriptive.
+- **Resources**: find here those important things you may need every now and then.
+- **FAQ**: very helpful to newcomers, but also to veterans that want to refresh their minds.
 
 ## Credits
 
@@ -38,4 +38,4 @@ You can file issues, fork the project and send PRs.
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SparkFabrik Playbook</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.sparkfabrik.com" property="cc:attributionName" rel="cc:attributionURL">SparkFabrik Srl</a> is distributed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution - Sharealike 4.0 International</a> license.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SparkFabrik Playbook</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.sparkfabrik.com" property="cc:attributionName" rel="cc:attributionURL">SparkFabrik Srl</a> is distributed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution - Sharealike 4.0 International</a> license.
