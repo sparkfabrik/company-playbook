@@ -14,6 +14,12 @@ import config from './config.js';
 // with our configuration object
 const app = raneto(config);
 
+// We always serve behind a single reverse proxy (Cloud Run in production, the
+// local development proxy on workstations), which appends the visitor address
+// to X-Forwarded-For. Trusting that one hop lets Raneto's rate limiter count
+// requests per visitor instead of lumping every visitor into one bucket.
+app.set('trust proxy', 1);
+
 // Load the HTTP Server
 const server = app.listen(app.get('port'), () => {
   console.log('Express HTTP server listening on port ' + server.address().port);
