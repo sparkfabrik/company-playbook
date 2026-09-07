@@ -9,7 +9,14 @@ To keep things simple, we are using the issues in this project to keep track of 
 ## Contribute
 
 The project was meant to be internal and all company members can clone the project and set up a local environment issuing `make`.  
-After doing so, a local instance of the playbook will be available at `http://playbook.sparkfabrik.loc`.
+After doing so, a local instance of the playbook will be available at `https://playbook.sparkfabrik.loc`.
+
+Use the HTTPS address: Raneto sends a Content Security Policy with `upgrade-insecure-requests`, so a browser rewrites every stylesheet, script and image request to HTTPS, and over plain HTTP those responses are cross-origin and get blocked. The local proxy needs a certificate it trusts, which you create once per workstation:
+
+```bash
+spark-http-proxy certs generate "*.sparkfabrik.loc"
+mkcert -install    # run it in a terminal, it asks for your password
+```
 
 To contribute you will need to open a pull-request towards the `master` branch of the project by referencing an open issue.
 If you are willing to contribute content that is not covered by any open issue, you are invited to open one yourself, clarifying the nature of your contribution.
@@ -24,17 +31,17 @@ Both commits and pull request titles should incorporate the issue number as so:
 
 eg.
 
-* `refs #232: Copilot subscription request update`
-* `refs #232: README now mentions the procedures to open a PR`
+- `refs #232: Copilot subscription request update`
+- `refs #232: README now mentions the procedures to open a PR`
 
 ### Branch naming convention:
 
 Branch naming is based on the nature of the contribution, and should always mention the issue number, following these examples:
 
-* `section/%%%-section-slug-title` for new sections (hardly they will be open by a company member, mostly it will be a matter of pre-made structure, but suggestions are welcome)
-* `content/%%%-description-of-the-content` for content contributions of various nature, like typo corrections, adding a new procedure or policy, etc
-* `recipe/%%%-recipe-slug-title` for new recipes
-* `feature/%%%-feature-addition` for new features added to the playbook as a tool such as theme improvements, new plugins, etc
+- `section/%%%-section-slug-title` for new sections (hardly they will be open by a company member, mostly it will be a matter of pre-made structure, but suggestions are welcome)
+- `content/%%%-description-of-the-content` for content contributions of various nature, like typo corrections, adding a new procedure or policy, etc
+- `recipe/%%%-recipe-slug-title` for new recipes
+- `feature/%%%-feature-addition` for new features added to the playbook as a tool such as theme improvements, new plugins, etc
 
 eg.
 
@@ -47,6 +54,7 @@ eg.
 Using the metadata of the page, you have the option to hide it from the home menu or/and from the sidebar menu.
 
 You can do so using the following options:
+
 - `ShowOnMenu: false` will hide the page from the site menu
 - `ShowOnHome: false` will hide the page from the home menu
 
@@ -55,7 +63,8 @@ You can do so using the following options:
 **Raneto** will search for public files to be included in the pages starting from the active theme `public` folder, and then proceeding to the folder configured as `public_dir` in the `config.js` file, currently the `/assets` folder of the project.
 
 For this reason, this is how you should place anything you need to link inside the pages:
-- **content related assets**  should be placed in `/assets`. Images, documents, attachments referenced in the markdown files should go here.
+
+- **content related assets** should be placed in `/assets`. Images, documents, attachments referenced in the markdown files should go here.
 - **frontend related assets** should be placed in `public` inside the `spark-playbook` theme folder. Fonts, compiled css and js, any external libraries, favicon, etc should be placed here, as long as the images that are referenced in the css files.
 
 ### Theme development
@@ -64,9 +73,9 @@ You can edit the `spark-playbook` theme in the `custom/themes/` folder.
 
 Run `make theme-install-dep` to install all the dependencies needed to work on the theme.
 
-* `make theme-watch` will trigger the watcher to allow you to work on the SCSS and JS files in the theme. At the end of watch lint task will be triggered.
-* `make theme-build` will build the CSS & JS compiled in the theme folder for you.
-* `make theme-lint` / `make theme-lint-fix` will trigger the lint to allow you to check if SCSS are correctly written and auto fix them.
+- `make theme-watch` will trigger the watcher to allow you to work on the SCSS and JS files in the theme. At the end of watch lint task will be triggered.
+- `make theme-build` will build the CSS & JS compiled in the theme folder for you.
+- `make theme-lint` / `make theme-lint-fix` will trigger the lint to allow you to check if SCSS are correctly written and auto fix them.
 
 > Please note that the docker image build will take care of the CSS & JS compiling for CI, Stage and Production, so you don't need to commit the compiled files. Check the `DockerFile` of the project for more details on this.
 
@@ -75,19 +84,19 @@ Run `make theme-install-dep` to install all the dependencies needed to work on t
 Basically this is the "SparkFabrik handbook". It is meant to be made public and contains all the information and recipes (hey) an employee has to know either before apply or during their everyday work.  
 You will get the major benefit if you are either:
 
-* A newcomer, recent hire or in you onboarding phase, to learn a lot of information on how we do what we do, how we communicate and which principles drive our decisions
-* A person in search for a procedure or information on how to perform a non-frequent task, such as manually launching a build or reviewing an issue template
-* In search for the correct policy to communicate something to someone or to share something in the right place
+- A newcomer, recent hire or in you onboarding phase, to learn a lot of information on how we do what we do, how we communicate and which principles drive our decisions
+- A person in search for a procedure or information on how to perform a non-frequent task, such as manually launching a build or reviewing an issue template
+- In search for the correct policy to communicate something to someone or to share something in the right place
 
 ## What's NOT inside (and should never be)
 
-SparkFabrik playbook is a public document. Since the recipes and articles show how we actually do things internally and provide transparent information to the world, the content should be **triple-checked not to contain credentials, secrets, customer-related information (screenshots of real issues for example), etc**.  
+SparkFabrik playbook is a public document. Since the recipes and articles show how we actually do things internally and provide transparent information to the world, the content should be **triple-checked not to contain credentials, secrets, customer-related information (screenshots of real issues for example), etc**.
 
 It may surely contain links to internal resources as long as they are not publicly available.
 
 ## Why
 
-SparkFabrik grew a lot in its first year and it's now time to have a clear reference to either do stuff and take decisions.  
+SparkFabrik grew a lot in its first year and it's now time to have a clear reference to either do stuff and take decisions.
 
 This is a living document, not a carved-in-stone divine law. It will evolve as we evolve and try to represent our way of being.
 

@@ -88,7 +88,7 @@ Playbook pages outlive the tools and numbers they mention. Do not write facts th
 Everything runs in Docker. No local Node.js required for serving the playbook.
 
 ```bash
-make up      # pull and start the playbook at http://playbook.sparkfabrik.loc
+make up      # build and start the playbook at https://playbook.sparkfabrik.loc
 make down    # stop it
 make cli     # shell inside the container
 make logs    # follow container logs
