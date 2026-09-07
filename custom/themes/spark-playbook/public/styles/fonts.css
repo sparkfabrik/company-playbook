@@ -1,0 +1,26 @@
+/* Barlow Semi Condensed, self-hosted (was served from Google Fonts).
+   Files live in /font/barlow-semi-condensed/. */
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../font/barlow-semi-condensed/barlow-semi-condensed-300.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../font/barlow-semi-condensed/barlow-semi-condensed-400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../font/barlow-semi-condensed/barlow-semi-condensed-700.ttf') format('truetype');
+}

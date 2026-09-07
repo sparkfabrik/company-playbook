@@ -2,9 +2,9 @@
 #
 # Smoke test for the playbook production image.
 #
-# Builds the Dockerfile "prod" stage (the stage Cloud Run deploys), verifies
-# the raneto patch is applied inside the image, starts the container and
-# asserts that key pages, theme assets and heading anchors render correctly.
+# Builds the Dockerfile "prod" stage (the stage Cloud Run deploys), starts
+# the container and asserts that key pages, theme assets and heading anchors
+# render correctly.
 #
 # Runs on macOS and Linux hosts. Requires docker and curl.
 
@@ -30,13 +30,6 @@ trap cleanup EXIT
 
 echo "==> Building prod image"
 docker build --target prod -t "$IMAGE_TAG" "$REPO_ROOT"
-
-echo "==> Verifying the raneto patch is applied in the image"
-docker run --rm --entrypoint sh "$IMAGE_TAG" -c \
-  'grep -q "show_on_menu_default" node_modules/raneto/config/config.js &&
-   grep -q "headers_id" node_modules/raneto/app/core/page.js' ||
-  fail "raneto patch not applied in the built image"
-echo "OK: raneto patch applied"
 
 echo "==> Verifying the theme bundle is present in the image"
 docker run --rm --entrypoint sh "$IMAGE_TAG" -c \
@@ -77,10 +70,7 @@ check_page "/"
 check_page "/tools-and-policies/certification-study-time"
 check_page "/ai-development/overview"
 check_page "/guides/an-introduction-to-docker"
-# Raneto 0.17.5 answers 500 (not 404) for missing pages; the live site does
-# the same. This asserts behavioral parity with the current baseline.
-# Revisit when upgrading raneto.
-check_page "/this-page-does-not-exist" 500
+check_page "/this-page-does-not-exist" 404
 
 echo "==> Checking theme assets over HTTP"
 check_page "/dist/style.css"

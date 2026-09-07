@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{config.locale}}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site_title}}</title>
+  {{#meta.description}}
+  <meta name="description" content="{{meta.description}}">
+  {{/meta.description}}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{current_url}}">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:image" content="{{config.image_url}}/fb_share_image.png">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:locale" content="en_EN">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sparkfabrik" />
+  <meta name="twitter:title" content="{{meta.title}}" />
+  <meta name="twitter:description" content="{{meta.description}}" />
+  <meta name="og:image" content="{{config.image_url}}/tw_share_image.png" />
+  <meta name="twitter:url" content="{{current_url}}" />
+  <link rel="shortcut icon" href="{{config.base_url}}/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{config.base_url}}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{config.base_url}}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{config.base_url}}/favicon-16x16.png">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/fonts.css">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/spark.css">
+  <link rel="stylesheet" href="{{config.base_url}}/styles/ghostdown.css">
+  <link rel="stylesheet" href="{{config.base_url}}/dist/style.css">
+  {{#config.rtl_layout}}
+    <link rel="stylesheet" href="{{config.base_url}}/styles/spark.rtl.css">
+    <link rel="stylesheet" href="{{config.base_url}}/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+  {{/config.rtl_layout}}
+  {{{config.analytics}}}
+  <link rel="stylesheet" href="{{config.base_url}}/styles/obsidian.min.css" />
+</head>
+<body class="{{body_class}}">

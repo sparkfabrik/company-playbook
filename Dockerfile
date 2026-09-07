@@ -1,4 +1,4 @@
-FROM node:22-alpine AS dev
+FROM node:24-alpine AS dev
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
 RUN apk add --no-cache tini
@@ -17,7 +17,6 @@ COPY ./custom/config.js ./config.js
 COPY ./custom/themes ./themes
 COPY ./content ./content
 COPY ./assets ./assets
-COPY ./custom/patches ./patches
 
 # Expose port 80
 EXPOSE $PORT
@@ -35,19 +34,18 @@ FROM dev AS theme-build
 WORKDIR $INSTALL_DIR/themes/spark-playbook
 RUN npm ci && npm run build
 
-# App dependency stage: installs production dependencies only and applies the
-# raneto patch. Scripts are skipped during install (husky's prepare script has
-# no git repository here and its binary is a devDependency), then the
-# postinstall script runs patch-package explicitly.
+# App dependency stage: installs production dependencies only. Scripts are
+# skipped during install (husky's prepare script has no git repository here
+# and its binary is a devDependency).
 FROM dev AS app-deps
 
 WORKDIR $INSTALL_DIR
 ENV NODE_ENV=production
-RUN npm ci --omit=dev --ignore-scripts && npm run postinstall
+RUN npm ci --omit=dev --ignore-scripts
 
 # Runtime stage: no devDependencies, no theme build toolchain. This is the
 # stage Cloud Run deploys.
-FROM node:22-alpine AS prod
+FROM node:24-alpine AS prod
 LABEL author="Paolo Pustorino <paolo.pustorino@sparkfabrik.com>"
 
 RUN apk add --no-cache tini

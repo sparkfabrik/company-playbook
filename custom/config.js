@@ -1,13 +1,13 @@
-'use strict';
-
 // Modules
-var path = require('path');
+import path from 'node:path';
+
+const __dirname = import.meta.dirname;
 
 // Which Theme to Use?
-var theme_dir  = path.join(__dirname, 'themes');
-var theme_name = 'spark-playbook';
+const theme_dir = path.join(__dirname, 'themes');
+const theme_name = 'spark-playbook';
 
-var config = {
+const config = {
   // Your site title (format: page_title - site_title)
   site_title: 'Company playbook',
 
@@ -54,10 +54,6 @@ var config = {
   // all categories or files that do not specify ShowOnMenu meta property will be shown
   show_on_menu_default: true,
 
-  // When set to true, an ID is generated for all the H level elements
-  // to be used as anchors.
-  headers_id: true,
-
   // Theme (see top of file)
   theme_dir,
   theme_name,
@@ -74,10 +70,11 @@ var config = {
   // (can use %image_url% in Markdown files)
   image_url: '/images',
 
-  // Add your analytics tracking code (including script tags)
-  // Add your analytics tracking code (including script tags)
-  analytics: '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62993647-4" ></script>\n'+
-    '<script>window.dataLayer = window.dataLayer || []; function gtag(){ dataLayer.push(arguments);}gtag(\'js\', new Date());gtag(\'config\', \'UA-62993647-4\', { \'anonymize_ip\': true });</script>',
+  // Add your analytics tracking code (including script tags).
+  // Left empty: the previous Universal Analytics property is discontinued
+  // and inline third-party scripts are blocked by the Content Security
+  // Policy raneto enforces.
+  analytics: '',
 
   // Set to true to enable the web editor
   allow_editing: false,
@@ -168,4 +165,4 @@ var config = {
 };
 
 // Exports
-module.exports = config;
+export default config;

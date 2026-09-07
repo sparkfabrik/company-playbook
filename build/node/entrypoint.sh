@@ -13,7 +13,6 @@ if [ "${1}" = 'npm' ] && [ "$NODE_ENV" != 'production' ]; then
   echo "Installing raneto's npm libraries..."
   cd /opt/raneto
   npm install
-  npm run postinstall
   echo "Finished installing raneto's npm libraries."
 
   echo "...done\n"
