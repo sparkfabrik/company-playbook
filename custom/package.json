@@ -15,12 +15,12 @@
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "dependencies": {
     "markdown-link-validator": "github:jenkin/markdown-link-validator#feature/sparkfabrik-enhancements",
+    "patch-package": "^8.0.0",
     "raneto": "0.17.5"
   },
   "devDependencies": {
     "glob-parent": "^6.0.2",
-    "husky": "^8.0.3",
-    "patch-package": "^8.0.0"
+    "husky": "^8.0.3"
   },
   "overrides": {
     "glob-parent": "$glob-parent",

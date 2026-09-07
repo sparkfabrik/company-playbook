@@ -1,0 +1,4 @@
+.git
+custom/node_modules
+custom/themes/spark-playbook/node_modules
+custom/themes/spark-playbook/public/dist
