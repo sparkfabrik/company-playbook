@@ -33,13 +33,29 @@
         padding-right: .5rem;
       }
 
-      // If table have 5 or more column: 
+      // If table have 5 or more column:
       // https://css-tricks.com/solved-with-css-logical-styling-based-on-the-number-of-given-elements/
       &:first-child:nth-last-child(n + 5),
       &:first-child:nth-last-child(n + 5) ~ * {
         font-size: .78rem;
         padding: .7rem 0.4rem .8rem 0.4rem;
       }
+    }
+  }
+}
+
+// Skill tables on these pages have a term column and a description column;
+// fixed widths keep the rows aligned across the many tables on the page.
+// Scoped through the per-page body class because raneto sanitizes id and
+// class attributes out of HTML embedded in markdown content.
+.page-working-at-sparkfabrik-core-skills,
+.page-resources-training-resources {
+  .content table {
+    th:first-of-type {
+      width: 25%;
+    }
+    th:nth-of-type(2) {
+      width: 75%;
     }
   }
 }

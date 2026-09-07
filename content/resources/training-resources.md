@@ -15,7 +15,7 @@ Please find here a TOC of the available training resources.
 **Core skills training resources**
 
 | Area              | Topic                                                   |
-|-------------------|---------------------------------------------------------|
+| ----------------- | ------------------------------------------------------- |
 | [Basics](#basics) | [Command line / Shell](#command-line--shell)            |
 |                   | [Security](#security)                                   |
 |                   | [Networking](#networking)                               |
@@ -28,24 +28,18 @@ Please find here a TOC of the available training resources.
 
 **Other training resources**
 
-| Name                                    | Area        | Topics                                                                                            | Access type       |
-|-----------------------------------------|-------------|---------------------------------------------------------------------------------------------------|-------------------|
-| [Udemy](#udemy)                         | Development | Angular, React, React Native, Hasura                                                              | Credentials       |
-| [Ultimate Courses](#ultimate-courses)   | Development | Angular, React, Typescript                                                                        | Credentials       |
-| [Drupalize.me](#drupalizeme)            | Development | Drupal                                                                                            | Credentials       |
-| [Frontend Masters](#frontend-masters)   | Development | Angular, React, Python, Go, Rust, UX design, management                                           | Credentials       |
-| [AWS Skill Builder](#aws-skill-builder) | Cloud       | Amazon Web Services                                                                               | Corporate account |
-| [Google SkillBoost](#google-skillboost) | Cloud       | Google Cloud Platform                                                                             | Corporate account |
+| Name                                    | Area        | Topics                                                  | Access type       |
+| --------------------------------------- | ----------- | ------------------------------------------------------- | ----------------- |
+| [Udemy](#udemy)                         | Development | Angular, React, React Native, Hasura                    | Credentials       |
+| [Ultimate Courses](#ultimate-courses)   | Development | Angular, React, Typescript                              | Credentials       |
+| [Drupalize.me](#drupalizeme)            | Development | Drupal                                                  | Credentials       |
+| [Frontend Masters](#frontend-masters)   | Development | Angular, React, Python, Go, Rust, UX design, management | Credentials       |
+| [AWS Skill Builder](#aws-skill-builder) | Cloud       | Amazon Web Services                                     | Corporate account |
+| [Google SkillBoost](#google-skillboost) | Cloud       | Google Cloud Platform                                   | Corporate account |
 
 ## Core Skills training resources
 
 All the training material in this section is public and can be freely accessed.
-
-<style>
-    #table-styler-code-skills table th:first-of-type { width: 25%;}
-    #table-styler-code-skills table th:nth-of-type(2) { width: 75%; }
-</style>
-<div id="table-styler-code-skills">
 
 ## Basics
 
@@ -54,7 +48,7 @@ All the training material in this section is public and can be freely accessed.
 > **Time to completion**: 24 hours.
 
 | Resources         |                                                                                                    |
-|-------------------|----------------------------------------------------------------------------------------------------|
+| ----------------- | -------------------------------------------------------------------------------------------------- |
 | **Documentation** | [Makefile Tutorial](https://makefiletutorial.com/)                                                 |
 | **Hands-on**      | [The Shell (LinuxJourney)](https://linuxjourney.com/lesson/the-shell)                              |
 |                   | [Output redirection (LinuxJourney)](https://linuxjourney.com/lesson/stdout-standard-out-redirect)  |
@@ -64,21 +58,21 @@ All the training material in this section is public and can be freely accessed.
 
 > **Time to completion**: 4 hours for the documentation; hands-on are considered a long-term goal, check the note.
 
-| Resources         |                                                                                                                                                                                                   |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Documentation** | [Concise Guide for Developing More Secure Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Developing-More-Secure-Software.html)                                                    |
-|                   | [OWASP Top 10 (The OWASP® Foundation)](https://owasp.org/Top10/)                                                                                                                                  |
-|                   | [Concise Guide for Evaluating Open Source Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Evaluating-Open-Source-Software.html)                                                    |
-|                   | [Source Code Management Best Practices Guide (OpenSSF)](https://best.openssf.org/SCM-BestPractices/)                                                                                              |
+| Resources         |                                                                                                                                                                                                                            |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Documentation** | [Concise Guide for Developing More Secure Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Developing-More-Secure-Software.html)                                                                             |
+|                   | [OWASP Top 10 (The OWASP® Foundation)](https://owasp.org/Top10/)                                                                                                                                                           |
+|                   | [Concise Guide for Evaluating Open Source Software (OpenSSF)](https://best.openssf.org/Concise-Guide-for-Evaluating-Open-Source-Software.html)                                                                             |
+|                   | [Source Code Management Best Practices Guide (OpenSSF)](https://best.openssf.org/SCM-BestPractices/)                                                                                                                       |
 |                   | [The Secure Software Factory (CNCF Tag Security Whitepaper)](https://github.com/cncf/tag-security/blob/main/community/working-groups/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) |
-| **Hands-on**      | [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) <sup><a href="#fn1">1</a></sup>                                           |
+| **Hands-on**      | [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) <sup><a href="#fn1">1</a></sup>                                                                    |
 
 ### Networking
 
 > **Time to completion**: 1 hour.
 
 | Resources         |                                            |
-|-------------------|--------------------------------------------|
+| ----------------- | ------------------------------------------ |
 | **Documentation** | [How DNS works](https://howdns.works/ep1/) |
 |                   | [How HTTPS works](https://howhttps.works/) |
 
@@ -87,17 +81,17 @@ All the training material in this section is public and can be freely accessed.
 ### YAML
 
 > **Time to completion**: 1 hour.
-| Resources | |
-|---|---|
-| **Documentation** | [YAML Syntax (Ansible Documentation)](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) |
-| **Hands-on** | [YAML Tutorial - Everything you need get started (CloudBees)](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) |
+> | Resources | |
+> |---|---|
+> | **Documentation** | [YAML Syntax (Ansible Documentation)](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) |
+> | **Hands-on** | [YAML Tutorial - Everything you need get started (CloudBees)](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) |
 
 ### Git
 
 > **Time to completion**: 12 hours for the documentation; 18 hours for the hands-on.
 
 | Resources         |                                                                                      |
-|-------------------|--------------------------------------------------------------------------------------|
+| ----------------- | ------------------------------------------------------------------------------------ |
 | **Documentation** | [Git Tutorial (NuLab)](https://nulab.com/learn/software-development/git-tutorial/)   |
 |                   | [Understanding Git Conceptually](https://www.cduan.com/technical/git/)               |
 |                   | [SparkFabrik Git Workflow](https://playbook.sparkfabrik.com/procedures/git-workflow) |
@@ -111,10 +105,10 @@ All the training material in this section is public and can be freely accessed.
 
 > **Time to completion**: 2 hours for documentation and setup.
 
-| Resources         |                                                                                |
-|-------------------|--------------------------------------------------------------------------------|
-| **Documentation** | [Claude Code overview](https://docs.anthropic.com/en/docs/claude-code/overview) |
-|                   | [SparkFabrik's AI development tools and setup](/ai-development/tools-and-setup) |
+| Resources         |                                                                                        |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| **Documentation** | [Claude Code overview](https://docs.anthropic.com/en/docs/claude-code/overview)        |
+|                   | [SparkFabrik's AI development tools and setup](/ai-development/tools-and-setup)        |
 |                   | [SparkFabrik's Claude Code usage limits and policy](/ai-development/claude-code-usage) |
 
 ## DevOps
@@ -124,7 +118,7 @@ All the training material in this section is public and can be freely accessed.
 > **Time to completion**: 3 hours for the documentation; 3 hours for the hands-on.
 
 | Resources         |                                                                                         |
-|-------------------|-----------------------------------------------------------------------------------------|
+| ----------------- | --------------------------------------------------------------------------------------- |
 | **Documentation** | [Docker - Zero to Hero (TechWorld with Nana - YouTube)](https://youtu.be/3c-iBn73dDE)   |
 |                   | [Docker-Compose Tutorial (TechWorld with Nana - YouTube)](https://youtu.be/MVIcrmeV_6c) |
 | **Hands-on**      | [Docker 101 Tutorial](https://www.docker.com/101-tutorial/)                             |
@@ -134,7 +128,7 @@ All the training material in this section is public and can be freely accessed.
 > **Time to completion**: 1 hour for the documentation; 12 hours for the hands-on.
 
 | Resources         |                                                                                                                                                                           |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Documentation** | [The Illustrated Childrens Guide to Kubernetes (Italian)](https://www.cncf.io/wp-content/uploads/2021/11/The-Illustrated-Childrens-Guide-to-Kubernetes-Italian-Spark.pdf) |
 | **Hands-on**      | [Kubernetes (KillerCoda)](https://killercoda.com/kubernetes) <sup><a href="#fn2">2</a></sup>                                                                              |
 
@@ -143,7 +137,7 @@ All the training material in this section is public and can be freely accessed.
 > **Time to completion**: 4 hour for the documentation; 4 hours for the hands-on.
 
 | Resources         |                                                                                                                                    |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | **Documentation** | [Introduction to CI (GitLab Documentation)](https://docs.gitlab.com/ee/ci/)                                                        |
 |                   | [Create and run your first GitLab CI/CD pipeline (GitLab Tutorial)](https://docs.gitlab.com/ee/ci/quick_start/)                    |
 |                   | [GitLab CI/CD in one hour (TechWorld with Nana - YouTube)](https://youtu.be/qP8kir2GUgo)                                           |
@@ -198,8 +192,7 @@ Those resources are great if you and your team want to leverage GCP services in 
 
 With Google SkillBoost comes **Qwiklabs**, a service providing real cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes and more.
 
-> To access **QwikLabs** you just have to fill in [a registration form](https://partner.cloudskillsboost.google/course_sessions/1257385/video/187468
-) using your `sparkfabrik.com' account.
+> To access **QwikLabs** you just have to fill in [a registration form](https://partner.cloudskillsboost.google/course_sessions/1257385/video/187468) using your `sparkfabrik.com' account.
 
 ## Filing training requests
 
@@ -207,10 +200,10 @@ SparkFabrik employees can file a request for specific training resources, by fil
 
 The requests will be evaluated by the management taking into account many factors, among which:
 
-* The available training budget
-* The relevance and impact on your professional position/growth
-* The alignment with corporate strategy
-* Your training track record (if any)
+- The available training budget
+- The relevance and impact on your professional position/growth
+- The alignment with corporate strategy
+- Your training track record (if any)
 
 To speed up the evaluation process, please make sure to provide detailed information, following each field's suggestion.
 
@@ -218,4 +211,3 @@ To speed up the evaluation process, please make sure to provide detailed informa
 
 <small><a name="fn1">1</a>: The "Developing Secure Software" course (LFD121) is considered a long-term goal to be completed within the first 12 months after the probationary period.</small><br>
 <small><a name="fn2">2</a>: Limit hands-on exercices to “Pod Intro”, “Deployment Basics” and “A Playground” sections.</small>
-</div>
