@@ -16,6 +16,10 @@ logs:
 check:
 	docker compose run -T --rm documentation npm run check
 
+smoke:
+	chmod +x tests/smoke.sh
+	tests/smoke.sh
+
 # Sparkkit based themes specific commands.
 theme-watch:
 	chmod +x bin/npm

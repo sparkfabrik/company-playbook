@@ -1,0 +1,18 @@
+name: Smoke test
+
+on:
+  pull_request:
+
+jobs:
+  smoke:
+    name: Build prod image and smoke test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run smoke test
+        run: |
+          chmod +x tests/smoke.sh
+          ./tests/smoke.sh
