@@ -130,7 +130,5 @@ $(() => {
   if ($(".content").length) {
     // Add Bootstrap styling to tables
     $(".content table").addClass("table");
-    // FitVids
-    fitvids(".content");
   }
 });
