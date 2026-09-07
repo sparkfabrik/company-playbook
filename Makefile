@@ -20,6 +20,14 @@ smoke:
 	chmod +x tests/smoke.sh
 	tests/smoke.sh
 
+# One-time HTTPS setup for the workstation, not for this project alone: the
+# certificate covers every *.sparkfabrik.loc local environment. Raneto sends a
+# Content Security Policy that upgrades asset requests to HTTPS, so the local
+# proxy needs a certificate the browser trusts. Asks for your password.
+certs:
+	mkcert -install
+	spark-http-proxy certs generate "*.sparkfabrik.loc"
+
 # Sparkkit based themes specific commands.
 theme-watch:
 	chmod +x bin/npm

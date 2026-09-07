@@ -11,12 +11,7 @@ To keep things simple, we are using the issues in this project to keep track of 
 The project was meant to be internal and all company members can clone the project and set up a local environment issuing `make`.  
 After doing so, a local instance of the playbook will be available at `https://playbook.sparkfabrik.loc`.
 
-Use the HTTPS address: Raneto sends a Content Security Policy with `upgrade-insecure-requests`, so a browser rewrites every stylesheet, script and image request to HTTPS, and over plain HTTP those responses are cross-origin and get blocked. The local proxy needs a certificate it trusts, which you create once per workstation:
-
-```bash
-spark-http-proxy certs generate "*.sparkfabrik.loc"
-mkcert -install    # run it in a terminal, it asks for your password
-```
+Use the HTTPS address: Raneto sends a Content Security Policy with `upgrade-insecure-requests`, so a browser rewrites every stylesheet, script and image request to HTTPS, and over plain HTTP those responses are cross-origin and get blocked. The local proxy therefore needs a certificate the browser trusts. Provisioned workstations already have one; if the browser reports an invalid certificate authority, issue `make certs` once and restart the browser.
 
 To contribute you will need to open a pull-request towards the `master` branch of the project by referencing an open issue.
 If you are willing to contribute content that is not covered by any open issue, you are invited to open one yourself, clarifying the nature of your contribution.

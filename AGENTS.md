@@ -92,6 +92,7 @@ make up      # build and start the playbook at https://playbook.sparkfabrik.loc
 make down    # stop it
 make cli     # shell inside the container
 make logs    # follow container logs
+make certs   # one-time local HTTPS certificate for *.sparkfabrik.loc
 ```
 
 Run `make` targets from the repository root. Theme work has dedicated `make theme-*` targets that wrap `bin/npm`.
