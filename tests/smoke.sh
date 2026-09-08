@@ -10,7 +10,9 @@
 
 set -euo pipefail
 
-IMAGE_TAG="playbook-smoke:local"
+# Set SMOKE_IMAGE to test an image built elsewhere, for example one the CI
+# workflow already built with a layer cache.
+IMAGE_TAG="${SMOKE_IMAGE:-playbook-smoke:local}"
 CONTAINER_NAME="playbook-smoke-$$"
 HOST_PORT="${SMOKE_PORT:-8087}"
 BASE_URL="http://localhost:${HOST_PORT}"
@@ -28,8 +30,12 @@ cleanup() {
 }
 trap cleanup EXIT
 
-echo "==> Building prod image"
-docker build --target prod -t "$IMAGE_TAG" "$REPO_ROOT"
+if [ -n "${SMOKE_IMAGE:-}" ]; then
+  echo "==> Using prebuilt image $IMAGE_TAG"
+else
+  echo "==> Building prod image"
+  docker build --target prod -t "$IMAGE_TAG" "$REPO_ROOT"
+fi
 
 echo "==> Verifying the theme bundle is present in the image"
 docker run --rm --entrypoint sh "$IMAGE_TAG" -c \

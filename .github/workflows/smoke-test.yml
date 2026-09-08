@@ -3,16 +3,43 @@ name: Smoke test
 on:
   pull_request:
 
+permissions:
+  contents: read
+
+# A new push to the same pull request supersedes the running check.
+concurrency:
+  group: smoke-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   smoke:
     name: Build prod image and smoke test
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Built here rather than inside the script so the layers are cached
+      # between runs: a pull request that only edits content reuses the
+      # dependency and theme build layers instead of repeating them.
+      - name: Build prod image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          target: prod
+          tags: playbook-smoke:ci
+          load: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
       - name: Run smoke test
+        env:
+          SMOKE_IMAGE: playbook-smoke:ci
         run: |
           chmod +x tests/smoke.sh
           ./tests/smoke.sh
