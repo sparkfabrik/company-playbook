@@ -19,10 +19,12 @@ It complements the [certified training access](/tools-and-policies/certified-tra
 
 Each team member has a **fixed yearly budget of study time**, defined with their Team Leader and tracked on the tracking system in use, to obtain at least one certification relevant to their role and to the team strategy.
 
+The budget never exceeds **64 hours (8 working days) per person per year**, exam included. This limit is generous, and exceeding it is not the norm. A case that needs more must be motivated, discussed and decided together with Tech and HR.
+
 - **The exam is part of the budget.** Plan the study sessions so that enough budget remains for the exam session itself.
 - **A retake is not part of the initial budget.** If a retake is needed, it can still be planned by agreeing on the timing with the Team Leader and the Staff Engineer.
 - **The budget is not convertible.** Study hours are never treated as vacation time, even when part of the budget is left unspent.
-- **The budget is not a quota to fill.** If you can complete the path in fewer days, do so. If you expect the budget will not be enough, raise it with your Team Leader or Staff Engineer during the path, without waiting for it to run out.
+- **The budget is not a quota to fill.** If you can complete the path in fewer days, do so. If you expect the budget will not be enough, raise it with your Team Leader or Staff Engineer during the path, without waiting for it to run out. A need above the 64-hour limit follows the process described above.
 
 ## Certification groups
 
