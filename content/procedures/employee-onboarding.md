@@ -43,6 +43,7 @@ An HR representative will perform the following actions:
 * Add the account to Slack and give a quick overview of the main channels
 * Open the Gitlab account and add it to the `SparkFabrik` group, plus all relevant projects if necessary
 * Add the GitHub account of the employee (or open it if not available) to the SparkFabrik organization
+* Open the Claude account for the new employee, using their `@sparkfabrik.com` address
 * Open the Float account and make sure it can access all relevant projects
 * Invite the employee to PeopleForce, give a quick overview of the important sections, and make sure they review their profile information
 * Invite the employee to Dipendenti in Cloud and give a quick overview of the important sections
@@ -58,6 +59,8 @@ The employee must, with the help of an HR representative:
 * If they are a developer, help them [set up AI development tools](/ai-development/tools-and-setup) and point them at the [usage limits and policy](/ai-development/claude-code-usage). A GitHub Copilot seat is not part of the standard setup: grant one only on request, case by case
 * Activate two-factor authentication on Gitlab
 * Generate an SSH key and add it among the available keys for their Gitlab account
+* Log in with their SparkFabrik account to Claude Code and Claude Desktop
+* Log in to the GitHub CLI (`gh auth login`) and to the GitLab CLI (`glab auth login`, targeting `gitlab.sparkfabrik.com`)
 * If applicable, [set up AI development tools](/ai-development/tools-and-setup) and [review the AI development overview](/ai-development/overview)
 * Set their profile pictures (starting with Gravatar and checking on Gitlab, Slack, Float, etc) with an appropriate close-up
 * Set their e-mail signature in [the official format](#standard-mail-signature-format) (respect bolds)
