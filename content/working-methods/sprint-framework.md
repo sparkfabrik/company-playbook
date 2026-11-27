@@ -29,7 +29,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 ### Before Your First Sprint (1 week prep)
 
 - [ ] **Understand our quality standards**: Make sure the team reads and understand our [Universal Definition of Done](/tools-and-policies/universal-dod)
-- [ ] **Setup tools**: Configure the client and internal GitLab boards and the Float accounts (see [Tools and Setup](#tools-and-setup))
+- [ ] **Setup tools**: Configure the internal GitLab board, a client board if the client collaborates in GitLab, and the Float accounts (see [Tools and Setup](#tools-and-setup))
 - [ ] **Define roles**: Assign Delivery Manager and Staff Engineer (see [Roles and Responsibilities](#roles-and-responsibilities))
 - [ ] **Choose sprint length**: Start with 2 weeks for new teams (see [Choosing Sprint Duration](#choosing-sprint-duration))
 - [ ] **Create initial backlog**: Gather 15-20 issues with basic descriptions
@@ -235,24 +235,23 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ### GitLab Setup
 
-Every client engagement MUST have two separate boards:
+Every team MUST work on an internal board. The internal board holds the work as the team plans and executes it: requirements analysis, estimates, sprint scope and time tracking. Clients never have access to it.
 
-- **Client board.** Lives in a project the client can access. It holds the client requests, the estimates waiting for approval and the work in validation. Only information meant for the client goes here.
-- **Internal board.** Lives in a project the client cannot access. It holds the work as the team plans and executes it: requirements analysis, estimates, sprint scope and time tracking. Every work activity MUST have an issue here, and issues with no counterpart on the client board carry the `Internal` label.
+As soon as we ask a client to collaborate in our GitLab, for example to open requests, approve estimates or validate work, the client gets a dedicated client board. Create the client board before inviting the client, and never invite a client to the internal board. The client board holds only information meant for the client.
 
-When a client request enters the team workflow, it gets a linked issue on the internal board. The Delivery Manager (DM) keeps the two boards aligned, reporting back on the client board every status change the client needs to see: estimate ready, work started, work in validation, work closed.
+When the client works in its own issue tracker, that tracker is the client-facing channel. When the client uses no issue tracker, the internal board is enough and the team talks to the client on the channels agreed for the engagement.
 
-#### Single team board (**EXPERIMENTAL**)
+Every work activity MUST have an issue on the internal board. Issues with a counterpart on the client side MUST link to it, and issues without one carry the `Internal` label.
 
-> **Note**: This arrangement is experimental and intended only for teams that serve many different clients, handle frequent emergent issues, and face continuously shifting priorities (for example maintenance teams). Those who are focused on a single, long-running project should not adopt this model. Use it cautiously and evaluate its fit for your context before rolling it out.
+The DM keeps the client side aligned, reporting every status change the client needs to see: estimate ready, work started, work in validation, work closed.
 
-These teams collect the internal work of all their clients on one board, while each client keeps its own client board:
+A team MAY collect the internal work of several clients on one internal board, with client labels to identify the client of each issue. This choice does not change what each client sees.
 
-- **Single internal board** to track all work
-- **Client labels** to filter and organize
+Configure every internal board with:
+
 - **Per-sprint milestones** to collect the sprint scope
-- **Issue templates** for work standardization (see [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies/gitlab-issue-templates))
-- **Time-based estimates** using `/estimate` command on issues (e.g., `/estimate 2d` for 2 days, `/estimate 4h` for 4 hours)
+- **Issue templates** for work standardization (see [GitLab Issue Templates](/tools-and-policies/gitlab-issue-templates))
+- **Time-based estimates** using the `/estimate` command on issues (for example `/estimate 2d` for 2 days, `/estimate 4h` for 4 hours)
 - **Active time tracking** on all issues
 
 ### Float (Capacity Planning)
