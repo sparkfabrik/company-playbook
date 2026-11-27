@@ -7,7 +7,7 @@ sort: 1
 
 The **Sparkfabrik Sprint Framework** is a work management model developed and tested by Sparkfabrik's Platform Team over several years. Built on **Scrum foundations** and adapted for our specific context, it's designed for development teams operating in multi-client contexts that need to balance planned work, on-demand requests, and internal innovation activities.
 
-We believe that **Scrum** is a great framework, but it needs to be adapted to meet our specific needs and context. Therefore, we have created a *simplified, flexible* version that retains the core principles while allowing for more adaptability.
+We believe that **Scrum** is a great framework, but it needs to be adapted to meet our specific needs and context. Therefore, we have created a _simplified, flexible_ version that retains the core principles while allowing for more adaptability.
 It is very easy to understand and accessible to teams of all sizes and experience levels.
 
 ### Framework Objectives
@@ -29,7 +29,7 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 ### Before Your First Sprint (1 week prep)
 
 - [ ] **Understand our quality standards**: Make sure the team reads and understand our [Universal Definition of Done](/tools-and-policies/universal-dod)
-- [ ] **Setup tools**: Configure GitLab board and Float accounts (see [Tools and Setup](#tools-and-setup))
+- [ ] **Setup tools**: Configure the client and internal GitLab boards and the Float accounts (see [Tools and Setup](#tools-and-setup))
 - [ ] **Define roles**: Assign Delivery Manager and Staff Engineer (see [Roles and Responsibilities](#roles-and-responsibilities))
 - [ ] **Choose sprint length**: Start with 2 weeks for new teams (see [Choosing Sprint Duration](#choosing-sprint-duration))
 - [ ] **Create initial backlog**: Gather 15-20 issues with basic descriptions
@@ -184,11 +184,11 @@ It is very easy to understand and accessible to teams of all sizes and experienc
 
 The Sprint Framework adapts traditional Scrum roles to fit our organizational context:
 
-| Traditional Scrum | Sprint Framework | Key Responsibilities |
-|-------------------|------------------------------|---------------------|
-| **Scrum Master** | **Delivery Manager (DM)** | Facilitates processes, removes impediments, manages client priorities |
-| **Product Owner** | **Staff Engineer** | Ensures technical quality, owns grooming, validates technical decisions |
-| **Development Team** | **Team Members** | Cross-functional team delivering value, participating actively in all ceremonies |
+| Traditional Scrum    | Sprint Framework          | Key Responsibilities                                                             |
+| -------------------- | ------------------------- | -------------------------------------------------------------------------------- |
+| **Scrum Master**     | **Delivery Manager (DM)** | Facilitates processes, removes impediments, manages client priorities            |
+| **Product Owner**    | **Staff Engineer**        | Ensures technical quality, owns grooming, validates technical decisions          |
+| **Development Team** | **Team Members**          | Cross-functional team delivering value, participating actively in all ceremonies |
 
 **Key Difference**: Unlike traditional Scrum where the Product Owner owns the product backlog, our Staff Engineer focuses on technical excellence while the Delivery Manager handles prioritization and stakeholder management.
 
@@ -233,11 +233,22 @@ The Sprint Framework adapts traditional Scrum roles to fit our organizational co
 
 ## Tools Setup
 
-### GitLab Setup (**EXPERIMENTAL**)
+### GitLab Setup
 
-> **Note**: This GitLab arrangement is experimental and intended only for teams that serve many different clients, handle frequent emergent issues, and face continuously shifting priorities (for example maintenance teams). Those who are focused on a single, long‑running project should not adopt this model. Use it cautiously and evaluate its fit for your context before rolling it out.
+Every client engagement MUST have two separate boards:
 
-- **Single board** to track all work
+- **Client board.** Lives in a project the client can access. It holds the client requests, the estimates waiting for approval and the work in validation. Only information meant for the client goes here.
+- **Internal board.** Lives in a project the client cannot access. It holds the work as the team plans and executes it: requirements analysis, estimates, sprint scope and time tracking. Every work activity MUST have an issue here, and issues with no counterpart on the client board carry the `Internal` label.
+
+When a client request enters the team workflow, it gets a linked issue on the internal board. The Delivery Manager (DM) keeps the two boards aligned, reporting back on the client board every status change the client needs to see: estimate ready, work started, work in validation, work closed.
+
+#### Single team board (**EXPERIMENTAL**)
+
+> **Note**: This arrangement is experimental and intended only for teams that serve many different clients, handle frequent emergent issues, and face continuously shifting priorities (for example maintenance teams). Those who are focused on a single, long-running project should not adopt this model. Use it cautiously and evaluate its fit for your context before rolling it out.
+
+These teams collect the internal work of all their clients on one board, while each client keeps its own client board:
+
+- **Single internal board** to track all work
 - **Client labels** to filter and organize
 - **Per-sprint milestones** to collect the sprint scope
 - **Issue templates** for work standardization (see [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies/gitlab-issue-templates))
@@ -370,11 +381,11 @@ See [GitLab Issue Templates](https://playbook.sparkfabrik.com/tools-and-policies
 
 #### Retrospective Checklist
 
-- [ ] *No later than the day before:* Facilitator must query the team about - or take a look at - the most prominent topics that need discussion
-- [ ] *Within 1 hour before the retro:* Facilitator must decide the format and prepare the room on Smart Retro
-- [ ] *During the retrospective:* Don't play finger-pointing, focus on improvement, generate practical action items
-- [ ] *Within 1 hour after the retro:* Facilitator summarizes the outcome and actions decided upon to the team in a place that stays visible up to the next retro
-- [ ] *Withing the next planning / grooming* (whatever comes first): All actions that need to be tracked are created as issues by the facilitator (can delegate someone in the team)
+- [ ] _No later than the day before:_ Facilitator must query the team about - or take a look at - the most prominent topics that need discussion
+- [ ] _Within 1 hour before the retro:_ Facilitator must decide the format and prepare the room on Smart Retro
+- [ ] _During the retrospective:_ Don't play finger-pointing, focus on improvement, generate practical action items
+- [ ] _Within 1 hour after the retro:_ Facilitator summarizes the outcome and actions decided upon to the team in a place that stays visible up to the next retro
+- [ ] _Withing the next planning / grooming_ (whatever comes first): All actions that need to be tracked are created as issues by the facilitator (can delegate someone in the team)
 
 ---
 
