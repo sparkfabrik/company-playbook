@@ -3,50 +3,43 @@ Description: How people grow and specialize in SparkFabrik
 Sort: 40
 */
 
-People in SparkFabrik should expect to advance on their career path, depending on their inclinations and will. The company will work to give equal opportunities for growth to everyone, rewarding results and commitment.
-Progressing requires seizing these opportunities, accruing tenure, achieving results, and nurturing both technical and non-technical skills.
+At SparkFabrik, employees can expect career advancement based on their interests and initiative. The company provides equal opportunities for growth, rewarding results and commitment. Progress requires seizing opportunities, gaining experience, delivering results, and developing both technical and interpersonal skills.
 
-Operational career paths expand **vertically** (per [seniority level](/organization/operations#seniority-levels)) and **horizontally** (per [project roles](/organization/operations#project-roles)).
+Operational career paths expand both **vertically** (see [seniority level](/organization/operations#seniority-levels)) and **horizontally** (see [project roles](/organization/operations#project-roles)).
 
 ## Seniority and vertical growth
 
-To fulfill [its vision](https://www.sparkfabrik.com/en/the-manifesto/), SparkFabrik sells and cultivates high seniorities. We generally expect junior developers to eventually become senior developers over time.
+To fulfil [our vision](https://www.sparkfabrik.com/en/the-manifesto/), SparkFabrik aims to hire and develop high-seniority professionals. We generally expect junior developers to progress toward senior roles over time.
 
-Time alone is not enough to become excellent seniors. On the other hand, maturing seniority takes time.  
-It's not all about knowing a framework's ins and outs, being able to code in many different languages, etc. That surely matters, but it's worth nothing without stuff like professional standing, the ability to recognize patterns in different contexts, a solid set of soft skills that allows you to seat at many different tables and, ultimately, knowing a lot about different domains.
+Time alone does not make someone a senior. Developing seniority takes sustained effort. Technical knowledge matters, but so do professional presence, pattern recognition across contexts, strong soft skills, the ability to contribute in different ways, and broad domain knowledge.
 
-Being around here, working on many different projects, and engaging with the company's community will make you climb the ladder.
+Working across projects and participating in the company community helps you advance.
 
-Each developer can assess their overall level of proficiency by performing an [impact assessment](/working-at-sparkfabrik/impact-assessment).  
-This model allows focusing on quality, lowering the impact of personal perception on your merits.
+You can assess your level by [reviewing your performance](/working-at-sparkfabrik/performance-review). This model focuses on quality and reduces subjective impressions in evaluations.
 
-To understand if you match a certain level or if you can cover a specific role, learn about the [accountabilities of your target position](/organization/accountabilities) and self-assess how well you are fulfilling the expectations, printing the relevant accountabilities page in the form of an _Impact Assessment Card_.  
+To check whether you match a level or can cover a specific role, review the [accountabilities of your target position](/organization/accountabilities) and perform a self-assessment using the relative performance review scorecard.
 
-Or better yet, reach out to your responsible (your team leader or direct report), asking for help in evaluating your performance in the light of the IAC.
+For guidance, ask your manager (team leader) or a senior colleague to help evaluate your performance in light of the scorecard.
 
-The IAC result is pretty self-explanatory. Either you match or exceed the role's expectations, or you get an idea about where to invest to grow your skills.  
-**Set goals you feel you can pursue** and, if you need anything from SparkFabrik (resources, opportunities, or even just suggestions), ask for a meeting with your manager or an HR representative. The company will do its best to help you be successful.
+The scorecard tries to make expectations clear: you either meet what's expected from a role, or you identify where to invest effort. Set achievable goals and, if you need resources, opportunities, or advice from SparkFabrik, request a meeting with your manager or HR. The company will support your success.
 
 ## Project Roles and horizontal growth
 
-No project can be successful without a clever analysis, a disciplined direction, and great architecture at its foundations. That's why taking over a project role is not for everyone: it requires guts and broad shoulders.
+Successful projects need strong analysis, disciplined direction, and solid architecture. Project roles require responsibility and leadership. These are not for everyone.
 
-As you grow and display your inclinations, you may require to take on one of these responsibilities. Maybe you don't want to become the most impressive engineer on the planet, but you feel at home unraveling the complexities of a customer's domain, or helping your team organize around the success of the project.  
-Or maybe we see in you the right person for the job and issue you this challenge.
+As you grow and reveal your strengths, you may be asked to take on responsibilities such as analyst, solution architect, or team leader. You might prefer to specialize in domain analysis, team coordination, architecture, or other areas. Sometimes the company will invite you to take a challenge; other times you may volunteer.
 
-Either way, taking over the responsibilities associated with a project role is a key component of your growth.  
-It's possible that during your career in SparkFabrik, you may cover more of those roles, at times even two at the same time.
+Taking on a project role is a significant step in your development. You may cover multiple roles over your career, sometimes concurrently.
 
-Of course, some roles require a minimum level of seniority. _Solution Architects_ is a role for Senior and Lead Developers. On the other hand, Team Leaders may be found even among less-skilled developers who show great social and organizational skills.
+Some roles require a minimum seniority. For example, Solution Architect is typically for Senior and Lead Developers. Team Leader roles may be filled by developers with strong organisational and people skills, even if they have less experience with on the technical side.
 
-Compared to vertical growth, which goes in one direction, horizontal growth can move sideways over time. You may work as an analyst on a project, to become the team leader of another. Or you may stick to a specific role for a while, just to take some rest and go back to coding software or designing user interfaces before taking over the next challenge.
+Horizontal growth lets you move across roles: you might be an analyst on one project and a team leader on another, or step back into coding or design between leadership stints.
 
-Whenever the company recognizes in you the qualities to cover a new role, you'll be granted the opportunity to take it over.  
-We will help you understand the new role's benefits, expectations, and duties. It's up to you to take or leave.
+When the company recognises you as ready for a new role, we'll offer you the opportunity. We'll explain the role’s benefits, expectations, and duties. The choice then, is yours.
 
 ## Advance your career
 
-Every time you will match the requirements to level up your seniority or take over a project role, we will discuss about it and reward you accordingly.  
-It's as simple as that.
+When you meet the requirements to level up your seniority or take on a project role, we will discuss it and reward you accordingly.
 
-If you feel like discussing your level of proficiency or the will to test you in a specific role, just reach out to an HR representative and we'll arrange a review, map the opportunities and come up with a viable plan for that.
+If you’d like to discuss your proficiency or explore being tested in a specific role, contact an HR representative and we’ll arrange a review, map opportunities, and create a practical plan.
+We will help you understand the new role's benefits, expectations, and duties. It's up to you to take or leave.
